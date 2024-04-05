@@ -1,0 +1,1 @@
+define(["jquery","backbone"],function(a,b){var c=b.Model.extend({defaults:{manifest:[{src:Game.imgUri+"/sp/cjs/npc_3040279000_01_a.png?s=6ffd136681ef63450e7ebb449e3ce3bb",id:"npc_3040279000_01_a",type:"image"},{src:Game.imgUri+"/sp/cjs/npc_3040279000_01_b.png?s=80ae33d5157256d793ab07fda943c133",id:"npc_3040279000_01_b",type:"image"}]}});return c});
