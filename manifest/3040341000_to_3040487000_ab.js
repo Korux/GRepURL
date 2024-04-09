@@ -1,1 +1,0 @@
-define(["jquery","backbone"],function(a,b){var c=b.Model.extend({defaults:{manifest:[{src:Game.imgUri+"/sp/cjs/ab_all_3040341000_03.png",id:"ab_all_3040341000_03",type:"image"}]}});return c});
