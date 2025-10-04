@@ -1,8 +1,6787 @@
-!function(a,b,c){function d(a,b,d){var e=Object.create(c.MovieClip.prototype);return e.constructor=a,e.nominalBounds=b,e}var e;(a.npc_3040611000_01_ability_BackCloth=function(){this.sourceRect=new c.Rectangle(282,648,132,88),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,132,88),(a.npc_3040611000_01_ability_body=function(){this.sourceRect=new c.Rectangle(694,632,88,104),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,88,104),(a.npc_3040611000_01_ability_bodyribbon=function(){this.sourceRect=new c.Rectangle(542,1110,40,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,40),(a.npc_3040611000_01_ability_head_a=function(){this.sourceRect=new c.Rectangle(420,766,112,84),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,112,84),(a.npc_3040611000_01_ability_Larm=function(){this.sourceRect=new c.Rectangle(914,650,24,28),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,28),(a.npc_3040611000_01_ability_LarmB=function(){this.sourceRect=new c.Rectangle(52,992,44,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,44,40),(a.npc_3040611000_01_ability_LhandB=function(){this.sourceRect=new c.Rectangle(1e3,436,20,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,24),(a.npc_3040611000_01_ability_Rarm=function(){this.sourceRect=new c.Rectangle(168,1040,32,28),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,28),(a.npc_3040611000_01_ability_RarmB=function(){this.sourceRect=new c.Rectangle(52,1102,52,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,36),(a.npc_3040611000_01_ability_RhandB=function(){this.sourceRect=new c.Rectangle(1e3,606,16,16),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,16,16),(a.npc_3040611000_01_attack01_BackClothA=function(){this.sourceRect=new c.Rectangle(420,648,60,108),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,60,108),(a.npc_3040611000_01_attack01_BackClothB=function(){this.sourceRect=new c.Rectangle(478,852,84,96),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,84,96),(a.npc_3040611000_01_attack01_body=function(){this.sourceRect=new c.Rectangle(100,906,56,128),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,128),(a.npc_3040611000_01_attack01_bodyribbon=function(){this.sourceRect=new c.Rectangle(488,1044,32,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,40),(a.npc_3040611000_01_attack01_head_a=function(){this.sourceRect=new c.Rectangle(800,836,84,100),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,84,100),(a.npc_3040611000_01_attack01_Larm=function(){this.sourceRect=new c.Rectangle(710,1110,40,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,32),(a.npc_3040611000_01_attack01_LarmB=function(){this.sourceRect=new c.Rectangle(106,1106,52,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,36),(a.npc_3040611000_01_attack02_BackClothA=function(){this.sourceRect=new c.Rectangle(340,934,116,60),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,116,60),(a.npc_3040611000_01_attack02_BackClothB=function(){this.sourceRect=new c.Rectangle(234,882,104,72),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,104,72),(a.npc_3040611000_01_attack02_backhairA=function(){this.sourceRect=new c.Rectangle(282,738,136,72),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,136,72),(a.npc_3040611000_01_attack02_backhairB=function(){this.sourceRect=new c.Rectangle(718,1022,60,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,60,64),(a.npc_3040611000_01_attack02_body=function(){this.sourceRect=new c.Rectangle(914,680,108,100),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,108,100),(a.npc_3040611000_01_attack02_bodyribbon=function(){this.sourceRect=new c.Rectangle(752,1110,32,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,40),(a.npc_3040611000_01_attack02_head_a=function(){this.sourceRect=new c.Rectangle(2,864,96,80),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,96,80),(a.npc_3040611000_01_attack02_Larm=function(){this.sourceRect=new c.Rectangle(2,1130,28,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,28,32),(a.npc_3040611000_01_attack02_LarmB=function(){this.sourceRect=new c.Rectangle(2,1080,48,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,48),(a.npc_3040611000_01_attack02_Rarm=function(){this.sourceRect=new c.Rectangle(970,178,24,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,36),(a.npc_3040611000_01_attack02_RarmB=function(){this.sourceRect=new c.Rectangle(648,766,44,44),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,44,44),(a.npc_3040611000_01_attack03_BackClothA=function(){this.sourceRect=new c.Rectangle(638,960,88,60),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,88,60),(a.npc_3040611000_01_attack03_BackClothB=function(){this.sourceRect=new c.Rectangle(694,746,104,92),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,104,92),(a.npc_3040611000_01_attack03_body=function(){this.sourceRect=new c.Rectangle(144,534,96,100),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,96,100),(a.npc_3040611000_01_attack03_bodyribbon=function(){this.sourceRect=new c.Rectangle(268,1090,48,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,40),(a.npc_3040611000_01_attack03_head_a=function(){this.sourceRect=new c.Rectangle(910,782,112,80),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,112,80),(a.npc_3040611000_01_attack03_Larm=function(){this.sourceRect=new c.Rectangle(524,1028,64,56),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,64,56),(a.npc_3040611000_01_attack03_Rarm=function(){this.sourceRect=new c.Rectangle(302,956,36,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,32),(a.npc_3040611000_01_attack03_RarmB=function(){this.sourceRect=new c.Rectangle(52,946,44,44),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,44,44),(a.npc_3040611000_01_attack04_BackClothA=function(){this.sourceRect=new c.Rectangle(886,864,100,76),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,100,76),(a.npc_3040611000_01_attack04_BackClothB=function(){this.sourceRect=new c.Rectangle(800,746,108,88),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,108,88),(a.npc_3040611000_01_attack04_belt=function(){this.sourceRect=new c.Rectangle(120,676,20,12),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,12),(a.npc_3040611000_01_attack04_blur=function(){this.sourceRect=new c.Rectangle(244,304,300,156),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,300,156),(a.npc_3040611000_01_attack04_body=function(){this.sourceRect=new c.Rectangle(52,1036,56,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,64),(a.npc_3040611000_01_attack04_Larm=function(){this.sourceRect=new c.Rectangle(878,1128,32,28),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,28),(a.npc_3040611000_01_attack04_LarmB=function(){this.sourceRect=new c.Rectangle(414,1094,48,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,40),(a.npc_3040611000_01_attack04_LhandB=function(){this.sourceRect=new c.Rectangle(1e3,624,16,16),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,16,16),(a.npc_3040611000_01_attack04_LlegA=function(){this.sourceRect=new c.Rectangle(786,1110,32,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,36),(a.npc_3040611000_01_attack04_LlegB=function(){this.sourceRect=new c.Rectangle(440,1136,32,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,24),(a.npc_3040611000_01_attack04_Rarm=function(){this.sourceRect=new c.Rectangle(912,1128,32,28),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,28),(a.npc_3040611000_01_attack04_RarmB=function(){this.sourceRect=new c.Rectangle(954,1082,36,52),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,52),(a.npc_3040611000_01_attack04_RlegA=function(){this.sourceRect=new c.Rectangle(970,136,24,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,40),(a.npc_3040611000_01_attack04_RlegB=function(){this.sourceRect=new c.Rectangle(648,812,36,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,24),(a.npc_3040611000_01_attack05_BackClothA01=function(){this.sourceRect=new c.Rectangle(238,812,132,68),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,132,68),(a.npc_3040611000_01_attack05_BackClothA02=function(){this.sourceRect=new c.Rectangle(524,950,32,12),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,12),(a.npc_3040611000_01_attack05_BackClothB=function(){this.sourceRect=new c.Rectangle(908,942,88,72),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,88,72),(a.npc_3040611000_01_attack05_backhairA=function(){this.sourceRect=new c.Rectangle(638,902,140,56),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,140,56),(a.npc_3040611000_01_attack05_body=function(){this.sourceRect=new c.Rectangle(120,742,116,84),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,116,84),(a.npc_3040611000_01_attack05_bodyribbon=function(){this.sourceRect=new c.Rectangle(980,1138,24,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,32),(a.npc_3040611000_01_attack05_Larm=function(){this.sourceRect=new c.Rectangle(414,1044,72,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,72,48),(a.npc_3040611000_01_attack05_Rarm=function(){this.sourceRect=new c.Rectangle(356,1132,40,20),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,20),(a.npc_3040611000_01_attack06_BackClothA=function(){this.sourceRect=new c.Rectangle(116,828,116,76),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,116,76),(a.npc_3040611000_01_attack06_BackClothB=function(){this.sourceRect=new c.Rectangle(822,942,84,76),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,84,76),(a.npc_3040611000_01_attack06_Belt=function(){this.sourceRect=new c.Rectangle(1e3,588,20,16),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,16),(a.npc_3040611000_01_attack06_Body=function(){this.sourceRect=new c.Rectangle(110,1040,56,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,64),(a.npc_3040611000_01_attack06_bodyribbonA=function(){this.sourceRect=new c.Rectangle(606,966,28,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,28,36),(a.npc_3040611000_01_attack06_bodyribbonB=function(){this.sourceRect=new c.Rectangle(294,268,8,12),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,8,12),(a.npc_3040611000_01_attack06_Larm=function(){this.sourceRect=new c.Rectangle(58,1140,36,20),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,20),(a.npc_3040611000_01_attack06_LarmB=function(){this.sourceRect=new c.Rectangle(888,1082,64,44),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,64,44),(a.npc_3040611000_01_attack06_Rarm=function(){this.sourceRect=new c.Rectangle(32,1140,24,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,32),(a.npc_3040611000_01_attack06_RarmB=function(){this.sourceRect=new c.Rectangle(372,812,40,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,36),(a.npc_3040611000_01_attack06_RhandB=function(){this.sourceRect=new c.Rectangle(1e3,642,16,16),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,16,16),(a.npc_3040611000_01_attack06_RlegA=function(){this.sourceRect=new c.Rectangle(398,1136,40,20),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,20),(a.npc_3040611000_01_attack06_RlegB=function(){this.sourceRect=new c.Rectangle(914,612,24,36),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,36),(a.npc_3040611000_01_attack08_head_aD=function(){this.sourceRect=new c.Rectangle(804,240,192,196),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,192,196),(a.npc_3040611000_01_aura02=function(){this.sourceRect=new c.Rectangle(2,2,300,264),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,300,264),(a.npc_3040611000_01_damage_BackCloth=function(){this.sourceRect=new c.Rectangle(144,648,136,92),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,136,92),(a.npc_3040611000_01_damage_body=function(){this.sourceRect=new c.Rectangle(564,852,72,112),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,72,112),(a.npc_3040611000_01_damage_bodyribbon=function(){this.sourceRect=new c.Rectangle(490,462,52,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,48),(a.npc_3040611000_01_damage_head_a=function(){this.sourceRect=new c.Rectangle(534,766,112,84),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,112,84),(a.npc_3040611000_01_damage_Larm=function(){this.sourceRect=new c.Rectangle(474,1136,32,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,24),(a.npc_3040611000_01_damage_LarmB=function(){this.sourceRect=new c.Rectangle(244,268,48,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,32),(a.npc_3040611000_01_damage_Rarm=function(){this.sourceRect=new c.Rectangle(356,1078,56,52),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,52),(a.npc_3040611000_01_down_ase=function(){this.sourceRect=new c.Rectangle(970,216,24,20),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,20),(a.npc_3040611000_01_down_BackCloth=function(){this.sourceRect=new c.Rectangle(648,840,140,60),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,140,60),(a.npc_3040611000_01_down_body=function(){this.sourceRect=new c.Rectangle(606,1022,56,72),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,72),(a.npc_3040611000_01_down_head_a=function(){this.sourceRect=new c.Rectangle(2,778,112,84),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,112,84),(a.npc_3040611000_01_down_Larm=function(){this.sourceRect=new c.Rectangle(508,1136,32,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,24),(a.npc_3040611000_01_down_LarmB=function(){this.sourceRect=new c.Rectangle(664,1110,44,32),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,44,32),(a.npc_3040611000_01_down_Rarm=function(){this.sourceRect=new c.Rectangle(238,742,40,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,64),(a.npc_3040611000_01_ef01=function(){this.sourceRect=new c.Rectangle(2,534,140,140),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,140,140),(a.npc_3040611000_01_ef02=function(){this.sourceRect=new c.Rectangle(942,438,56,240),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,240),(a.npc_3040611000_01_ef03=function(){this.sourceRect=new c.Rectangle(542,1100,300,8),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,300,8),(a.npc_3040611000_01_ef04=function(){this.sourceRect=new c.Rectangle(304,2,240,300),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,240,300),(a.npc_3040611000_01_ef05=function(){this.sourceRect=new c.Rectangle(804,438,136,172),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,136,172),(a.npc_3040611000_01_ef06=function(){this.sourceRect=new c.Rectangle(792,612,120,132),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,120,132),(a.npc_3040611000_01_ef3_a=function(){this.sourceRect=new c.Rectangle(998,136,20,272),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,272),(a.npc_3040611000_01_ef3_b=function(){this.sourceRect=new c.Rectangle(998,864,20,272),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,272),(a.npc_3040611000_01_hanabira1=function(){this.sourceRect=new c.Rectangle(946,1136,32,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,24),(a.npc_3040611000_01_hanabira1b=function(){this.sourceRect=new c.Rectangle(218,1138,32,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,24),(a.npc_3040611000_01_hanabira2=function(){this.sourceRect=new c.Rectangle(1e3,462,20,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,24),(a.npc_3040611000_01_hanabira2b=function(){this.sourceRect=new c.Rectangle(1e3,488,20,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,24),(a.npc_3040611000_01_hanabira3=function(){this.sourceRect=new c.Rectangle(1e3,514,20,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,24),(a.npc_3040611000_01_hanabira3b=function(){this.sourceRect=new c.Rectangle(1e3,540,20,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,24),(a.npc_3040611000_01_line01b=function(){this.sourceRect=new c.Rectangle(2,268,240,264),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,240,264),(a.npc_3040611000_01_setup_body=function(){this.sourceRect=new c.Rectangle(2,946,48,132),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,132),(a.npc_3040611000_01_setup_bodyribbon=function(){this.sourceRect=new c.Rectangle(626,1110,36,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,40),(a.npc_3040611000_01_setup_head_a=function(){this.sourceRect=new c.Rectangle(372,852,104,80),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,104,80),(a.npc_3040611000_01_setup_Larm=function(){this.sourceRect=new c.Rectangle(268,1132,36,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,24),(a.npc_3040611000_01_setup_LarmB=function(){this.sourceRect=new c.Rectangle(318,1090,36,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,36,48),(a.npc_3040611000_01_setup_LhandB=function(){this.sourceRect=new c.Rectangle(1e3,660,16,16),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,16,16),(a.npc_3040611000_01_setup_Rarm=function(){this.sourceRect=new c.Rectangle(664,1022,52,76),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,76),(a.npc_3040611000_01_trail01=function(){this.sourceRect=new c.Rectangle(804,2,164,236),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,164,236),(a.npc_3040611000_01_trail02=function(){this.sourceRect=new c.Rectangle(244,462,244,184),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,244,184),(a.npc_3040611000_01_wait_BackCloth=function(){this.sourceRect=new c.Rectangle(2,676,116,100),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,116,100),(a.npc_3040611000_01_wait_backhair=function(){this.sourceRect=new c.Rectangle(490,632,100,132),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,100,132),(a.npc_3040611000_01_wait_body=function(){this.sourceRect=new c.Rectangle(970,2,52,132),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,132),(a.npc_3040611000_01_wait_bodyribbon=function(){this.sourceRect=new c.Rectangle(414,996,40,44),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,44),(a.npc_3040611000_01_wait_head_a=function(){this.sourceRect=new c.Rectangle(546,2,256,256),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,256,256),(a.npc_3040611000_01_wait_head_b=function(){this.sourceRect=new c.Rectangle(546,260,256,256),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,256,256),(a.npc_3040611000_01_wait_Larm=function(){this.sourceRect=new c.Rectangle(168,1072,48,68),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,68),(a.npc_3040611000_01_wait_Rarm=function(){this.sourceRect=new c.Rectangle(218,1072,48,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,64),(a.npc_3040611000_01_weapon_ef=function(){this.sourceRect=new c.Rectangle(592,632,100,132),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,100,132),(a.npc_3040611000_01_weapon_weapon=function(){this.sourceRect=new c.Rectangle(780,938,40,160),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,160),(a.npc_3040611000_01_win_backbelt=function(){this.sourceRect=new c.Rectangle(120,690,12,16),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,12,16),(a.npc_3040611000_01_win_BackClothA=function(){this.sourceRect=new c.Rectangle(302,996,52,92),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,92),(a.npc_3040611000_01_win_BackClothB=function(){this.sourceRect=new c.Rectangle(458,950,64,92),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,64,92),(a.npc_3040611000_01_win_BackClothC=function(){this.sourceRect=new c.Rectangle(212,956,88,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,88,64),(a.npc_3040611000_01_win_backhairA=function(){this.sourceRect=new c.Rectangle(356,996,56,80),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,56,80),(a.npc_3040611000_01_win_backhairB=function(){this.sourceRect=new c.Rectangle(340,882,28,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,28,48),(a.npc_3040611000_01_win_backhairC=function(){this.sourceRect=new c.Rectangle(212,1022,88,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,88,48),(a.npc_3040611000_01_win_body=function(){this.sourceRect=new c.Rectangle(158,906,52,132),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,132),(a.npc_3040611000_01_win_bodyribbon=function(){this.sourceRect=new c.Rectangle(584,1110,40,40),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,40,40),(a.npc_3040611000_01_win_drink=function(){this.sourceRect=new c.Rectangle(844,1086,32,56),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,32,56),(a.npc_3040611000_01_win_hat=function(){this.sourceRect=new c.Rectangle(524,966,80,60),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,80,60),(a.npc_3040611000_01_win_hatB=function(){this.sourceRect=new c.Rectangle(488,1086,52,48),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,52,48),(a.npc_3040611000_01_win_head_a=function(){this.sourceRect=new c.Rectangle(822,1020,64,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,64,64),(a.npc_3040611000_01_win_Larm=function(){this.sourceRect=new c.Rectangle(908,1016,68,64),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,68,64),(a.npc_3040611000_01_win_Rarm=function(){this.sourceRect=new c.Rectangle(728,960,48,60),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,48,60),(a.npc_3040611000_01_win_RhandBA=function(){this.sourceRect=new c.Rectangle(1e3,566,20,20),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,20,20),(a.npc_3040611000_01_win_RhandBB=function(){this.sourceRect=new c.Rectangle(998,410,24,24),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,24,24),(a.npc_3040611000_01_yari1=function(){this.sourceRect=new c.Rectangle(490,518,300,112),this.initialize(b.npc_3040611000_01)}).prototype=e=new c.Bitmap,e.nominalBounds=new c.Rectangle(0,0,300,112),(a.gr_npc_3040611000_01_yari01=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_yari1,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_yari01,new c.Rectangle(0,0,300,112),null),(a.gr_npc_3040611000_01_trail02_in=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_trail02,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_trail02_in,new c.Rectangle(0,0,244,184),null),(a.gr_npc_3040611000_01_trail01=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_trail01,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_trail01,new c.Rectangle(0,0,164,236),null),(a.gr_npc_3040611000_01_shadow=function(a,b,d){this.initialize(a,b,d,{}),this.shape=(new c.Shape).setTransform(0,0,1,1),this.shape.graphics.rf(["rgba(0,0,0,0.502)","rgba(0,0,0,0.2)","rgba(0,0,0,0)"],[.525,.843,1],0,0,0,0,0,64.2).s().p("Am8G9Qi4i4ABkFQgBkEC4i5QC5i3EDABQEFgBC4C3QC4C5gBEEQABEFi4C4Qi4C4kFgBQkDABi5i4g"),this.timeline.addTween(c.Tween.get(this.shape).wait(1))}).prototype=d(a.gr_npc_3040611000_01_shadow,new c.Rectangle(-62.8,-62.8,125.69999999999999,125.69999999999999),null),(a.gr_npc_3040611000_01_line01b=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_line01b,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_line01b,new c.Rectangle(0,0,240,264),null),(a.gr_npc_3040611000_01_hanabira3b=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_hanabira3b,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_hanabira3b,new c.Rectangle(0,0,20,24),null),(a.gr_npc_3040611000_01_hanabira3=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_hanabira3,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_hanabira3,new c.Rectangle(0,0,20,24),null),(a.gr_npc_3040611000_01_hanabira2b=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_hanabira2b,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_hanabira2b,new c.Rectangle(0,0,20,24),null),(a.gr_npc_3040611000_01_hanabira2=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_hanabira2,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_hanabira2,new c.Rectangle(0,0,20,24),null),(a.gr_npc_3040611000_01_hanabira1b=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_hanabira1b,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_hanabira1b,new c.Rectangle(0,0,32,24),null),(a.gr_npc_3040611000_01_hanabira1=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_hanabira1,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_hanabira1,new c.Rectangle(0,0,32,24),null),(a.gr_npc_3040611000_01_ef06_in=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef06,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef06_in,new c.Rectangle(0,0,120,132),null),(a.gr_npc_3040611000_01_ef05_in=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef05,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef05_in,new c.Rectangle(0,0,136,172),null),(a.gr_npc_3040611000_01_ef04=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef04,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef04,new c.Rectangle(0,0,240,300),null),(a.gr_npc_3040611000_01_ef03=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef03,
-this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef03,new c.Rectangle(0,0,300,8),null),(a.gr_npc_3040611000_01_ef3_b=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef3_b,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef3_b,new c.Rectangle(0,0,20,272),null),(a.gr_npc_3040611000_01_ef3_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef3_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef3_a,new c.Rectangle(0,0,20,272),null),(a.gr_npc_3040611000_01_ef02=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef02,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef02,new c.Rectangle(0,0,56,240),null),(a.gr_npc_3040611000_01_ef01=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ef01,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef01,new c.Rectangle(0,0,140,140),null),(a.gr_npc_3040611000_01_down_ase=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_ase,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_ase,new c.Rectangle(0,0,24,20),null),(a.gr_npc_3040611000_01_bg_yellow=function(a,b,d){this.initialize(a,b,d,{}),this.shape=(new c.Shape).setTransform(0,0,1,1),this.shape.graphics.f("#FF66CC").s().p("Ehm4BHfMAAAiO9MDNxAAAMAAACO9g"),this.shape.setTransform(1010.5666,983.5153,1.5346,2.1497),this.timeline.addTween(c.Tween.get(this.shape).wait(1))}).prototype=d(a.gr_npc_3040611000_01_bg_yellow,new c.Rectangle(.1,0,2021,1967.1),null),(a.gr_npc_3040611000_01_bg_black=function(a,b,d){this.initialize(a,b,d,{}),this.shape=(new c.Shape).setTransform(0,0,1,1),this.shape.graphics.f("#000000").s().p("EhgoBgpMAAAjBRMDBRAAAMAAADBRg"),this.shape.setTransform(1010.4805,986.5009,1.6338,1.595),this.timeline.addTween(c.Tween.get(this.shape).wait(1))}).prototype=d(a.gr_npc_3040611000_01_bg_black,new c.Rectangle(0,0,2021,1973),null),(a.gr_npc_3040611000_01_aura02=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_aura02,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_aura02,new c.Rectangle(0,0,300,264),null),(a.gr_npc_3040611000_01_attack04_blur=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_blur,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_blur,new c.Rectangle(0,0,300,156),null),(a.gr_npc_3040611000_01_win_RhandBB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_RhandBB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_RhandBB,new c.Rectangle(0,0,24,24),null),(a.gr_npc_3040611000_01_win_RhandBA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_RhandBA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_RhandBA,new c.Rectangle(0,0,20,20),null),(a.gr_npc_3040611000_01_win_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_Rarm,new c.Rectangle(0,0,48,60),null),(a.gr_npc_3040611000_01_win_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_Larm,new c.Rectangle(0,0,68,64),null),(a.gr_npc_3040611000_01_win_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_head_a,new c.Rectangle(0,0,64,64),null),(a.gr_npc_3040611000_01_win_hatB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_hatB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_hatB,new c.Rectangle(0,0,52,48),null),(a.gr_npc_3040611000_01_win_hat=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_hat,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_hat,new c.Rectangle(0,0,80,60),null),(a.gr_npc_3040611000_01_win_drink=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_drink,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_drink,new c.Rectangle(0,0,32,56),null),(a.gr_npc_3040611000_01_win_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_bodyribbon,new c.Rectangle(0,0,40,40),null),(a.gr_npc_3040611000_01_win_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_body,new c.Rectangle(0,0,52,132),null),(a.gr_npc_3040611000_01_win_backhairC=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_backhairC,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_backhairC,new c.Rectangle(0,0,88,48),null),(a.gr_npc_3040611000_01_win_backhairB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_backhairB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_backhairB,new c.Rectangle(0,0,28,48),null),(a.gr_npc_3040611000_01_win_backhairA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_backhairA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_backhairA,new c.Rectangle(0,0,56,80),null),(a.gr_npc_3040611000_01_win_BackClothC=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_BackClothC,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_BackClothC,new c.Rectangle(0,0,88,64),null),(a.gr_npc_3040611000_01_win_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_BackClothB,new c.Rectangle(0,0,64,92),null),(a.gr_npc_3040611000_01_win_BackClothA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_BackClothA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_BackClothA,new c.Rectangle(0,0,52,92),null),(a.gr_npc_3040611000_01_win_backbelt=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_win_backbelt,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_win_backbelt,new c.Rectangle(0,0,12,16),null),(a.gr_npc_3040611000_01_weapon_weapon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_weapon_weapon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_weapon_weapon,new c.Rectangle(0,0,40,160),null),(a.gr_npc_3040611000_01_weapon_ef=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_weapon_ef,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_weapon_ef,new c.Rectangle(0,0,100,132),null),(a.gr_npc_3040611000_01_wait_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_Rarm,new c.Rectangle(0,0,48,64),null),(a.gr_npc_3040611000_01_wait_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_Larm,new c.Rectangle(0,0,48,68),null),(a.gr_npc_3040611000_01_wait_head_b_in=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_head_b,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_head_b_in,new c.Rectangle(0,0,256,256),null),(a.gr_npc_3040611000_01_wait_head_a_in=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_head_a_in,new c.Rectangle(0,0,256,256),null),(a.gr_npc_3040611000_01_wait_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_bodyribbon,new c.Rectangle(0,0,40,44),null),(a.gr_npc_3040611000_01_wait_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_body,new c.Rectangle(0,0,52,132),null),(a.gr_npc_3040611000_01_wait_backhair=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_backhair,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_backhair,new c.Rectangle(0,0,100,132),null),(a.gr_npc_3040611000_01_wait_BackCloth=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_wait_BackCloth,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_BackCloth,new c.Rectangle(0,0,116,100),null),(a.gr_npc_3040611000_01_setup_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_Rarm,new c.Rectangle(0,0,52,76),null),(a.gr_npc_3040611000_01_setup_LhandB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_LhandB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_LhandB,new c.Rectangle(0,0,16,16),null),(a.gr_npc_3040611000_01_setup_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_LarmB,new c.Rectangle(0,0,36,48),null),(a.gr_npc_3040611000_01_setup_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_Larm,new c.Rectangle(0,0,36,24),null),(a.gr_npc_3040611000_01_setup_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_head_a,new c.Rectangle(0,0,104,80),null),(a.gr_npc_3040611000_01_setup_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_bodyribbon,new c.Rectangle(0,0,36,40),null),(a.gr_npc_3040611000_01_setup_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_setup_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_setup_body,new c.Rectangle(0,0,48,132),null),(a.gr_npc_3040611000_01_down_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_Rarm,new c.Rectangle(0,0,40,64),null),(a.gr_npc_3040611000_01_down_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_LarmB,new c.Rectangle(0,0,44,32),null),(a.gr_npc_3040611000_01_down_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_Larm,new c.Rectangle(0,0,32,24),null),(a.gr_npc_3040611000_01_down_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_head_a,new c.Rectangle(0,0,112,84),null),(a.gr_npc_3040611000_01_down_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_body,new c.Rectangle(0,0,56,72),null),(a.gr_npc_3040611000_01_down_BackCloth=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_down_BackCloth,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_down_BackCloth,new c.Rectangle(0,0,140,60),null),(a.gr_npc_3040611000_01_damage_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_Rarm,new c.Rectangle(0,0,56,52),null),(a.gr_npc_3040611000_01_damage_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_LarmB,new c.Rectangle(0,0,48,32),null),(a.gr_npc_3040611000_01_damage_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_Larm,new c.Rectangle(0,0,32,24),null),(a.gr_npc_3040611000_01_damage_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_head_a,new c.Rectangle(0,0,112,84),null),(a.gr_npc_3040611000_01_damage_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_bodyribbon,new c.Rectangle(0,0,52,48),null),(a.gr_npc_3040611000_01_damage_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_body,new c.Rectangle(0,0,72,112),null),(a.gr_npc_3040611000_01_damage_BackCloth=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_damage_BackCloth,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_damage_BackCloth,new c.Rectangle(0,0,136,92),null),(a.gr_npc_3040611000_01_attack08_head_aD=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack08_head_aD,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack08_head_aD,new c.Rectangle(0,0,192,196),null),(a.gr_npc_3040611000_01_attack06_RlegB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_RlegB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_RlegB,new c.Rectangle(0,0,24,36),null),(a.gr_npc_3040611000_01_attack06_RlegA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_RlegA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_RlegA,new c.Rectangle(0,0,40,20),null),(a.gr_npc_3040611000_01_attack06_RhandB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_RhandB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_RhandB,new c.Rectangle(0,0,16,16),null),(a.gr_npc_3040611000_01_attack06_RarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_RarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_RarmB,new c.Rectangle(0,0,40,36),null),(a.gr_npc_3040611000_01_attack06_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_Rarm,new c.Rectangle(0,0,24,32),null),(a.gr_npc_3040611000_01_attack06_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_LarmB,new c.Rectangle(0,0,64,44),null),(a.gr_npc_3040611000_01_attack06_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_Larm,new c.Rectangle(0,0,36,20),null),(a.gr_npc_3040611000_01_attack06_bodyribbonB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_bodyribbonB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_bodyribbonB,new c.Rectangle(0,0,8,12),null),(a.gr_npc_3040611000_01_attack06_bodyribbonA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_bodyribbonA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_bodyribbonA,new c.Rectangle(0,0,28,36),null),(a.gr_npc_3040611000_01_attack06_Body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_Body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_Body,new c.Rectangle(0,0,56,64),null),(a.gr_npc_3040611000_01_attack06_Belt=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_Belt,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_Belt,new c.Rectangle(0,0,20,16),null),(a.gr_npc_3040611000_01_attack06_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_BackClothB,new c.Rectangle(0,0,84,76),null),(a.gr_npc_3040611000_01_attack06_BackClothA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack06_BackClothA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack06_BackClothA,new c.Rectangle(0,0,116,76),null),(a.gr_npc_3040611000_01_attack05_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_Rarm,new c.Rectangle(0,0,40,20),null),(a.gr_npc_3040611000_01_attack05_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_Larm,new c.Rectangle(0,0,72,48),null),(a.gr_npc_3040611000_01_attack05_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_bodyribbon,new c.Rectangle(0,0,24,32),null),(a.gr_npc_3040611000_01_attack05_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_body,new c.Rectangle(0,0,116,84),null),(a.gr_npc_3040611000_01_attack05_backhairA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_backhairA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_backhairA,new c.Rectangle(0,0,140,56),null),(a.gr_npc_3040611000_01_attack05_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_BackClothB,new c.Rectangle(0,0,88,72),null),(a.gr_npc_3040611000_01_attack05_BackClothA02=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_BackClothA02,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_BackClothA02,new c.Rectangle(0,0,32,12),null),(a.gr_npc_3040611000_01_attack05_BackClothA01=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack05_BackClothA01,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack05_BackClothA01,new c.Rectangle(0,0,132,68),null),(a.gr_npc_3040611000_01_attack04_RlegB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_RlegB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_RlegB,new c.Rectangle(0,0,36,24),null),(a.gr_npc_3040611000_01_attack04_RlegA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_RlegA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_RlegA,new c.Rectangle(0,0,24,40),null),(a.gr_npc_3040611000_01_attack04_RarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_RarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_RarmB,new c.Rectangle(0,0,36,52),null),(a.gr_npc_3040611000_01_attack04_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_Rarm,new c.Rectangle(0,0,32,28),null),(a.gr_npc_3040611000_01_attack04_LlegB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_LlegB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_LlegB,new c.Rectangle(0,0,32,24),null),(a.gr_npc_3040611000_01_attack04_LlegA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_LlegA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_LlegA,new c.Rectangle(0,0,32,36),null),(a.gr_npc_3040611000_01_attack04_LhandB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_LhandB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_LhandB,new c.Rectangle(0,0,16,16),null),(a.gr_npc_3040611000_01_attack04_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_LarmB,new c.Rectangle(0,0,48,40),null),(a.gr_npc_3040611000_01_attack04_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_Larm,new c.Rectangle(0,0,32,28),null),(a.gr_npc_3040611000_01_attack04_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_body,new c.Rectangle(0,0,56,64),null),(a.gr_npc_3040611000_01_attack04_belt=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_belt,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_belt,new c.Rectangle(0,0,20,12),null),(a.gr_npc_3040611000_01_attack04_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_BackClothB,new c.Rectangle(0,0,108,88),null),(a.gr_npc_3040611000_01_attack04_BackClothA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack04_BackClothA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack04_BackClothA,new c.Rectangle(0,0,100,76),null),(a.gr_npc_3040611000_01_attack03_RarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_RarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_RarmB,new c.Rectangle(0,0,44,44),null),(a.gr_npc_3040611000_01_attack03_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_Rarm,new c.Rectangle(0,0,36,32),null),(a.gr_npc_3040611000_01_attack03_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_Larm,new c.Rectangle(0,0,64,56),null),(a.gr_npc_3040611000_01_attack03_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_head_a,new c.Rectangle(0,0,112,80),null),(a.gr_npc_3040611000_01_attack03_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_bodyribbon,new c.Rectangle(0,0,48,40),null),(a.gr_npc_3040611000_01_attack03_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_body,new c.Rectangle(0,0,96,100),null),(a.gr_npc_3040611000_01_attack03_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_BackClothB,new c.Rectangle(0,0,104,92),null),(a.gr_npc_3040611000_01_attack03_BackClothA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack03_BackClothA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack03_BackClothA,new c.Rectangle(0,0,88,60),null),(a.gr_npc_3040611000_01_attack02_RarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_RarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_RarmB,new c.Rectangle(0,0,44,44),null),(a.gr_npc_3040611000_01_attack02_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_Rarm,new c.Rectangle(0,0,24,36),null),(a.gr_npc_3040611000_01_attack02_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_LarmB,new c.Rectangle(0,0,48,48),null),(a.gr_npc_3040611000_01_attack02_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_Larm,new c.Rectangle(0,0,28,32),null),(a.gr_npc_3040611000_01_attack02_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_head_a,new c.Rectangle(0,0,96,80),null),(a.gr_npc_3040611000_01_attack02_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_bodyribbon,new c.Rectangle(0,0,32,40),null),(a.gr_npc_3040611000_01_attack02_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_body,new c.Rectangle(0,0,108,100),null),(a.gr_npc_3040611000_01_attack02_backhairB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_backhairB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_backhairB,new c.Rectangle(0,0,60,64),null),(a.gr_npc_3040611000_01_attack02_backhairA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_backhairA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_backhairA,new c.Rectangle(0,0,136,72),null),(a.gr_npc_3040611000_01_attack02_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_BackClothB,new c.Rectangle(0,0,104,72),null),(a.gr_npc_3040611000_01_attack02_BackClothA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack02_BackClothA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack02_BackClothA,new c.Rectangle(0,0,116,60),null),(a.gr_npc_3040611000_01_attack01_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack01_LarmB,new c.Rectangle(0,0,52,36),null),(a.gr_npc_3040611000_01_attack01_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack01_Larm,new c.Rectangle(0,0,40,32),null),(a.gr_npc_3040611000_01_attack01_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack01_head_a,new c.Rectangle(0,0,84,100),null),(a.gr_npc_3040611000_01_attack01_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack01_bodyribbon,new c.Rectangle(0,0,32,40),null),(a.gr_npc_3040611000_01_attack01_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1));
-}).prototype=d(a.gr_npc_3040611000_01_attack01_body,new c.Rectangle(0,0,56,128),null),(a.gr_npc_3040611000_01_attack01_BackClothB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_BackClothB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack01_BackClothB,new c.Rectangle(0,0,84,96),null),(a.gr_npc_3040611000_01_attack01_BackClothA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_attack01_BackClothA,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_attack01_BackClothA,new c.Rectangle(0,0,60,108),null),(a.gr_npc_3040611000_01_ability_RhandB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_RhandB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_RhandB,new c.Rectangle(0,0,16,16),null),(a.gr_npc_3040611000_01_ability_RarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_RarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_RarmB,new c.Rectangle(0,0,52,36),null),(a.gr_npc_3040611000_01_ability_Rarm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_Rarm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_Rarm,new c.Rectangle(0,0,32,28),null),(a.gr_npc_3040611000_01_ability_LhandB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_LhandB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_LhandB,new c.Rectangle(0,0,20,24),null),(a.gr_npc_3040611000_01_ability_LarmB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_LarmB,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_LarmB,new c.Rectangle(0,0,44,40),null),(a.gr_npc_3040611000_01_ability_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_Larm,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_Larm,new c.Rectangle(0,0,24,28),null),(a.gr_npc_3040611000_01_ability_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_head_a,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_head_a,new c.Rectangle(0,0,112,84),null),(a.gr_npc_3040611000_01_ability_bodyribbon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_bodyribbon,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_bodyribbon,new c.Rectangle(0,0,40,40),null),(a.gr_npc_3040611000_01_ability_body=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_body,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_body,new c.Rectangle(0,0,88,104),null),(a.gr_npc_3040611000_01_ability_BackCloth=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.npc_3040611000_01_ability_BackCloth,this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ability_BackCloth,new c.Rectangle(0,0,132,88),null),(a.mc_npc_3040611000_01_triple=function(b,d,e){this.initialize(b,d,e,{}),this.frame_1=function(){require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_4_2.mp3")})},this.frame_4=function(){require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_1.mp3")}),require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_4.mp3")})},this.frame_24=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(20).call(this.frame_24).wait(1)),this.instance=new a.gr_npc_3040611000_01_setup_LhandB,this.instance.setTransform(36.2,-108.5,.9999,1,0,3.6149,3.7517,12.2,12.8),this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(14).to({_off:!1},0).wait(1).to({regX:8,regY:8,scaleX:1,scaleY:.9999,skewX:1.8651,skewY:1.6728,x:34.35,y:-114.5},0).wait(1).to({scaleX:1.0001,skewX:.6152,skewY:.1879,x:35.8,y:-115.2},0).wait(1).to({scaleX:1.0002,skewX:-.1347,skewY:-.7031,x:36.65,y:-115.65},0).wait(1).to({regX:12.1,regY:13,skewX:-.3847,skewY:-1.0001,x:41.3,y:-111},0).to({regX:12,scaleX:1,scaleY:1,skewX:0,skewY:0,x:40},6,c.Ease.get(-1)).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_1.setTransform(32.55,-113.65,.9997,.9997,0,-142.2478,37.7515,19.4,125.5),this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(14).to({_off:!1},0).wait(1).to({regX:20,regY:80,scaleX:.9991,scaleY:.9991,skewX:-143.8894,skewY:36.1096,x:8.3,y:-77.45},0).wait(1).to({scaleX:.9987,scaleY:.9987,skewX:-145.062,skewY:34.9367,x:10.55,y:-77.7},0).wait(1).to({scaleX:.9985,scaleY:.9985,skewX:-145.7655,skewY:34.2331,x:11.9,y:-77.8},0).wait(1).to({regX:19.6,regY:125.5,scaleX:.9984,scaleY:.9984,skewX:-146,skewY:33.9985,x:37.2,y:-115.9},0).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05},6,c.Ease.get(-1)).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_2.setTransform(53.3,-92.45,1,1,0,-9.9292,-9.7935,18.2,23.9),this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(14).to({_off:!1},0).wait(1).to({regX:18,regY:24,skewX:-5.3159,skewY:-5.5088,x:53.85,y:-92.15},0).wait(1).to({scaleY:1.0001,skewX:-2.0207,skewY:-2.4484,x:54.45,y:-91.95},0).wait(1).to({skewX:-.0436,skewY:-.6121,x:54.75,y:-91.9},0).wait(1).to({regX:18.1,skewX:.6155,skewY:0,x:55.1,y:-92},0).to({regX:18,scaleY:1,skewX:0,x:54},6,c.Ease.get(-1)).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_setup_head_a,this.instance_3.setTransform(16.45,-117.95,1,1.0002,0,0,0,52,69),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(14).to({_off:!1},0).to({scaleY:1.0001,x:20.35,y:-118},3,c.Ease.get(1)).to({scaleY:1,x:19},7,c.Ease.get(-1)).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_4.setTransform(10.6,-113,1,1.0002,0,11.2373,12.4655,51,3),this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:14.25},4,c.Ease.get(1)).to({scaleY:1,skewX:0,x:13},6,c.Ease.get(-1)).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_5.setTransform(5.3,-76.95,1,1.0002,0,14.0006,0,1.1,3),this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:7.95,y:-77},4,c.Ease.get(1)).to({regX:1,scaleY:1,skewX:0,x:7},6,c.Ease.get(-1)).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_setup_body,this.instance_6.setTransform(33.05,5,1,1.0002,0,-1.2282,0,35,129),this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:33},3,c.Ease.get(1)).to({scaleY:1,skewX:0},7,c.Ease.get(-1)).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_setup_Larm,this.instance_7.setTransform(20.6,-111,1,1.0002,0,19.7497,20.9776,4,7),this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:24.2},4,c.Ease.get(1)).to({scaleY:1,skewX:0,x:23},6,c.Ease.get(-1)).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_8.setTransform(21.1,-88.2,1,1.0002,0,15.7072,-170.2919,45.9,11.8),this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(14).to({_off:!1},0).to({scaleX:.9998,scaleY:.9994,skewX:-7.949,skewY:-183.507,x:24.1,y:-88.15},5,c.Ease.get(1)).to({regX:46,regY:12,scaleX:1,scaleY:1,skewX:0,skewY:-180,x:23,y:-88},5,c.Ease.get(-1)).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_wait_backhair,this.instance_9.setTransform(19.6,-151.05,1.0007,.9995,0,17.2496,18.4764,71.4,15.5),this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(14).to({_off:!1},0).to({regX:71.5,regY:15.3,scaleX:1,scaleY:.9999,skewX:1.6562,skewY:1.3159,x:24.05,y:-151.25},7,c.Ease.get(1)).to({regY:15.5,scaleY:1,rotation:1.9999,skewX:0,skewY:0,x:22.9,y:-151},3,c.Ease.quadInOut).wait(1)),this.instance_10=new a.gr_npc_3040611000_01_aura02,this.instance_10.setTransform(-343.3,-56.2,.5753,.4181,0,169.9179,-19.2711,5,96.7),this.instance_10.alpha=0,this.instance_10.compositeOperation="lighter",this.instance_10._off=!0,this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({_off:!1},0).to({regY:96,scaleX:1.3041,scaleY:.5222,skewX:152.1792,skewY:-14.0213,x:-473.6,y:-54.25,alpha:1},2).to({regX:5.1,scaleX:2.0745,scaleY:.6077,skewX:139.4655,skewY:-8.7609,x:-479.6,alpha:0},5).to({_off:!0},1).wait(13)),this.instance_11=new a.gr_npc_3040611000_01_aura02,this.instance_11.setTransform(-343.25,-56.15,.557,.446,0,-2.0803,4.9192,4.9,95),this.instance_11.alpha=0,this.instance_11.compositeOperation="lighter",this.instance_11._off=!0,this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({_off:!1},0).to({regX:5,regY:95.5,scaleX:1.3182,scaleY:.5209,skewX:9.2063,skewY:9.4398,x:-473.6,y:-54.15,alpha:1},2).to({scaleX:2.1181,scaleY:.5317,skewX:14.7159,skewY:5.8583,x:-479.75,alpha:0},5).to({_off:!0},1).wait(13)),this.instance_12=new a.gr_npc_3040611000_01_trail01,this.instance_12.setTransform(-342.05,-62.05,.4119,.5014,0,97.0588,-95.9535,19.3,223.1),this.instance_12.alpha=0,this.instance_12.compositeOperation="lighter",this.instance_12._off=!0,this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({_off:!1},0).to({regX:18.8,regY:222.9,scaleX:.4861,scaleY:1.1969,skewX:93.4257,skewY:-102.19,x:-470.7,y:-61.1,alpha:1},2).to({scaleX:.5034,scaleY:1.9373,skewX:92.1156,skewY:-109.2917,x:-475.1,alpha:0},5).to({_off:!0},1).wait(13)),this.instance_13=new a.gr_npc_3040611000_01_trail01,this.instance_13.setTransform(-342,-61.9,.4012,.5013,0,82.1109,81.7599,18.3,223),this.instance_13.alpha=0,this.instance_13.compositeOperation="lighter",this.instance_13._off=!0,this.timeline.addTween(c.Tween.get(this.instance_13).wait(4).to({_off:!1},0).to({regX:18.7,regY:222.9,scaleX:.4807,scaleY:1.1949,skewX:86.1684,skewY:73.2964,x:-470.6,y:-60.95,alpha:1},2).to({regY:222.8,scaleX:.512,scaleY:1.9336,skewX:87.6333,skewY:64.0696,x:-474.7,alpha:0},5).to({_off:!0},1).wait(13)),this.instance_14=new a.gr_npc_3040611000_01_line01b,this.instance_14.setTransform(-94.95,-63.15,.6017,.357,0,0,0,119.9,131.3),this.instance_14.compositeOperation="lighter",this.instance_14._off=!0,this.timeline.addTween(c.Tween.get(this.instance_14).wait(4).to({_off:!1},0).wait(1).to({regX:120,regY:132,x:-85.7,y:-62.9,alpha:.9796},0).wait(1).to({x:-76.55,alpha:.9184},0).wait(1).to({x:-67.4,alpha:.8163},0).wait(1).to({x:-58.25,alpha:.6735},0).wait(1).to({x:-49.1,alpha:.4898},0).wait(1).to({x:-39.95,alpha:.2653},0).wait(1).to({regX:119.9,regY:131.3,x:-30.85,y:-63.15,alpha:0},0).to({_off:!0},1).wait(13)),this.instance_15=new a.gr_npc_3040611000_01_line01b,this.instance_15.setTransform(-116.25,-63.05,.6963,.2737,0,0,0,119.9,131.7),this.instance_15.compositeOperation="lighter",this.instance_15._off=!0,this.timeline.addTween(c.Tween.get(this.instance_15).wait(4).to({_off:!1},0).wait(1).to({regX:120,regY:132,x:-100.95,y:-62.95,alpha:.9796},0).wait(1).to({x:-85.75,alpha:.9184},0).wait(1).to({x:-70.5,alpha:.8163},0).wait(1).to({x:-55.3,alpha:.6735},0).wait(1).to({x:-40.05,alpha:.4898},0).wait(1).to({x:-24.85,alpha:.2653},0).wait(1).to({regX:119.9,regY:131.7,x:-9.7,y:-63.05,alpha:0},0).to({_off:!0},1).wait(13)),this.instance_16=new a.gr_npc_3040611000_01_yari01,this.instance_16.setTransform(-325.95,-63,.7132,.773,0,0,0,44.8,60.8),this.instance_16.alpha=.5,this.instance_16.compositeOperation="lighter",this.instance_16._off=!0,this.timeline.addTween(c.Tween.get(this.instance_16).wait(4).to({_off:!1},0).to({regX:44.7,scaleX:1.7999,scaleY:.7409,x:-408.85,y:-62.9,alpha:.8008},2).to({regY:60.9,scaleX:2.1104,scaleY:.4608,x:-438.7,alpha:0},6).to({_off:!0},1).wait(12)),this.instance_17=new a.gr_npc_3040611000_01_attack05_Larm,this.instance_17.setTransform(-138,-70,.9799,1,0,0,0,66,5),this.instance_17._off=!0,this.timeline.addTween(c.Tween.get(this.instance_17).wait(4).to({_off:!1},0).to({regX:65.9,regY:4.9,scaleX:1,x:-144.1,y:-70.1},6).to({_off:!0},1).wait(14)),this.instance_18=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_18.setTransform(-199.8,-64,.9998,1,0,-89.9983,89.9983,20.7,119.6),this.instance_18._off=!0,this.timeline.addTween(c.Tween.get(this.instance_18).wait(4).to({_off:!1},0).to({regY:119.5,scaleY:.9998,skewX:-89.9974,skewY:89.9965,x:-207.2,y:-64.05},6).to({_off:!0},1).wait(14)),this.instance_19=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_19.setTransform(-142.05,-72,1,1,3.0133,0,0,46.7,63.5),this.instance_19._off=!0,this.timeline.addTween(c.Tween.get(this.instance_19).wait(4).to({_off:!1},0).to({regX:46.6,regY:63.4,rotation:5.9998,x:-148.3,y:-72.1},6).to({_off:!0},1).wait(14)),this.instance_20=new a.gr_npc_3040611000_01_attack05_backhairA,this.instance_20.setTransform(-134,-82.05,1,1,7.9984,0,0,13.4,17.4),this.instance_20._off=!0,this.timeline.addTween(c.Tween.get(this.instance_20).wait(4).to({_off:!1},0).to({rotation:0,x:-139.6,y:-81.6},6).to({_off:!0},1).wait(14)),this.instance_21=new a.gr_npc_3040611000_01_attack05_bodyribbon,this.instance_21.setTransform(-131,-41,1,1,0,0,0,3,4),this.instance_21._off=!0,this.timeline.addTween(c.Tween.get(this.instance_21).wait(4).to({_off:!1},0).to({x:-137},6).to({_off:!0},1).wait(14)),this.instance_22=new a.gr_npc_3040611000_01_attack05_BackClothA01,this.instance_22.setTransform(-146,-58,1,1,6.1967,0,0,8,8),this.instance_22._off=!0,this.timeline.addTween(c.Tween.get(this.instance_22).wait(4).to({_off:!1},0).to({rotation:0,x:-152},6).to({_off:!0},1).wait(14)),this.instance_23=new a.gr_npc_3040611000_01_attack05_body,this.instance_23.setTransform(-46,-2,1,1,0,0,0,112,81),this.instance_23._off=!0,this.timeline.addTween(c.Tween.get(this.instance_23).wait(4).to({_off:!1},0).to({x:-52},6).to({_off:!0},1).wait(14)),this.instance_24=new a.gr_npc_3040611000_01_attack05_BackClothA02,this.instance_24.setTransform(-119,-61,1,1,0,0,0,16,6),this.instance_24._off=!0,this.timeline.addTween(c.Tween.get(this.instance_24).wait(4).to({_off:!1},0).to({x:-125},6).to({_off:!0},1).wait(14)),this.instance_25=new a.gr_npc_3040611000_01_attack05_BackClothB,this.instance_25.setTransform(-106.95,-66.95,1,1,18.4421,0,0,12,47),this.instance_25._off=!0,this.timeline.addTween(c.Tween.get(this.instance_25).wait(4).to({_off:!1},0).to({rotation:0,x:-113,y:-67},6).to({_off:!0},1).wait(14)),this.instance_26=new a.gr_npc_3040611000_01_attack05_Rarm,this.instance_26.setTransform(-119,-76,1,1,0,0,0,20,10),this.instance_26._off=!0,this.timeline.addTween(c.Tween.get(this.instance_26).wait(4).to({_off:!1},0).to({x:-125},6).to({_off:!0},1).wait(14)),this.instance_27=new a.gr_npc_3040611000_01_attack01_LarmB,this.instance_27.setTransform(-122.05,-62.65,1,1,0,-135.0495,44.9505,8.7,-.3),this.instance_27._off=!0,this.timeline.addTween(c.Tween.get(this.instance_27).wait(4).to({_off:!1},0).to({regY:-.4,x:-128.15,y:-62.55},6).to({_off:!0},1).wait(14)),this.instance_28=new a.gr_npc_3040611000_01_attack04_blur,this.instance_28.setTransform(-102,-76,1,1,0,0,0,150,78),this.instance_28._off=!0,this.timeline.addTween(c.Tween.get(this.instance_28).wait(13).to({_off:!1},0).wait(1).to({scaleX:.8333,x:-81.95,alpha:.8008},0).to({_off:!0},1).wait(10)),this.instance_29=new a.gr_npc_3040611000_01_attack06_bodyribbonA,this.instance_29.setTransform(-154,-34.25,1,.9823,0,-1.5889,0,14,18),this.instance_29._off=!0,this.timeline.addTween(c.Tween.get(this.instance_29).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,x:-153,y:-35},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_30=new a.gr_npc_3040611000_01_attack06_Larm,this.instance_30.setTransform(-169.5,-72.05,1,.9823,0,-20.2858,-18.697,17.9,9.9),this.instance_30._off=!0,this.timeline.addTween(c.Tween.get(this.instance_30).wait(11).to({_off:!1},0).to({regX:18,scaleY:1,rotation:-34.1702,skewX:0,skewY:0,x:-164.05,y:-70.95},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_31=new a.gr_npc_3040611000_01_attack06_LarmB,this.instance_31.setTransform(-183.85,-50.5,1,.9823,0,-20.2858,-18.697,32,22),this.instance_31._off=!0,this.timeline.addTween(c.Tween.get(this.instance_31).wait(11).to({_off:!1},0).to({regX:31.9,regY:21.9,scaleY:1,rotation:-34.1702,skewX:0,skewY:0,x:-172.5,y:-45.9},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_32=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_32.setTransform(-173.05,-79.4,1,1,-8.229,0,0,44,66.8),this.instance_32._off=!0,this.timeline.addTween(c.Tween.get(this.instance_32).wait(11).to({_off:!1},0).to({regY:67,rotation:0,x:-169,y:-83},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_33=new a.gr_npc_3040611000_01_attack06_BackClothA,this.instance_33.setTransform(-169.05,-68.1,1,.9823,0,-8.5564,-6.9676,8.9,5.5),this.instance_33._off=!0,this.timeline.addTween(c.Tween.get(this.instance_33).wait(11).to({_off:!1},0).to({regX:9,regY:5.6,scaleY:1,skewX:0,skewY:0,x:-167,y:-69.4},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_34=new a.gr_npc_3040611000_01_attack06_Belt,this.instance_34.setTransform(-175.15,-38.2,1,.9823,0,-1.5889,0,10,8),this.instance_34._off=!0,this.timeline.addTween(c.Tween.get(this.instance_34).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,x:-174,y:-39},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_35=new a.gr_npc_3040611000_01_attack06_bodyribbonB,this.instance_35.setTransform(-169.3,-44.05,1,.9823,0,-1.5889,0,4,6),this.instance_35._off=!0,this.timeline.addTween(c.Tween.get(this.instance_35).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,x:-168,y:-45},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_36=new a.gr_npc_3040611000_01_attack06_Body,this.instance_36.setTransform(-154.65,-58.8,1,.9823,0,-1.5889,0,28.1,32),this.instance_36._off=!0,this.timeline.addTween(c.Tween.get(this.instance_36).wait(11).to({_off:!1},0).to({regX:28,scaleY:1,skewX:0,x:-153,y:-60},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_37=new a.gr_npc_3040611000_01_attack04_LlegB,this.instance_37.setTransform(-109.05,-7.25,.999,.9833,0,-3.6204,-1.9642,15.8,12.1),this.instance_37._off=!0,this.timeline.addTween(c.Tween.get(this.instance_37).wait(11).to({_off:!1},0).to({regX:16,scaleX:1,scaleY:1,rotation:-1.999,skewX:0,skewY:0,x:-108.6,y:-7.45},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_38=new a.gr_npc_3040611000_01_attack04_LlegA,this.instance_38.setTransform(-131.25,-24.9,.999,.9833,0,-3.6204,-1.9642,15.9,18.1),this.instance_38._off=!0,this.timeline.addTween(c.Tween.get(this.instance_38).wait(11).to({_off:!1},0).to({regX:16,scaleX:1,scaleY:1,rotation:-1.999,skewX:0,skewY:0,x:-130.35,y:-25.45},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_39=new a.gr_npc_3040611000_01_attack06_RlegB,this.instance_39.setTransform(-180.5,-16.6,1,.9823,0,-1.5889,0,12,18),this.instance_39._off=!0,this.timeline.addTween(c.Tween.get(this.instance_39).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,x:-180,y:-17},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_40=new a.gr_npc_3040611000_01_attack06_RlegA,this.instance_40.setTransform(-174.1,-34.25,1,.9823,0,-1.5889,0,19.9,10),this.instance_40._off=!0,this.timeline.addTween(c.Tween.get(this.instance_40).wait(11).to({_off:!1},0).to({regX:20,scaleY:1,skewX:0,x:-173,y:-35},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_41=new a.gr_npc_3040611000_01_attack06_RhandB,this.instance_41.setTransform(-203.8,-62.7,1,.9823,0,-1.5889,0,8,8),this.instance_41._off=!0,this.timeline.addTween(c.Tween.get(this.instance_41).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,x:-202,y:-64},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_42=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_42.setTransform(-216.95,-51.25,.9746,1.0072,0,-83.4029,96.4246,19.8,120),this.instance_42._off=!0,this.timeline.addTween(c.Tween.get(this.instance_42).wait(11).to({_off:!1},0).to({scaleX:.9998,scaleY:.9998,skewX:-98.1702,skewY:81.8272,x:-204.4,y:-38.15},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_43=new a.gr_npc_3040611000_01_attack06_RarmB,this.instance_43.setTransform(-186.5,-49,1,.9823,0,-1.5889,0,19.9,18),this.instance_43._off=!0,this.timeline.addTween(c.Tween.get(this.instance_43).wait(11).to({_off:!1},0).to({regX:20,scaleY:1,skewX:0,x:-185,y:-50},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_44=new a.gr_npc_3040611000_01_attack06_Rarm,this.instance_44.setTransform(-178.9,-65.65,1,.9823,0,-1.5889,0,12,16),this.instance_44._off=!0,this.timeline.addTween(c.Tween.get(this.instance_44).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,x:-177,y:-67},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_45=new a.gr_npc_3040611000_01_attack06_BackClothB,this.instance_45.setTransform(-166.95,-64.95,1,.9823,0,-12.0818,-10.4929,6.9,8.7),this.instance_45._off=!0,this.timeline.addTween(c.Tween.get(this.instance_45).wait(11).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-165.1,y:-66.3},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_46=new a.gr_npc_3040611000_01_wait_backhair,this.instance_46.setTransform(-188.9,-105.75,.9781,1.0005,0,-57.1587,124.2146,68.7,11.2),this.instance_46._off=!0,this.timeline.addTween(c.Tween.get(this.instance_46).wait(11).to({_off:!1},0).to({regX:68.6,scaleX:.9982,scaleY:.9982,skewX:-38.0254,skewY:141.9732,x:-180.05,y:-112},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_47=new a.gr_npc_3040611000_01_weapon_ef,this.instance_47.setTransform(-17.85,-118.4,.2754,.7901,0,26.0534,5.9977,11.8,116.5),this.instance_47.alpha=.3008,this.instance_47.compositeOperation="lighter",this.instance_47._off=!0,this.timeline.addTween(c.Tween.get(this.instance_47).wait(2).to({_off:!1},0).wait(1).to({regX:11.2,regY:116.3,scaleX:.2398,scaleY:.8996,skewX:-46.6234,skewY:-93.0015,x:-56.7,y:-101.9},0).to({_off:!0},1).wait(21)),this.instance_48=new a.gr_npc_3040611000_01_weapon_ef,this.instance_48.setTransform(-39.45,-76.8,.38,.9461,0,-147.4331,176,11.6,116.4),this.instance_48.alpha=.3008,this.instance_48.compositeOperation="lighter",this.instance_48._off=!0,this.timeline.addTween(c.Tween.get(this.instance_48).wait(2).to({_off:!1},0).wait(1).to({regX:8.3,regY:116.2,scaleX:.2252,scaleY:.7607,skewX:-231.6389,skewY:95.0022,x:-8.55,y:-68.15},0).to({_off:!0},1).wait(21)),this.instance_49=new a.gr_npc_3040611000_01_weapon_ef,this.instance_49.setTransform(-54.45,-88.45,.6383,.9477,0,-105.8255,82.9999,10.4,117),this.instance_49.alpha=.75,this.instance_49.compositeOperation="lighter",this.instance_49._off=!0,this.timeline.addTween(c.Tween.get(this.instance_49).wait(1).to({_off:!1},0).wait(1).to({regX:10.5,regY:116.7,scaleX:.6693,scaleY:.9602,skewX:-37.9033,skewY:-39.6766,x:-50.75,y:-105.65},0).wait(1).to({regX:10.4,regY:116.6,scaleX:.6692,scaleY:.9813,skewX:39.8498,skewY:39.0013,x:-29.3,y:-101.7},0).to({_off:!0},1).wait(21)),this.instance_50=new a.gr_npc_3040611000_01_weapon_ef,this.instance_50.setTransform(-14.05,-80.45,.6256,.9551,0,73.4664,-96.9995,10.6,116.6),this.instance_50.alpha=.75,this.instance_50.compositeOperation="lighter",this.instance_50._off=!0,this.timeline.addTween(c.Tween.get(this.instance_50).wait(1).to({_off:!1},0).wait(1).to({regX:10.2,regY:116.7,scaleX:.6387,scaleY:.9741,skewX:142.3819,skewY:-220.9992,x:-24.05,y:-79.8},0).wait(1).to({regX:10.5,regY:116.8,scaleY:.9261,skewX:222.8608,skewY:-148.0004,x:-48.15,y:-72.95},0).to({_off:!0},1).wait(21)),this.instance_51=new a.gr_npc_3040611000_01_attack04_LhandB,this.instance_51.setTransform(-35.1,-94.2,.9999,1.0007,0,57.1859,54.9581,7.9,8.1),this.instance_51.alpha=.5,this.instance_51._off=!0,this.timeline.addTween(c.Tween.get(this.instance_51).wait(2).to({_off:!1},0).wait(1).to({skewX:137.1442,skewY:134.9172,x:-34.1,y:-88.65},0).to({_off:!0},1).wait(21)),this.instance_52=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_52.setTransform(-36.75,-96.75,.9978,1.0025,0,-39.0303,143.1799,19.4,120.8),this.instance_52.alpha=.5,this.instance_52._off=!0,this.timeline.addTween(c.Tween.get(this.instance_52).wait(2).to({_off:!1},0).wait(1).to({regY:120.7,skewX:40.9283,skewY:223.1385,x:-31.85,y:-90.75},0).to({_off:!0},1).wait(21)),this.instance_53=new a.gr_npc_3040611000_01_attack04_LhandB,this.instance_53.setTransform(-32.1,-80.45,1,1.0007,0,170.9545,168.7269,7.9,8),this.instance_53.alpha=.5,this.instance_53._off=!0,this.timeline.addTween(c.Tween.get(this.instance_53).wait(1).to({_off:!1},0).wait(1).to({regX:8,scaleX:.9999,skewX:237.5019,skewY:235.2744,x:-38.75,y:-88.9},0).wait(1).to({regY:7.9,skewX:317.4601,skewY:315.2325,x:-39.95,y:-91.4},0).to({_off:!0},1).wait(21)),this.instance_54=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_54.setTransform(-29.2,-81,.9979,1.0025,0,74.7386,-103.0504,19.4,120.9),this.instance_54.alpha=.5,this.instance_54._off=!0,this.timeline.addTween(c.Tween.get(this.instance_54).wait(1).to({_off:!1},0).wait(1).to({regY:120.8,scaleX:.9978,skewX:141.2858,skewY:-36.5033,x:-37.1,y:-86.4},0).wait(1).to({skewX:221.2436,skewY:43.4547,x:-42.1,y:-89.2},0).to({_off:!0},1).wait(21)),this.instance_55=new a.gr_npc_3040611000_01_attack04_RarmB,this.instance_55.setTransform(-38.5,-66.25,1,1.0007,0,6.9607,4.7344,2.3,30.9),this.instance_55._off=!0,this.timeline.addTween(c.Tween.get(this.instance_55).wait(1).to({_off:!1},0).to({regX:2.5,regY:31,scaleY:1,skewX:0,skewY:0,x:-45.5,y:-66},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_56=new a.gr_npc_3040611000_01_attack04_LhandB,this.instance_56.setTransform(-34.25,-87.2,1,1.0007,0,-8.7298,-10.9567,7.9,8),this.instance_56._off=!0,this.timeline.addTween(c.Tween.get(this.instance_56).wait(1).to({_off:!1},0).to({_off:!0},1).wait(23)),this.instance_57=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_57.setTransform(-37.2,-86.65,.9979,1.0025,0,-104.9449,77.266,19.4,120.9),this.instance_57._off=!0,this.timeline.addTween(c.Tween.get(this.instance_57).wait(1).to({_off:!1},0).to({_off:!0},1).wait(23)),this.instance_58=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_58.setTransform(-48.4,-90.45,1,1,1.7033,0,0,43.9,67),this.instance_58._off=!0,this.timeline.addTween(c.Tween.get(this.instance_58).wait(1).to({_off:!1},0).to({regX:44,rotation:0,x:-58,y:-88},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_59=new a.gr_npc_3040611000_01_attack04_Rarm,this.instance_59.setTransform(-56.9,-86.7,1.0949,1.0007,0,-.0419,-2.2684,5.6,1),this.instance_59._off=!0,this.timeline.addTween(c.Tween.get(this.instance_59).wait(1).to({_off:!1},0).to({regX:5.8,scaleX:1,scaleY:1,skewX:0,skewY:0,x:-66.2,y:-84},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_60=new a.gr_npc_3040611000_01_attack04_LarmB,this.instance_60.setTransform(-17.3,-73.7,1,1.0007,0,-13.0662,-15.2918,21.2,18.9),this.instance_60._off=!0,this.timeline.addTween(c.Tween.get(this.instance_60).wait(1).to({_off:!1},0).to({regY:19,scaleY:1,skewX:0,skewY:0,x:-25.8,y:-72},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_61=new a.gr_npc_3040611000_01_attack04_Larm,this.instance_61.setTransform(-36.9,-89.1,1,1.0008,0,3.9308,1.7042,4.5,5),this.instance_61._off=!0,this.timeline.addTween(c.Tween.get(this.instance_61).wait(1).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-46.5,y:-87},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_62=new a.gr_npc_3040611000_01_wait_bodyribbon,this.instance_62.setTransform(-50.9,-54.5,1,1.0008,0,3.9308,1.7042,.9,13),this.instance_62._off=!0,this.timeline.addTween(c.Tween.get(this.instance_62).wait(1).to({_off:!1},0).to({regX:1,scaleY:1,skewX:0,skewY:0,x:-58,y:-52},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_63=new a.gr_npc_3040611000_01_attack04_belt,this.instance_63.setTransform(-50.35,-39.55,1,1.0008,0,3.9308,1.7042,16.5,8.9),this.instance_63._off=!0,this.timeline.addTween(c.Tween.get(this.instance_63).wait(1).to({_off:!1},0).to({regY:9,scaleY:1,skewX:0,skewY:0,x:-56.5,y:-37},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_64=new a.gr_npc_3040611000_01_attack04_body,this.instance_64.setTransform(-34.15,-46.05,1,1.0008,0,3.9308,1.7042,29.2,53),this.instance_64._off=!0,this.timeline.addTween(c.Tween.get(this.instance_64).wait(1).to({_off:!1},0).to({regX:29.3,scaleY:1,skewX:0,skewY:0,x:-40.7,y:-44},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_65=new a.gr_npc_3040611000_01_attack04_LlegB,this.instance_65.setTransform(12,-2,1,1.0201,0,11.3871,0,26.9,20),this.instance_65._off=!0,this.timeline.addTween(c.Tween.get(this.instance_65).wait(1).to({_off:!1},0).to({scaleY:1,skewX:0,x:11.9},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_66=new a.gr_npc_3040611000_01_attack04_LlegA,this.instance_66.setTransform(-6.1,-17.1,1,1.0008,0,6.7037,4.4773,26.3,28.9),this.instance_66._off=!0,this.timeline.addTween(c.Tween.get(this.instance_66).wait(1).to({_off:!1},0).to({regY:29,scaleY:1,skewX:0,skewY:0,x:-9.7,y:-17},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_67=new a.gr_npc_3040611000_01_attack04_RlegA,this.instance_67.setTransform(-87.1,-1,1,1.0087,0,7.5163,0,3.9,36),this.instance_67._off=!0,this.timeline.addTween(c.Tween.get(this.instance_67).wait(1).to({_off:!1},0).to({scaleY:1,skewX:0},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_68=new a.gr_npc_3040611000_01_attack04_RlegB,this.instance_68.setTransform(-70.1,-32.1,1,1.0007,0,-5.2402,-7.4681,4.7,17.9),this.instance_68._off=!0,this.timeline.addTween(c.Tween.get(this.instance_68).wait(1).to({_off:!1},0).to({regY:18,scaleY:1,skewX:0,skewY:0,x:-74.3,y:-32},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_69=new a.gr_npc_3040611000_01_attack04_BackClothA,this.instance_69.setTransform(-26.05,-78.8,1,1.0008,0,3.9308,1.7042,3,4),this.instance_69._off=!0,this.timeline.addTween(c.Tween.get(this.instance_69).wait(1).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-35,y:-77},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_70=new a.gr_npc_3040611000_01_attack04_BackClothB,this.instance_70.setTransform(-48.8,-87.45,1,1.0008,0,3.9308,1.7042,21.7,5),this.instance_70._off=!0,this.timeline.addTween(c.Tween.get(this.instance_70).wait(1).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-58.3,y:-85},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_71=new a.gr_npc_3040611000_01_wait_backhair,this.instance_71.setTransform(-59.5,-117.85,1.0178,.979,0,-42.1585,137.7962,68.7,12),this.instance_71._off=!0,this.timeline.addTween(c.Tween.get(this.instance_71).wait(1).to({_off:!1},0).to({scaleX:.9982,scaleY:.9982,skewX:-44.9994,skewY:134.9994,x:-71.05,y:-115.05},2,c.Ease.get(-1)).to({_off:!0},1).wait(21)),this.instance_72=new a.gr_npc_3040611000_01_attack03_RarmB,this.instance_72.setTransform(-17.05,-63.15,1,1.0001,0,-5.339,-4.2801,6.5,6),this.timeline.addTween(c.Tween.get(this.instance_72).to({_off:!0},1).wait(24)),this.instance_73=new a.gr_npc_3040611000_01_attack03_Rarm,this.instance_73.setTransform(0,-88.1,1,1.0002,0,-15.5357,-14.4767,31.6,3),this.timeline.addTween(c.Tween.get(this.instance_73).to({_off:!0},1).wait(24)),this.instance_74=new a.gr_npc_3040611000_01_attack03_head_a,this.instance_74.setTransform(14.95,-85,1,1.0002,0,0,0,49.5,65),this.timeline.addTween(c.Tween.get(this.instance_74).to({_off:!0},1).wait(24)),this.instance_75=new a.gr_npc_3040611000_01_attack03_bodyribbon,this.instance_75.setTransform(-22.1,-58,1,1.0002,0,-1.0595,0,4,5),this.timeline.addTween(c.Tween.get(this.instance_75).to({_off:!0},1).wait(24)),this.instance_76=new a.gr_npc_3040611000_01_attack03_BackClothA,this.instance_76.setTransform(-13.45,-76,1,1.0002,0,-1.0595,0,84,3),this.timeline.addTween(c.Tween.get(this.instance_76).to({_off:!0},1).wait(24)),this.instance_77=new a.gr_npc_3040611000_01_attack03_body,this.instance_77.setTransform(18.95,-1,1,1.0002,0,-1.0595,0,80,96),
-this.timeline.addTween(c.Tween.get(this.instance_77).to({_off:!0},1).wait(24)),this.instance_78=new a.gr_npc_3040611000_01_attack03_Larm,this.instance_78.setTransform(15.45,-94.1,1,1.0002,0,1.4328,2.4924,5.2,44),this.timeline.addTween(c.Tween.get(this.instance_78).to({_off:!0},1).wait(24)),this.instance_79=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_79.setTransform(56.2,-126.45,1.0016,.9968,0,85.4416,84.4152,20.7,125.5),this.timeline.addTween(c.Tween.get(this.instance_79).to({_off:!0},1).wait(24)),this.instance_80=new a.gr_npc_3040611000_01_attack03_BackClothB,this.instance_80.setTransform(23.25,-94,1,1.0002,0,-1.0595,0,85,5),this.timeline.addTween(c.Tween.get(this.instance_80).to({_off:!0},1).wait(24)),this.instance_81=new a.gr_npc_3040611000_01_wait_backhair,this.instance_81.setTransform(29.25,-107.2,1.0091,.9909,0,49.5568,49.3833,67.8,12.2),this.timeline.addTween(c.Tween.get(this.instance_81).to({_off:!0},1).wait(24)),this.instance_82=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_82.setTransform(-19.95,0,1,.1499,0,0,0,-.1,0),this.timeline.addTween(c.Tween.get(this.instance_82).wait(1).to({scaleX:1.2,x:-35.9},0).wait(3).to({x:-88.9},0).to({x:-94.9},6).wait(1).to({x:-129.9},0).wait(3).to({regX:0,scaleX:.8,x:21.95},0).wait(11))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-556.4,-232.3,739.2,332.20000000000005),(a.mc_npc_3040611000_01_hide=function(b,d,e){this.initialize(b,d,e,{}),this.frame_1=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(1).call(this.frame_1).wait(1)),this.instance=new a.gr_npc_3040611000_01_setup_LhandB,this.instance.setTransform(40,-111,1,1,0,0,0,12,13),this.instance.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance).wait(1).to({alpha:0},0).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_1.setTransform(36.05,-115.9,.9999,.9999,0,-145.9991,33.9995,19.8,125.6),this.instance_1.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_1).wait(1).to({alpha:0},0).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_2.setTransform(54,-92,1,1,0,0,0,18,24),this.instance_2.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_2).wait(1).to({alpha:0},0).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_setup_head_a,this.instance_3.setTransform(19,-118,1,1,0,0,0,52,69),this.instance_3.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_3).wait(1).to({alpha:0},0).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_4.setTransform(13,-113,1,1,0,0,0,51,3),this.instance_4.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_4).wait(1).to({alpha:0},0).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_5.setTransform(7,-77,1,1,0,0,0,1,3),this.instance_5.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_5).wait(1).to({alpha:0},0).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_setup_body,this.instance_6.setTransform(33,5,1,1,0,0,0,35,129),this.instance_6.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_6).wait(1).to({alpha:0},0).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_setup_Larm,this.instance_7.setTransform(23,-111,1,1,0,0,0,4,7),this.instance_7.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_7).wait(1).to({alpha:0},0).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_8.setTransform(23,-88,1,1,0,0,180,46,12),this.instance_8.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_8).wait(1).to({alpha:0},0).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_wait_backhair,this.instance_9.setTransform(22.9,-151,1,1,1.9999,0,0,71.5,15.5),this.instance_9.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_9).wait(1).to({alpha:0},0).wait(1)),this.instance_10=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_10.setTransform(21.95,0,.8,.1499),this.instance_10.alpha=.0117,this.timeline.addTween(c.Tween.get(this.instance_10).to({alpha:0},1).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-52.6,-187,124.9,196.4),(a.mc_npc_3040611000_01_down_ase=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_down_ase,this.instance.setTransform(12,10,1,1,0,0,0,12,10),this.timeline.addTween(c.Tween.get(this.instance).to({_off:!0},1).wait(2))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(0,0,24,20),(a.mc_npc_3040611000_01_down=function(b,d,e){this.initialize(b,d,e,{down_loop:1}),this.frame_30=function(){this.gotoAndPlay("down_loop")},this.timeline.addTween(c.Tween.get(this).wait(30).call(this.frame_30).wait(1)),this.npc_3040611000_01_down_ase=new a.mc_npc_3040611000_01_down_ase,this.npc_3040611000_01_down_ase.name="npc_3040611000_01_down_ase",this.npc_3040611000_01_down_ase.setTransform(43,-101,1,1,0,0,0,12,10),this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_down_ase).wait(31)),this.instance=new a.gr_npc_3040611000_01_down_head_a,this.instance.setTransform(-10,-57,1,1,0,0,0,63,67),this.timeline.addTween(c.Tween.get(this.instance).to({x:-9.95,y:-55.15},15,c.Ease.quadInOut).to({x:-10,y:-57},15,c.Ease.quadInOut).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_down_LarmB,this.instance_1.setTransform(29,-58,1,1,0,0,0,14,6),this.timeline.addTween(c.Tween.get(this.instance_1).to({regX:14.1,scaleY:.9701,rotation:-1.4836,x:29.1,y:-56.2},16,c.Ease.quadInOut).to({regX:14,scaleY:1,rotation:0,x:29,y:-58},14,c.Ease.quadInOut).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_2.setTransform(18.05,-44.05,.9999,.9998,0,-105,75.0005,20.2,122),this.timeline.addTween(c.Tween.get(this.instance_2).to({regX:20.1,regY:121.9,scaleX:.9991,scaleY:.9992,skewX:-106.012,skewY:73.205,x:18.4,y:-42.35},16,c.Ease.quadInOut).to({regX:20.2,regY:122,scaleX:.9999,scaleY:.9998,skewX:-105,skewY:75.0005,x:18.05,y:-44.05},14,c.Ease.quadInOut).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_down_Larm,this.instance_3.setTransform(3,-61,1,1,0,0,0,3,10),this.timeline.addTween(c.Tween.get(this.instance_3).to({scaleY:.9701,y:-60.05},16,c.Ease.quadInOut).to({scaleY:1,y:-61},14,c.Ease.quadInOut).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_down_body,this.instance_4.setTransform(10,1,1,1,0,0,0,31,69),this.timeline.addTween(c.Tween.get(this.instance_4).to({scaleY:.9701,y:1.1},15,c.Ease.quadInOut).to({scaleY:1,y:1},15,c.Ease.quadInOut).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_down_Rarm,this.instance_5.setTransform(-13,-54,1,1,0,0,0,34,4),this.timeline.addTween(c.Tween.get(this.instance_5).to({scaleY:.9701,y:-53.25},16,c.Ease.quadInOut).to({scaleY:1,y:-54},14,c.Ease.quadInOut).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_down_BackCloth,this.instance_6.setTransform(4,-2,1,1,0,0,0,69,56),this.timeline.addTween(c.Tween.get(this.instance_6).to({scaleX:1.0281,scaleY:.9701,x:4.05,y:-1.85},16,c.Ease.quadInOut).to({scaleX:1,scaleY:1,x:4,y:-2},14,c.Ease.quadInOut).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_wait_backhair,this.instance_7.setTransform(-31.9,-85.95,.9982,.9982,0,-34.9991,145.0015,70.7,6.8),this.timeline.addTween(c.Tween.get(this.instance_7).to({regY:6.7,scaleX:.9884,scaleY:.9989,skewX:-36.7705,skewY:144.8654,x:-32.05,y:-83.35},16,c.Ease.quadInOut).to({regY:6.8,scaleX:.9982,scaleY:.9982,skewX:-34.9991,skewY:145.0015,x:-31.9,y:-85.95},14,c.Ease.quadInOut).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_8.setTransform(8,0,1.25,.1499),this.timeline.addTween(c.Tween.get(this.instance_8).wait(31))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-105,-132,205.1,165.6),(a.mc_npc_3040611000_01_chara_out=function(b,d,e){this.initialize(b,d,e,{}),this.frame_5=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(5).call(this.frame_5).wait(1)),this.instance=new a.gr_npc_3040611000_01_setup_LhandB,this.instance.setTransform(40,-111,1,1,0,0,0,12,13),this.timeline.addTween(c.Tween.get(this.instance).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_1.setTransform(36.05,-115.9,.9999,.9999,0,-145.9991,33.9995,19.8,125.6),this.timeline.addTween(c.Tween.get(this.instance_1).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_2.setTransform(54,-92,1,1,0,0,0,18,24),this.timeline.addTween(c.Tween.get(this.instance_2).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_setup_head_a,this.instance_3.setTransform(19,-118,1,1,0,0,0,52,69),this.timeline.addTween(c.Tween.get(this.instance_3).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_4.setTransform(13,-113,1,1,0,0,0,51,3),this.timeline.addTween(c.Tween.get(this.instance_4).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_5.setTransform(7,-77,1,1,0,0,0,1,3),this.timeline.addTween(c.Tween.get(this.instance_5).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_setup_body,this.instance_6.setTransform(33,5,1,1,0,0,0,35,129),this.timeline.addTween(c.Tween.get(this.instance_6).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_setup_Larm,this.instance_7.setTransform(23,-111,1,1,0,0,0,4,7),this.timeline.addTween(c.Tween.get(this.instance_7).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_8.setTransform(23,-88,1,1,0,0,180,46,12),this.timeline.addTween(c.Tween.get(this.instance_8).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_wait_backhair,this.instance_9.setTransform(22.9,-151,1,1,1.9999,0,0,71.5,15.5),this.timeline.addTween(c.Tween.get(this.instance_9).to({alpha:.3008},3).to({alpha:0},2).wait(1)),this.instance_10=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_10.setTransform(21.95,0,.8,.1499),this.timeline.addTween(c.Tween.get(this.instance_10).to({alpha:.3008},3).to({alpha:0},2).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-52.6,-187,124.9,196.4),(a.mc_npc_3040611000_01_chara_in=function(b,d,e){this.initialize(b,d,e,{}),this.frame_4=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(1)),this.instance=new a.gr_npc_3040611000_01_setup_LhandB,this.instance.setTransform(40,-111,1,1,0,0,0,12,13),this.instance.alpha=0,this.timeline.addTween(c.Tween.get(this.instance).to({alpha:1},4).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_1.setTransform(36.05,-115.9,.9999,.9999,0,-145.9991,33.9995,19.8,125.6),this.instance_1.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_1).to({alpha:1},4).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_2.setTransform(54,-92,1,1,0,0,0,18,24),this.instance_2.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_2).to({alpha:1},4).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_setup_head_a,this.instance_3.setTransform(19,-118,1,1,0,0,0,52,69),this.instance_3.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_3).to({alpha:1},4).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_4.setTransform(13,-113,1,1,0,0,0,51,3),this.instance_4.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_4).to({alpha:1},4).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_5.setTransform(7,-77,1,1,0,0,0,1,3),this.instance_5.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_5).to({alpha:1},4).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_setup_body,this.instance_6.setTransform(33,5,1,1,0,0,0,35,129),this.instance_6.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_6).to({alpha:1},4).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_setup_Larm,this.instance_7.setTransform(23,-111,1,1,0,0,0,4,7),this.instance_7.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_7).to({alpha:1},4).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_8.setTransform(23,-88,1,1,0,0,180,46,12),this.instance_8.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_8).to({alpha:1},4).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_wait_backhair,this.instance_9.setTransform(22.9,-151,1,1,1.9999,0,0,71.5,15.5),this.instance_9.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_9).to({alpha:1},4).wait(1)),this.instance_10=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_10.setTransform(21.95,0,.8,.1499),this.instance_10.alpha=0,this.timeline.addTween(c.Tween.get(this.instance_10).to({alpha:1},4).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-52.6,-187,124.9,196.4),(a.mc_npc_3040611000_01_win_efB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_hanabira2,this.instance.setTransform(-69.5,-180.25,.3749,.3749,177.7212,0,0,10,12),this.timeline.addTween(c.Tween.get(this.instance).to({regX:9.7,regY:11.9,rotation:794.2369,x:33.8,y:-113.35},79).to({regX:9.8,regY:12.1,rotation:872.2795,x:46.9,y:-104.85,alpha:0},10).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_hanabira3,this.instance_1.setTransform(64.1,-153.9,.3749,.3749,121.063,0,0,9.3,11.1),this.instance_1.alpha=.3984,this.timeline.addTween(c.Tween.get(this.instance_1).to({regX:9.8,regY:11.3,rotation:152.2795,x:68.5,y:-151,alpha:0},4).wait(1).to({regX:10,regY:11.5,rotation:177.7212,x:-30.15,y:-212.7,alpha:1},0).to({regX:9.6,regY:11.2,rotation:794.2369,x:57.4,y:-157.9},79).to({regX:9.5,regY:11,rotation:833.2592,x:63.05,y:-154.55,alpha:.5},5).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_hanabira2,this.instance_2.setTransform(34.25,-23.7,.3749,.3749,80.2969,0,0,9.7,11.7),this.timeline.addTween(c.Tween.get(this.instance_2).to({regX:9.9,regY:11.8,rotation:103.7037,x:39.55,y:-21.1},3).to({regX:10,regY:12.1,scaleX:.375,scaleY:.375,rotation:181.749,x:57.35,y:-12.1,alpha:0},10).wait(1).to({regX:10.2,regY:11.9,rotation:207.1886,x:-99.9,y:-91.95,alpha:1},0).to({regX:9.8,regY:11.8,scaleX:.3749,scaleY:.3749,rotation:792.4913,x:32.35,y:-24.6},75).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_hanabira2b,this.instance_3.setTransform(-87.7,-117.4,.375,.375,-152.8114,0,0,10.2,12.3),this.timeline.addTween(c.Tween.get(this.instance_3).to({regX:10.1,regY:12.1,scaleX:.3749,scaleY:.3749,rotation:463.7037,x:41.1,y:-48.85},79).to({regX:10,regY:12.3,scaleX:.375,scaleY:.375,rotation:541.749,x:57.5,y:-40.2,alpha:0},10).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_hanabira3,this.instance_4.setTransform(21.45,-76.4,.3749,.3749,-36.771,0,0,10.4,11.2),this.timeline.addTween(c.Tween.get(this.instance_4).to({regX:9.9,regY:11.3,rotation:103.7037,x:49.75,y:-61.6},18).to({regX:9.8,regY:11.6,scaleX:.375,scaleY:.375,rotation:181.749,x:65.65,y:-53.6,alpha:0},10).wait(1).to({regX:10,regY:11.3,rotation:207.1886,x:-74.65,y:-125.85,alpha:1},0).to({regX:10.2,scaleX:.3749,scaleY:.3749,rotation:675.4254,x:19.85,y:-77.15},60).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_hanabira3b,this.instance_5.setTransform(79.6,-1.35,.3749,.3749,103.7037,0,0,10.1,11.6),this.timeline.addTween(c.Tween.get(this.instance_5).to({scaleX:.375,scaleY:.375,rotation:181.749,x:98.75,y:5.75,alpha:0},10).wait(1).to({regX:10.3,regY:11.7,rotation:207.1886,x:-70.2,y:-58.15,alpha:1},0).to({regY:11.4,scaleX:.3749,scaleY:.3749,rotation:815.8939,x:77.75,y:-2},78).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_hanabira1b,this.instance_6.setTransform(10.75,-113.25,.3749,.3749,-164.4134,0,0,14.9,11.8),this.timeline.addTween(c.Tween.get(this.instance_6).to({regX:15.1,regY:11.6,rotation:-256.2963,x:58.6,y:-88.5},33).to({regX:14.9,regY:11.8,scaleX:.375,scaleY:.375,rotation:-178.251,x:73.25,y:-81.1,alpha:0},10).wait(1).to({regX:15.3,rotation:-152.8114,x:-55.9,y:-147.6,alpha:1},0).to({regX:15.2,regY:11.7,scaleX:.3749,scaleY:.3749,rotation:558.3701,x:9.25,y:-113.95},45).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_hanabira2,this.instance_7.setTransform(38.55,-187,.3749,.3749,-125.4238,0,0,10.2,12.2),this.timeline.addTween(c.Tween.get(this.instance_7).to({regY:11.9,scaleX:.375,scaleY:.375,rotation:-103.4849,x:92.15,y:-162.15},48).to({regX:10.1,regY:11.8,scaleX:.3749,scaleY:.3749,rotation:-25.4388,x:103.4,y:-156.9,alpha:0},10).wait(1).to({regX:10,scaleX:.375,scaleY:.375,rotation:0,x:3.9,y:-203,alpha:1},0).to({regX:10.2,regY:12,scaleX:.3749,scaleY:.3749,rotation:594.1208,x:37.3,y:-187.5},30).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_hanabira2b,this.instance_8.setTransform(-32.15,-101.5,.3749,.3749,80.6358,0,0,10,12.2),this.timeline.addTween(c.Tween.get(this.instance_8).to({regX:10.1,regY:12.3,scaleX:.375,scaleY:.375,rotation:256.5151,x:78.8,y:-55.45},68).to({regX:10.3,regY:12.2,scaleX:.3749,scaleY:.3749,rotation:334.5612,x:95.1,y:-48.65,alpha:0},10).wait(1).to({regX:10.2,regY:12,scaleX:.375,scaleY:.375,rotation:360,x:-50.1,y:-108.9,alpha:1},0).to({regX:10,regY:12.1,rotation:798.0453,x:-33.7,y:-102.2},10).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_hanabira3,this.instance_9.setTransform(30.4,-4.7,.3749,.3749,-11.6013,0,0,10.1,11.5),this.timeline.addTween(c.Tween.get(this.instance_9).to({regX:10,regY:11.6,scaleX:.375,scaleY:.375,rotation:-103.4849,x:96.6,y:17},33).to({regX:10.1,regY:11.3,scaleX:.3749,scaleY:.3749,rotation:-25.4388,x:116.55,y:23.35,alpha:0},10).wait(1).to({regX:10,scaleX:.375,scaleY:.375,rotation:0,x:-61.65,y:-34.5,alpha:1},0).to({regX:10.1,regY:11.4,scaleX:.3749,scaleY:.3749,rotation:711.184,x:28.35,y:-5.3},45).wait(1)),this.instance_10=new a.gr_npc_3040611000_01_hanabira3b,this.instance_10.setTransform(-1.75,-204.65,.3749,.3749,165.4859,0,0,9.8,11.8),this.timeline.addTween(c.Tween.get(this.instance_10).to({regX:10.2,scaleX:.375,scaleY:.375,rotation:256.5151,x:59.15,y:-165.9},57).to({regX:10.3,regY:11.5,scaleX:.3749,scaleY:.3749,rotation:334.5612,x:69.85,y:-159.15,alpha:0},10).wait(1).to({regX:10.2,scaleX:.375,scaleY:.375,rotation:360,x:-25.45,y:-219.45,alpha:1},0).to({regX:10,regY:11.6,rotation:883.8861,x:-2.85,y:-205.2},21).wait(1)),this.instance_11=new a.gr_npc_3040611000_01_hanabira1b,this.instance_11.setTransform(-51.15,-127.65,.3749,.3749,-72.023,0,0,15.3,11),this.timeline.addTween(c.Tween.get(this.instance_11).to({regX:15.2,regY:11.6,scaleX:.375,scaleY:.375,rotation:-103.4849,x:7.15,y:-86.45},41).to({regX:15.3,scaleX:.3749,scaleY:.3749,rotation:-25.4388,x:21.4,y:-76.45,alpha:0},10).wait(1).to({regX:15.2,regY:11.5,scaleX:.375,scaleY:.375,rotation:0,x:-104.7,y:-165.65,alpha:1},0).to({regY:11.3,scaleX:.3749,scaleY:.3749,rotation:648.7447,x:-52.45,y:-128.5},37).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-110.4,-224.3,232.4,253.60000000000002),(a.mc_npc_3040611000_01_win_efA=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_hanabira1,this.instance.setTransform(-58.4,-213.3,.75,.75,0,0,0,15,11.6),this.timeline.addTween(c.Tween.get(this.instance).to({regX:15.1,regY:11.5,rotation:658.9806,x:91.1,y:-55.6},49).to({regX:15,regY:11.6,rotation:720,x:121.6,y:-23.3,alpha:0},10).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_hanabira1b,this.instance_1.setTransform(42.6,-32.2,.5,.5,-77.1412,0,0,15.2,11.5),this.timeline.addTween(c.Tween.get(this.instance_1).to({rotation:-63.1597,x:45.25,y:-29.6},1).to({regX:15.1,rotation:0,x:71.6,y:-3.35,alpha:0},10).to({_off:!0},1).wait(2).to({_off:!1,x:-78.4,y:-153.35,alpha:1},0).to({rotation:628.8878,x:39.85,y:-34.75},45).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_hanabira2,this.instance_2.setTransform(.2,-55.9,.3499,.3499,123.4628,0,0,10.1,11.8),this.timeline.addTween(c.Tween.get(this.instance_2).to({regY:12.1,scaleX:.35,scaleY:.35,rotation:213.0568,x:58.95,y:-15.45},18).to({regX:10.2,regY:11.8,rotation:360,x:91.6,y:7,alpha:0},10).to({_off:!0},1).wait(10).to({_off:!1,x:-68.4,y:-103,alpha:1},0).to({regX:10.1,regY:12,scaleX:.3499,scaleY:.3499,rotation:1198.4872,x:-3.1,y:-58.1},20).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_hanabira3b,this.instance_3.setTransform(17.55,-184.4,.7499,.7499,160.2366,0,0,10,11.6),this.timeline.addTween(c.Tween.get(this.instance_3).to({regX:10.1,scaleX:.75,scaleY:.75,rotation:276.8219,x:88.25,y:-109.55},28).to({rotation:350.2947,x:113.5,y:-82.85,alpha:0},10).to({_off:!0},1).wait(10).to({_off:!1,regX:10,regY:11.5,x:-10.35,y:-213.85,alpha:1},0).to({regY:11.6,scaleX:.7499,scaleY:.7499,rotation:876.0718,x:15,y:-187.05},10).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-85.9,-223.6,220.3,234.9),(a.mc_npc_3040611000_01_winhat_front=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_win_hat,this.instance.setTransform(-4,-152,1,1,0,0,0,54,35),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.mc_npc_3040611000_01_winhat_front,new c.Rectangle(-58,-187,80,60),null),(a.mc_npc_3040611000_01_win_Rhand=function(b,d,e){this.initialize(b,d,e,{}),this.frame_0=function(){this.mc_winhat_front.gotoAndPlay(0)},this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(240)),this.instance=new a.gr_npc_3040611000_01_win_RhandBA,this.instance.setTransform(-32,-105,1,1,0,0,0,13,18),this.timeline.addTween(c.Tween.get(this.instance).wait(24).to({rotation:-5.5138,x:-32.75,y:-105.2},12,c.Ease.quadInOut).to({rotation:0,x:-32,y:-105},18,c.Ease.quadInOut).to({rotation:-5.5138,x:-32.75,y:-105.2},12,c.Ease.quadInOut).to({rotation:0,x:-32,y:-105},18,c.Ease.quadInOut).wait(65).to({rotation:-5.5138,x:-32.75,y:-105.2},12,c.Ease.quadInOut).to({rotation:0,x:-32,y:-105},18,c.Ease.quadInOut).wait(61)),this.instance_1=new a.gr_npc_3040611000_01_win_drink,this.instance_1.setTransform(-37,-111,1,1,0,0,0,22,43),this.timeline.addTween(c.Tween.get(this.instance_1).wait(24).to({regX:21.9,rotation:-5.5138,x:-38.4,y:-110.7},12,c.Ease.quadInOut).to({regX:22,rotation:0,x:-37,y:-111},18,c.Ease.quadInOut).to({regX:21.9,rotation:-5.5138,x:-38.4,y:-110.7},12,c.Ease.quadInOut).to({regX:22,rotation:0,x:-37,y:-111},18,c.Ease.quadInOut).wait(65).to({regX:21.9,rotation:-5.5138,x:-38.4,y:-110.7},12,c.Ease.quadInOut).to({regX:22,rotation:0,x:-37,y:-111},18,c.Ease.quadInOut).wait(61)),this.instance_2=new a.gr_npc_3040611000_01_win_RhandBB,this.instance_2.setTransform(-32,-105,1,1,0,0,0,18,18),this.timeline.addTween(c.Tween.get(this.instance_2).wait(24).to({rotation:-5.5138,x:-32.8,y:-105.25},12,c.Ease.quadInOut).to({rotation:0,x:-32,y:-105},18,c.Ease.quadInOut).to({rotation:-5.5138,x:-32.8,y:-105.25},12,c.Ease.quadInOut).to({rotation:0,x:-32,y:-105},18,c.Ease.quadInOut).wait(65).to({rotation:-5.5138,x:-32.8,y:-105.25},12,c.Ease.quadInOut).to({rotation:0,x:-32,y:-105},18,c.Ease.quadInOut).wait(61)),this.mc_winhat_front=new a.mc_npc_3040611000_01_winhat_front,this.mc_winhat_front.name="mc_winhat_front",this.mc_winhat_front.setTransform(-18,-157,1,1,0,0,0,-18,-157),this.timeline.addTween(c.Tween.get(this.mc_winhat_front).wait(14).to({regY:-157.1,rotation:-4.1994,x:-20.5,y:-155.55},17,c.Ease.quadInOut).wait(43).to({regY:-157,rotation:0,x:-18,y:-157},20,c.Ease.quadInOut).wait(47).to({regY:-157.1,rotation:-4.1994,x:-20.5,y:-155.55},17,c.Ease.quadInOut).wait(12).to({regY:-157,rotation:0,x:-18,y:-157},20,c.Ease.quadInOut).wait(50)),this.instance_3=new a.gr_npc_3040611000_01_win_head_a,this.instance_3.setTransform(2,-122,1,1,0,0,0,34,50),this.timeline.addTween(c.Tween.get(this.instance_3).wait(14).to({rotation:-4.1994,y:-121.95},17,c.Ease.quadInOut).wait(43).to({rotation:0,y:-122},20,c.Ease.quadInOut).wait(47).to({rotation:-4.1994,y:-121.95},17,c.Ease.quadInOut).wait(12).to({rotation:0,y:-122},20,c.Ease.quadInOut).wait(50)),this.instance_4=new a.gr_npc_3040611000_01_win_Rarm,this.instance_4.setTransform(-7,-116,1,1,0,0,0,41,2),this.timeline.addTween(c.Tween.get(this.instance_4).wait(24).to({regY:1.9,scaleY:.9999,skewX:2.2609,skewY:.9985,x:-6.95,y:-116.05},11,c.Ease.quadInOut).to({regY:2,scaleY:1,skewX:0,skewY:0,x:-7,y:-116},19,c.Ease.quadInOut).to({regY:1.9,scaleY:.9999,skewX:2.2609,skewY:.9985,x:-6.95,y:-116.05},11,c.Ease.quadInOut).to({regY:2,scaleY:1,skewX:0,skewY:0,x:-7,y:-116},19,c.Ease.quadInOut).wait(65).to({regY:1.9,scaleY:.9999,skewX:2.2609,skewY:.9985,x:-6.95,y:-116.05},11,c.Ease.quadInOut).to({regY:2,scaleY:1,skewX:0,skewY:0,x:-7,y:-116},19,c.Ease.quadInOut).wait(61))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-64.4,-188.2,97.4,130.39999999999998),(a.mc_npc_3040611000_01_win_hatB=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_win_hatB,this.instance.setTransform(1,-157,1,1,0,0,0,7,39),this.timeline.addTween(c.Tween.get(this.instance).wait(14).to({rotation:-4.1994,x:-1.5,y:-156.75},17,c.Ease.quadInOut).wait(43).to({rotation:0,x:1,y:-157},20,c.Ease.quadInOut).wait(47).to({rotation:-4.1994,x:-1.5,y:-156.75},17,c.Ease.quadInOut).wait(12).to({rotation:0,x:1,y:-157},20,c.Ease.quadInOut).wait(50))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-11.3,-198.9,57.400000000000006,51.70000000000002),(a.mc_npc_3040611000_01_win_frontcloth=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_win_BackClothA,this.instance.setTransform(50,-47,1,1,0,0,0,26,46),this.timeline.addTween(c.Tween.get(this.instance).to({regX:25.9,scaleX:.9998,scaleY:.9994,skewX:-9.5298,skewY:-2.5506,x:56.45,y:-48.65},16,c.Ease.quadInOut).to({regX:26,scaleX:1,scaleY:1,skewX:0,skewY:0,x:50,y:-47},23,c.Ease.quadInOut).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(23,-95.2,67.2,94.2),(a.mc_npc_3040611000_01_win_backhair=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_win_backhairA,this.instance.setTransform(-2,-159,1,1,0,0,0,21,11),this.timeline.addTween(c.Tween.get(this.instance).to({regX:20.9,rotation:-2.4513,x:-2.3,y:-158.85},21,c.Ease.quadInOut).to({regX:21,rotation:0,x:-2,y:-159},18,c.Ease.quadInOut).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_win_backhairC,this.instance_1.setTransform(18,-105,1,1,0,0,0,11,9),this.timeline.addTween(c.Tween.get(this.instance_1).to({regX:11.1,rotation:-10.6683,x:20.1,y:-105.75},22,c.Ease.quadInOut).to({regX:11,rotation:0,x:18,y:-105},17,c.Ease.quadInOut).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_win_backhairB,this.instance_2.setTransform(-7,-136,1,1,0,0,0,16,4),this.timeline.addTween(c.Tween.get(this.instance_2).to({regX:15.8,regY:3.6,scaleX:.9998,scaleY:1.0143,skewX:-9.0707,skewY:-13.7557,x:-6.3,y:-135.85},22,c.Ease.quadInOut).to({regX:16,regY:4,scaleX:1,scaleY:1,skewX:0,skewY:0,x:-7,y:-136},17,c.Ease.quadInOut).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-23.7,-171.4,126.7,106),(a.mc_npc_3040611000_01_win_backcloth=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_win_BackClothB,this.instance.setTransform(-17,-97,1,1,0,0,0,52,4),this.timeline.addTween(c.Tween.get(this.instance).to({regY:3.8,scaleX:.9938,scaleY:.9456,skewX:-9.6082,skewY:-2.7246,x:-18.4,y:-94.8},16,c.Ease.quadInOut).to({regY:4,scaleX:1,scaleY:1,skewX:0,skewY:0,x:-17,y:-97},23,c.Ease.quadInOut).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_win_BackClothC,this.instance_1.setTransform(5,-94,1,1,0,0,0,34,7),this.timeline.addTween(c.Tween.get(this.instance_1).to({regX:33.9,regY:6.9,scaleX:.9938,scaleY:.9456,skewX:-9.6082,skewY:-2.7246,x:3.9,y:-93},16,c.Ease.quadInOut).to({regX:34,regY:7,scaleX:1,scaleY:1,skewX:0,skewY:0,x:5,y:-94},23,c.Ease.quadInOut).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-70.7,-102.1,137.4,93.3),(a.mc_npc_3040611000_01_stbwait_yure=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance.setTransform(23,-88,1,1,0,0,180,46,12),this.timeline.addTween(c.Tween.get(this.instance).to({regX:45.8,regY:11.8,scaleX:.9999,scaleY:.9831,skewX:-6.0012,skewY:179.4457,x:23.05,y:-87.95},19,c.Ease.quadInOut).to({regX:46,regY:12,scaleX:1,scaleY:1,skewX:1.7541,skewY:181.7541,y:-88},23,c.Ease.quadInOut).to({regX:45.9,scaleY:.9716,skewX:-5.9994,skewY:180,x:23},21,c.Ease.get(.5)).to({regY:11.9,scaleY:.998,skewX:-1.1687,skewY:183.2269,x:22.95,y:-88.15},16,c.Ease.quadInOut).wait(1).to({regX:58,regY:50,scaleY:.9964,skewX:-1.5268,skewY:183.0195,x:11.9,y:-50.75},0).wait(1).to({scaleY:.9948,skewX:-1.8908,skewY:182.8087,x:12.1,y:-50.8},0).wait(1).to({scaleY:.9932,skewX:-2.2598,skewY:182.595,x:12.35,y:-50.85},0).wait(1).to({scaleY:.9915,skewX:-2.6333,skewY:182.3787,x:12.65},0).wait(1).to({scaleY:.9898,skewX:-3.0103,skewY:182.1603,x:12.9,y:-50.9},0).wait(1).to({scaleY:.9881,skewX:-3.39,skewY:181.9404,x:13.15},0).wait(1).to({scaleY:.9864,skewX:-3.7716,skewY:181.7194,x:13.45,y:-50.95},0).wait(1).to({scaleY:.9847,skewX:-4.1542,skewY:181.4978,x:13.6},0).wait(1).to({scaleY:.9829,skewX:-4.5369,skewY:181.2762,x:13.9,y:-51},0).wait(1).to({scaleY:.9813,skewX:-4.9189,skewY:181.055,x:14.15},0).wait(1).to({scaleY:.9795,skewX:-5.2992,skewY:180.8347,x:14.4,y:-51.1},0).wait(1).to({scaleY:.9779,skewX:-5.6771,skewY:180.6158,x:14.65},0).wait(1).to({scaleY:.9762,skewX:-6.0518,skewY:180.3988,x:14.9,y:-51.15},0).wait(1).to({scaleY:.9745,skewX:-6.4224,skewY:180.1842,x:15.15,y:-51.25},0).wait(1).to({scaleY:.9729,skewX:-6.7882,skewY:179.9723,x:15.4,y:-51.2},0).wait(1).to({scaleY:.9712,skewX:-7.1486,skewY:179.7636,x:15.65,y:-51.25},0).wait(1).to({scaleY:.9697,skewX:-7.5029,skewY:179.5584,x:15.85,y:-51.35},0).wait(1).to({scaleY:.9681,skewX:-7.8505,skewY:179.3571,x:16.05,y:-51.4},0).wait(1).to({scaleY:.9666,skewX:-8.191,skewY:179.1599,x:16.3},0).wait(1).to({scaleY:.9651,skewX:-8.5239,skewY:178.9671,x:16.5,y:-51.5},0).wait(1).to({scaleY:.9636,skewX:-8.8487,skewY:178.779,x:16.7},0).wait(1).to({regX:45.6,regY:11.7,scaleY:.9622,skewX:-9.1651,skewY:178.5958,x:23.2,y:-88.1},0).to({regX:46,regY:12,scaleY:1,skewX:0,skewY:180,x:23,y:-88},18,c.Ease.quadInOut).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_wait_backhair,this.instance_1.setTransform(22.9,-151,1,1,1.9999,0,0,71.5,15.5),this.timeline.addTween(c.Tween.get(this.instance_1).to({regY:15.3,scaleX:.9999,scaleY:.9998,rotation:0,skewX:-2.4911,skewY:.0498,x:23.05,y:-151.2},29,c.Ease.quadInOut).to({regY:15.5,scaleX:1,scaleY:1,rotation:1.9999,skewX:0,skewY:0,x:22.9,y:-151},30,c.Ease.quadInOut).to({regX:71.4,regY:15.3,scaleX:.9999,scaleY:.9708,rotation:0,skewX:-6.2578,skewY:-1.9914,x:23.15,y:-151.25},35,c.Ease.quadInOut).to({regX:71.5,regY:15.5,scaleX:1,scaleY:1,rotation:1.9999,skewX:0,skewY:0,x:22.9,y:-151},25,c.Ease.quadInOut).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-52.6,-169,135,171.4),(a.mc_npc_3040611000_01_damage_in=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_damage_head_a,this.instance.setTransform(9,-5,1,1,0,0,0,56,42),this.timeline.addTween(c.Tween.get(this.instance).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_damage_LarmB,this.instance_1.setTransform(51,51,1,1,0,0,0,24,16),this.timeline.addTween(c.Tween.get(this.instance_1).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_2.setTransform(28.4,27.95,.9998,.9999,0,-74.9996,105.0008,-.1,112.2),this.timeline.addTween(c.Tween.get(this.instance_2).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_damage_bodyribbon,this.instance_3.setTransform(12,71,1,1,0,0,0,26,24),this.timeline.addTween(c.Tween.get(this.instance_3).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_damage_Larm,this.instance_4.setTransform(35,36,1,1,0,0,0,16,12),this.timeline.addTween(c.Tween.get(this.instance_4).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_damage_body,this.instance_5.setTransform(-3,72,1,1,0,0,0,36,56),this.timeline.addTween(c.Tween.get(this.instance_5).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_damage_Rarm,this.instance_6.setTransform(-19,52,1,1,0,0,0,28,26),this.timeline.addTween(c.Tween.get(this.instance_6).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_damage_BackCloth,
-this.instance_7.setTransform(8,77,1,1,0,0,0,68,46),this.timeline.addTween(c.Tween.get(this.instance_7).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_wait_backhair,this.instance_8.setTransform(10,-4.05,1,1,0,-10.9708,169.0292,72.3,10.4),this.timeline.addTween(c.Tween.get(this.instance_8).wait(1))}).prototype=d(a.mc_npc_3040611000_01_damage_in,new c.Rectangle(-90.3,-47,194.39999999999998,175),null),(a.mc_npc_3040611000_01_ability_yure=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_ability_BackCloth,this.instance.setTransform(-27,-71,1,1,0,0,0,66,12),this.timeline.addTween(c.Tween.get(this.instance).to({scaleY:.8046,rotation:7.7121},10,c.Ease.quadInOut).to({regX:65.9,scaleY:.9195,rotation:3.1754,y:-71.05},12,c.Ease.get(-1)).to({regX:65.8,regY:11.8,scaleX:.9998,scaleY:.7915,rotation:0,skewX:11.9988,skewY:2.0212,x:-27.05,y:-71.2},10,c.Ease.quadInOut).to({regX:66,regY:12,scaleX:1,scaleY:1,skewX:0,skewY:0,x:-27,y:-71},14,c.Ease.get(-1)).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_wait_backhair,this.instance_1.setTransform(-14,-119,1,1,12.7253,0,0,67.9,14.9),this.timeline.addTween(c.Tween.get(this.instance_1).to({regX:67.8,scaleY:.9599,rotation:0,skewX:14.1197,skewY:14.5456,x:-14.1,y:-119.05},13,c.Ease.quadInOut).to({regX:67.9,scaleY:1,rotation:12.7253,skewX:0,skewY:0,x:-14,y:-119},12,c.Ease.quadInOut).to({scaleX:.9999,scaleY:.9763,rotation:0,skewX:13.4987,skewY:15.5431,x:-14.05,y:-119.05},11,c.Ease.quadInOut).to({scaleX:1,scaleY:1,rotation:12.7253,skewX:0,skewY:0,x:-14,y:-119},10,c.Ease.quadInOut).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-107.2,-151.4,148.3,156.4),(a.mc_npc_3040611000_01_ability_Larm=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_ability_Larm,this.instance.setTransform(-8,-90,1,1,0,0,0,14,4),this.timeline.addTween(c.Tween.get(this.instance).wait(100)),this.instance_1=new a.gr_npc_3040611000_01_ability_LhandB,this.instance_1.setTransform(3,-49,1,1,0,0,0,5,11),this.timeline.addTween(c.Tween.get(this.instance_1).wait(28).to({rotation:-.7073,x:3.3,y:-49.75},0).wait(1).to({rotation:0,x:3,y:-49.2},0).wait(2).to({rotation:-.7746,x:3.25,y:-50.25},0).wait(1).to({rotation:0,x:3,y:-49.7},0).wait(2).to({rotation:-.7073,x:3.25,y:-50.75},0).wait(1).to({rotation:0,x:3,y:-50.2},0).wait(2).to({rotation:-.3165,x:3.1,y:-51.1},0).wait(1).to({rotation:0,x:3,y:-50.7},0).to({y:-49},11,c.Ease.get(-1)).wait(51)),this.instance_2=new a.gr_npc_3040611000_01_ability_LarmB,this.instance_2.setTransform(-19,-69,1,1,0,0,0,6,11),this.timeline.addTween(c.Tween.get(this.instance_2).wait(28).to({rotation:-.7073,x:-18.95,y:-69.45},0).wait(1).to({rotation:0,x:-19,y:-69.2},0).wait(2).to({rotation:-.7746,y:-70},0).wait(1).to({rotation:0,y:-69.7},0).wait(2).to({rotation:-.7073,y:-70.45},0).wait(1).to({rotation:0,y:-70.2},0).wait(2).to({rotation:-.3165,x:-19.05,y:-71},0).wait(1).to({rotation:0,x:-19,y:-70.7},0).to({y:-69},11,c.Ease.get(-1)).wait(51))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-25.1,-94,44.5,58),(a.gr_npc_3040611000_01_trail02=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_trail02_in,this.instance.setTransform(122,92,1,1,0,0,0,122,92),this.instance.compositeOperation="lighter",this.timeline.addTween(c.Tween.get(this.instance).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_trail02_in,this.instance_1.setTransform(122,92,1,1,0,0,0,122,92),this.timeline.addTween(c.Tween.get(this.instance_1).wait(1))}).prototype=d(a.gr_npc_3040611000_01_trail02,new c.Rectangle(0,0,244,184),null),(a.gr_npc_3040611000_01_ef06=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_ef06_in,this.instance.setTransform(120,132,2,2,0,0,0,60,66),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef06,new c.Rectangle(0,0,240,264),null),(a.gr_npc_3040611000_01_ef05=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_ef05_in,this.instance.setTransform(136,172,2,2,0,0,0,68,86),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef05,new c.Rectangle(0,0,272,344),null),(a.gr_npc_3040611000_01_ef3A=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_ef3_b,this.instance.setTransform(11,400,1,1,0,0,0,10,136),this.timeline.addTween(c.Tween.get(this.instance).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_ef3_a,this.instance_1.setTransform(10,128,1,1,0,0,0,10,136),this.timeline.addTween(c.Tween.get(this.instance_1).wait(1))}).prototype=d(a.gr_npc_3040611000_01_ef3A,new c.Rectangle(0,-8,21,544),null),(a.gr_npc_3040611000_01_wait_weapon=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_weapon_weapon,this.instance.setTransform(27.9,18,1,1,121.0009,0,0,20.2,126.8),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_weapon,new c.Rectangle(-10.7,-16.4,157.7,116.69999999999999),null),(a.gr_npc_3040611000_01_wait_head_b=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_wait_head_b_in,this.instance.setTransform(44,71,1,1,0,0,0,128,128),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_head_b,new c.Rectangle(-84,-57,256,256),null),(a.gr_npc_3040611000_01_wait_head_a=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_wait_head_a_in,this.instance.setTransform(44,71,1,1,0,0,0,128,128),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_wait_head_a,new c.Rectangle(-84,-57,256,256),null),(a.mc_npc_3040611000_01_win=function(b,d,e){this.initialize(b,d,e,{win_loop:1}),this.frame_0=function(){this.mc_win_clothA.gotoAndPlay(0),this.mc_win_Rhand.gotoAndPlay(0),this.mc_win_backcloth.gotoAndPlay(0),this.mc_win_backhair.gotoAndPlay(0),this.mc_win_hatB.gotoAndPlay(0)},this.frame_49=function(){this.gotoAndPlay("win_loop")},this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(49).call(this.frame_49).wait(1)),this.instance=new a.mc_npc_3040611000_01_win_efA,this.timeline.addTween(c.Tween.get(this.instance).wait(50)),this.instance_1=new a.gr_npc_3040611000_01_win_bodyribbon,this.instance_1.setTransform(24,-81,1,1,0,0,0,33,5),this.timeline.addTween(c.Tween.get(this.instance_1).to({scaleY:.9847,y:-79.7},24).to({scaleY:1,y:-81},25).wait(1)),this.mc_win_clothA=new a.mc_npc_3040611000_01_win_frontcloth,this.mc_win_clothA.name="mc_win_clothA",this.mc_win_clothA.setTransform(-5,-55,1,1,0,0,0,-5,-55),this.timeline.addTween(c.Tween.get(this.mc_win_clothA).to({scaleY:.9847,y:-54.1},24).to({scaleY:1,y:-55},25).wait(1)),this.mc_win_Rhand=new a.mc_npc_3040611000_01_win_Rhand,this.mc_win_Rhand.name="mc_win_Rhand",this.mc_win_Rhand.setTransform(-33,-106,1,1,0,0,0,-33,-106),this.timeline.addTween(c.Tween.get(this.mc_win_Rhand).to({rotation:-1.483,x:-32.85,y:-103.8},25).to({rotation:0,x:-33,y:-106},24).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_win_body,this.instance_2.setTransform(5,1,1,1,0,0,0,25,128),this.timeline.addTween(c.Tween.get(this.instance_2).to({scaleY:.9847,y:1.05},24).to({scaleY:1,y:1},25).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_wait_weapon,this.instance_3.setTransform(-18.2,-59.4,1,1,-2.7069,0,0,42.4,26.4),this.timeline.addTween(c.Tween.get(this.instance_3).to({scaleX:.9996,scaleY:.9996,rotation:0,skewX:-2.685,skewY:-2.9112,x:-18,y:-58.4},24).to({scaleX:1,scaleY:1,rotation:-2.7069,skewX:0,skewY:0,x:-18.2,y:-59.4},25).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_win_backbelt,this.instance_4.setTransform(-7,-63,1,1,0,0,0,9,2),this.timeline.addTween(c.Tween.get(this.instance_4).to({scaleY:.9847,y:-62},24).to({scaleY:1,y:-63},25).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_win_Larm,this.instance_5.setTransform(10,-113,1,1,0,0,0,12,54),this.timeline.addTween(c.Tween.get(this.instance_5).to({regX:12.1,scaleY:.9848,rotation:2.4707,x:10.1,y:-111.2},25).to({regX:12,scaleY:1,rotation:0,x:10,y:-113},24).wait(1)),this.mc_win_backcloth=new a.mc_npc_3040611000_01_win_backcloth,this.mc_win_backcloth.name="mc_win_backcloth",this.mc_win_backcloth.setTransform(-5,-55,1,1,0,0,0,-5,-55),this.timeline.addTween(c.Tween.get(this.mc_win_backcloth).to({scaleY:.9847,y:-54.1},24).to({scaleY:1,y:-55},25).wait(1)),this.mc_win_backhair=new a.mc_npc_3040611000_01_win_backhair,this.mc_win_backhair.name="mc_win_backhair",this.mc_win_backhair.setTransform(36,-118,1,1,0,0,0,36,-118),this.timeline.addTween(c.Tween.get(this.mc_win_backhair).to({scaleY:.9847,y:-116.15},24).to({scaleY:1,y:-118},25).wait(1)),this.mc_win_hatB=new a.mc_npc_3040611000_01_win_hatB,this.mc_win_hatB.name="mc_win_hatB",this.mc_win_hatB.setTransform(20,-172,1,1,0,0,0,20,-172),this.timeline.addTween(c.Tween.get(this.mc_win_hatB).to({scaleY:.9847,y:-169.3},24).to({scaleY:1,y:-172},25).wait(1)),this.instance_6=new a.mc_npc_3040611000_01_win_efB,this.timeline.addTween(c.Tween.get(this.instance_6).wait(50)),this.instance_7=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_7.setTransform(0,0,.8,.1499),this.timeline.addTween(c.Tween.get(this.instance_7).wait(50))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-93,-222,188,233.2),(a.mc_npc_3040611000_01_stbwait=function(b,d,e){this.initialize(b,d,e,{stbwait_loop:40}),this.frame_0=function(){this.stbwait_yure.gotoAndPlay(0)},this.frame_78=function(){this.gotoAndPlay("stbwait_loop")},this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(78).call(this.frame_78).wait(1)),this.instance=new a.gr_npc_3040611000_01_setup_LhandB,this.instance.setTransform(40,-111,1,1,0,0,0,12,13),this.timeline.addTween(c.Tween.get(this.instance).to({regX:12.2,regY:12.8,scaleY:.984,rotation:1.7692,x:40.5,y:-109.5},21,c.Ease.quadInOut).to({regX:12,regY:13,scaleY:1,rotation:0,x:40,y:-111},18,c.Ease.quadInOut).to({regX:12.2,regY:12.8,scaleY:.984,rotation:1.7692,x:40.5,y:-109.5},21,c.Ease.quadInOut).to({regX:12,regY:13,scaleY:1,rotation:0,x:40,y:-111},18,c.Ease.quadInOut).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_1.setTransform(36.05,-115.9,.9999,.9999,0,-145.9991,33.9995,19.8,125.6),this.timeline.addTween(c.Tween.get(this.instance_1).to({regX:19.4,regY:125.9,scaleX:.9984,scaleY:.9984,skewX:-143.8727,skewY:35.3488,x:36.65,y:-114.6},21,c.Ease.quadInOut).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05,y:-115.9},18,c.Ease.quadInOut).to({regX:19.4,regY:125.9,scaleX:.9984,scaleY:.9984,skewX:-143.8727,skewY:35.3488,x:36.65,y:-114.6},21,c.Ease.quadInOut).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05,y:-115.9},18,c.Ease.quadInOut).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_2.setTransform(54,-92,1,1,0,0,0,18,24),this.timeline.addTween(c.Tween.get(this.instance_2).to({regX:18.1,regY:23.9,scaleY:.984,rotation:.9489,x:54.05,y:-90.5},21,c.Ease.quadInOut).to({regX:18,regY:24,scaleY:1,rotation:0,x:54,y:-92},18,c.Ease.quadInOut).to({regX:18.1,regY:23.9,scaleY:.984,rotation:.9489,x:54.05,y:-90.5},21,c.Ease.quadInOut).to({regX:18,regY:24,scaleY:1,rotation:0,x:54,y:-92},18,c.Ease.quadInOut).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_setup_head_a,this.instance_3.setTransform(19,-118,1,1,0,0,0,52,69),this.timeline.addTween(c.Tween.get(this.instance_3).to({y:-116},20,c.Ease.quadInOut).to({y:-118},19,c.Ease.quadInOut).to({y:-116},20,c.Ease.quadInOut).to({y:-118},19,c.Ease.quadInOut).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_4.setTransform(13,-113,1,1,0,0,0,51,3),this.timeline.addTween(c.Tween.get(this.instance_4).to({scaleY:.984,rotation:-2.7224,x:13.05,y:-111.1},21,c.Ease.quadInOut).to({scaleY:1,rotation:0,x:13,y:-113},18,c.Ease.quadInOut).to({scaleY:.984,rotation:-2.7224,x:13.05,y:-111.1},21,c.Ease.quadInOut).to({scaleY:1,rotation:0,x:13,y:-113},18,c.Ease.quadInOut).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_5.setTransform(7,-77,1,1,0,0,0,1,3),this.timeline.addTween(c.Tween.get(this.instance_5).to({scaleY:.984,y:-75.7},20,c.Ease.quadInOut).to({scaleY:1,y:-77},19,c.Ease.quadInOut).to({scaleY:.984,y:-75.7},20,c.Ease.quadInOut).to({scaleY:1,y:-77},19,c.Ease.quadInOut).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_setup_body,this.instance_6.setTransform(33,5,1,1,0,0,0,35,129),this.timeline.addTween(c.Tween.get(this.instance_6).to({regY:128.9,scaleY:.984,y:4.9},20,c.Ease.quadInOut).to({regY:129,scaleY:1,y:5},19,c.Ease.quadInOut).to({regY:128.9,scaleY:.984,y:4.9},20,c.Ease.quadInOut).to({regY:129,scaleY:1,y:5},19,c.Ease.quadInOut).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_setup_Larm,this.instance_7.setTransform(23,-111,1,1,0,0,0,4,7),this.timeline.addTween(c.Tween.get(this.instance_7).to({scaleY:.984,y:-109.15},20,c.Ease.quadInOut).to({scaleY:1,y:-111},19,c.Ease.quadInOut).to({scaleY:.984,y:-109.15},20,c.Ease.quadInOut).to({scaleY:1,y:-111},19,c.Ease.quadInOut).wait(1)),this.stbwait_yure=new a.mc_npc_3040611000_01_stbwait_yure,this.stbwait_yure.name="stbwait_yure",this.stbwait_yure.setTransform(8.2,-84.5,1,1,0,0,0,8.2,-84.5),this.timeline.addTween(c.Tween.get(this.stbwait_yure).to({scaleY:.984,y:-83.1},20,c.Ease.quadInOut).to({scaleY:1,y:-84.5},19,c.Ease.quadInOut).to({scaleY:.984,y:-83.1},20,c.Ease.quadInOut).to({scaleY:1,y:-84.5},19,c.Ease.quadInOut).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_8.setTransform(21.95,0,.8,.1499),this.timeline.addTween(c.Tween.get(this.instance_8).wait(79))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-53.3,-187,126.8,196.4),(a.mc_npc_3040611000_01_mortal_A=function(b,d,e){null==e&&(e=!1),this.initialize(b,d,e,{}),this.frame_4=function(){require(["lib/sound"],function(a){a.play("se/npc_3040611000_se_1.mp3")})},this.frame_19=function(){require(["lib/sound"],function(a){a.play("se/npc_3040611000_se_1_2.mp3")})},this.frame_26=function(){require(["lib/sound"],function(a){a.play("se/npc_3040611000_se_1_3.mp3")})},this.frame_183=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(15).call(this.frame_19).wait(7).call(this.frame_26).wait(157).call(this.frame_183).wait(1)),this.instance=new a.gr_npc_3040611000_01_bg_yellow,this.instance.setTransform(118,-243,1,1,0,0,0,982.5,849.5),this.instance.alpha=.2891,this.instance.compositeOperation="lighter",this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(19).to({_off:!1},0).to({alpha:0},6).to({_off:!0},1).wait(158)),this.instance_1=new a.gr_npc_3040611000_01_ef04,this.instance_1.setTransform(19,-35,.72,.72,0,0,0,120.9,150.8),this.instance_1.alpha=0,this.instance_1.compositeOperation="lighter",this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(9).to({_off:!1},0).to({regY:150.9,scaleX:2.16,scaleY:2.16,x:18.95,y:-34.95,alpha:1},10,c.Ease.get(-1)).to({scaleX:3.53,scaleY:3.53,y:-35,alpha:0},10,c.Ease.get(-1)).to({_off:!0},1).wait(154)),this.instance_2=new a.gr_npc_3040611000_01_ef03,this.instance_2.setTransform(21,-36,1,1,0,0,0,212,4),this.instance_2.compositeOperation="lighter",this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(12).to({_off:!1},0).to({scaleX:2.6719},7).to({scaleX:3.5079,x:20.9,alpha:0},10).to({_off:!0},1).wait(154)),this.instance_3=new a.gr_npc_3040611000_01_ef01,this.instance_3.setTransform(21,-37,6.0002,6,0,0,0,70,70),this.instance_3.alpha=0,this.instance_3.compositeOperation="lighter",this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(10).to({_off:!1},0).to({scaleX:.7857,scaleY:.7857,alpha:1},9,c.Ease.get(-1)).to({_off:!0},1).wait(164)),this.instance_4=new a.gr_npc_3040611000_01_ef01,this.instance_4.setTransform(21,-37,9.3696,9.3696,0,0,0,70,70),this.instance_4.alpha=0,this.instance_4.compositeOperation="lighter",this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(6).to({_off:!1},0).to({scaleX:.7857,scaleY:.7857,alpha:1},9,c.Ease.get(-1)).to({_off:!0},1).wait(168)),this.instance_5=new a.gr_npc_3040611000_01_ef01,this.instance_5.setTransform(21,-37.05,5.9998,6.0001,0,0,0,70,70),this.instance_5.alpha=0,this.instance_5.compositeOperation="lighter",this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(1).to({_off:!1},0).to({scaleX:.7857,scaleY:.7857,y:-37,alpha:1},11,c.Ease.get(-1)).to({_off:!0},1).wait(171)),this.instance_6=new a.gr_npc_3040611000_01_ef02,this.instance_6.setTransform(20,-65,.5555,.6417,0,0,0,27,120),this.instance_6.alpha=0,this.instance_6.compositeOperation="lighter",this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(5).to({_off:!1},0).to({scaleX:1,scaleY:3.3,y:-43,alpha:.6914},8).to({scaleX:.7778,scaleY:3.8747,alpha:0},16).to({_off:!0},1).wait(154)),this.instance_7=new a.gr_npc_3040611000_01_ef06,this.instance_7.setTransform(-70.75,-95.35,.5845,.4843,0,0,0,120,131.9),this.instance_7.compositeOperation="lighter",this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(26).to({_off:!1},0).to({scaleX:2.0701,x:-81.65,y:-98.05,alpha:0},7).to({_off:!0},1).wait(150)),this.instance_8=new a.gr_npc_3040611000_01_ef06,this.instance_8.setTransform(10.25,-108.85,.5845,.9004,0,0,0,120,132),this.instance_8.compositeOperation="lighter",this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(26).to({_off:!1},0).to({scaleX:2.5353,x:-151.85,alpha:0},7,c.Ease.get(1)).to({_off:!0},1).wait(150)),this.instance_9=new a.gr_npc_3040611000_01_ef05,this.instance_9.setTransform(-22.5,-70.7,.4271,.3646,0,178.6211,-8.1182,0,166),this.instance_9.alpha=0,this.instance_9.compositeOperation="lighter",this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(24).to({_off:!1},0).to({regX:.1,scaleX:.8381,scaleY:.3914,skewX:177.7364,skewY:-5.7542,x:-168.45,y:-82.05,alpha:1},2,c.Ease.get(-1)).to({regX:-.1,scaleX:2.9937,scaleY:.4568,skewX:175.4746,skewY:0,x:-524.7,y:-109.75,alpha:0},7,c.Ease.get(1)).to({_off:!0},1).wait(150)),this.instance_10=new a.gr_npc_3040611000_01_ef05,this.instance_10.setTransform(10.8,-46.85,.4029,.4283,0,-14.5932,-12.763,-.2,166.1),this.instance_10.alpha=0,this.instance_10.compositeOperation="lighter",this.instance_10._off=!0,this.timeline.addTween(c.Tween.get(this.instance_10).wait(24).to({_off:!1},0).to({regX:-.1,scaleX:.8208,scaleY:.4929,skewX:-22.0504,skewY:-9.0175,x:-105.4,y:-51.25,alpha:1},2,c.Ease.get(-1)).to({regX:0,regY:166,scaleX:1.8411,scaleY:.6525,skewX:-40.4211,skewY:0,x:-388.7,y:-62.05,alpha:0},7,c.Ease.get(1)).to({_off:!0},1).wait(150)),this.instance_11=new a.gr_npc_3040611000_01_ef05,this.instance_11.setTransform(17.5,-105.45,.5327,.3963,0,0,-8.5876,0,166),this.instance_11.alpha=0,this.instance_11.compositeOperation="lighter",this.instance_11._off=!0,this.timeline.addTween(c.Tween.get(this.instance_11).wait(24).to({_off:!1},0).to({regY:166.1,scaleX:.803,scaleY:.4255,skewY:-6.0252,x:-98.05,y:-118.45,alpha:1},2,c.Ease.get(-1)).to({scaleX:1.5999,scaleY:.4968,skewY:0,x:-379.75,y:-150.25,alpha:0},7,c.Ease.get(1)).to({_off:!0},1).wait(150)),this.instance_12=new a.gr_npc_3040611000_01_bg_black,this.instance_12.setTransform(-246,-474,1,1,0,0,0,618.5,618.5),this.instance_12.alpha=0,this.instance_12._off=!0,this.timeline.addTween(c.Tween.get(this.instance_12).wait(14).to({_off:!1},0).to({alpha:1},11).wait(7).to({alpha:0},3).to({_off:!0},1).wait(148)),this.instance_13=new a.gr_npc_3040611000_01_ability_head_a,this.instance_13.setTransform(25,-90,1,1,0,0,0,60,71),this.timeline.addTween(c.Tween.get(this.instance_13).to({regY:70.9,y:-87.15},23,c.Ease.quadInOut).to({regY:71,y:-88.45},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_14=new a.gr_npc_3040611000_01_ability_RhandB,this.instance_14.setTransform(-5,-47,1,1,0,0,0,8,8),this.timeline.addTween(c.Tween.get(this.instance_14).to({scaleY:.9692,y:-45.45},23,c.Ease.quadInOut).to({scaleY:.983,y:-46.15},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_15=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_15.setTransform(-4.95,-47,.9984,.9983,109.9993,0,0,20.4,132.2),this.timeline.addTween(c.Tween.get(this.instance_15).to({regX:20.2,regY:132.1,scaleX:.9989,scaleY:.9989,rotation:110.0017,y:-45.5},23,c.Ease.quadInOut).to({regX:20.3,regY:132.2,scaleX:.9986,scaleY:.9986,rotation:110.0005,x:-5.05,y:-46.25},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_16=new a.gr_npc_3040611000_01_ability_RarmB,this.instance_16.setTransform(-11,-72,1,1,0,0,0,29,3),this.timeline.addTween(c.Tween.get(this.instance_16).to({scaleY:.9692,y:-69.65},23,c.Ease.quadInOut).to({scaleY:.983,y:-70.75},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_17=new a.gr_npc_3040611000_01_ability_Rarm,this.instance_17.setTransform(10,-88,1,1,0,0,0,29,5),this.timeline.addTween(c.Tween.get(this.instance_17).to({scaleY:.9692,y:-85.15},23,c.Ease.quadInOut).to({scaleY:.983,y:-86.45},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_18=new a.gr_npc_3040611000_01_ability_bodyribbon,this.instance_18.setTransform(25,-62,1,1,0,0,0,37,3),this.timeline.addTween(c.Tween.get(this.instance_18).to({scaleY:.9692,y:-60},23,c.Ease.quadInOut).to({scaleY:.983,y:-60.9},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_19=new a.gr_npc_3040611000_01_ability_body,this.instance_19.setTransform(-26,2,1,1,0,0,0,6,102),this.timeline.addTween(c.Tween.get(this.instance_19).to({scaleY:.9692,y:2.05},23,c.Ease.quadInOut).to({scaleY:.983},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_20=new a.gr_npc_3040611000_01_ability_Larm,this.instance_20.setTransform(32,-90,1,1,0,0,0,14,4),this.timeline.addTween(c.Tween.get(this.instance_20).to({scaleY:.9692,y:-87.1},23,c.Ease.quadInOut).to({scaleY:.983,y:-88.45},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_21=new a.gr_npc_3040611000_01_ability_LhandB,this.instance_21.setTransform(43,-49,1,1,0,0,0,5,11),this.timeline.addTween(c.Tween.get(this.instance_21).to({scaleY:.9692,y:-47.4},23,c.Ease.quadInOut).to({scaleY:.983,y:-48.1},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_22=new a.gr_npc_3040611000_01_ability_LarmB,this.instance_22.setTransform(21,-69,1,1,0,0,0,6,11),this.timeline.addTween(c.Tween.get(this.instance_22).to({scaleY:.9692,y:-66.75},23,c.Ease.quadInOut).to({scaleY:.983,y:-67.8},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_23=new a.gr_npc_3040611000_01_ability_BackCloth,this.instance_23.setTransform(13,-71,1,1,0,0,0,66,12),this.timeline.addTween(c.Tween.get(this.instance_23).to({scaleY:.9692,y:-68.65},23,c.Ease.quadInOut).to({scaleY:.983,y:-69.75},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_24=new a.gr_npc_3040611000_01_wait_backhair,this.instance_24.setTransform(26,-119,1,1,12.7253,0,0,67.9,14.9),this.timeline.addTween(c.Tween.get(this.instance_24).to({regY:14.8,scaleX:.9985,scaleY:.9708,rotation:0,skewX:13.1153,skewY:12.3461,x:26.05,y:-115.3},23,c.Ease.quadInOut).to({regX:67.8,scaleX:.9992,scaleY:.9838,skewX:12.9381,skewY:12.5157,x:25.95,y:-117.05},5,c.Ease.get(-.5)).to({_off:!0},1).wait(155)),this.instance_25=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_25.setTransform(44.1,-111.7,1,1.0003,0,5.1723,3.7051,12.1,13),this.instance_25._off=!0,this.timeline.addTween(c.Tween.get(this.instance_25).wait(173).to({_off:!1},0).to({scaleY:1.0002,skewX:-2.289,skewY:-1.4497,x:38,y:-110.7},5).to({regX:12,scaleY:1,skewX:0,skewY:0,x:40,y:-111},5).wait(1)),this.instance_26=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_26.setTransform(40.5,-116.9,.988,1.012,0,-141.2976,38.169,19.7,125.6),this.instance_26._off=!0,this.timeline.addTween(c.Tween.get(this.instance_26).wait(173).to({_off:!1},0).to({regY:125.5,scaleX:1.0067,scaleY:.9932,skewX:-148.0346,skewY:32.29,x:33.65,y:-115.5},5).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05,y:-115.9},5).wait(1)),this.instance_27=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_27.setTransform(56.4,-92,1,1.0003,0,5.1723,3.7051,18.1,23.9),this.instance_27._off=!0,this.timeline.addTween(c.Tween.get(this.instance_27).wait(173).to({_off:!1},0).to({scaleY:1.0002,skewX:-2.289,skewY:-1.4497,x:52.65,y:-92.15},5).to({regX:18,regY:24,scaleY:1,skewX:0,skewY:0,x:54,y:-92},5).wait(1)),this.instance_28=new a.gr_npc_3040611000_01_setup_head_a,this.instance_28.setTransform(22.15,-118,1,1.0004,0,0,0,52,69),this.instance_28._off=!0,this.timeline.addTween(c.Tween.get(this.instance_28).wait(173).to({_off:!1},0).to({scaleY:1.0002,x:17.3},4).to({scaleY:1,x:19},6).wait(1)),this.instance_29=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_29.setTransform(16.1,-113,1,1.0003,0,-.2648,-1.7331,51,3),this.instance_29._off=!0,this.timeline.addTween(c.Tween.get(this.instance_29).wait(173).to({_off:!1},0).to({scaleY:1.0002,skewX:3.1133,skewY:3.9539,x:11.4,y:-113.05},5).to({scaleY:1,skewX:0,skewY:0,x:13,y:-113},5).wait(1)),this.instance_30=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_30.setTransform(9.05,-76.95,1,1.0003,0,-8.0001,0,1,3),this.instance_30._off=!0,this.timeline.addTween(c.Tween.get(this.instance_30).wait(173).to({_off:!1},0).to({regX:1.1,scaleY:1.0002,skewX:5.9967,x:5.9,y:-77},5).to({regX:1,scaleY:1,skewX:0,x:7},5).wait(1)),this.instance_31=new a.gr_npc_3040611000_01_setup_body,this.instance_31.setTransform(32.95,5,1,1.0004,0,1.4676,0,35,129),this.instance_31._off=!0,this.timeline.addTween(c.Tween.get(this.instance_31).wait(173).to({_off:!1},0).to({scaleY:1.0002,skewX:-.84,x:33.15,y:5.05},4).to({scaleY:1,skewX:0,x:33,y:5},6).wait(1)),this.instance_32=new a.gr_npc_3040611000_01_setup_Larm,this.instance_32.setTransform(25.9,-111,1,1.0004,0,1.4676,0,4,7),this.instance_32._off=!0,this.timeline.addTween(c.Tween.get(this.instance_32).wait(173).to({_off:!1},0).to({regX:4.1,scaleY:1.0002,skewX:-.84,x:21.4,y:-111.05},4).to({regX:4,scaleY:1,skewX:0,x:23,y:-111},6).wait(1)),this.instance_33=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_33.setTransform(25.4,-88.15,.9998,.9999,0,-2.3134,176.195,45.9,11.8),this.instance_33._off=!0,this.timeline.addTween(c.Tween.get(this.instance_33).wait(173).to({_off:!1},0).to({regX:45.8,regY:11.9,scaleX:.9999,scaleY:.9713,skewX:2.9998,skewY:182.001,x:21.8,y:-88.1},5).to({regX:46,regY:12,scaleX:1,scaleY:1,skewX:0,skewY:180,x:23,y:-88},5).wait(1)),this.instance_34=new a.gr_npc_3040611000_01_wait_backhair,this.instance_34.setTransform(26.95,-151.1,.9991,1.0012,0,-.227,-1.6891,71.5,15.4),this.instance_34._off=!0,this.timeline.addTween(c.Tween.get(this.instance_34).wait(173).to({_off:!1},0).to({regX:71.4,regY:15.5,scaleX:1.0005,scaleY:.9997,skewX:4.1447,skewY:4.9846,x:20.7,y:-151},5).to({regX:71.5,scaleX:1,scaleY:1,rotation:1.9999,skewX:0,skewY:0,x:22.9},5).wait(1)),this.instance_35=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_35.setTransform(14,0,1,.15),this.timeline.addTween(c.Tween.get(this.instance_35).to({_off:!0},29).wait(144).to({_off:!1,scaleX:.8,scaleY:.1499,x:21.95},0).wait(11)),this.instance_36=new a.gr_npc_3040611000_01_bg_black,this.instance_36.setTransform(-246,-474,1,1,0,0,0,618.5,618.5),this.instance_36.alpha=0,this.instance_36._off=!0,this.timeline.addTween(c.Tween.get(this.instance_36).wait(1).to({_off:!1},0).to({alpha:.5},22).wait(1).to({alpha:.8008},0).to({alpha:.5},11).to({_off:!0},1).wait(148))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-864.5,-1092.5,2021.1,1973),(a.mc_npc_3040611000_01_double=function(b,d,e){this.initialize(b,d,e,{}),this.frame_4=function(){require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_1.mp3")}),require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_3.mp3")})},this.frame_24=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(20).call(this.frame_24).wait(1)),this.instance=new a.gr_npc_3040611000_01_weapon_ef,this.instance.setTransform(26.15,-75.35,.4474,.4804,150.7481,0,0,9.9,117),this.instance.compositeOperation="lighter",this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(4).to({_off:!1},0).to({alpha:.5},1).to({_off:!0},1).wait(19)),this.instance_1=new a.gr_npc_3040611000_01_weapon_ef,this.instance_1.setTransform(74.95,-128.3,.9998,1.0462,0,92.5488,129.0005,10,117.2),this.instance_1.compositeOperation="lighter",this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(4).to({_off:!1},0).to({regX:9.8,regY:117.1,scaleX:.5699,scaleY:1.046,skewX:90.2884,skewY:111.9997,y:-136.3,alpha:.3008},2).to({_off:!0},1).wait(18)),this.instance_2=new a.gr_npc_3040611000_01_trail02,this.instance_2.setTransform(185.15,-117.35,.8731,1.6929,0,-116.9997,30.0009,209.5,180.1),this.instance_2.compositeOperation="lighter",this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(4).to({_off:!1},0).to({regX:209.3,regY:180.2,scaleY:1.6928,skewX:-122.9993,skewY:24.0013,x:180.25,y:-136.45,alpha:0},4).to({_off:!0},1).wait(16)),this.instance_3=new a.gr_npc_3040611000_01_attack03_RarmB,this.instance_3.setTransform(-22.75,-68,1,1.0002,0,-12.0714,-10.9627,6.5,6),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(4).to({_off:!1},0).to({regX:6.6,scaleY:1,skewX:0,skewY:0,x:-21.4},7,c.Ease.get(1)).to({regX:6.5,scaleY:1.0002,skewX:-12.0714,skewY:-10.9627,x:-22.75},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_4=new a.gr_npc_3040611000_01_attack03_Rarm,this.instance_4.setTransform(0,-88,1,1.0002,0,-1.1102,0,31.7,3),this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,x:1.7},7,c.Ease.get(1)).to({scaleY:1.0002,skewX:-1.1102,x:0},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_5=new a.gr_npc_3040611000_01_attack03_head_a,this.instance_5.setTransform(14.9,-85,1,1.0002,0,0,0,49.5,65),this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(4).to({_off:!1},0).to({scaleY:1,x:16.5},7,c.Ease.get(1)).to({scaleY:1.0002,x:14.9},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_6=new a.gr_npc_3040611000_01_attack03_bodyribbon,this.instance_6.setTransform(-22.1,-58,1,1.0002,0,-1.1102,0,4,5),this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,x:-21},7,c.Ease.get(1)).to({scaleY:1.0002,skewX:-1.1102,x:-22.1},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_7=new a.gr_npc_3040611000_01_attack03_BackClothA,this.instance_7.setTransform(-13.5,-76,1,1.0001,0,-5.0243,-10.996,83.9,2.9),this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(4).to({_off:!1},0).to({regX:84,regY:3,scaleY:1,skewX:0,skewY:0,x:-12},7,c.Ease.get(1)).to({regX:83.9,regY:2.9,scaleY:1.0001,skewX:-5.0243,skewY:-10.996,x:-13.5},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_8=new a.gr_npc_3040611000_01_attack03_body,this.instance_8.setTransform(19,-1,1,1.0002,0,-1.1102,0,80,96),this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0},7,c.Ease.get(1)).to({scaleY:1.0002,skewX:-1.1102},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_9=new a.gr_npc_3040611000_01_attack03_Larm,this.instance_9.setTransform(16.7,-94.7,1,1.0002,0,5.8492,6.9589,5,44),this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:17,y:-94},7,c.Ease.get(1)).to({scaleY:1.0002,skewX:5.8492,skewY:6.9589,x:16.7,y:-94.7},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_10=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_10.setTransform(59.95,-123.75,1.0017,.9967,0,92.6297,91.5555,20.7,125.5),this.instance_10._off=!0,this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({_off:!1},0).to({regX:20.8,regY:125.6,scaleX:.9992,scaleY:.9991,rotation:82.9644,skewX:0,skewY:0,x:57,y:-128},7,c.Ease.get(1)).to({
-regX:20.7,regY:125.5,scaleX:1.0017,scaleY:.9967,rotation:0,skewX:92.6297,skewY:91.5555,x:59.95,y:-123.75},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_11=new a.gr_npc_3040611000_01_attack03_BackClothB,this.instance_11.setTransform(23.25,-94,1,1.0001,0,-1.0272,-7.0001,85,5),this.instance_11._off=!0,this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:25},7,c.Ease.get(1)).to({scaleY:1.0001,skewX:-1.0272,skewY:-7.0001,x:23.25},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_12=new a.gr_npc_3040611000_01_wait_backhair,this.instance_12.setTransform(25.2,-109.2,1.0095,.9904,0,36.3415,36.1604,67.8,12.2),this.instance_12._off=!0,this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({_off:!1},0).to({scaleX:.9999,scaleY:.9999,rotation:49.9992,skewX:0,skewY:0,x:31.25,y:-107.2},7,c.Ease.get(1)).to({scaleX:1.0095,scaleY:.9904,rotation:0,skewX:36.3415,skewY:36.1604,x:25.2,y:-109.2},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_13=new a.gr_npc_3040611000_01_attack08_head_aD,this.instance_13.setTransform(-48.05,-85,.5,.5,-60.4449,0,0,48.2,146.6),this.instance_13._off=!0,this.timeline.addTween(c.Tween.get(this.instance_13).wait(3).to({_off:!1},0).to({_off:!0},1).wait(21)),this.instance_14=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_14.setTransform(-52.95,-81.4,1,1,0,0,0,43,64.6),this.timeline.addTween(c.Tween.get(this.instance_14).wait(1).to({regX:48,regY:40,x:-48.1,y:-105.85},0).wait(1).to({regX:42.9,regY:64.6,x:-53.25,y:-81.2},0).to({_off:!0},1).wait(22)),this.instance_15=new a.gr_npc_3040611000_01_attack02_backhairA,this.instance_15.setTransform(-57.15,-103.6,1,.9883,0,-1.373,0,6.4,8.1),this.timeline.addTween(c.Tween.get(this.instance_15).wait(1).to({regX:68,regY:36,scaleY:.9873,skewX:3.1569,skewY:4.6593,x:2.55,y:-70.9},0).wait(1).to({regX:6.4,regY:8.1,scaleY:.9869,skewX:4.6668,skewY:6.2125,x:-57.4,y:-103.4},0).to({_off:!0},1).wait(22)),this.instance_16=new a.gr_npc_3040611000_01_attack02_Larm,this.instance_16.setTransform(-50.45,-78.05,1,.9883,0,21.2774,22.6521,16.1,2.6),this.timeline.addTween(c.Tween.get(this.instance_16).wait(1).to({regX:14,regY:16,scaleY:.9872,skewX:23.2733,skewY:24.7766,x:-57.75,y:-66.7},0).wait(1).to({regX:16,regY:2.6,scaleY:.9869,skewX:23.9386,skewY:25.4847,x:-50.75,y:-77.8},0).wait(1).to({regX:15.8,scaleX:1.0373,scaleY:.8966,skewX:13.5831,skewY:17.5005,x:-45.45,y:-78.2},0).to({_off:!0},1).wait(21)),this.instance_17=new a.gr_npc_3040611000_01_attack02_bodyribbon,this.instance_17.setTransform(-49.5,-47.55,1,.9883,0,-1.373,0,.7,1.9),this.timeline.addTween(c.Tween.get(this.instance_17).wait(1).to({regX:16,regY:20,scaleY:.9873,skewX:1.1553,x:-34.6,y:-29.5},0).wait(1).to({regX:.6,regY:1.9,scaleY:.9869,skewX:1.9981,x:-49.65,y:-47.35},0).wait(1).to({scaleY:1.005,skewX:4.971,x:-43.95,y:-48.05},0).to({_off:!0},1).wait(21)),this.instance_18=new a.gr_npc_3040611000_01_attack02_BackClothA,this.instance_18.setTransform(-48.75,-54.2,1,.9883,0,-1.373,0,1.6,10.1),this.timeline.addTween(c.Tween.get(this.instance_18).wait(1).to({regX:58,regY:30,scaleY:.9872,skewX:8.0527,skewY:9.5561,x:4,y:-25.25},0).wait(1).to({regX:1.5,regY:10.1,scaleY:.9869,skewX:11.1946,skewY:12.7414,x:-49,y:-54.05},0).wait(1).to({regX:1.4,scaleY:1.005,skewX:14.4228,skewY:9.4525,x:-43,y:-57.1},0).to({_off:!0},1).wait(21)),this.instance_19=new a.gr_npc_3040611000_01_attack02_body,this.instance_19.setTransform(-77.1,2,1,.9883,0,-1.373,0,.9,93.9),this.timeline.addTween(c.Tween.get(this.instance_19).wait(1).to({regX:54,regY:50,scaleY:.9873,skewX:-1.5028,x:-25.1,y:-41.4},0).wait(1).to({regX:.8,regY:93.9,scaleY:.9869,skewX:-1.5461,x:-77.15,y:1.95},0).wait(1).to({scaleY:1.005,skewX:4.971},0).to({_off:!0},1).wait(21)),this.instance_20=new a.gr_npc_3040611000_01_attack02_LarmB,this.instance_20.setTransform(-68.4,-60.55,1,.9883,0,47.0472,48.4227,18.6,4.1),this.timeline.addTween(c.Tween.get(this.instance_20).wait(1).to({regX:24,regY:24,scaleY:.9872,skewX:51.4592,skewY:52.9621,x:-81.4,y:-44.45},0).wait(1).to({regX:18.4,regY:4.2,scaleY:.9868,skewX:52.9299,skewY:54.4752,x:-69.65,y:-61.2},0).wait(1).to({scaleX:1.0373,scaleY:.9477,skewX:39.7328,skewY:38.0342,x:-56.7,y:-60.7},0).to({_off:!0},1).wait(21)),this.instance_21=new a.gr_npc_3040611000_01_attack02_RarmB,this.instance_21.setTransform(-49.7,-52.4,1,.9883,0,-1.373,0,17.6,4),this.timeline.addTween(c.Tween.get(this.instance_21).wait(1).to({regX:22,regY:22,scaleY:.9873,skewX:-1.5028,x:-44.95,y:-34.5},0).wait(1).to({regX:17.6,regY:4,scaleY:.9869,skewX:-1.5461,x:-49.8,y:-52.2},0).wait(1).to({regX:17.5,scaleY:1.005,skewX:4.971,x:-43.65,y:-52.95},0).to({_off:!0},1).wait(21)),this.instance_22=new a.gr_npc_3040611000_01_attack02_Rarm,this.instance_22.setTransform(-43.8,-75.6,1,.9883,0,-1.373,0,17,4.4),this.timeline.addTween(c.Tween.get(this.instance_22).wait(1).to({regX:12,regY:18,scaleY:.9873,skewX:-1.5028,x:-48.6,y:-62.05},0).wait(1).to({regX:17,regY:4.5,scaleY:.9869,skewX:-1.5461,x:-44.05,y:-75.4},0).wait(1).to({regX:16.9,scaleY:1.005,skewX:4.971,x:-35.2,y:-76.5},0).to({_off:!0},1).wait(21)),this.instance_23=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_23.setTransform(-95.3,-52.35,.9934,.6815,0,-59.5605,150.8585,21.3,122.4),this.timeline.addTween(c.Tween.get(this.instance_23).wait(1).to({regX:20,regY:80,scaleX:.9929,scaleY:.6517,skewX:-55.39,skewY:157.8799,x:-118.9,y:-70.75},0).wait(1).to({regX:21.4,regY:122.2,scaleX:.9927,scaleY:.6417,skewX:-53.9999,skewY:160.2203,x:-98.15,y:-55.35},0).wait(1).to({regX:21.3,regY:121.8,scaleX:.9748,scaleY:.6703,skewX:-66.2378,skewY:150.3378,x:-83.4,y:-49.2},0).to({_off:!0},1).wait(21)),this.instance_24=new a.gr_npc_3040611000_01_attack02_BackClothB,this.instance_24.setTransform(-41.75,-54.2,1,.9883,0,-1.373,0,27.6,10.1),this.timeline.addTween(c.Tween.get(this.instance_24).wait(1).to({regX:52,regY:36,scaleY:.9872,skewX:3.7111,skewY:5.2138,x:-19.2,y:-26.35},0).wait(1).to({regX:27.5,regY:10.1,scaleY:.9869,skewX:5.4059,skewY:6.9517,x:-42,y:-54.1},0).wait(1).to({regX:27.4,scaleY:1.005,skewX:14.4228,skewY:9.4525,x:-36.1,y:-55.95},0).to({_off:!0},1).wait(21)),this.instance_25=new a.gr_npc_3040611000_01_attack02_backhairA,this.instance_25.setTransform(-45.4,-105,.7371,1.0047,0,4.8194,1,6.2,8),this.instance_25._off=!0,this.timeline.addTween(c.Tween.get(this.instance_25).wait(3).to({_off:!1},0).to({_off:!0},1).wait(21)),this.instance_26=new a.gr_npc_3040611000_01_attack02_backhairB,this.instance_26.setTransform(-66.95,-100.65,1,.9883,0,-1.373,0,13.5,11.1),this.timeline.addTween(c.Tween.get(this.instance_26).wait(1).to({regX:30,regY:32,scaleY:.9873,skewX:-1.5028,x:-50.1,y:-79.85},0).wait(1).to({regX:13.4,regY:11.1,scaleY:.9869,skewX:-1.5461,x:-67.3,y:-100.45},0).wait(1).to({regX:13.3,scaleY:1.005,skewX:4.971,x:-55.6,y:-101.95},0).to({_off:!0},1).wait(21)),this.instance_27=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_27.setTransform(36.2,-108.5,.9999,1,0,3.6149,3.7517,12.2,12.8),this.instance_27._off=!0,this.timeline.addTween(c.Tween.get(this.instance_27).wait(14).to({_off:!1},0).wait(1).to({regX:8,regY:8,scaleX:1,scaleY:.9999,skewX:1.8651,skewY:1.6728,x:34.35,y:-114.5},0).wait(1).to({scaleX:1.0001,skewX:.6152,skewY:.1879,x:35.8,y:-115.2},0).wait(1).to({scaleX:1.0002,skewX:-.1347,skewY:-.7031,x:36.65,y:-115.65},0).wait(1).to({regX:12.1,regY:13,skewX:-.3847,skewY:-1.0001,x:41.3,y:-111},0).to({regX:12,scaleX:1,scaleY:1,skewX:0,skewY:0,x:40},6,c.Ease.get(-1)).wait(1)),this.instance_28=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_28.setTransform(32.55,-113.65,.9997,.9997,0,-142.2478,37.7515,19.4,125.5),this.instance_28._off=!0,this.timeline.addTween(c.Tween.get(this.instance_28).wait(14).to({_off:!1},0).wait(1).to({regX:20,regY:80,scaleX:.9991,scaleY:.9991,skewX:-143.8894,skewY:36.1096,x:8.3,y:-77.45},0).wait(1).to({scaleX:.9987,scaleY:.9987,skewX:-145.062,skewY:34.9367,x:10.55,y:-77.7},0).wait(1).to({scaleX:.9985,scaleY:.9985,skewX:-145.7655,skewY:34.2331,x:11.9,y:-77.8},0).wait(1).to({regX:19.6,regY:125.5,scaleX:.9984,scaleY:.9984,skewX:-146,skewY:33.9985,x:37.2,y:-115.9},0).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05},6,c.Ease.get(-1)).wait(1)),this.instance_29=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_29.setTransform(53.3,-92.45,1,1,0,-9.9292,-9.7935,18.2,23.9),this.instance_29._off=!0,this.timeline.addTween(c.Tween.get(this.instance_29).wait(14).to({_off:!1},0).wait(1).to({regX:18,regY:24,skewX:-5.3159,skewY:-5.5088,x:53.85,y:-92.15},0).wait(1).to({scaleY:1.0001,skewX:-2.0207,skewY:-2.4484,x:54.45,y:-91.95},0).wait(1).to({skewX:-.0436,skewY:-.6121,x:54.75,y:-91.9},0).wait(1).to({regX:18.1,skewX:.6155,skewY:0,x:55.1,y:-92},0).to({regX:18,scaleY:1,skewX:0,x:54},6,c.Ease.get(-1)).wait(1)),this.instance_30=new a.gr_npc_3040611000_01_setup_head_a,this.instance_30.setTransform(16.45,-117.95,1,1.0002,0,0,0,52,69),this.instance_30._off=!0,this.timeline.addTween(c.Tween.get(this.instance_30).wait(14).to({_off:!1},0).to({scaleY:1.0001,x:20.35,y:-118},3,c.Ease.get(1)).to({scaleY:1,x:19},7,c.Ease.get(-1)).wait(1)),this.instance_31=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_31.setTransform(10.6,-113,1,1.0002,0,11.2373,12.4655,51,3),this.instance_31._off=!0,this.timeline.addTween(c.Tween.get(this.instance_31).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:14.25},4,c.Ease.get(1)).to({scaleY:1,skewX:0,x:13},6,c.Ease.get(-1)).wait(1)),this.instance_32=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_32.setTransform(5.3,-76.95,1,1.0002,0,14.0006,0,1.1,3),this.instance_32._off=!0,this.timeline.addTween(c.Tween.get(this.instance_32).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:7.95,y:-77},4,c.Ease.get(1)).to({regX:1,scaleY:1,skewX:0,x:7},6,c.Ease.get(-1)).wait(1)),this.instance_33=new a.gr_npc_3040611000_01_setup_body,this.instance_33.setTransform(33.05,5,1,1.0002,0,-1.2282,0,35,129),this.instance_33._off=!0,this.timeline.addTween(c.Tween.get(this.instance_33).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:33},3,c.Ease.get(1)).to({scaleY:1,skewX:0},7,c.Ease.get(-1)).wait(1)),this.instance_34=new a.gr_npc_3040611000_01_setup_Larm,this.instance_34.setTransform(20.6,-111,1,1.0002,0,19.7497,20.9776,4,7),this.instance_34._off=!0,this.timeline.addTween(c.Tween.get(this.instance_34).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:24.2},4,c.Ease.get(1)).to({scaleY:1,skewX:0,x:23},6,c.Ease.get(-1)).wait(1)),this.instance_35=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_35.setTransform(21.1,-88.2,1,1.0002,0,15.7072,-170.2919,45.9,11.8),this.instance_35._off=!0,this.timeline.addTween(c.Tween.get(this.instance_35).wait(14).to({_off:!1},0).to({regX:45.8,scaleX:.9998,scaleY:.9995,skewX:-8.2653,skewY:-183.8233,x:24.15,y:-88.15},5,c.Ease.get(1)).to({regX:46,regY:12,scaleX:1,scaleY:1,skewX:0,skewY:-180,x:23,y:-88},5,c.Ease.get(-1)).wait(1)),this.instance_36=new a.gr_npc_3040611000_01_wait_backhair,this.instance_36.setTransform(19.6,-151.2,1.0007,.9994,0,3.5301,4.7564,71.4,15.4),this.instance_36._off=!0,this.timeline.addTween(c.Tween.get(this.instance_36).wait(14).to({_off:!1},0).to({regY:15.3,scaleX:1,scaleY:.9999,skewX:1.7945,skewY:1.5241,x:23.3},7,c.Ease.get(1)).wait(1).to({regX:50,regY:66,skewX:1.8564,skewY:1.6676,x:.25,y:-101.1},0).wait(1).to({scaleY:1,skewX:1.9249,skewY:1.8262,x:.05},0).wait(1).to({regX:71.5,regY:15.5,rotation:1.9999,skewX:0,skewY:0,x:22.9,y:-151},0).wait(1)),this.instance_37=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_37.setTransform(-20,0,1.2999,.1499),this.timeline.addTween(c.Tween.get(this.instance_37).wait(4).to({regX:-.1,scaleX:1,x:-19.95},0).wait(10).to({regX:0,scaleX:.8,x:21.95},0).wait(11))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-244.9,-214.3,462.1,256.3),(a.mc_npc_3040611000_01_dead=function(b,d,e){this.initialize(b,d,e,{}),this.frame_12=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(12).call(this.frame_12).wait(1)),this.instance=new a.mc_npc_3040611000_01_damage_in,this.instance.setTransform(22.9,-83.5,1,1,0,0,0,6.9,40.5),this.timeline.addTween(c.Tween.get(this.instance).to({alpha:0},12).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_1.setTransform(14,0,1,.15),this.timeline.addTween(c.Tween.get(this.instance_1).to({alpha:0},12).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-74.3,-171,194.39999999999998,180.5),(a.mc_npc_3040611000_01_damage=function(b,d,e){this.initialize(b,d,e,{}),this.frame_14=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(14).call(this.frame_14).wait(1)),this.instance=new a.mc_npc_3040611000_01_damage_in,this.instance.setTransform(26.9,-82.5,1,1,0,0,0,6.9,40.5),this.timeline.addTween(c.Tween.get(this.instance).wait(1).to({x:22.9,y:-83.5},0).wait(1).to({x:26.9,y:-82.5},0).wait(1).to({x:22.9,y:-83.5},0).wait(12)),this.instance_1=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_1.setTransform(18,1,1,.15),this.timeline.addTween(c.Tween.get(this.instance_1).wait(1).to({x:14,y:0},0).wait(1).to({x:18,y:1},0).wait(1).to({x:14,y:0},0).wait(12))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-74.3,-171,198.39999999999998,181.5),(a.mc_npc_3040611000_01_attack=function(b,d,e){this.initialize(b,d,e,{}),this.frame_4=function(){require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_1.mp3")}),require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_2.mp3")})},this.frame_24=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(20).call(this.frame_24).wait(1)),this.instance=new a.gr_npc_3040611000_01_weapon_ef,this.instance.setTransform(-84.95,-24.05,.9999,.9987,0,-100.7623,-122.9994,10.6,117.2),this.instance.alpha=.5,this.instance.compositeOperation="lighter",this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(4).to({_off:!1},0).to({regX:11,regY:117,scaleX:.4761,scaleY:.963,skewX:-100.7576,skewY:-146.998,x:-85.1,y:-24.2,alpha:.1484},2,c.Ease.get(1)).to({_off:!0},1).wait(18)),this.instance_1=new a.gr_npc_3040611000_01_trail02,this.instance_1.setTransform(-194.15,-3.25,1.3473,1.5838,0,8.0003,168.9996,210,180.2),this.instance_1.alpha=.5,this.instance_1.compositeOperation="lighter",this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(4).to({_off:!1},0).to({y:1.75,alpha:0},5).to({_off:!0},1).wait(15)),this.instance_2=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_2.setTransform(-48.95,-84.05,1,1,2.237,0,0,42.9,64.5),this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(4).to({_off:!1},0).to({regX:43,regY:64.7,rotation:0,x:-51,y:-82.3},7,c.Ease.get(1)).to({regX:42.8,regY:64.4,scaleX:.9998,scaleY:.9997,rotation:9e-4,x:-45.1,y:-85},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_3=new a.gr_npc_3040611000_01_attack02_backhairA,this.instance_3.setTransform(-47.15,-109,1,1.0201,0,18.6531,17.3107,6.3,8.1),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(4).to({_off:!1},0).to({regX:6.4,regY:8.2,scaleY:1,skewX:0,skewY:0,x:-54.6,y:-104.8},7,c.Ease.get(1)).to({regX:6.2,regY:8,scaleX:.9885,scaleY:1.0456,skewX:20.6687,skewY:17.7379,x:-42.25,y:-110.4},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_4=new a.gr_npc_3040611000_01_attack02_Larm,this.instance_4.setTransform(-47,-81.2,1,1.0202,0,5.5301,4.188,16,2.6),this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-49,y:-79.4},7,c.Ease.get(1)).to({scaleX:.9992,scaleY:1.0094,skewX:-13.722,skewY:-14.6415,x:-47.75,y:-80.2},1,c.Ease.get(-1)).to({regX:15.8,regY:2.4,scaleX:.9968,scaleY:1.0377,skewX:-25.4633,skewY:-29.1462,x:-43.8,y:-82.4},1).to({_off:!0},1).wait(11)),this.instance_5=new a.gr_npc_3040611000_01_attack02_LarmB,this.instance_5.setTransform(-49.25,-57.55,.9968,1.0377,0,-5.5932,-9.2763,18.4,3.9),this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(12).to({_off:!1},0).to({regY:4,skewX:-10.9983,skewY:-14.6798,x:-40.05,y:-57.25},1,c.Ease.get(1)).to({_off:!0},1).wait(11)),this.instance_6=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_6.setTransform(-56.75,-27.2,.9999,.9999,0,-113.5262,66.4738,20.9,122.3),this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(12).to({_off:!1},0).to({skewX:-118.9298,skewY:61.0702,x:-44.7,y:-26.45},1,c.Ease.get(1)).to({_off:!0},1).wait(11)),this.instance_7=new a.gr_npc_3040611000_01_attack02_bodyribbon,this.instance_7.setTransform(-46.95,-49.05,1,1.0202,0,10.999,0,.8,1.9),this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(4).to({_off:!1},0).to({regX:.7,scaleY:1,skewX:0,x:-48.3,y:-48.1},7,c.Ease.get(1)).to({scaleY:1.0414,skewX:13.2666,x:-44.8,y:-49.6},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_8=new a.gr_npc_3040611000_01_attack02_BackClothA,this.instance_8.setTransform(-45.95,-56,1,1.0202,0,16.3309,14.9892,1.6,10.1),this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-47.4,y:-54.9},7,c.Ease.get(1)).to({regX:1.5,scaleX:.9898,scaleY:1.0445,skewX:18.4289,skewY:15.3365,x:-43.45,y:-56.7},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_9=new a.gr_npc_3040611000_01_attack02_body,this.instance_9.setTransform(-77,2,1,1.0202,0,1.3421,0,1,94),this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(4).to({_off:!1},0).to({regX:.9,regY:93.9,scaleY:1,skewX:0,x:-77.1,y:1.9},7,c.Ease.get(1)).to({scaleY:1.0346,skewX:3.8266,y:2},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_10=new a.gr_npc_3040611000_01_attack02_LarmB,this.instance_10.setTransform(-59.75,-57.1,1,1.0202,0,5.5301,4.188,18.6,4.1),this.instance_10._off=!0,this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-59.4,y:-54.9},7,c.Ease.get(1)).to({_off:!0},1).wait(13)),this.instance_11=new a.gr_npc_3040611000_01_attack02_RarmB,this.instance_11.setTransform(-47.8,-54.35,1,1.0202,0,3.3433,2.0016,17.7,4),this.instance_11._off=!0,this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-48.3,y:-53},7,c.Ease.get(1)).to({regX:17.6,scaleX:.9984,scaleY:1.0361,skewX:5.7915,skewY:2.0284,x:-45.4,y:-55},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_12=new a.gr_npc_3040611000_01_attack02_Rarm,this.instance_12.setTransform(-40,-78,1,1.0202,0,3.3433,2.0016,17.1,4.5),this.instance_12._off=!0,this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({_off:!1},0).to({regX:17,scaleY:1,skewX:0,skewY:0,x:-42,y:-76.5},7,c.Ease.get(1)).to({scaleX:.9984,scaleY:1.0361,skewX:5.7915,skewY:2.0284,x:-36.6,y:-78.95},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_13=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_13.setTransform(-72.95,-29.75,.9993,.9992,0,-101.9979,78.0028,21.1,122.4),this.instance_13._off=!0,this.timeline.addTween(c.Tween.get(this.instance_13).wait(4).to({_off:!1},0).to({regX:21.2,scaleX:.9999,scaleY:.9999,skewX:-104.0312,skewY:75.9669,x:-72.1,y:-28.1},7,c.Ease.get(1)).to({_off:!0},1).wait(13)),this.instance_14=new a.gr_npc_3040611000_01_attack02_BackClothB,this.instance_14.setTransform(-39,-56,1,1.0202,0,12.2942,10.953,27.6,10.1),this.instance_14._off=!0,this.timeline.addTween(c.Tween.get(this.instance_14).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-40.4,y:-54.9},7,c.Ease.get(1)).to({regX:27.5,regY:10,scaleX:.9922,scaleY:1.0422,skewX:14.5223,skewY:11.176,x:-36.5,y:-56.75},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_15=new a.gr_npc_3040611000_01_attack02_backhairB,this.instance_15.setTransform(-61.25,-104.5,1,1.0202,0,3.8963,2.5537,13.4,11.1),this.instance_15._off=!0,this.timeline.addTween(c.Tween.get(this.instance_15).wait(4).to({_off:!1},0).to({regX:13.5,scaleY:1,skewX:0,skewY:0,x:-64.5,y:-101.9},7,c.Ease.get(1)).to({regX:13.3,scaleX:.998,scaleY:1.0365,skewX:6.3354,skewY:2.5894,x:-56.65,y:-105.75},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_16=new a.gr_npc_3040611000_01_weapon_ef,this.instance_16.setTransform(95.35,-129.65,.343,.8184,0,29.5323,19.5321,11,116.9),this.instance_16.alpha=.3008,this.instance_16.compositeOperation="lighter",this.instance_16._off=!0,this.timeline.addTween(c.Tween.get(this.instance_16).wait(1).to({_off:!1},0).to({_off:!0},1).wait(23)),this.instance_17=new a.gr_npc_3040611000_01_weapon_ef,this.instance_17.setTransform(32.35,-99.25,.343,.8184,0,-142.9876,-152.987,10.9,117),this.instance_17.alpha=.3008,this.instance_17.compositeOperation="lighter",this.instance_17._off=!0,this.timeline.addTween(c.Tween.get(this.instance_17).wait(1).to({_off:!1},0).to({_off:!0},1).wait(23)),this.instance_18=new a.gr_npc_3040611000_01_weapon_ef,this.instance_18.setTransform(62,-93.3,.6694,.9647,0,-160.2274,-161.9996,10.4,117.1),this.instance_18.alpha=.75,this.instance_18.compositeOperation="lighter",this.timeline.addTween(c.Tween.get(this.instance_18).wait(1).to({regX:10.3,regY:117,scaleX:.6693,skewX:-199.4255,skewY:-201.196,x:66.2,y:-96.8},0).to({_off:!0},1).wait(23)),this.instance_19=new a.gr_npc_3040611000_01_weapon_ef,this.instance_19.setTransform(72.05,-124.1,.6388,.9569,0,18.7874,15.0009,10.6,117),this.instance_19.alpha=.75,this.instance_19.compositeOperation="lighter",this.timeline.addTween(c.Tween.get(this.instance_19).wait(1).to({regX:10.7,scaleY:.9568,skewX:-20.4096,skewY:-24.1969,x:54.55,y:-127.1},0).to({_off:!0},1).wait(23)),this.instance_20=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_20.setTransform(68.1,-107.25,1.0012,.9781,0,-32.7941,-33.8518,12.2,12.7),this.instance_20.alpha=.5,this.timeline.addTween(c.Tween.get(this.instance_20).to({regX:12.1,regY:12.6,scaleX:1.0009,scaleY:.9829,skewX:-68.5165,skewY:-69.3393,x:61.2,y:-109.35},1,c.Ease.get(-1)).to({_off:!0},1).wait(23)),this.instance_21=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_21.setTransform(63,-110.45,.9983,.9983,0,-160.7059,19.2929,19.6,125.7),this.instance_21.alpha=.5,this.timeline.addTween(c.Tween.get(this.instance_21).to({regX:19.5,regY:125.5,scaleX:.9986,scaleY:.9986,skewX:-199.5574,skewY:-19.5599,x:57.75,y:-110.75},1,c.Ease.get(-1)).to({_off:!0},1).wait(23)),this.instance_22=new a.gr_npc_3040611000_01_attack01_bodyribbon,this.instance_22.setTransform(53.95,-78.05,1,.9796,0,3.1842,1.9509,28.4,2.3),this.timeline.addTween(c.Tween.get(this.instance_22).to({regY:2.2,scaleY:.9977,skewX:.3531,skewY:.2168,x:49.9,y:-80.5},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:49.4,y:-80.8},1).to({_off:!0},1).wait(21)),this.instance_23=new a.gr_npc_3040611000_01_attack01_Larm,this.instance_23.setTransform(10.15,-104.25,1,.9796,0,40.6603,39.4272,1.1,29.2),this.timeline.addTween(c.Tween.get(this.instance_23).to({scaleY:.9977,skewX:2.6017,skewY:2.4663,x:5.7,y:-105.65},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:5.1,y:-105.8},1).to({_off:!0},1).wait(21)),this.instance_24=new a.gr_npc_3040611000_01_attack01_LarmB,this.instance_24.setTransform(46.15,-101.75,1,.9796,0,40.6603,39.4272,6.9,17.8),this.timeline.addTween(c.Tween.get(this.instance_24).to({scaleY:.9977,skewX:2.6017,skewY:2.4663,x:35.25,y:-125.55},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:33.9,y:-127.2},1).to({_off:!0},1).wait(21)),this.instance_25=new a.gr_npc_3040611000_01_attack01_BackClothA,this.instance_25.setTransform(29.85,-106.1,1,.9796,0,11.9007,10.6673,51.6,4.6),this.timeline.addTween(c.Tween.get(this.instance_25).to({regX:51.7,regY:4.5,scaleY:.9977,skewX:.3531,skewY:.2168,x:24.4,y:-108.25},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:23.7,y:-108.5},1).to({_off:!0},1).wait(21)),this.instance_26=new a.gr_npc_3040611000_01_attack01_head_a,this.instance_26.setTransform(19.35,-116.7,.9999,1,0,15.2272,15.0292,55.1,71.8),this.timeline.addTween(c.Tween.get(this.instance_26).to({regY:71.7,scaleX:1,rotation:.2229,skewX:0,skewY:0,x:13,y:-119.05},2,c.Ease.get(-1)).to({regX:55.2,regY:71.8,rotation:0,x:12.2,y:-119.2},1).to({_off:!0},1).wait(21)),this.instance_27=new a.gr_npc_3040611000_01_attack01_body,this.instance_27.setTransform(28,4,1,.9796,0,3.1842,1.9509,24,127),this.timeline.addTween(c.Tween.get(this.instance_27).to({regX:24.1,scaleY:.9977,skewX:.3531,skewY:.2168,x:28.1,y:4.05},2,c.Ease.get(-1)).to({regX:24,scaleY:1,skewX:0,skewY:0,x:28,y:4},1).to({_off:!0},1).wait(21)),this.instance_28=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_28.setTransform(67.1,-109.25,1.0013,.9781,0,145.4735,144.4148,12.1,12.7),this.timeline.addTween(c.Tween.get(this.instance_28).to({scaleX:1.0001,scaleY:.9975,skewX:12.6164,skewY:12.4985,x:38.55,y:-118.8},2,c.Ease.get(-1)).to({regX:12.2,regY:12.8,scaleX:1,scaleY:1,rotation:-3.9917,skewX:0,skewY:0,x:35.05,y:-120.1},1).to({_off:!0},1).wait(21)),this.instance_29=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_29.setTransform(46.4,-96.7,1.0013,.9781,0,97.4882,96.4293,18,23.8),this.timeline.addTween(c.Tween.get(this.instance_29).to({scaleX:1.0001,scaleY:.9976,skewX:7.2833,skewY:7.166,x:50.1,y:-101.8},2,c.Ease.get(-1)).to({regX:18.1,scaleX:1,scaleY:1,rotation:-3.9917,skewX:0,skewY:0,x:50.7,y:-102.5},1).to({_off:!0},1).wait(21)),this.instance_30=new a.gr_npc_3040611000_01_setup_Larm,this.instance_30.setTransform(27.75,-110.2,1,.9796,0,10.4061,9.1728,4,6.9),this.timeline.addTween(c.Tween.get(this.instance_30).to({regX:4.1,regY:6.8,scaleY:.9977,skewX:1.1559,skewY:1.0195,x:21.8,y:-112},2,c.Ease.get(-1)).to({regX:4,regY:6.9,scaleY:1,skewX:0,skewY:0,x:21,y:-112.1},1).to({_off:!0},1).wait(21)),this.instance_31=new a.gr_npc_3040611000_01_attack01_BackClothB,this.instance_31.setTransform(35.05,-88.95,1,.9995,0,13.4628,1.9509,33.8,9.8),this.timeline.addTween(c.Tween.get(this.instance_31).to({regX:33.6,scaleY:.9977,skewX:.3531,skewY:.2168,x:30.2,y:-90.95},2,c.Ease.get(-1)).to({regY:9.9,scaleY:1,skewX:0,skewY:0,x:29.6,y:-91.1},1).to({_off:!0},1).wait(21)),this.instance_32=new a.gr_npc_3040611000_01_wait_backhair,this.instance_32.setTransform(14.55,-140.3,1.0025,.9765,0,9.7997,16.9999,69.8,12.7),this.timeline.addTween(c.Tween.get(this.instance_32).to({regX:69.9,scaleX:1.0003,scaleY:.9974,skewX:-7.6662,skewY:-7.7609,x:1.9,y:-140.95},2,c.Ease.get(-1)).to({regX:69.8,scaleX:1,scaleY:1,rotation:-7.9993,skewX:0,skewY:0,x:.85,y:-141.1},1).to({_off:!0},1).wait(21)),this.instance_33=new a.gr_npc_3040611000_01_weapon_ef,this.instance_33.setTransform(11.15,-132.4,.3805,.8734,0,-76.5435,-101.5424,11,116.9),this.instance_33.alpha=.3008,this.instance_33.compositeOperation="lighter",this.instance_33._off=!0,this.timeline.addTween(c.Tween.get(this.instance_33).wait(2).to({_off:!1},0).to({_off:!0},1).wait(22)),this.instance_34=new a.gr_npc_3040611000_01_weapon_ef,this.instance_34.setTransform(26,-105.35,.6693,.9647,0,-127.4657,-129.2381,10.5,117.1),this.instance_34.alpha=.75,this.instance_34.compositeOperation="lighter",this.instance_34._off=!0,this.timeline.addTween(c.Tween.get(this.instance_34).wait(2).to({_off:!1},0).to({_off:!0},1).wait(22)),this.instance_35=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_35.setTransform(72.2,-106.3,.9983,.9983,0,17.562,-162.4399,19.6,125.6),this.timeline.addTween(c.Tween.get(this.instance_35).to({regX:19.5,scaleX:.9997,scaleY:.9997,skewX:-127.8234,skewY:-307.8264,x:36.95,y:-121.25},2,c.Ease.get(-1)).to({regX:19.8,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:-326.0005,x:32.65,y:-123.05},1).to({_off:!0},1).wait(21)),this.instance_36=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_36.setTransform(36.2,-108.5,.9999,1,0,3.6149,3.7517,12.2,12.8),this.instance_36._off=!0,this.timeline.addTween(c.Tween.get(this.instance_36).wait(14).to({_off:!1},0).wait(1).to({regX:8,regY:8,scaleX:1,scaleY:.9999,skewX:1.8651,skewY:1.6728,x:34.35,y:-114.5},0).wait(1).to({scaleX:1.0001,skewX:.6152,skewY:.1879,x:35.8,y:-115.2},0).wait(1).to({scaleX:1.0002,skewX:-.1347,skewY:-.7031,x:36.65,y:-115.65},0).wait(1).to({regX:12.1,regY:13,skewX:-.3847,skewY:-1.0001,x:41.3,y:-111},0).to({regX:12,scaleX:1,scaleY:1,skewX:0,skewY:0,x:40},6,c.Ease.get(-1)).wait(1)),this.instance_37=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_37.setTransform(32.55,-113.65,.9997,.9997,0,-142.2478,37.7515,19.4,125.5),this.instance_37._off=!0,this.timeline.addTween(c.Tween.get(this.instance_37).wait(14).to({_off:!1},0).wait(1).to({regX:20,regY:80,scaleX:.9991,scaleY:.9991,skewX:-143.8894,skewY:36.1096,x:8.3,y:-77.45},0).wait(1).to({scaleX:.9987,scaleY:.9987,skewX:-145.062,skewY:34.9367,x:10.55,y:-77.7},0).wait(1).to({scaleX:.9985,scaleY:.9985,skewX:-145.7655,skewY:34.2331,x:11.9,y:-77.8},0).wait(1).to({regX:19.6,regY:125.5,scaleX:.9984,scaleY:.9984,skewX:-146,skewY:33.9985,x:37.2,y:-115.9},0).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05},6,c.Ease.get(-1)).wait(1)),this.instance_38=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_38.setTransform(53.3,-92.45,1,1,0,-9.9292,-9.7935,18.2,23.9),this.instance_38._off=!0,this.timeline.addTween(c.Tween.get(this.instance_38).wait(14).to({_off:!1},0).wait(1).to({regX:18,regY:24,skewX:-5.3159,skewY:-5.5088,x:53.85,y:-92.15},0).wait(1).to({scaleY:1.0001,skewX:-2.0207,skewY:-2.4484,x:54.45,y:-91.95},0).wait(1).to({skewX:-.0436,skewY:-.6121,x:54.75,y:-91.9},0).wait(1).to({regX:18.1,skewX:.6155,skewY:0,x:55.1,y:-92},0).to({regX:18,scaleY:1,skewX:0,x:54},6,c.Ease.get(-1)).wait(1)),this.instance_39=new a.gr_npc_3040611000_01_setup_head_a,this.instance_39.setTransform(16.45,-117.95,1,1.0002,0,0,0,52,69),this.instance_39._off=!0,this.timeline.addTween(c.Tween.get(this.instance_39).wait(14).to({_off:!1},0).to({scaleY:1.0001,x:20.35,y:-118},3,c.Ease.get(1)).to({scaleY:1,x:19},7,c.Ease.get(-1)).wait(1)),this.instance_40=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_40.setTransform(10.6,-113,1,1.0002,0,11.2373,12.4655,51,3),this.instance_40._off=!0,this.timeline.addTween(c.Tween.get(this.instance_40).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:14.25},4,c.Ease.get(1)).to({scaleY:1,skewX:0,x:13},6,c.Ease.get(-1)).wait(1)),this.instance_41=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_41.setTransform(5.3,-76.95,1,1.0002,0,14.0006,0,1.1,3),this.instance_41._off=!0,this.timeline.addTween(c.Tween.get(this.instance_41).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:7.95,y:-77},4,c.Ease.get(1)).to({regX:1,scaleY:1,skewX:0,x:7},6,c.Ease.get(-1)).wait(1)),this.instance_42=new a.gr_npc_3040611000_01_setup_body,this.instance_42.setTransform(33.05,5,1,1.0002,0,-1.2282,0,35,129),this.instance_42._off=!0,this.timeline.addTween(c.Tween.get(this.instance_42).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:33},3,c.Ease.get(1)).to({scaleY:1,skewX:0},7,c.Ease.get(-1)).wait(1)),this.instance_43=new a.gr_npc_3040611000_01_setup_Larm,this.instance_43.setTransform(20.6,-111,1,1.0002,0,19.7497,20.9776,4,7),this.instance_43._off=!0,this.timeline.addTween(c.Tween.get(this.instance_43).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:24.2},4,c.Ease.get(1)).to({scaleY:1,skewX:0,x:23},6,c.Ease.get(-1)).wait(1)),this.instance_44=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_44.setTransform(21.1,-88.2,1,1.0002,0,15.7072,-170.2919,45.9,11.8),this.instance_44._off=!0,this.timeline.addTween(c.Tween.get(this.instance_44).wait(14).to({_off:!1},0).to({regX:45.7,scaleX:.9998,scaleY:.9996,skewX:-6.0953,skewY:-178.7433,x:23.8,y:-88.05},5,c.Ease.get(1)).to({regX:46,regY:12,scaleX:1,scaleY:1,skewX:0,skewY:-180,x:23,y:-88},5,c.Ease.quadInOut).wait(1)),this.instance_45=new a.gr_npc_3040611000_01_wait_backhair,this.instance_45.setTransform(19.65,-151.1,1.0007,.9994,0,10.7668,11.9936,71.4,15.5),this.instance_45._off=!0,this.timeline.addTween(c.Tween.get(this.instance_45).wait(14).to({_off:!1},0).to({regX:71.5,scaleX:1,scaleY:1,skewX:.9557,skewY:.6129,x:23.9,y:-151.05},6,c.Ease.get(1)).to({rotation:1.9999,skewX:0,skewY:0,x:22.9,y:-151},4,c.Ease.quadInOut).wait(1)),
-this.instance_46=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_46.setTransform(28.95,0,.85,.1499),this.timeline.addTween(c.Tween.get(this.instance_46).wait(4).to({scaleX:1.2999,x:-20},0).wait(10).to({scaleX:.8,x:21.95},0).wait(11))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-248.6,-339.8,419.9,389.2),(a.mc_npc_3040611000_01_ab_motion=function(b,d,e){this.initialize(b,d,e,{}),this.frame_24=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(24).call(this.frame_24).wait(1)),this.instance=new a.mc_npc_3040611000_01_stbwait,this.instance.setTransform(16.1,-88.8,1,1,0,0,0,16.1,-88.8),this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(24).to({_off:!1},0).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_1.setTransform(-48.95,-84.05,1,1,2.237,0,0,42.9,64.5),this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(4).to({_off:!1},0).to({regX:43,regY:64.7,rotation:0,x:-51,y:-82.3},7,c.Ease.get(1)).to({regX:42.8,regY:64.4,scaleX:.9998,scaleY:.9997,rotation:9e-4,x:-45.1,y:-85},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_2=new a.gr_npc_3040611000_01_attack02_backhairA,this.instance_2.setTransform(-47.15,-109,1,1.0201,0,18.6531,17.3107,6.3,8.1),this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(4).to({_off:!1},0).to({regX:6.4,regY:8.2,scaleY:1,skewX:0,skewY:0,x:-54.6,y:-104.8},7,c.Ease.get(1)).to({regX:6.2,regY:8,scaleX:.9885,scaleY:1.0456,skewX:20.6687,skewY:17.7379,x:-42.25,y:-110.4},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_3=new a.gr_npc_3040611000_01_attack02_Larm,this.instance_3.setTransform(-47,-81.2,1,1.0202,0,5.5301,4.188,16,2.6),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-49,y:-79.4},7,c.Ease.get(1)).to({scaleX:.9992,scaleY:1.0094,skewX:-13.722,skewY:-14.6415,x:-47.75,y:-80.2},1,c.Ease.get(-1)).to({regX:15.8,regY:2.4,scaleX:.9968,scaleY:1.0377,skewX:-25.4633,skewY:-29.1462,x:-43.8,y:-82.4},1).to({_off:!0},1).wait(11)),this.instance_4=new a.gr_npc_3040611000_01_attack02_LarmB,this.instance_4.setTransform(-49.25,-57.55,.9968,1.0377,0,-5.5932,-9.2763,18.4,3.9),this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(12).to({_off:!1},0).to({regY:4,skewX:-10.9983,skewY:-14.6798,x:-40.05,y:-57.25},1,c.Ease.get(1)).to({_off:!0},1).wait(11)),this.instance_5=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_5.setTransform(-56.75,-27.2,.9999,.9999,0,-113.5262,66.4738,20.9,122.3),this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(12).to({_off:!1},0).to({skewX:-118.9298,skewY:61.0702,x:-44.7,y:-26.45},1,c.Ease.get(1)).to({_off:!0},1).wait(11)),this.instance_6=new a.gr_npc_3040611000_01_attack02_bodyribbon,this.instance_6.setTransform(-46.95,-49.05,1,1.0202,0,10.999,0,.8,1.9),this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(4).to({_off:!1},0).to({regX:.7,scaleY:1,skewX:0,x:-48.3,y:-48.1},7,c.Ease.get(1)).to({scaleY:1.0414,skewX:13.2666,x:-44.8,y:-49.6},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_7=new a.gr_npc_3040611000_01_attack02_BackClothA,this.instance_7.setTransform(-45.95,-56,1,1.0202,0,16.3309,14.9892,1.6,10.1),this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-47.4,y:-54.9},7,c.Ease.get(1)).to({regX:1.5,scaleX:.9898,scaleY:1.0445,skewX:18.4289,skewY:15.3365,x:-43.45,y:-56.7},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_8=new a.gr_npc_3040611000_01_attack02_body,this.instance_8.setTransform(-77,2,1,1.0202,0,1.3421,0,1,94),this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(4).to({_off:!1},0).to({regX:.9,regY:93.9,scaleY:1,skewX:0,x:-77.1,y:1.9},7,c.Ease.get(1)).to({scaleY:1.0346,skewX:3.8266,y:2},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_9=new a.gr_npc_3040611000_01_attack02_LarmB,this.instance_9.setTransform(-59.75,-57.1,1,1.0202,0,5.5301,4.188,18.6,4.1),this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-59.4,y:-54.9},7,c.Ease.get(1)).to({_off:!0},1).wait(13)),this.instance_10=new a.gr_npc_3040611000_01_attack02_RarmB,this.instance_10.setTransform(-47.8,-54.35,1,1.0202,0,3.3433,2.0016,17.7,4),this.instance_10._off=!0,this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-48.3,y:-53},7,c.Ease.get(1)).to({regX:17.6,scaleX:.9984,scaleY:1.0361,skewX:5.7915,skewY:2.0284,x:-45.4,y:-55},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_11=new a.gr_npc_3040611000_01_attack02_Rarm,this.instance_11.setTransform(-40,-78,1,1.0202,0,3.3433,2.0016,17.1,4.5),this.instance_11._off=!0,this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({_off:!1},0).to({regX:17,scaleY:1,skewX:0,skewY:0,x:-42,y:-76.5},7,c.Ease.get(1)).to({scaleX:.9984,scaleY:1.0361,skewX:5.7915,skewY:2.0284,x:-36.6,y:-78.95},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_12=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_12.setTransform(-72.95,-29.75,.9993,.9992,0,-101.9979,78.0028,21.1,122.4),this.instance_12._off=!0,this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({_off:!1},0).to({regX:21.2,scaleX:.9999,scaleY:.9999,skewX:-104.0312,skewY:75.9669,x:-72.1,y:-28.1},7,c.Ease.get(1)).to({_off:!0},1).wait(13)),this.instance_13=new a.gr_npc_3040611000_01_attack02_BackClothB,this.instance_13.setTransform(-39,-56,1,1.0202,0,12.2942,10.953,27.6,10.1),this.instance_13._off=!0,this.timeline.addTween(c.Tween.get(this.instance_13).wait(4).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-40.4,y:-54.9},7,c.Ease.get(1)).to({regX:27.5,regY:10,scaleX:.9922,scaleY:1.0422,skewX:14.5223,skewY:11.176,x:-36.5,y:-56.75},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_14=new a.gr_npc_3040611000_01_attack02_backhairB,this.instance_14.setTransform(-61.25,-104.5,1,1.0202,0,3.8963,2.5537,13.4,11.1),this.instance_14._off=!0,this.timeline.addTween(c.Tween.get(this.instance_14).wait(4).to({_off:!1},0).to({regX:13.5,scaleY:1,skewX:0,skewY:0,x:-64.5,y:-101.9},7,c.Ease.get(1)).to({regX:13.3,scaleX:.998,scaleY:1.0365,skewX:6.3354,skewY:2.5894,x:-56.65,y:-105.75},2,c.Ease.get(-1)).to({_off:!0},1).wait(11)),this.instance_15=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_15.setTransform(68.1,-107.25,1.0012,.9781,0,-32.7941,-33.8518,12.2,12.7),this.instance_15.alpha=.5,this.timeline.addTween(c.Tween.get(this.instance_15).to({regX:12.1,regY:12.6,scaleX:1.0009,scaleY:.9829,skewX:-68.5165,skewY:-69.3393,x:61.2,y:-109.35},1,c.Ease.get(-1)).to({_off:!0},1).wait(23)),this.instance_16=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_16.setTransform(63,-110.45,.9983,.9983,0,-160.7059,19.2929,19.6,125.7),this.instance_16.alpha=.5,this.timeline.addTween(c.Tween.get(this.instance_16).to({regX:19.5,regY:125.5,scaleX:.9986,scaleY:.9986,skewX:-199.5574,skewY:-19.5599,x:57.75,y:-110.75},1,c.Ease.get(-1)).to({_off:!0},1).wait(23)),this.instance_17=new a.gr_npc_3040611000_01_attack01_bodyribbon,this.instance_17.setTransform(53.95,-78.05,1,.9796,0,3.1842,1.9509,28.4,2.3),this.timeline.addTween(c.Tween.get(this.instance_17).to({regY:2.2,scaleY:.9977,skewX:.3531,skewY:.2168,x:49.9,y:-80.5},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:49.4,y:-80.8},1).to({_off:!0},1).wait(21)),this.instance_18=new a.gr_npc_3040611000_01_attack01_Larm,this.instance_18.setTransform(10.15,-104.25,1,.9796,0,40.6603,39.4272,1.1,29.2),this.timeline.addTween(c.Tween.get(this.instance_18).to({scaleY:.9977,skewX:2.6017,skewY:2.4663,x:5.7,y:-105.65},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:5.1,y:-105.8},1).to({_off:!0},1).wait(21)),this.instance_19=new a.gr_npc_3040611000_01_attack01_LarmB,this.instance_19.setTransform(46.15,-101.75,1,.9796,0,40.6603,39.4272,6.9,17.8),this.timeline.addTween(c.Tween.get(this.instance_19).to({scaleY:.9977,skewX:2.6017,skewY:2.4663,x:35.25,y:-125.55},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:33.9,y:-127.2},1).to({_off:!0},1).wait(21)),this.instance_20=new a.gr_npc_3040611000_01_attack01_BackClothA,this.instance_20.setTransform(29.85,-106.1,1,.9796,0,11.9007,10.6673,51.6,4.6),this.timeline.addTween(c.Tween.get(this.instance_20).to({regX:51.7,regY:4.5,scaleY:.9977,skewX:.3531,skewY:.2168,x:24.4,y:-108.25},2,c.Ease.get(-1)).to({scaleY:1,skewX:0,skewY:0,x:23.7,y:-108.5},1).to({_off:!0},1).wait(21)),this.instance_21=new a.gr_npc_3040611000_01_attack01_head_a,this.instance_21.setTransform(19.35,-116.7,.9999,1,0,15.2272,15.0292,55.1,71.8),this.timeline.addTween(c.Tween.get(this.instance_21).to({regY:71.7,scaleX:1,rotation:.2229,skewX:0,skewY:0,x:13,y:-119.05},2,c.Ease.get(-1)).to({regX:55.2,regY:71.8,rotation:0,x:12.2,y:-119.2},1).to({_off:!0},1).wait(21)),this.instance_22=new a.gr_npc_3040611000_01_attack01_body,this.instance_22.setTransform(28,4,1,.9796,0,3.1842,1.9509,24,127),this.timeline.addTween(c.Tween.get(this.instance_22).to({regX:24.1,scaleY:.9977,skewX:.3531,skewY:.2168,x:28.1,y:4.05},2,c.Ease.get(-1)).to({regX:24,scaleY:1,skewX:0,skewY:0,x:28,y:4},1).to({_off:!0},1).wait(21)),this.instance_23=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_23.setTransform(67.1,-109.25,1.0013,.9781,0,145.4735,144.4148,12.1,12.7),this.timeline.addTween(c.Tween.get(this.instance_23).to({scaleX:1.0001,scaleY:.9975,skewX:12.6164,skewY:12.4985,x:38.55,y:-118.8},2,c.Ease.get(-1)).to({regX:12.2,regY:12.8,scaleX:1,scaleY:1,rotation:-3.9917,skewX:0,skewY:0,x:35.05,y:-120.1},1).to({_off:!0},1).wait(21)),this.instance_24=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_24.setTransform(46.4,-96.7,1.0013,.9781,0,97.4882,96.4293,18,23.8),this.timeline.addTween(c.Tween.get(this.instance_24).to({scaleX:1.0001,scaleY:.9976,skewX:7.2833,skewY:7.166,x:50.1,y:-101.8},2,c.Ease.get(-1)).to({regX:18.1,scaleX:1,scaleY:1,rotation:-3.9917,skewX:0,skewY:0,x:50.7,y:-102.5},1).to({_off:!0},1).wait(21)),this.instance_25=new a.gr_npc_3040611000_01_setup_Larm,this.instance_25.setTransform(27.75,-110.2,1,.9796,0,10.4061,9.1728,4,6.9),this.timeline.addTween(c.Tween.get(this.instance_25).to({regX:4.1,regY:6.8,scaleY:.9977,skewX:1.1559,skewY:1.0195,x:21.8,y:-112},2,c.Ease.get(-1)).to({regX:4,regY:6.9,scaleY:1,skewX:0,skewY:0,x:21,y:-112.1},1).to({_off:!0},1).wait(21)),this.instance_26=new a.gr_npc_3040611000_01_attack01_BackClothB,this.instance_26.setTransform(35.05,-88.95,1,.9995,0,13.4628,1.9509,33.8,9.8),this.timeline.addTween(c.Tween.get(this.instance_26).to({regX:33.6,scaleY:.9977,skewX:.3531,skewY:.2168,x:30.2,y:-90.95},2,c.Ease.get(-1)).to({regY:9.9,scaleY:1,skewX:0,skewY:0,x:29.6,y:-91.1},1).to({_off:!0},1).wait(21)),this.instance_27=new a.gr_npc_3040611000_01_wait_backhair,this.instance_27.setTransform(14.55,-140.3,1.0025,.9765,0,9.7997,16.9999,69.8,12.7),this.timeline.addTween(c.Tween.get(this.instance_27).to({regX:69.9,scaleX:1.0003,scaleY:.9974,skewX:-7.6662,skewY:-7.7609,x:1.9,y:-140.95},2,c.Ease.get(-1)).to({regX:69.8,scaleX:1,scaleY:1,rotation:-7.9993,skewX:0,skewY:0,x:.85,y:-141.1},1).to({_off:!0},1).wait(21)),this.instance_28=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_28.setTransform(72.2,-106.3,.9983,.9983,0,17.562,-162.4399,19.6,125.6),this.timeline.addTween(c.Tween.get(this.instance_28).to({regX:19.5,scaleX:.9997,scaleY:.9997,skewX:-127.8234,skewY:-307.8264,x:36.95,y:-121.25},2,c.Ease.get(-1)).to({regX:19.8,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:-326.0005,x:32.65,y:-123.05},1).to({_off:!0},1).wait(21)),this.instance_29=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_29.setTransform(36.2,-108.5,.9999,1,0,3.6149,3.7517,12.2,12.8),this.instance_29._off=!0,this.timeline.addTween(c.Tween.get(this.instance_29).wait(14).to({_off:!1},0).wait(1).to({regX:8,regY:8,scaleX:1,scaleY:.9999,skewX:1.8651,skewY:1.6728,x:34.35,y:-114.5},0).wait(1).to({scaleX:1.0001,skewX:.6152,skewY:.1879,x:35.8,y:-115.2},0).wait(1).to({scaleX:1.0002,skewX:-.1347,skewY:-.7031,x:36.65,y:-115.65},0).wait(1).to({regX:12.1,regY:13,skewX:-.3847,skewY:-1.0001,x:41.3,y:-111},0).wait(1).to({regX:8,regY:8,skewX:-.3741,skewY:-.9723,x:37.1,y:-115.95},0).wait(1).to({scaleX:1.0001,skewX:-.3421,skewY:-.889,x:37,y:-115.9},0).wait(1).to({skewX:-.2887,skewY:-.7502,x:36.85,y:-115.95},0).wait(1).to({skewX:-.214,skewY:-.5559,x:36.6},0).wait(1).to({regX:12.1,regY:12.9,scaleX:1,scaleY:1,skewX:-.118,skewY:-.306,x:40.45,y:-111.05},0).to({_off:!0},1).wait(1)),this.instance_30=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_30.setTransform(32.55,-113.65,.9997,.9997,0,-142.2478,37.7515,19.4,125.5),this.instance_30._off=!0,this.timeline.addTween(c.Tween.get(this.instance_30).wait(14).to({_off:!1},0).wait(1).to({regX:20,regY:80,scaleX:.9991,scaleY:.9991,skewX:-143.8894,skewY:36.1096,x:8.3,y:-77.45},0).wait(1).to({scaleX:.9987,scaleY:.9987,skewX:-145.062,skewY:34.9367,x:10.55,y:-77.7},0).wait(1).to({scaleX:.9985,scaleY:.9985,skewX:-145.7655,skewY:34.2331,x:11.9,y:-77.8},0).wait(1).to({regX:19.6,regY:125.5,scaleX:.9984,scaleY:.9984,skewX:-146,skewY:33.9985,x:37.2,y:-115.9},0).wait(1).to({regX:20,regY:80,scaleX:.9985,scaleY:.9985,x:12.15,y:-77.95},0).wait(1).to({scaleX:.9986,scaleY:.9986,x:12.05,y:-78},0).wait(1).to({scaleX:.9988,scaleY:.9988,skewY:33.9986,x:11.9},0).wait(1).to({scaleX:.999,scaleY:.999,skewX:-145.9999,x:11.65},0).wait(1).to({regX:19.6,regY:125.5,scaleX:.9994,scaleY:.9994,skewY:33.9987,x:36.45,y:-115.95},0).to({_off:!0},1).wait(1)),this.instance_31=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_31.setTransform(53.3,-92.45,1,1,0,-9.9292,-9.7935,18.2,23.9),this.instance_31._off=!0,this.timeline.addTween(c.Tween.get(this.instance_31).wait(14).to({_off:!1},0).wait(1).to({regX:18,regY:24,skewX:-5.3159,skewY:-5.5088,x:53.85,y:-92.15},0).wait(1).to({scaleY:1.0001,skewX:-2.0207,skewY:-2.4484,x:54.45,y:-91.95},0).wait(1).to({skewX:-.0436,skewY:-.6121,x:54.75,y:-91.9},0).wait(1).to({regX:18.1,skewX:.6155,skewY:0,x:55.1,y:-92},0).wait(1).to({regX:18,skewX:.5984,x:54.95},0).wait(1).to({skewX:.5472,x:54.85},0).wait(1).to({skewX:.4619,x:54.7},0).wait(1).to({skewX:.3424,x:54.5},0).wait(1).to({regX:18.1,scaleY:1,skewX:.1888,x:54.3,y:-92.05},0).to({_off:!0},1).wait(1)),this.instance_32=new a.gr_npc_3040611000_01_setup_head_a,this.instance_32.setTransform(16.45,-117.95,1,1.0002,0,0,0,52,69),this.instance_32._off=!0,this.timeline.addTween(c.Tween.get(this.instance_32).wait(14).to({_off:!1},0).to({scaleY:1.0001,x:20.35,y:-118},3,c.Ease.get(1)).wait(1).to({regY:40,y:-147},0).wait(1).to({x:20.25},0).wait(1).to({scaleY:1,x:20.15},0).wait(1).to({x:19.95},0).wait(1).to({x:19.7},0).wait(1).to({regY:69,x:19.4,y:-117.95},0).to({_off:!0},1).wait(1)),this.instance_33=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_33.setTransform(10.6,-113,1,1.0002,0,11.2373,12.4655,51,3),this.instance_33._off=!0,this.timeline.addTween(c.Tween.get(this.instance_33).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:14.25},4,c.Ease.get(1)).wait(1).to({regX:26,regY:38,skewX:.5984,x:-11.1,y:-78},0).wait(1).to({skewX:.5472,x:-11.15},0).wait(1).to({skewX:.4619,x:-11.3},0).wait(1).to({skewX:.3424,x:-11.5},0).wait(1).to({regX:51,regY:3,scaleY:1,skewX:.1888,x:13.45,y:-113.05},0).to({_off:!0},1).wait(1)),this.instance_34=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_34.setTransform(5.3,-76.95,1,1.0002,0,14.0006,0,1.1,3),this.instance_34._off=!0,this.timeline.addTween(c.Tween.get(this.instance_34).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:7.95,y:-77},4,c.Ease.get(1)).wait(1).to({regX:18,regY:20,skewX:.5984,x:24.65,y:-60},0).wait(1).to({skewX:.5472,x:24.6},0).wait(1).to({skewX:.4619,x:24.5},0).wait(1).to({skewX:.3424,x:24.4},0).wait(1).to({regX:1.1,regY:3,scaleY:1,skewX:.1888,x:7.4,y:-77.05},0).to({_off:!0},1).wait(1)),this.instance_35=new a.gr_npc_3040611000_01_setup_body,this.instance_35.setTransform(33.05,5,1,1.0002,0,-1.2282,0,35,129),this.instance_35._off=!0,this.timeline.addTween(c.Tween.get(this.instance_35).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,x:33},3,c.Ease.get(1)).wait(1).to({regX:24,regY:66,skewX:.6029,x:22.7,y:-58},0).wait(1).to({skewX:.5652,x:22.65,y:-57.95},0).wait(1).to({skewX:.5025,x:22.6},0).wait(1).to({skewX:.4146,x:22.5},0).wait(1).to({skewX:.3016,x:22.4},0).wait(1).to({regX:35,regY:129,scaleY:1,skewX:.1635,x:33.1,y:5.05},0).to({_off:!0},1).wait(1)),this.instance_36=new a.gr_npc_3040611000_01_setup_Larm,this.instance_36.setTransform(20.6,-111,1,1.0002,0,19.7497,20.9776,4,7),this.instance_36._off=!0,this.timeline.addTween(c.Tween.get(this.instance_36).wait(14).to({_off:!1},0).to({scaleY:1.0001,skewX:.6155,skewY:0,x:24.2},4,c.Ease.get(1)).wait(1).to({regX:18,regY:12,skewX:.5984,x:38.1,y:-106},0).wait(1).to({skewX:.5472,x:38},0).wait(1).to({skewX:.4619,x:37.85},0).wait(1).to({skewX:.3424,x:37.6},0).wait(1).to({regX:4,regY:7,scaleY:1,skewX:.1888,x:23.4,y:-111.05},0).to({_off:!0},1).wait(1)),this.instance_37=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_37.setTransform(21.1,-88.2,1,1.0002,0,15.7072,-170.2919,45.9,11.8),this.instance_37._off=!0,this.timeline.addTween(c.Tween.get(this.instance_37).wait(14).to({_off:!1},0).to({regX:45.7,scaleX:.9998,scaleY:.9996,skewX:-6.0953,skewY:-178.7433,x:23.8,y:-88.05},5,c.Ease.get(1)).wait(1).to({regX:58,regY:50,scaleY:.9997,skewX:-5.5917,skewY:-178.8469,x:15.1,y:-50.25},0).wait(1).to({scaleY:.9998,skewX:-4.0433,skewY:-179.1657,x:13.9,y:-50.1},0).wait(1).to({scaleX:.9999,scaleY:.9999,skewX:-1.9111,skewY:-179.6047,x:12.25,y:-49.9},0).wait(1).to({regX:45.7,regY:11.8,skewX:-.4879,skewY:-179.8977,x:23.15,y:-88},0).to({_off:!0},1).wait(1)),this.instance_38=new a.gr_npc_3040611000_01_wait_backhair,this.instance_38.setTransform(19.65,-151.1,1.0007,.9994,0,10.7668,11.9936,71.4,15.5),this.instance_38._off=!0,this.timeline.addTween(c.Tween.get(this.instance_38).wait(14).to({_off:!1},0).to({regX:71.5,scaleX:1,scaleY:1,skewX:.9557,skewY:.6129,x:23.9,y:-151.05},6,c.Ease.get(1)).wait(1).to({regX:50,regY:66,skewX:1.0897,skewY:.791,x:1.35,y:-100.8},0).wait(1).to({skewX:1.4902,skewY:1.3233,x:.65,y:-101.05},0).wait(1).to({regX:71.5,regY:15.5,rotation:1.8678,skewX:0,skewY:0,x:23.05,y:-151},0).to({_off:!0},1).wait(1)),this.instance_39=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_39.setTransform(28.95,0,.85,.1499),this.timeline.addTween(c.Tween.get(this.instance_39).wait(4).to({scaleX:1.2999,x:-20},0).wait(10).to({scaleX:.8,x:21.95},0).to({_off:!0},10).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-197,-235.1,325.7,284.5),(a.mc_npc_3040611000_01_shortattack_in=function(b,d,e){this.initialize(b,d,e,{}),this.frame_2=function(){require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_1.mp3")}),require(["lib/sound"],function(a){a.play("se/npc_3040080000_01_se_2_2.mp3")})},this.frame_10=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(2).call(this.frame_2).wait(8).call(this.frame_10).wait(1)),this.instance=new a.gr_npc_3040611000_01_weapon_ef,this.instance.setTransform(-84.95,-24.05,.9999,.9987,0,-100.7623,-122.9994,10.6,117.2),this.instance.alpha=.5,this.instance.compositeOperation="lighter",this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(2).to({_off:!1},0).to({regX:11,regY:117,scaleX:.4761,scaleY:.963,skewX:-100.7576,skewY:-146.998,x:-85.1,y:-24.2},2,c.Ease.get(1)).to({_off:!0},1).wait(6)),this.instance_1=new a.gr_npc_3040611000_01_trail02,this.instance_1.setTransform(-194.15,-4.25,1.3473,1.5838,0,8.0003,168.9996,210,180.2),this.instance_1.alpha=.5,this.instance_1.compositeOperation="lighter",this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(2).to({_off:!1},0).to({y:-.25,alpha:0},5).to({_off:!0},1).wait(3)),this.instance_2=new a.gr_npc_3040611000_01_attack02_head_a,this.instance_2.setTransform(-48.95,-84.05,1,1,2.237,0,0,42.9,64.5),this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(2).to({_off:!1},0).to({regX:43,regY:64.7,rotation:0,x:-51,y:-82.3},8,c.Ease.get(1)).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_attack02_backhairA,this.instance_3.setTransform(-47.15,-109,1,1.0201,0,18.6531,17.3107,6.3,8.1),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(2).to({_off:!1},0).to({regX:6.4,regY:8.2,scaleY:1,skewX:0,skewY:0,x:-54.6,y:-104.8},8,c.Ease.get(1)).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_attack02_Larm,this.instance_4.setTransform(-47,-81.2,1,1.0202,0,5.5301,4.188,16,2.6),this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(2).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-49,y:-79.4},8,c.Ease.get(1)).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_attack02_bodyribbon,this.instance_5.setTransform(-46.95,-49.05,1,1.0202,0,10.999,0,.8,1.9),this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(2).to({_off:!1},0).to({regX:.7,scaleY:1,skewX:0,x:-48.3,y:-48.1},8,c.Ease.get(1)).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_attack02_BackClothA,this.instance_6.setTransform(-45.95,-56,1,1.0202,0,16.3309,14.9892,1.6,10.1),this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(2).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-47.4,y:-54.9},8,c.Ease.get(1)).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_attack02_body,this.instance_7.setTransform(-77,2,1,1.0202,0,1.3421,0,1,94),this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(2).to({_off:!1},0).to({regX:.9,regY:93.9,scaleY:1,skewX:0,x:-77.1,y:1.9},8,c.Ease.get(1)).wait(1)),this.instance_8=new a.gr_npc_3040611000_01_attack02_LarmB,this.instance_8.setTransform(-59.75,-57.1,1,1.0202,0,5.5301,4.188,18.6,4.1),this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(2).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-59.4,y:-54.9},8,c.Ease.get(1)).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_attack02_RarmB,this.instance_9.setTransform(-47.8,-54.35,1,1.0202,0,3.3433,2.0016,17.7,4),this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(2).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-48.3,y:-53},8,c.Ease.get(1)).wait(1)),this.instance_10=new a.gr_npc_3040611000_01_attack02_Rarm,this.instance_10.setTransform(-40,-78,1,1.0202,0,3.3433,2.0016,17.1,4.5),this.instance_10._off=!0,this.timeline.addTween(c.Tween.get(this.instance_10).wait(2).to({_off:!1},0).to({regX:17,scaleY:1,skewX:0,skewY:0,x:-42,y:-76.5},8,c.Ease.get(1)).wait(1)),this.instance_11=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_11.setTransform(-72.95,-29.75,.9993,.9992,0,-101.9979,78.0028,21.1,122.4),this.instance_11._off=!0,this.timeline.addTween(c.Tween.get(this.instance_11).wait(2).to({_off:!1},0).to({regX:21.2,scaleX:.9999,scaleY:.9999,skewX:-104.0312,skewY:75.9669,x:-72.1,y:-28.1},8,c.Ease.get(1)).wait(1)),this.instance_12=new a.gr_npc_3040611000_01_attack02_BackClothB,this.instance_12.setTransform(-39,-56,1,1.0202,0,12.2942,10.953,27.6,10.1),this.instance_12._off=!0,this.timeline.addTween(c.Tween.get(this.instance_12).wait(2).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:-40.4,y:-54.9},8,c.Ease.get(1)).wait(1)),this.instance_13=new a.gr_npc_3040611000_01_attack02_backhairB,this.instance_13.setTransform(-61.25,-104.5,1,1.0202,0,3.8963,2.5537,13.4,11.1),this.instance_13._off=!0,this.timeline.addTween(c.Tween.get(this.instance_13).wait(2).to({_off:!1},0).to({regX:13.5,scaleY:1,skewX:0,skewY:0,x:-64.5,y:-101.9},8,c.Ease.get(1)).wait(1)),this.instance_14=new a.gr_npc_3040611000_01_weapon_ef,this.instance_14.setTransform(95.35,-129.65,.343,.8184,0,29.5323,19.5321,11,116.9),this.instance_14.alpha=.3008,this.instance_14.compositeOperation="lighter",this.instance_14._off=!0,this.timeline.addTween(c.Tween.get(this.instance_14).wait(1).to({_off:!1},0).to({_off:!0},1).wait(9)),this.instance_15=new a.gr_npc_3040611000_01_weapon_ef,this.instance_15.setTransform(32.35,-99.25,.343,.8184,0,-142.9876,-152.987,10.9,117),this.instance_15.alpha=.3008,this.instance_15.compositeOperation="lighter",this.instance_15._off=!0,this.timeline.addTween(c.Tween.get(this.instance_15).wait(1).to({_off:!1},0).to({_off:!0},1).wait(9)),this.instance_16=new a.gr_npc_3040611000_01_weapon_ef,this.instance_16.setTransform(62,-93.3,.6694,.9647,0,-160.2274,-161.9996,10.4,117.1),this.instance_16.alpha=.75,this.instance_16.compositeOperation="lighter",this.timeline.addTween(c.Tween.get(this.instance_16).wait(1).to({regX:10.3,regY:117,scaleX:.6693,skewX:-199.4255,skewY:-201.196,x:66.2,y:-96.8},0).to({_off:!0},1).wait(9)),this.instance_17=new a.gr_npc_3040611000_01_weapon_ef,this.instance_17.setTransform(72.05,-124.1,.6388,.9569,0,18.7874,15.0009,10.6,117),this.instance_17.alpha=.75,this.instance_17.compositeOperation="lighter",this.timeline.addTween(c.Tween.get(this.instance_17).wait(1).to({regX:10.7,scaleY:.9568,skewX:-20.4096,skewY:-24.1969,x:54.55,y:-127.1},0).to({_off:!0},1).wait(9)),this.instance_18=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_18.setTransform(68.1,-107.25,1.0012,.9781,0,-32.7941,-33.8518,12.2,12.7),this.instance_18.alpha=.5,this.timeline.addTween(c.Tween.get(this.instance_18).to({regX:12.1,regY:12.6,scaleX:1.0009,scaleY:.9829,skewX:-68.5165,skewY:-69.3393,x:61.2,y:-109.35},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_19=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_19.setTransform(63,-110.45,.9983,.9983,0,-160.7059,19.2929,19.6,125.7),this.instance_19.alpha=.5,this.timeline.addTween(c.Tween.get(this.instance_19).to({regX:19.5,regY:125.5,scaleX:.9986,scaleY:.9986,skewX:-199.5574,skewY:-19.5599,x:57.75,y:-110.75},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_20=new a.gr_npc_3040611000_01_attack01_bodyribbon,this.instance_20.setTransform(53.95,-78.05,1,.9796,0,3.1842,1.9509,28.4,2.3),this.timeline.addTween(c.Tween.get(this.instance_20).to({scaleY:.9841,skewX:2.4758,skewY:1.5179,x:53,y:-78.6},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_21=new a.gr_npc_3040611000_01_attack01_Larm,this.instance_21.setTransform(10.15,-104.25,1,.9796,0,40.6603,39.4272,1.1,29.2),this.timeline.addTween(c.Tween.get(this.instance_21).to({scaleX:.9999,scaleY:.9841,skewX:31.1446,skewY:30.1867,x:9.05,y:-104.65},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_22=new a.gr_npc_3040611000_01_attack01_LarmB,this.instance_22.setTransform(46.15,-101.75,1,.9796,0,40.6603,39.4272,6.9,17.8),this.timeline.addTween(c.Tween.get(this.instance_22).to({regY:17.7,scaleX:.9999,scaleY:.9841,skewX:31.1446,skewY:30.1867,x:43.45,y:-107.85},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_23=new a.gr_npc_3040611000_01_attack01_BackClothA,this.instance_23.setTransform(29.85,-106.1,1,.9796,0,11.9007,10.6673,51.6,4.6),this.timeline.addTween(c.Tween.get(this.instance_23).to({regY:4.5,scaleX:.9999,scaleY:.9841,skewX:9.0134,skewY:8.0553,x:28.6,y:-106.7},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_24=new a.gr_npc_3040611000_01_attack01_head_a,this.instance_24.setTransform(19.35,-116.7,.9999,1,0,15.2272,15.0292,55.1,71.8),this.timeline.addTween(c.Tween.get(this.instance_24).to({scaleY:.9999,skewX:11.4745,skewY:11.3218,x:17.75,y:-117.35},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_25=new a.gr_npc_3040611000_01_attack01_body,this.instance_25.setTransform(28,4,1,.9796,0,3.1842,1.9509,24,127),this.timeline.addTween(c.Tween.get(this.instance_25).to({regX:24.1,scaleY:.9841,skewX:2.4758,skewY:1.5179,x:28.1,y:4.05},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_26=new a.gr_npc_3040611000_01_setup_LhandB,this.instance_26.setTransform(67.1,-109.25,1.0013,.9781,0,145.4735,144.4148,12.1,12.7),this.timeline.addTween(c.Tween.get(this.instance_26).to({scaleX:1.0009,scaleY:.9829,skewX:112.2586,skewY:111.4352,x:59.85,y:-111.7},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_27=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_27.setTransform(46.4,-96.7,1.0013,.9781,0,97.4882,96.4293,18,23.8),this.timeline.addTween(c.Tween.get(this.instance_27).to({scaleX:1.001,scaleY:.983,skewX:74.9393,skewY:74.115,x:47.35,y:-97.95},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_28=new a.gr_npc_3040611000_01_setup_Larm,this.instance_28.setTransform(27.75,-110.2,1,.9796,0,10.4061,9.1728,4,6.9),this.timeline.addTween(c.Tween.get(this.instance_28).to({regX:4.1,regY:6.8,scaleX:.9999,scaleY:.9841,skewX:8.0934,skewY:7.1346,x:26.35,y:-110.75},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_29=new a.gr_npc_3040611000_01_attack01_BackClothB,this.instance_29.setTransform(35.05,-88.95,1,.9995,0,13.4628,1.9509,33.8,9.8),this.timeline.addTween(c.Tween.get(this.instance_29).to({scaleY:.999,skewX:10.1866,skewY:1.5179,x:33.85,y:-89.5},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_30=new a.gr_npc_3040611000_01_wait_backhair,this.instance_30.setTransform(14.55,-140.3,1.0025,.9765,0,9.7997,16.9999,69.8,12.7),this.timeline.addTween(c.Tween.get(this.instance_30).to({scaleX:1.0019,scaleY:.9816,skewX:5.4337,skewY:10.8078,x:11.4,y:-140.45},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_31=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_31.setTransform(72.2,-106.3,.9983,.9983,0,17.562,-162.4399,19.6,125.6),this.timeline.addTween(c.Tween.get(this.instance_31).to({regX:19.5,scaleX:.9986,scaleY:.9986,skewX:-18.7832,skewY:-198.7857,x:63.45,y:-110.15},1,c.Ease.get(-1)).to({_off:!0},1).wait(9)),this.instance_32=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_32.setTransform(28.95,0,.85,.1499),this.timeline.addTween(c.Tween.get(this.instance_32).wait(2).to({scaleX:1.2999,x:-20},0).wait(9))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-248.6,-340.8,419.9,372.2),(a.mc_npc_3040611000_01_head=function(b,d,e){this.initialize(b,d,e,{}),this.frame_3=function(){1!=Math.floor(20*Math.random())&&this.gotoAndPlay(0)},this.frame_7=function(){this.gotoAndPlay(0)},this.timeline.addTween(c.Tween.get(this).wait(3).call(this.frame_3).wait(4).call(this.frame_7).wait(1)),this.instance=new a.gr_npc_3040611000_01_wait_head_b,this.instance.setTransform(126,134,1,1,0,0,0,43,74),this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(5).to({_off:!1},0).to({_off:!0},1).wait(2)),this.instance_1=new a.gr_npc_3040611000_01_wait_head_a,this.instance_1.setTransform(126,134,1,1,0,0,0,43,74),this.timeline.addTween(c.Tween.get(this.instance_1).to({_off:!0},5).wait(1).to({_off:!1},0).wait(2))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-1,3,256,256),(a.gr_npc_3040611000_01_gr_effect_ability=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_ef3A,this.instance.setTransform(3.25,94,.5,.5,0,0,0,10.5,264),this.timeline.addTween(c.Tween.get(this.instance).wait(1))}).prototype=d(a.gr_npc_3040611000_01_gr_effect_ability,new c.Rectangle(-2,-42,10.5,272),null),(a.mc_npc_3040611000_01_effect_ability=function(b,d,e){this.initialize(b,d,e,{}),this.instance=new a.gr_npc_3040611000_01_gr_effect_ability,this.instance.setTransform(3,75,.5,.5,0,0,0,3,70),this.timeline.addTween(c.Tween.get(this.instance).to({y:-58.75,alpha:0},4).wait(3))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(.5,-114.7,5.3,269.7),(a.mc_npc_3040611000_01_wait=function(b,d,e){this.initialize(b,d,e,{}),this.frame_5=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(5).call(this.frame_5).wait(1)),this.head1=new a.mc_npc_3040611000_01_head,this.head1.name="head1",this.head1.setTransform(1,-121,1,1,-9e-4,0,0,126,133),this.timeline.addTween(c.Tween.get(this.head1).wait(6)),this.instance=new a.gr_npc_3040611000_01_wait_Larm,this.instance.setTransform(8,-116,1,1,0,0,0,1,2),this.timeline.addTween(c.Tween.get(this.instance).wait(6)),this.instance_1=new a.gr_npc_3040611000_01_wait_bodyribbon,this.instance_1.setTransform(-22,-76,1,1,0,0,0,1,13),this.timeline.addTween(c.Tween.get(this.instance_1).wait(6)),
-this.instance_2=new a.gr_npc_3040611000_01_wait_body,this.instance_2.setTransform(-17,2,1,1,0,0,0,11,129),this.timeline.addTween(c.Tween.get(this.instance_2).wait(6)),this.instance_3=new a.gr_npc_3040611000_01_wait_weapon,this.instance_3.setTransform(-37,-66,1,1,0,0,0,35,21),this.timeline.addTween(c.Tween.get(this.instance_3).wait(6)),this.instance_4=new a.gr_npc_3040611000_01_wait_Rarm,this.instance_4.setTransform(-7,-112,1,1,0,0,0,42,4),this.timeline.addTween(c.Tween.get(this.instance_4).wait(6)),this.instance_5=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_5.setTransform(-2,-92,1,1,0,0,0,45,10),this.timeline.addTween(c.Tween.get(this.instance_5).wait(6)),this.instance_6=new a.gr_npc_3040611000_01_wait_backhair,this.instance_6.setTransform(3,-159,1,1,0,0,0,71,11),this.timeline.addTween(c.Tween.get(this.instance_6).wait(6)),this.instance_7=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_7.setTransform(0,0,.7,.1499),this.timeline.addTween(c.Tween.get(this.instance_7).wait(6))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-125.9,-250.9,256,264.2),(a.mc_npc_3040611000_01_short_attack=function(b,d,e){this.initialize(b,d,e,{}),this.frame_0=function(){this.mc_shortattack_in.gotoAndPlay(0)},this.frame_5=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(5).call(this.frame_5).wait(1)),this.mc_shortattack_in=new a.mc_npc_3040611000_01_shortattack_in,this.mc_shortattack_in.name="mc_shortattack_in",this.mc_shortattack_in.setTransform(66,-109,1,1,0,0,0,66,-109),this.timeline.addTween(c.Tween.get(this.mc_shortattack_in).wait(6))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-72.2,-232,235.5,247.2),(a.mc_npc_3040611000_01_setup=function(b,d,e){this.initialize(b,d,e,{}),this.frame_3=function(){require(["lib/sound"],function(a){a.play("se/set_sw_se_1.mp3")})},this.frame_14=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(3).call(this.frame_3).wait(11).call(this.frame_14).wait(1)),this.instance=new a.gr_npc_3040611000_01_setup_LhandB,this.instance.setTransform(31.9,-108.35,.9999,1.0001,0,-2.4783,-3.4566,12.3,12.8),this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(3).to({_off:!1},0).to({regX:12.2,scaleX:1,scaleY:1,skewX:2.0384,skewY:1.958,x:41.1,y:-111.7},3,c.Ease.get(1)).to({regX:12,regY:13,skewX:0,skewY:0,x:40,y:-111},8,c.Ease.get(1)).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_1.setTransform(27.75,-113.05,.9919,1.0078,0,-148.7924,30.8489,19.6,125.6),this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(3).to({_off:!1},0).to({regY:125.5,scaleX:.9992,scaleY:1.0005,skewX:-143.9865,skewY:35.983,x:37.35,y:-116.7},3,c.Ease.get(1)).to({regX:19.8,regY:125.6,scaleX:.9999,scaleY:.9999,skewX:-145.9991,skewY:33.9995,x:36.05,y:-115.9},8,c.Ease.get(1)).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_setup_LarmB,this.instance_2.setTransform(54.4,-100.6,.9999,1.0001,0,-34.1692,-35.1488,18.2,24),this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(3).to({_off:!1},0).to({regY:23.9,scaleX:1,scaleY:1,skewX:2.0384,skewY:1.958,x:54.5,y:-92.25},3,c.Ease.get(1)).to({regX:18,regY:24,skewX:0,skewY:0,x:54,y:-92},8,c.Ease.get(1)).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_setup_head_a,this.instance_3.setTransform(21.1,-118,1,1.0001,0,0,0,52,69),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(3).to({_off:!1},0).to({scaleY:1,x:19},7,c.Ease.get(1)).wait(5)),this.instance_4=new a.gr_npc_3040611000_01_setup_Rarm,this.instance_4.setTransform(15.05,-113,1,1.0002,0,6.6954,5.7167,51,3),this.instance_4._off=!0,this.timeline.addTween(c.Tween.get(this.instance_4).wait(3).to({_off:!1},0).to({scaleY:1,skewX:0,skewY:0,x:13},7,c.Ease.get(1)).wait(5)),this.instance_5=new a.gr_npc_3040611000_01_setup_bodyribbon,this.instance_5.setTransform(8.4,-76.95,1,1.0002,0,5.9996,0,1.1,3),this.instance_5._off=!0,this.timeline.addTween(c.Tween.get(this.instance_5).wait(3).to({_off:!1},0).to({scaleY:1,skewX:-4.0005,x:7.05,y:-77},7,c.Ease.get(1)).to({regX:1,skewX:0,x:7},4).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_setup_body,this.instance_6.setTransform(32.95,5,1,1.0002,0,.9791,0,35,129),this.instance_6._off=!0,this.timeline.addTween(c.Tween.get(this.instance_6).wait(3).to({_off:!1},0).to({scaleY:1,skewX:0,x:33},7,c.Ease.get(1)).wait(5)),this.instance_7=new a.gr_npc_3040611000_01_setup_Larm,this.instance_7.setTransform(26,-113.45,1,1.0001,0,12.9642,11.9862,4.1,6.9),this.instance_7._off=!0,this.timeline.addTween(c.Tween.get(this.instance_7).wait(3).to({_off:!1},0).wait(1).to({regX:18,regY:12,scaleY:1,skewX:10.6374,skewY:9.9191,x:38.05,y:-105.4},0).wait(1).to({skewX:8.6685,skewY:8.17,x:37.6,y:-105.3},0).wait(1).to({regX:4.2,regY:6.8,skewX:7.0576,skewY:6.739,x:24.15,y:-111.9},0).wait(1).to({regX:18,regY:12,skewX:3.9699,skewY:3.7907,x:37.05,y:-105.4},0).wait(1).to({skewX:1.7644,skewY:1.6847,x:36.95,y:-105.55},0).wait(1).to({rotation:.4411,skewX:0,skewY:0,x:36.85,y:-105.7},0).wait(1).to({regX:4,regY:7,rotation:0,x:23,y:-111},0).wait(5)),this.instance_8=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_8.setTransform(24.5,-87.95,.9995,1.0001,0,13.9998,-172.1983,46,12),this.instance_8._off=!0,this.timeline.addTween(c.Tween.get(this.instance_8).wait(3).to({_off:!1},0).to({scaleX:1,scaleY:1,skewX:-3.2277,skewY:-183.2277,x:23},7,c.Ease.get(1)).to({skewX:0,skewY:-180,y:-88},4).wait(1)),this.instance_9=new a.gr_npc_3040611000_01_wait_backhair,this.instance_9.setTransform(25.55,-151.05,.9994,1.0007,0,11.6819,10.706,71.5,15.5),this.instance_9._off=!0,this.timeline.addTween(c.Tween.get(this.instance_9).wait(3).to({_off:!1},0).to({scaleX:1,scaleY:1,rotation:-1.1961,skewX:0,skewY:0,x:23},7,c.Ease.get(1)).to({rotation:1.9999,x:22.9,y:-151},4).wait(1)),this.head1=new a.mc_npc_3040611000_01_head,this.head1.name="head1",this.head1.setTransform(1,-121,1,1,-9e-4,0,0,126,133),this.timeline.addTween(c.Tween.get(this.head1).to({regX:125.9,regY:132.9,scaleY:1.0003,rotation:-3.1961,x:4.15},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_10=new a.gr_npc_3040611000_01_wait_Larm,this.instance_10.setTransform(8,-116,1,1,0,0,0,1,2),this.timeline.addTween(c.Tween.get(this.instance_10).to({regX:1.1,scaleY:1.0003,skewX:14.6379,skewY:13.177,x:10.95},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_11=new a.gr_npc_3040611000_01_wait_bodyribbon,this.instance_11.setTransform(-22,-76,1,1,0,0,0,1,13),this.timeline.addTween(c.Tween.get(this.instance_11).to({scaleY:1.0004,skewX:1.4606,x:-20.05},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_12=new a.gr_npc_3040611000_01_wait_body,this.instance_12.setTransform(-17,2,1,1,0,0,0,11,129),this.timeline.addTween(c.Tween.get(this.instance_12).to({scaleY:1.0004,skewX:1.4606,x:-17.05},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_13=new a.gr_npc_3040611000_01_wait_weapon,this.instance_13.setTransform(-37,-66,1,1,0,0,0,35,21),this.timeline.addTween(c.Tween.get(this.instance_13).to({scaleY:1.0004,x:-35.25},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_14=new a.gr_npc_3040611000_01_wait_Rarm,this.instance_14.setTransform(-7,-112,1,1,0,0,0,42,4),this.timeline.addTween(c.Tween.get(this.instance_14).to({regX:41.9,scaleY:1.0003,skewX:6.1559,skewY:4.6957,x:-4.15,y:-111.95},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_15=new a.gr_npc_3040611000_01_wait_BackCloth,this.instance_15.setTransform(-2,-92,1,1,0,0,0,45,10),this.timeline.addTween(c.Tween.get(this.instance_15).to({regX:44.9,scaleY:1.0004,skewX:5.9993,x:.35,y:-91.95},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_16=new a.gr_npc_3040611000_01_wait_backhair,this.instance_16.setTransform(3,-159,1,1,0,0,0,71,11),this.timeline.addTween(c.Tween.get(this.instance_16).to({regY:10.9,scaleY:1.0003,skewX:.7569,skewY:-.7029,x:5.1,y:-159.15},2,c.Ease.get(-1)).to({_off:!0},1).wait(12)),this.instance_17=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_17.setTransform(0,0,.7,.1499),this.timeline.addTween(c.Tween.get(this.instance_17).wait(3).to({scaleX:.8,x:21.95},0).wait(12))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-129.7,-257.9,269.9,271.29999999999995),(a.mc_npc_3040611000_01_effect_ability2=function(b,d,e){this.initialize(b,d,e,{}),this.frame_14=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(14).call(this.frame_14).wait(1)),this.instance=new a.mc_npc_3040611000_01_effect_ability,this.instance.setTransform(-27.3,-45.65,.904,.6684,0,0,0,3,70),this.instance._off=!0,this.timeline.addTween(c.Tween.get(this.instance).wait(11).to({_off:!1},0).wait(4)),this.instance_1=new a.mc_npc_3040611000_01_effect_ability,this.instance_1.setTransform(-45.9,-106,.904,.6866,0,0,0,3,70),this.instance_1._off=!0,this.timeline.addTween(c.Tween.get(this.instance_1).wait(9).to({_off:!1},0).wait(6)),this.instance_2=new a.mc_npc_3040611000_01_effect_ability,this.instance_2.setTransform(31.55,-76,1.1323,.9076,0,0,0,3,70),this.instance_2._off=!0,this.timeline.addTween(c.Tween.get(this.instance_2).wait(10).to({_off:!1},0).wait(5)),this.instance_3=new a.mc_npc_3040611000_01_effect_ability,this.instance_3.setTransform(-35.3,-95.65,.904,.6684,0,0,0,3,70),this.instance_3._off=!0,this.timeline.addTween(c.Tween.get(this.instance_3).wait(12).to({_off:!1},0).wait(3))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-48.1,-140.9,82.7,152.20000000000002),(a.mc_npc_3040611000_01_effect_ability1=function(b,d,e){this.initialize(b,d,e,{}),this.frame_14=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(14).call(this.frame_14).wait(1)),this.effect_ability1=new a.mc_npc_3040611000_01_effect_ability,this.effect_ability1.name="effect_ability1",this.effect_ability1.setTransform(-9.25,-97.6,1,.6633,0,0,0,3,70),this.effect_ability1._off=!0,this.timeline.addTween(c.Tween.get(this.effect_ability1).wait(11).to({_off:!1},0).wait(4)),this.effect_ability2=new a.mc_npc_3040611000_01_effect_ability,this.effect_ability2.name="effect_ability2",this.effect_ability2.setTransform(54.75,-77.65,1,.6335,0,0,0,3,70),this.effect_ability2._off=!0,this.timeline.addTween(c.Tween.get(this.effect_ability2).wait(8).to({_off:!1},0).wait(7)),this.effect_ability3=new a.mc_npc_3040611000_01_effect_ability,this.effect_ability3.name="effect_ability3",this.effect_ability3.setTransform(8.15,-54.5,1.1332,.8426,0,0,0,3,70),this.effect_ability3._off=!0,this.timeline.addTween(c.Tween.get(this.effect_ability3).wait(13).to({_off:!1},0).wait(2)),this.effect_ability4=new a.mc_npc_3040611000_01_effect_ability,this.effect_ability4.name="effect_ability4",this.effect_ability4.setTransform(-66.6,-106.75,.904,.7565),this.effect_ability4._off=!0,this.timeline.addTween(c.Tween.get(this.effect_ability4).wait(6).to({_off:!1},0).wait(9))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-66.1,-131.4,123.6,148.6),(a.mc_npc_3040611000_01_ability=function(b,d,e){this.initialize(b,d,e,{ability_loop:8}),this.frame_0=function(){this.effect_ability1.gotoAndPlay(0),this.effect_ability2.gotoAndPlay(0)},this.frame_7=function(){this.mc_ability_Larm.gotoAndPlay(0),this.mc_ability_yure.gotoAndPlay(0)},this.frame_56=function(){this.gotoAndPlay("ability_loop")},this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(7).call(this.frame_7).wait(49).call(this.frame_56).wait(1)),this.effect_ability1=new a.mc_npc_3040611000_01_effect_ability1,this.effect_ability1.name="effect_ability1",this.effect_ability1.setTransform(40,20),this.timeline.addTween(c.Tween.get(this.effect_ability1).wait(57)),this.instance=new a.gr_npc_3040611000_01_ability_head_a,this.instance.setTransform(29.35,-91.1,1,1.0001,0,0,0,59.9,70.9),this.timeline.addTween(c.Tween.get(this.instance).to({regY:71,x:23.4,y:-90},3,c.Ease.get(-1)).to({regX:60,scaleY:1,x:25},4,c.Ease.get(.5)).to({y:-87.7},24,c.Ease.quadInOut).to({y:-90},25,c.Ease.quadInOut).wait(1)),this.instance_1=new a.gr_npc_3040611000_01_ability_RhandB,this.instance_1.setTransform(22.15,-47.9,1,1.0127,0,-41.1172,-42.9285,8,7.9),this.timeline.addTween(c.Tween.get(this.instance_1).to({regY:8,scaleY:1,rotation:2.4924,skewX:0,skewY:0,x:-6.1,y:-46.75},3,c.Ease.get(-1)).to({rotation:0,x:-5,y:-47},4,c.Ease.get(.5)).to({scaleY:.9755,rotation:2.4924,x:-6.1,y:-44.5},25,c.Ease.quadInOut).to({scaleY:1,rotation:0,x:-5,y:-47},24,c.Ease.quadInOut).wait(1)),this.instance_2=new a.gr_npc_3040611000_01_weapon_weapon,this.instance_2.setTransform(22.1,-48.05,1.0197,.9895,0,67.5163,68.4356,20.2,132.1),this.timeline.addTween(c.Tween.get(this.instance_2).to({regX:20.3,regY:132.2,scaleX:.9984,scaleY:.9983,rotation:112.4919,skewX:0,skewY:0,x:-6.1,y:-46.8},3,c.Ease.get(-1)).to({regX:20.4,rotation:109.9993,x:-4.95,y:-47},4,c.Ease.get(.5)).to({regX:20.1,scaleX:.9989,scaleY:.9989,rotation:112.4925,x:-6.1,y:-44.6},25,c.Ease.quadInOut).to({regX:20.4,scaleX:.9984,scaleY:.9983,rotation:109.9993,x:-4.95,y:-47},24,c.Ease.quadInOut).wait(1)),this.instance_3=new a.gr_npc_3040611000_01_ability_RarmB,this.instance_3.setTransform(1.15,-62.95,1,1.0127,0,-41.1172,-42.9285,29,2.9),this.timeline.addTween(c.Tween.get(this.instance_3).to({regY:3,scaleY:1,rotation:2.4924,skewX:0,skewY:0,x:-11.05,y:-72},3,c.Ease.get(-1)).to({rotation:0,x:-11},4,c.Ease.get(.5)).to({regX:28.9,scaleY:.9755,rotation:2.4924,x:-11.15,y:-69.2},25,c.Ease.quadInOut).to({regX:29,scaleY:1,rotation:0,x:-11,y:-72},24,c.Ease.quadInOut).wait(1)),this.instance_4=new a.gr_npc_3040611000_01_ability_Rarm,this.instance_4.setTransform(10.95,-88.35,1,1.0128,0,-30.1326,-31.942,29,4.9),this.timeline.addTween(c.Tween.get(this.instance_4).to({regY:5,scaleY:1,skewX:0,skewY:0,x:10,y:-88},3,c.Ease.get(-1)).wait(4).to({scaleY:.9754,y:-84.75},25,c.Ease.quadInOut).to({scaleY:1,y:-88},24,c.Ease.quadInOut).wait(1)),this.instance_5=new a.gr_npc_3040611000_01_ability_bodyribbon,this.instance_5.setTransform(27.95,-62.7,1,1.0134,0,2.6642,0,36.9,3),this.timeline.addTween(c.Tween.get(this.instance_5).to({regX:37,scaleY:1.0001,skewX:-.5796,x:24.35,y:-62},3,c.Ease.get(-1)).to({scaleY:1,skewX:0,x:25},4,c.Ease.get(.5)).to({scaleY:.9754,y:-60.4},24,c.Ease.quadInOut).to({scaleY:1,y:-62},25,c.Ease.quadInOut).wait(1)),this.instance_6=new a.gr_npc_3040611000_01_ability_body,this.instance_6.setTransform(-26.05,2.05,1,1.0134,0,2.6642,0,5.9,102),this.timeline.addTween(c.Tween.get(this.instance_6).to({scaleY:1.0001,skewX:-.9511,x:-26.1,y:2},3,c.Ease.get(-1)).to({regX:6,scaleY:1,skewX:0,x:-26},4,c.Ease.get(.5)).to({scaleY:.9754,y:2.05},24,c.Ease.quadInOut).to({scaleY:1,y:2},25,c.Ease.quadInOut).wait(1)),this.mc_ability_Larm=new a.mc_npc_3040611000_01_ability_Larm,this.mc_ability_Larm.name="mc_ability_Larm",this.mc_ability_Larm.setTransform(30,-86,1,1,0,0,0,-10,-86),this.mc_ability_Larm._off=!0,this.timeline.addTween(c.Tween.get(this.mc_ability_Larm).wait(7).to({_off:!1},0).to({scaleY:.9754,y:-83.85},25,c.Ease.quadInOut).to({scaleY:1,y:-86},24,c.Ease.quadInOut).wait(1)),this.mc_ability_yure=new a.mc_npc_3040611000_01_ability_yure,this.mc_ability_yure.name="mc_ability_yure",this.mc_ability_yure.setTransform(22,-116,1,1,0,0,0,-18,-116),this.mc_ability_yure._off=!0,this.timeline.addTween(c.Tween.get(this.mc_ability_yure).wait(7).to({_off:!1},0).to({scaleY:.9754,y:-113.1},24,c.Ease.quadInOut).to({scaleY:1,y:-116},25,c.Ease.quadInOut).wait(1)),this.instance_7=new a.gr_npc_3040611000_01_ability_Larm,this.instance_7.setTransform(34.95,-88.1,1,1.0128,0,1.8096,0,14,4),this.timeline.addTween(c.Tween.get(this.instance_7).to({scaleY:1,skewX:0,x:32,y:-92},3,c.Ease.get(-1)).wait(1).to({regX:12,regY:14,x:30,y:-81.35},0).wait(1).to({y:-80.85},0).wait(1).to({regX:14,regY:4,x:32,y:-90.45},0).to({_off:!0},1).wait(50)),this.instance_8=new a.gr_npc_3040611000_01_ability_LhandB,this.instance_8.setTransform(44.65,-46.55,1,1.0128,0,1.8096,0,5,11),this.timeline.addTween(c.Tween.get(this.instance_8).to({scaleY:1,skewX:0,x:43,y:-51},3,c.Ease.get(-1)).wait(1).to({regX:10,regY:12,x:48,y:-49.35},0).wait(1).to({y:-48.85},0).wait(1).to({regX:5,regY:11,x:43,y:-49.45},0).to({_off:!0},1).wait(50)),this.instance_9=new a.gr_npc_3040611000_01_ability_LarmB,this.instance_9.setTransform(23.3,-66.8,1,1.0128,0,1.8096,0,6,11),this.timeline.addTween(c.Tween.get(this.instance_9).to({scaleY:1,skewX:0,x:21,y:-71},3,c.Ease.get(-1)).wait(1).to({regX:22,regY:20,x:37,y:-61.35},0).wait(1).to({y:-60.85},0).wait(1).to({regX:6,regY:11,x:21,y:-69.45},0).to({_off:!0},1).wait(50)),this.instance_10=new a.gr_npc_3040611000_01_ability_BackCloth,this.instance_10.setTransform(15.4,-71.85,1,1.0127,0,-11.999,0,66,12),this.timeline.addTween(c.Tween.get(this.instance_10).to({scaleY:1,skewX:7.0001,x:13.05,y:-71},4,c.Ease.get(-1)).wait(1).to({regY:44,skewX:3.8895,x:10.85,y:-39.05},0).wait(1).to({regY:12,skewX:1.5565,x:13,y:-70.95},0).to({_off:!0},1).wait(50)),this.instance_11=new a.gr_npc_3040611000_01_wait_backhair,this.instance_11.setTransform(29.8,-120.5,.9933,1.0189,0,3.0003,6.5094,67.8,14.8),this.timeline.addTween(c.Tween.get(this.instance_11).to({regX:67.9,regY:14.9,scaleX:1,scaleY:1,rotation:14.9396,skewX:0,skewY:0,x:25.95,y:-119},4,c.Ease.get(-1)).wait(1).to({regX:50,regY:66,rotation:13.9556,x:-3.7,y:-73.7},0).wait(1).to({regX:67.8,regY:14.9,scaleX:.9999,scaleY:.9999,rotation:13.2177,x:26,y:-119},0).to({_off:!0},1).wait(50)),this.effect_ability2=new a.mc_npc_3040611000_01_effect_ability2,this.effect_ability2.name="effect_ability2",this.effect_ability2.setTransform(40,0),this.timeline.addTween(c.Tween.get(this.effect_ability2).wait(57)),this.instance_12=new a.gr_npc_3040611000_01_shadow("synched",0),this.instance_12.setTransform(14,0,1,.15),this.timeline.addTween(c.Tween.get(this.instance_12).wait(57))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-69.8,-162,220.10000000000002,186.3),(a.mc_npc_3040611000_01=function(b,d,e){this.initialize(b,d,e,{wait:5,setup:10,stbwait:15,attack:20,ability:25,win:30,damage:35,dead:40,chara_out:45,chara_in:50,mortal_A:55,hide:60,"double":65,triple:70,short_attack:75,down:80,ab_motion:85}),this.frame_4=function(){this.stop()},this.frame_5=function(){this.npc_3040611000_01_wait.gotoAndPlay(0)},this.frame_9=function(){this.stop()},this.frame_10=function(){this.npc_3040611000_01_setup.gotoAndPlay(0)},this.frame_14=function(){this.stop()},this.frame_15=function(){this.npc_3040611000_01_stbwait.gotoAndPlay(0)},this.frame_19=function(){this.stop()},this.frame_20=function(){this.npc_3040611000_01_attack.gotoAndPlay(0)},this.frame_24=function(){this.stop()},this.frame_25=function(){this.npc_3040611000_01_ability.gotoAndPlay(0)},this.frame_29=function(){this.stop()},this.frame_30=function(){this.npc_3040611000_01_win.gotoAndPlay(0)},this.frame_34=function(){this.stop()},this.frame_35=function(){this.npc_3040611000_01_damage.gotoAndPlay(0)},this.frame_39=function(){this.stop()},this.frame_40=function(){this.npc_3040611000_01_dead.gotoAndPlay(0)},this.frame_44=function(){this.stop()},this.frame_45=function(){this.npc_3040611000_01_chara_out.gotoAndPlay(0)},this.frame_49=function(){this.stop()},this.frame_50=function(){this.npc_3040611000_01_chara_in.gotoAndPlay(0)},this.frame_54=function(){this.stop()},this.frame_55=function(){this.npc_3040611000_01_mortal_A.gotoAndPlay(0)},this.frame_59=function(){this.stop()},this.frame_60=function(){this.npc_3040611000_01_hide.gotoAndPlay(0)},this.frame_64=function(){this.stop()},this.frame_65=function(){this.npc_3040611000_01_double.gotoAndPlay(0)},this.frame_69=function(){this.stop()},this.frame_70=function(){this.npc_3040611000_01_triple.gotoAndPlay(0)},this.frame_74=function(){this.stop()},this.frame_75=function(){this.npc_3040611000_01_short_attack.gotoAndPlay(0)},this.frame_79=function(){this.stop()},this.frame_80=function(){this.npc_3040611000_01_down.gotoAndPlay(0)},this.frame_84=function(){this.stop()},this.frame_85=function(){this.npc_3040611000_01_ab_motion.gotoAndPlay(0)},this.frame_89=function(){this.stop()},this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(1).call(this.frame_5).wait(4).call(this.frame_9).wait(1).call(this.frame_10).wait(4).call(this.frame_14).wait(1).call(this.frame_15).wait(4).call(this.frame_19).wait(1).call(this.frame_20).wait(4).call(this.frame_24).wait(1).call(this.frame_25).wait(4).call(this.frame_29).wait(1).call(this.frame_30).wait(4).call(this.frame_34).wait(1).call(this.frame_35).wait(4).call(this.frame_39).wait(1).call(this.frame_40).wait(4).call(this.frame_44).wait(1).call(this.frame_45).wait(4).call(this.frame_49).wait(1).call(this.frame_50).wait(4).call(this.frame_54).wait(1).call(this.frame_55).wait(4).call(this.frame_59).wait(1).call(this.frame_60).wait(4).call(this.frame_64).wait(1).call(this.frame_65).wait(4).call(this.frame_69).wait(1).call(this.frame_70).wait(4).call(this.frame_74).wait(1).call(this.frame_75).wait(4).call(this.frame_79).wait(1).call(this.frame_80).wait(4).call(this.frame_84).wait(1).call(this.frame_85).wait(4).call(this.frame_89).wait(1)),this.npc_3040611000_01_ab_motion=new a.mc_npc_3040611000_01_ab_motion,this.npc_3040611000_01_ab_motion.name="npc_3040611000_01_ab_motion",this.npc_3040611000_01_ab_motion._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_ab_motion).wait(85).to({_off:!1},0).wait(5)),this.npc_3040611000_01_down=new a.mc_npc_3040611000_01_down,this.npc_3040611000_01_down.name="npc_3040611000_01_down",this.npc_3040611000_01_down._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_down).wait(80).to({_off:!1},0).to({_off:!0},5).wait(5)),this.npc_3040611000_01_short_attack=new a.mc_npc_3040611000_01_short_attack,this.npc_3040611000_01_short_attack.name="npc_3040611000_01_short_attack",this.npc_3040611000_01_short_attack._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_short_attack).wait(75).to({_off:!1},0).to({_off:!0},5).wait(10)),this.npc_3040611000_01_triple=new a.mc_npc_3040611000_01_triple,this.npc_3040611000_01_triple.name="npc_3040611000_01_triple",this.npc_3040611000_01_triple._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_triple).wait(70).to({_off:!1},0).to({_off:!0},5).wait(15)),this.npc_3040611000_01_double=new a.mc_npc_3040611000_01_double,this.npc_3040611000_01_double.name="npc_3040611000_01_double",this.npc_3040611000_01_double._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_double).wait(65).to({_off:!1},0).to({_off:!0},5).wait(20)),this.npc_3040611000_01_hide=new a.mc_npc_3040611000_01_hide,this.npc_3040611000_01_hide.name="npc_3040611000_01_hide",this.npc_3040611000_01_hide._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_hide).wait(60).to({_off:!1},0).to({_off:!0},5).wait(25)),this.npc_3040611000_01_mortal_A=new a.mc_npc_3040611000_01_mortal_A,this.npc_3040611000_01_mortal_A.name="npc_3040611000_01_mortal_A",this.npc_3040611000_01_mortal_A._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_mortal_A).wait(55).to({_off:!1},0).to({_off:!0},5).wait(30)),this.npc_3040611000_01_chara_in=new a.mc_npc_3040611000_01_chara_in,this.npc_3040611000_01_chara_in.name="npc_3040611000_01_chara_in",this.npc_3040611000_01_chara_in._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_chara_in).wait(50).to({_off:!1},0).to({_off:!0},5).wait(35)),this.npc_3040611000_01_chara_out=new a.mc_npc_3040611000_01_chara_out,this.npc_3040611000_01_chara_out.name="npc_3040611000_01_chara_out",this.npc_3040611000_01_chara_out._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_chara_out).wait(45).to({_off:!1},0).to({_off:!0},5).wait(40)),this.npc_3040611000_01_dead=new a.mc_npc_3040611000_01_dead,this.npc_3040611000_01_dead.name="npc_3040611000_01_dead",this.npc_3040611000_01_dead._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_dead).wait(40).to({_off:!1},0).to({_off:!0},5).wait(45)),this.npc_3040611000_01_damage=new a.mc_npc_3040611000_01_damage,this.npc_3040611000_01_damage.name="npc_3040611000_01_damage",this.npc_3040611000_01_damage._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_damage).wait(35).to({_off:!1},0).to({_off:!0},5).wait(50)),this.npc_3040611000_01_win=new a.mc_npc_3040611000_01_win,this.npc_3040611000_01_win.name="npc_3040611000_01_win",this.npc_3040611000_01_win._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_win).wait(30).to({_off:!1},0).to({_off:!0},5).wait(55)),this.npc_3040611000_01_ability=new a.mc_npc_3040611000_01_ability,this.npc_3040611000_01_ability.name="npc_3040611000_01_ability",this.npc_3040611000_01_ability._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_ability).wait(25).to({_off:!1},0).to({_off:!0},5).wait(60)),this.npc_3040611000_01_attack=new a.mc_npc_3040611000_01_attack,this.npc_3040611000_01_attack.name="npc_3040611000_01_attack",this.npc_3040611000_01_attack._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_attack).wait(20).to({_off:!1},0).to({_off:!0},5).wait(65)),this.npc_3040611000_01_stbwait=new a.mc_npc_3040611000_01_stbwait,this.npc_3040611000_01_stbwait.name="npc_3040611000_01_stbwait",this.npc_3040611000_01_stbwait._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_stbwait).wait(15).to({_off:!1},0).to({_off:!0},5).wait(70)),this.npc_3040611000_01_setup=new a.mc_npc_3040611000_01_setup,this.npc_3040611000_01_setup.name="npc_3040611000_01_setup",this.npc_3040611000_01_setup._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_setup).wait(10).to({_off:!1},0).to({_off:!0},5).wait(75)),this.npc_3040611000_01_wait=new a.mc_npc_3040611000_01_wait,this.npc_3040611000_01_wait.name="npc_3040611000_01_wait",this.npc_3040611000_01_wait._off=!0,this.timeline.addTween(c.Tween.get(this.npc_3040611000_01_wait).wait(5).to({_off:!1},0).to({_off:!0},5).wait(80))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(-183.4,-250.9,366.20000000000005,284.1),(a.npc_3040611000_01=function(b,d,e){this.initialize(b,d,e,{}),this.npc_3040611000_01=new a.mc_npc_3040611000_01,this.npc_3040611000_01.name="npc_3040611000_01",this.timeline.addTween(c.Tween.get(this.npc_3040611000_01).wait(1))}).prototype=e=new c.MovieClip,e.nominalBounds=new c.Rectangle(0,0,0,0)}(lib=lib||{},images=images||{},createjs=createjs||{});var lib,images,createjs;
+! function(a, b, c) {
+    var d;
+    (a.npc_3040611000_02_ability_BackCloth = function() {
+        this.sourceRect = new c.Rectangle(282, 648, 132, 88), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 132, 88), (a.npc_3040611000_02_ability_body = function() {
+        this.sourceRect = new c.Rectangle(694, 632, 88, 104), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 88, 104), (a.npc_3040611000_02_ability_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(190, 1118, 40, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 40), (a.npc_3040611000_02_ability_head_a = function() {
+        this.sourceRect = new c.Rectangle(420, 766, 112, 84), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 112, 84), (a.npc_3040611000_02_ability_Larm = function() {
+        this.sourceRect = new c.Rectangle(914, 650, 24, 28), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 28), (a.npc_3040611000_02_ability_LarmB = function() {
+        this.sourceRect = new c.Rectangle(766, 1112, 44, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 44, 40), (a.npc_3040611000_02_ability_LhandB = function() {
+        this.sourceRect = new c.Rectangle(1e3, 436, 20, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 24), (a.npc_3040611000_02_ability_Rarm = function() {
+        this.sourceRect = new c.Rectangle(190, 910, 32, 28), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 28), (a.npc_3040611000_02_ability_RarmB = function() {
+        this.sourceRect = new c.Rectangle(824, 1100, 52, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 36), (a.npc_3040611000_02_ability_RhandB = function() {
+        this.sourceRect = new c.Rectangle(1e3, 606, 16, 16), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 16, 16), (a.npc_3040611000_02_attack01_BackClothA = function() {
+        this.sourceRect = new c.Rectangle(420, 648, 60, 108), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 60, 108), (a.npc_3040611000_02_attack01_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(2, 864, 84, 96), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 84, 96), (a.npc_3040611000_02_attack01_body = function() {
+        this.sourceRect = new c.Rectangle(458, 934, 56, 128), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 128), (a.npc_3040611000_02_attack01_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(232, 1124, 32, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 40), (a.npc_3040611000_02_attack01_head_a = function() {
+        this.sourceRect = new c.Rectangle(372, 852, 84, 100), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 84, 100), (a.npc_3040611000_02_attack01_Larm = function() {
+        this.sourceRect = new c.Rectangle(978, 1120, 40, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 32), (a.npc_3040611000_02_attack01_LarmB = function() {
+        this.sourceRect = new c.Rectangle(878, 1104, 52, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 36), (a.npc_3040611000_02_attack02_BackClothA = function() {
+        this.sourceRect = new c.Rectangle(190, 940, 116, 60), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 116, 60), (a.npc_3040611000_02_attack02_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(638, 918, 104, 72), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 104, 72), (a.npc_3040611000_02_attack02_backhairA = function() {
+        this.sourceRect = new c.Rectangle(282, 738, 136, 72), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 136, 72), (a.npc_3040611000_02_attack02_backhairB = function() {
+        this.sourceRect = new c.Rectangle(306, 1028, 60, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 60, 64), (a.npc_3040611000_02_attack02_body = function() {
+        this.sourceRect = new c.Rectangle(914, 680, 108, 100), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 108, 100), (a.npc_3040611000_02_attack02_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(266, 1124, 32, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 40), (a.npc_3040611000_02_attack02_head_a = function() {
+        this.sourceRect = new c.Rectangle(766, 902, 96, 80), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 96, 80), (a.npc_3040611000_02_attack02_Larm = function() {
+        this.sourceRect = new c.Rectangle(632, 1074, 28, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 28, 32), (a.npc_3040611000_02_attack02_LarmB = function() {
+        this.sourceRect = new c.Rectangle(582, 1074, 48, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 48), (a.npc_3040611000_02_attack02_Rarm = function() {
+        this.sourceRect = new c.Rectangle(970, 178, 24, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 36), (a.npc_3040611000_02_attack02_RarmB = function() {
+        this.sourceRect = new c.Rectangle(648, 766, 44, 44), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 44, 44), (a.npc_3040611000_02_attack03_BackClothA = function() {
+        this.sourceRect = new c.Rectangle(766, 984, 88, 60), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 88, 60), (a.npc_3040611000_02_attack03_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(694, 746, 104, 92), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 104, 92), (a.npc_3040611000_02_attack03_body = function() {
+        this.sourceRect = new c.Rectangle(144, 534, 96, 100), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 96, 100), (a.npc_3040611000_02_attack03_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(246, 1068, 48, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 40), (a.npc_3040611000_02_attack03_head_a = function() {
+        this.sourceRect = new c.Rectangle(116, 828, 112, 80), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 112, 80), (a.npc_3040611000_02_attack03_Larm = function() {
+        this.sourceRect = new c.Rectangle(516, 1032, 64, 56), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 64, 56), (a.npc_3040611000_02_attack03_Rarm = function() {
+        this.sourceRect = new c.Rectangle(300, 1124, 36, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 32), (a.npc_3040611000_02_attack03_RarmB = function() {
+        this.sourceRect = new c.Rectangle(864, 902, 44, 44), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 44, 44), (a.npc_3040611000_02_attack04_BackClothA = function() {
+        this.sourceRect = new c.Rectangle(88, 910, 100, 76), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 100, 76), (a.npc_3040611000_02_attack04_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(800, 746, 108, 88), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 108, 88), (a.npc_3040611000_02_attack04_belt = function() {
+        this.sourceRect = new c.Rectangle(120, 676, 20, 12), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 12), (a.npc_3040611000_02_attack04_blur = function() {
+        this.sourceRect = new c.Rectangle(244, 304, 300, 156), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 300, 156), (a.npc_3040611000_02_attack04_body = function() {
+        this.sourceRect = new c.Rectangle(766, 1046, 56, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 64), (a.npc_3040611000_02_attack04_Larm = function() {
+        this.sourceRect = new c.Rectangle(516, 934, 32, 28), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 28), (a.npc_3040611000_02_attack04_LarmB = function() {
+        this.sourceRect = new c.Rectangle(60, 1100, 48, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 40), (a.npc_3040611000_02_attack04_LhandB = function() {
+        this.sourceRect = new c.Rectangle(1e3, 624, 16, 16), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 16, 16), (a.npc_3040611000_02_attack04_LlegA = function() {
+        this.sourceRect = new c.Rectangle(338, 1124, 32, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 36), (a.npc_3040611000_02_attack04_LlegB = function() {
+        this.sourceRect = new c.Rectangle(486, 1124, 32, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 24), (a.npc_3040611000_02_attack04_Rarm = function() {
+        this.sourceRect = new c.Rectangle(372, 1124, 32, 28), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 28), (a.npc_3040611000_02_attack04_RarmB = function() {
+        this.sourceRect = new c.Rectangle(2, 1110, 36, 52), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 52), (a.npc_3040611000_02_attack04_RlegA = function() {
+        this.sourceRect = new c.Rectangle(970, 136, 24, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 40), (a.npc_3040611000_02_attack04_RlegB = function() {
+        this.sourceRect = new c.Rectangle(648, 812, 36, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 24), (a.npc_3040611000_02_attack05_BackClothA01 = function() {
+        this.sourceRect = new c.Rectangle(238, 812, 132, 68), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 132, 68), (a.npc_3040611000_02_attack05_BackClothA02 = function() {
+        this.sourceRect = new c.Rectangle(308, 940, 32, 12), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 12), (a.npc_3040611000_02_attack05_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(308, 954, 88, 72), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 88, 72), (a.npc_3040611000_02_attack05_backhairA = function() {
+        this.sourceRect = new c.Rectangle(230, 882, 140, 56), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 140, 56), (a.npc_3040611000_02_attack05_body = function() {
+        this.sourceRect = new c.Rectangle(120, 742, 116, 84), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 116, 84), (a.npc_3040611000_02_attack05_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(88, 864, 24, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 32), (a.npc_3040611000_02_attack05_Larm = function() {
+        this.sourceRect = new c.Rectangle(68, 1050, 72, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 72, 48), (a.npc_3040611000_02_attack05_Rarm = function() {
+        this.sourceRect = new c.Rectangle(492, 1090, 40, 20), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 20), (a.npc_3040611000_02_attack06_BackClothA = function() {
+        this.sourceRect = new c.Rectangle(648, 840, 116, 76), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 116, 76), (a.npc_3040611000_02_attack06_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(864, 948, 84, 76), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 84, 76), (a.npc_3040611000_02_attack06_Belt = function() {
+        this.sourceRect = new c.Rectangle(1e3, 588, 20, 16), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 16), (a.npc_3040611000_02_attack06_Body = function() {
+        this.sourceRect = new c.Rectangle(368, 1048, 56, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 64), (a.npc_3040611000_02_attack06_bodyribbonA = function() {
+        this.sourceRect = new c.Rectangle(714, 1058, 28, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 28, 36), (a.npc_3040611000_02_attack06_bodyribbonB = function() {
+        this.sourceRect = new c.Rectangle(294, 268, 8, 12), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 8, 12), (a.npc_3040611000_02_attack06_Larm = function() {
+        this.sourceRect = new c.Rectangle(846, 1142, 36, 20), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 20), (a.npc_3040611000_02_attack06_LarmB = function() {
+        this.sourceRect = new c.Rectangle(426, 1064, 64, 44), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 64, 44), (a.npc_3040611000_02_attack06_Rarm = function() {
+        this.sourceRect = new c.Rectangle(714, 1096, 24, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 32), (a.npc_3040611000_02_attack06_RarmB = function() {
+        this.sourceRect = new c.Rectangle(372, 812, 40, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 36), (a.npc_3040611000_02_attack06_RhandB = function() {
+        this.sourceRect = new c.Rectangle(1e3, 642, 16, 16), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 16, 16), (a.npc_3040611000_02_attack06_RlegA = function() {
+        this.sourceRect = new c.Rectangle(444, 1124, 40, 20), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 20), (a.npc_3040611000_02_attack06_RlegB = function() {
+        this.sourceRect = new c.Rectangle(914, 612, 24, 36), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 36), (a.npc_3040611000_02_attack08_head_aD = function() {
+        this.sourceRect = new c.Rectangle(804, 240, 192, 196), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 192, 196), (a.npc_3040611000_02_aura02 = function() {
+        this.sourceRect = new c.Rectangle(2, 2, 300, 264), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 300, 264), (a.npc_3040611000_02_damage_BackCloth = function() {
+        this.sourceRect = new c.Rectangle(144, 648, 136, 92), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 136, 92), (a.npc_3040611000_02_damage_body = function() {
+        this.sourceRect = new c.Rectangle(564, 852, 72, 112), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 72, 112), (a.npc_3040611000_02_damage_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(490, 462, 52, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 48), (a.npc_3040611000_02_damage_head_a = function() {
+        this.sourceRect = new c.Rectangle(534, 766, 112, 84), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 112, 84), (a.npc_3040611000_02_damage_Larm = function() {
+        this.sourceRect = new c.Rectangle(582, 1124, 32, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 24), (a.npc_3040611000_02_damage_LarmB = function() {
+        this.sourceRect = new c.Rectangle(244, 268, 48, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 32), (a.npc_3040611000_02_damage_Rarm = function() {
+        this.sourceRect = new c.Rectangle(2, 1056, 56, 52), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 52), (a.npc_3040611000_02_down_ase = function() {
+        this.sourceRect = new c.Rectangle(970, 216, 24, 20), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 20), (a.npc_3040611000_02_down_BackCloth = function() {
+        this.sourceRect = new c.Rectangle(766, 840, 140, 60), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 140, 60), (a.npc_3040611000_02_down_body = function() {
+        this.sourceRect = new c.Rectangle(856, 1026, 56, 72), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 72), (a.npc_3040611000_02_down_head_a = function() {
+        this.sourceRect = new c.Rectangle(2, 778, 112, 84), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 112, 84), (a.npc_3040611000_02_down_Larm = function() {
+        this.sourceRect = new c.Rectangle(812, 1138, 32, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 24), (a.npc_3040611000_02_down_LarmB = function() {
+        this.sourceRect = new c.Rectangle(932, 1120, 44, 32), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 44, 32), (a.npc_3040611000_02_down_Rarm = function() {
+        this.sourceRect = new c.Rectangle(238, 742, 40, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 64), (a.npc_3040611000_02_ef01 = function() {
+        this.sourceRect = new c.Rectangle(2, 534, 140, 140), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 140, 140), (a.npc_3040611000_02_ef02 = function() {
+        this.sourceRect = new c.Rectangle(942, 438, 56, 240), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 240), (a.npc_3040611000_02_ef03 = function() {
+        this.sourceRect = new c.Rectangle(246, 1114, 300, 8), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 300, 8), (a.npc_3040611000_02_ef04 = function() {
+        this.sourceRect = new c.Rectangle(304, 2, 240, 300), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 240, 300), (a.npc_3040611000_02_ef05 = function() {
+        this.sourceRect = new c.Rectangle(804, 438, 136, 172), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 136, 172), (a.npc_3040611000_02_ef06 = function() {
+        this.sourceRect = new c.Rectangle(792, 612, 120, 132), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 120, 132), (a.npc_3040611000_02_ef3_a = function() {
+        this.sourceRect = new c.Rectangle(998, 136, 20, 272), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 272), (a.npc_3040611000_02_ef3_b = function() {
+        this.sourceRect = new c.Rectangle(744, 918, 20, 272), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 272), (a.npc_3040611000_02_hanabira1 = function() {
+        this.sourceRect = new c.Rectangle(40, 1142, 32, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 24), (a.npc_3040611000_02_hanabira1b = function() {
+        this.sourceRect = new c.Rectangle(74, 1142, 32, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 24), (a.npc_3040611000_02_hanabira2 = function() {
+        this.sourceRect = new c.Rectangle(1e3, 462, 20, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 24), (a.npc_3040611000_02_hanabira2b = function() {
+        this.sourceRect = new c.Rectangle(1e3, 488, 20, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 24), (a.npc_3040611000_02_hanabira3 = function() {
+        this.sourceRect = new c.Rectangle(1e3, 514, 20, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 24), (a.npc_3040611000_02_hanabira3b = function() {
+        this.sourceRect = new c.Rectangle(1e3, 540, 20, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 24), (a.npc_3040611000_02_line01b = function() {
+        this.sourceRect = new c.Rectangle(2, 268, 240, 264), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 240, 264), (a.npc_3040611000_02_setup_body = function() {
+        this.sourceRect = new c.Rectangle(968, 916, 48, 132), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 132), (a.npc_3040611000_02_setup_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(674, 1120, 36, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 40), (a.npc_3040611000_02_setup_head_a = function() {
+        this.sourceRect = new c.Rectangle(458, 852, 104, 80), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 104, 80), (a.npc_3040611000_02_setup_Larm = function() {
+        this.sourceRect = new c.Rectangle(406, 1124, 36, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 24), (a.npc_3040611000_02_setup_LarmB = function() {
+        this.sourceRect = new c.Rectangle(152, 1118, 36, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 36, 48), (a.npc_3040611000_02_setup_LhandB = function() {
+        this.sourceRect = new c.Rectangle(1e3, 660, 16, 16), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 16, 16), (a.npc_3040611000_02_setup_Rarm = function() {
+        this.sourceRect = new c.Rectangle(914, 1026, 52, 76), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 76), (a.npc_3040611000_02_trail01 = function() {
+        this.sourceRect = new c.Rectangle(804, 2, 164, 236), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 164, 236), (a.npc_3040611000_02_trail02 = function() {
+        this.sourceRect = new c.Rectangle(244, 462, 244, 184), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 244, 184), (a.npc_3040611000_02_wait_BackCloth = function() {
+        this.sourceRect = new c.Rectangle(2, 676, 116, 100), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 116, 100), (a.npc_3040611000_02_wait_backhair = function() {
+        this.sourceRect = new c.Rectangle(490, 632, 100, 132), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 100, 132), (a.npc_3040611000_02_wait_body = function() {
+        this.sourceRect = new c.Rectangle(970, 2, 52, 132), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 132), (a.npc_3040611000_02_wait_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(110, 1118, 40, 44), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 44), (a.npc_3040611000_02_wait_head_a = function() {
+        this.sourceRect = new c.Rectangle(546, 2, 256, 256), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 256, 256), (a.npc_3040611000_02_wait_head_b = function() {
+        this.sourceRect = new c.Rectangle(546, 260, 256, 256), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 256, 256), (a.npc_3040611000_02_wait_Larm = function() {
+        this.sourceRect = new c.Rectangle(968, 1050, 48, 68), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 68), (a.npc_3040611000_02_wait_Rarm = function() {
+        this.sourceRect = new c.Rectangle(142, 1052, 48, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 64), (a.npc_3040611000_02_weapon2_weapon = function() {
+        this.sourceRect = new c.Rectangle(910, 782, 56, 164), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 164), (a.npc_3040611000_02_weapon_ef = function() {
+        this.sourceRect = new c.Rectangle(592, 632, 100, 132), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 100, 132), (a.npc_3040611000_02_win_backbelt = function() {
+        this.sourceRect = new c.Rectangle(120, 690, 12, 16), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 12, 16), (a.npc_3040611000_02_win_BackClothA = function() {
+        this.sourceRect = new c.Rectangle(398, 954, 52, 92), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 92), (a.npc_3040611000_02_win_BackClothB = function() {
+        this.sourceRect = new c.Rectangle(2, 962, 64, 92), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 64, 92), (a.npc_3040611000_02_win_BackClothC = function() {
+        this.sourceRect = new c.Rectangle(516, 966, 88, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 88, 64), (a.npc_3040611000_02_win_backhairA = function() {
+        this.sourceRect = new c.Rectangle(606, 992, 56, 80), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 56, 80), (a.npc_3040611000_02_win_backhairB = function() {
+        this.sourceRect = new c.Rectangle(824, 1046, 28, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 28, 48), (a.npc_3040611000_02_win_backhairC = function() {
+        this.sourceRect = new c.Rectangle(150, 1002, 88, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 88, 48), (a.npc_3040611000_02_win_body = function() {
+        this.sourceRect = new c.Rectangle(968, 782, 52, 132), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 132), (a.npc_3040611000_02_win_bodyribbon = function() {
+        this.sourceRect = new c.Rectangle(632, 1120, 40, 40), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 40, 40), (a.npc_3040611000_02_win_drink = function() {
+        this.sourceRect = new c.Rectangle(548, 1090, 32, 56), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 32, 56), (a.npc_3040611000_02_win_hat = function() {
+        this.sourceRect = new c.Rectangle(68, 988, 80, 60), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 80, 60), (a.npc_3040611000_02_win_hatB = function() {
+        this.sourceRect = new c.Rectangle(192, 1068, 52, 48), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 52, 48), (a.npc_3040611000_02_win_head_a = function() {
+        this.sourceRect = new c.Rectangle(240, 1002, 64, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 64, 64), (a.npc_3040611000_02_win_Larm = function() {
+        this.sourceRect = new c.Rectangle(664, 992, 68, 64), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 68, 64), (a.npc_3040611000_02_win_Rarm = function() {
+        this.sourceRect = new c.Rectangle(664, 1058, 48, 60), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 48, 60), (a.npc_3040611000_02_win_RhandBA = function() {
+        this.sourceRect = new c.Rectangle(1e3, 566, 20, 20), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 20, 20), (a.npc_3040611000_02_win_RhandBB = function() {
+        this.sourceRect = new c.Rectangle(998, 410, 24, 24), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 24, 24), (a.npc_3040611000_02_yari1 = function() {
+        this.sourceRect = new c.Rectangle(490, 518, 300, 112), this.initialize(b.npc_3040611000_02)
+    }).prototype = d = new c.Bitmap, d.nominalBounds = new c.Rectangle(0, 0, 300, 112), (a.gr_npc_3040611000_02_yari01 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_yari1, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_yari01, new c.Rectangle(0, 0, 300, 112), null), (a.gr_npc_3040611000_02_trail02_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_trail02, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_trail02_in, new c.Rectangle(0, 0, 244, 184), null), (a.gr_npc_3040611000_02_trail01 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_trail01, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_trail01, new c.Rectangle(0, 0, 164, 236), null), (a.gr_npc_3040611000_02_shadow = function(a, b, d) {
+        this.initialize(a, b, d, {}), this.shape = (new c.Shape).setTransform(0, 0, 1, 1), this.shape.graphics.rf(["rgba(0,0,0,0.502)", "rgba(0,0,0,0.2)", "rgba(0,0,0,0)"], [.525, .843, 1], 0, 0, 0, 0, 0, 64.2).s().p("Am8G9Qi4i4ABkFQgBkEC4i5QC5i3EDABQEFgBC4C3QC4C5gBEEQABEFi4C4Qi4C4kFgBQkDABi5i4g"), this.timeline.addTween(c.Tween.get(this.shape).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_shadow, new c.Rectangle(-62.8, -62.8, 125.69999999999999, 125.69999999999999), null), (a.gr_npc_3040611000_02_line01b = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_line01b, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_line01b, new c.Rectangle(0, 0, 240, 264), null), (a.gr_npc_3040611000_02_hanabira3b = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_hanabira3b, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_hanabira3b, new c.Rectangle(0, 0, 20, 24), null), (a.gr_npc_3040611000_02_hanabira3 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_hanabira3, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_hanabira3, new c.Rectangle(0, 0, 20, 24), null), (a.gr_npc_3040611000_02_hanabira2b = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_hanabira2b, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_hanabira2b, new c.Rectangle(0, 0, 20, 24), null), (a.gr_npc_3040611000_02_hanabira2 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_hanabira2, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_hanabira2, new c.Rectangle(0, 0, 20, 24), null), (a.gr_npc_3040611000_02_hanabira1b = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_hanabira1b, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_hanabira1b, new c.Rectangle(0, 0, 32, 24), null), (a.gr_npc_3040611000_02_hanabira1 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_hanabira1, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_hanabira1, new c.Rectangle(0, 0, 32, 24), null), (a.gr_npc_3040611000_02_ef06_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef06, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef06_in, new c.Rectangle(0, 0, 120, 132), null), (a.gr_npc_3040611000_02_ef05_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef05, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef05_in, new c.Rectangle(0, 0, 136, 172), null), (a.gr_npc_3040611000_02_ef04 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef04, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef04, new c.Rectangle(0, 0, 240, 300), null), (a.gr_npc_3040611000_02_ef03 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef03,
+            this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef03, new c.Rectangle(0, 0, 300, 8), null), (a.gr_npc_3040611000_02_ef3_b = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef3_b, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef3_b, new c.Rectangle(0, 0, 20, 272), null), (a.gr_npc_3040611000_02_ef3_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef3_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef3_a, new c.Rectangle(0, 0, 20, 272), null), (a.gr_npc_3040611000_02_ef02 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef02, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef02, new c.Rectangle(0, 0, 56, 240), null), (a.gr_npc_3040611000_02_ef01 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ef01, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef01, new c.Rectangle(0, 0, 140, 140), null), (a.gr_npc_3040611000_02_down_ase = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_ase, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_ase, new c.Rectangle(0, 0, 24, 20), null), (a.gr_npc_3040611000_02_bg_yellow = function(a, b, d) {
+        this.initialize(a, b, d, {}), this.shape = (new c.Shape).setTransform(0, 0, 1, 1), this.shape.graphics.f("#FF66CC").s().p("Ehm4BHfMAAAiO9MDNxAAAMAAACO9g"), this.shape.setTransform(1010.5666, 983.5153, 1.5346, 2.1497), this.timeline.addTween(c.Tween.get(this.shape).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_bg_yellow, new c.Rectangle(.1, 0, 2021, 1967.1), null), (a.gr_npc_3040611000_02_bg_black = function(a, b, d) {
+        this.initialize(a, b, d, {}), this.shape = (new c.Shape).setTransform(0, 0, 1, 1), this.shape.graphics.f("#000000").s().p("EhgoBgpMAAAjBRMDBRAAAMAAADBRg"), this.shape.setTransform(1010.4805, 986.5009, 1.6338, 1.595), this.timeline.addTween(c.Tween.get(this.shape).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_bg_black, new c.Rectangle(0, 0, 2021, 1973), null), (a.gr_npc_3040611000_02_aura02 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_aura02, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_aura02, new c.Rectangle(0, 0, 300, 264), null), (a.gr_npc_3040611000_02_attack04_blur = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_blur, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_blur, new c.Rectangle(0, 0, 300, 156), null), (a.gr_npc_3040611000_02_win_RhandBB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_RhandBB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_RhandBB, new c.Rectangle(0, 0, 24, 24), null), (a.gr_npc_3040611000_02_win_RhandBA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_RhandBA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_RhandBA, new c.Rectangle(0, 0, 20, 20), null), (a.gr_npc_3040611000_02_win_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_Rarm, new c.Rectangle(0, 0, 48, 60), null), (a.gr_npc_3040611000_02_win_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_Larm, new c.Rectangle(0, 0, 68, 64), null), (a.gr_npc_3040611000_02_win_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_head_a, new c.Rectangle(0, 0, 64, 64), null), (a.gr_npc_3040611000_02_win_hatB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_hatB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_hatB, new c.Rectangle(0, 0, 52, 48), null), (a.gr_npc_3040611000_02_win_hat = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_hat, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_hat, new c.Rectangle(0, 0, 80, 60), null), (a.gr_npc_3040611000_02_win_drink = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_drink, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_drink, new c.Rectangle(0, 0, 32, 56), null), (a.gr_npc_3040611000_02_win_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_bodyribbon, new c.Rectangle(0, 0, 40, 40), null), (a.gr_npc_3040611000_02_win_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_body, new c.Rectangle(0, 0, 52, 132), null), (a.gr_npc_3040611000_02_win_backhairC = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_backhairC, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_backhairC, new c.Rectangle(0, 0, 88, 48), null), (a.gr_npc_3040611000_02_win_backhairB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_backhairB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_backhairB, new c.Rectangle(0, 0, 28, 48), null), (a.gr_npc_3040611000_02_win_backhairA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_backhairA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_backhairA, new c.Rectangle(0, 0, 56, 80), null), (a.gr_npc_3040611000_02_win_BackClothC = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_BackClothC, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_BackClothC, new c.Rectangle(0, 0, 88, 64), null), (a.gr_npc_3040611000_02_win_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_BackClothB, new c.Rectangle(0, 0, 64, 92), null), (a.gr_npc_3040611000_02_win_BackClothA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_BackClothA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_BackClothA, new c.Rectangle(0, 0, 52, 92), null), (a.gr_npc_3040611000_02_win_backbelt = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_win_backbelt, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_win_backbelt, new c.Rectangle(0, 0, 12, 16), null), (a.gr_npc_3040611000_02_weapon2_weapon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_weapon2_weapon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_weapon2_weapon, new c.Rectangle(0, 0, 56, 164), null), (a.gr_npc_3040611000_02_weapon_ef = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_weapon_ef, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_weapon_ef, new c.Rectangle(0, 0, 100, 132), null), (a.gr_npc_3040611000_02_wait_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_Rarm, new c.Rectangle(0, 0, 48, 64), null), (a.gr_npc_3040611000_02_wait_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_Larm, new c.Rectangle(0, 0, 48, 68), null), (a.gr_npc_3040611000_02_wait_head_b_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_head_b, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_head_b_in, new c.Rectangle(0, 0, 256, 256), null), (a.gr_npc_3040611000_02_wait_head_a_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_head_a_in, new c.Rectangle(0, 0, 256, 256), null), (a.gr_npc_3040611000_02_wait_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_bodyribbon, new c.Rectangle(0, 0, 40, 44), null), (a.gr_npc_3040611000_02_wait_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_body, new c.Rectangle(0, 0, 52, 132), null), (a.gr_npc_3040611000_02_wait_backhair = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_backhair, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_backhair, new c.Rectangle(0, 0, 100, 132), null), (a.gr_npc_3040611000_02_wait_BackCloth = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_wait_BackCloth, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_BackCloth, new c.Rectangle(0, 0, 116, 100), null), (a.gr_npc_3040611000_02_setup_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_Rarm, new c.Rectangle(0, 0, 52, 76), null), (a.gr_npc_3040611000_02_setup_LhandB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_LhandB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_LhandB, new c.Rectangle(0, 0, 16, 16), null), (a.gr_npc_3040611000_02_setup_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_LarmB, new c.Rectangle(0, 0, 36, 48), null), (a.gr_npc_3040611000_02_setup_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_Larm, new c.Rectangle(0, 0, 36, 24), null), (a.gr_npc_3040611000_02_setup_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_head_a, new c.Rectangle(0, 0, 104, 80), null), (a.gr_npc_3040611000_02_setup_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_bodyribbon, new c.Rectangle(0, 0, 36, 40), null), (a.gr_npc_3040611000_02_setup_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_setup_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_setup_body, new c.Rectangle(0, 0, 48, 132), null), (a.gr_npc_3040611000_02_down_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_Rarm, new c.Rectangle(0, 0, 40, 64), null), (a.gr_npc_3040611000_02_down_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_LarmB, new c.Rectangle(0, 0, 44, 32), null), (a.gr_npc_3040611000_02_down_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_Larm, new c.Rectangle(0, 0, 32, 24), null), (a.gr_npc_3040611000_02_down_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_head_a, new c.Rectangle(0, 0, 112, 84), null), (a.gr_npc_3040611000_02_down_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_body, new c.Rectangle(0, 0, 56, 72), null), (a.gr_npc_3040611000_02_down_BackCloth = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_down_BackCloth, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_down_BackCloth, new c.Rectangle(0, 0, 140, 60), null), (a.gr_npc_3040611000_02_damage_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_Rarm, new c.Rectangle(0, 0, 56, 52), null), (a.gr_npc_3040611000_02_damage_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_LarmB, new c.Rectangle(0, 0, 48, 32), null), (a.gr_npc_3040611000_02_damage_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_Larm, new c.Rectangle(0, 0, 32, 24), null), (a.gr_npc_3040611000_02_damage_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_head_a, new c.Rectangle(0, 0, 112, 84), null), (a.gr_npc_3040611000_02_damage_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_bodyribbon, new c.Rectangle(0, 0, 52, 48), null), (a.gr_npc_3040611000_02_damage_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_body, new c.Rectangle(0, 0, 72, 112), null), (a.gr_npc_3040611000_02_damage_BackCloth = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_damage_BackCloth, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_damage_BackCloth, new c.Rectangle(0, 0, 136, 92), null), (a.gr_npc_3040611000_02_attack08_head_aD = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack08_head_aD, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack08_head_aD, new c.Rectangle(0, 0, 192, 196), null), (a.gr_npc_3040611000_02_attack06_RlegB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_RlegB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_RlegB, new c.Rectangle(0, 0, 24, 36), null), (a.gr_npc_3040611000_02_attack06_RlegA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_RlegA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_RlegA, new c.Rectangle(0, 0, 40, 20), null), (a.gr_npc_3040611000_02_attack06_RhandB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_RhandB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_RhandB, new c.Rectangle(0, 0, 16, 16), null), (a.gr_npc_3040611000_02_attack06_RarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_RarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_RarmB, new c.Rectangle(0, 0, 40, 36), null), (a.gr_npc_3040611000_02_attack06_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_Rarm, new c.Rectangle(0, 0, 24, 32), null), (a.gr_npc_3040611000_02_attack06_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_LarmB, new c.Rectangle(0, 0, 64, 44), null), (a.gr_npc_3040611000_02_attack06_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_Larm, new c.Rectangle(0, 0, 36, 20), null), (a.gr_npc_3040611000_02_attack06_bodyribbonB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_bodyribbonB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_bodyribbonB, new c.Rectangle(0, 0, 8, 12), null), (a.gr_npc_3040611000_02_attack06_bodyribbonA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_bodyribbonA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_bodyribbonA, new c.Rectangle(0, 0, 28, 36), null), (a.gr_npc_3040611000_02_attack06_Body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_Body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_Body, new c.Rectangle(0, 0, 56, 64), null), (a.gr_npc_3040611000_02_attack06_Belt = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_Belt, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_Belt, new c.Rectangle(0, 0, 20, 16), null), (a.gr_npc_3040611000_02_attack06_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_BackClothB, new c.Rectangle(0, 0, 84, 76), null), (a.gr_npc_3040611000_02_attack06_BackClothA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack06_BackClothA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack06_BackClothA, new c.Rectangle(0, 0, 116, 76), null), (a.gr_npc_3040611000_02_attack05_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_Rarm, new c.Rectangle(0, 0, 40, 20), null), (a.gr_npc_3040611000_02_attack05_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_Larm, new c.Rectangle(0, 0, 72, 48), null), (a.gr_npc_3040611000_02_attack05_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_bodyribbon, new c.Rectangle(0, 0, 24, 32), null), (a.gr_npc_3040611000_02_attack05_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_body, new c.Rectangle(0, 0, 116, 84), null), (a.gr_npc_3040611000_02_attack05_backhairA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_backhairA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_backhairA, new c.Rectangle(0, 0, 140, 56), null), (a.gr_npc_3040611000_02_attack05_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_BackClothB, new c.Rectangle(0, 0, 88, 72), null), (a.gr_npc_3040611000_02_attack05_BackClothA02 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_BackClothA02, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_BackClothA02, new c.Rectangle(0, 0, 32, 12), null), (a.gr_npc_3040611000_02_attack05_BackClothA01 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack05_BackClothA01, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack05_BackClothA01, new c.Rectangle(0, 0, 132, 68), null), (a.gr_npc_3040611000_02_attack04_RlegB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_RlegB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_RlegB, new c.Rectangle(0, 0, 36, 24), null), (a.gr_npc_3040611000_02_attack04_RlegA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_RlegA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_RlegA, new c.Rectangle(0, 0, 24, 40), null), (a.gr_npc_3040611000_02_attack04_RarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_RarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_RarmB, new c.Rectangle(0, 0, 36, 52), null), (a.gr_npc_3040611000_02_attack04_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_Rarm, new c.Rectangle(0, 0, 32, 28), null), (a.gr_npc_3040611000_02_attack04_LlegB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_LlegB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_LlegB, new c.Rectangle(0, 0, 32, 24), null), (a.gr_npc_3040611000_02_attack04_LlegA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_LlegA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_LlegA, new c.Rectangle(0, 0, 32, 36), null), (a.gr_npc_3040611000_02_attack04_LhandB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_LhandB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_LhandB, new c.Rectangle(0, 0, 16, 16), null), (a.gr_npc_3040611000_02_attack04_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_LarmB, new c.Rectangle(0, 0, 48, 40), null), (a.gr_npc_3040611000_02_attack04_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_Larm, new c.Rectangle(0, 0, 32, 28), null), (a.gr_npc_3040611000_02_attack04_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_body, new c.Rectangle(0, 0, 56, 64), null), (a.gr_npc_3040611000_02_attack04_belt = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_belt, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_belt, new c.Rectangle(0, 0, 20, 12), null), (a.gr_npc_3040611000_02_attack04_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_BackClothB, new c.Rectangle(0, 0, 108, 88), null), (a.gr_npc_3040611000_02_attack04_BackClothA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack04_BackClothA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack04_BackClothA, new c.Rectangle(0, 0, 100, 76), null), (a.gr_npc_3040611000_02_attack03_RarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_RarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_RarmB, new c.Rectangle(0, 0, 44, 44), null), (a.gr_npc_3040611000_02_attack03_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_Rarm, new c.Rectangle(0, 0, 36, 32), null), (a.gr_npc_3040611000_02_attack03_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_Larm, new c.Rectangle(0, 0, 64, 56), null), (a.gr_npc_3040611000_02_attack03_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_head_a, new c.Rectangle(0, 0, 112, 80), null), (a.gr_npc_3040611000_02_attack03_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_bodyribbon, new c.Rectangle(0, 0, 48, 40), null), (a.gr_npc_3040611000_02_attack03_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_body, new c.Rectangle(0, 0, 96, 100), null), (a.gr_npc_3040611000_02_attack03_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_BackClothB, new c.Rectangle(0, 0, 104, 92), null), (a.gr_npc_3040611000_02_attack03_BackClothA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack03_BackClothA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack03_BackClothA, new c.Rectangle(0, 0, 88, 60), null), (a.gr_npc_3040611000_02_attack02_RarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_RarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_RarmB, new c.Rectangle(0, 0, 44, 44), null), (a.gr_npc_3040611000_02_attack02_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_Rarm, new c.Rectangle(0, 0, 24, 36), null), (a.gr_npc_3040611000_02_attack02_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_LarmB, new c.Rectangle(0, 0, 48, 48), null), (a.gr_npc_3040611000_02_attack02_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_Larm, new c.Rectangle(0, 0, 28, 32), null), (a.gr_npc_3040611000_02_attack02_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_head_a, new c.Rectangle(0, 0, 96, 80), null), (a.gr_npc_3040611000_02_attack02_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_bodyribbon, new c.Rectangle(0, 0, 32, 40), null), (a.gr_npc_3040611000_02_attack02_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_body, new c.Rectangle(0, 0, 108, 100), null), (a.gr_npc_3040611000_02_attack02_backhairB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_backhairB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_backhairB, new c.Rectangle(0, 0, 60, 64), null), (a.gr_npc_3040611000_02_attack02_backhairA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_backhairA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_backhairA, new c.Rectangle(0, 0, 136, 72), null), (a.gr_npc_3040611000_02_attack02_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_BackClothB, new c.Rectangle(0, 0, 104, 72), null), (a.gr_npc_3040611000_02_attack02_BackClothA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack02_BackClothA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack02_BackClothA, new c.Rectangle(0, 0, 116, 60), null), (a.gr_npc_3040611000_02_attack01_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_LarmB, new c.Rectangle(0, 0, 52, 36), null), (a.gr_npc_3040611000_02_attack01_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_Larm, new c.Rectangle(0, 0, 40, 32), null), (a.gr_npc_3040611000_02_attack01_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_head_a, new c.Rectangle(0, 0, 84, 100), null), (a.gr_npc_3040611000_02_attack01_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_bodyribbon, new c.Rectangle(0, 0, 32, 40), null), (a.gr_npc_3040611000_02_attack01_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1));
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_body, new c.Rectangle(0, 0, 56, 128), null), (a.gr_npc_3040611000_02_attack01_BackClothB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_BackClothB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_BackClothB, new c.Rectangle(0, 0, 84, 96), null), (a.gr_npc_3040611000_02_attack01_BackClothA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_attack01_BackClothA, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_attack01_BackClothA, new c.Rectangle(0, 0, 60, 108), null), (a.gr_npc_3040611000_02_ability_RhandB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_RhandB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_RhandB, new c.Rectangle(0, 0, 16, 16), null), (a.gr_npc_3040611000_02_ability_RarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_RarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_RarmB, new c.Rectangle(0, 0, 52, 36), null), (a.gr_npc_3040611000_02_ability_Rarm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_Rarm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_Rarm, new c.Rectangle(0, 0, 32, 28), null), (a.gr_npc_3040611000_02_ability_LhandB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_LhandB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_LhandB, new c.Rectangle(0, 0, 20, 24), null), (a.gr_npc_3040611000_02_ability_LarmB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_LarmB, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_LarmB, new c.Rectangle(0, 0, 44, 40), null), (a.gr_npc_3040611000_02_ability_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_Larm, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_Larm, new c.Rectangle(0, 0, 24, 28), null), (a.gr_npc_3040611000_02_ability_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_head_a, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_head_a, new c.Rectangle(0, 0, 112, 84), null), (a.gr_npc_3040611000_02_ability_bodyribbon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_bodyribbon, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_bodyribbon, new c.Rectangle(0, 0, 40, 40), null), (a.gr_npc_3040611000_02_ability_body = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_body, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_body, new c.Rectangle(0, 0, 88, 104), null), (a.gr_npc_3040611000_02_ability_BackCloth = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.npc_3040611000_02_ability_BackCloth, this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ability_BackCloth, new c.Rectangle(0, 0, 132, 88), null), (a.mc_npc_3040611000_02_down_ase = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_down_ase, this.instance.setTransform(12, 10, 1, 1, 0, 0, 0, 12, 10), this.timeline.addTween(c.Tween.get(this.instance).to({
+            _off: !0
+        }, 1).wait(2))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(0, 0, 24, 20), (a.mc_npc_3040611000_02_win_efB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_hanabira2, this.instance.setTransform(-69.5, -180.25, .3749, .3749, 177.7212, 0, 0, 10, 12), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regX: 9.7,
+            regY: 11.9,
+            rotation: 794.2369,
+            x: 33.8,
+            y: -113.35
+        }, 79).to({
+            regX: 9.8,
+            regY: 12.1,
+            rotation: 872.2795,
+            x: 46.9,
+            y: -104.85,
+            alpha: 0
+        }, 10).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_hanabira3, this.instance_1.setTransform(64.1, -153.9, .3749, .3749, 121.063, 0, 0, 9.3, 11.1), this.instance_1.alpha = .3984, this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regX: 9.8,
+            regY: 11.3,
+            rotation: 152.2795,
+            x: 68.5,
+            y: -151,
+            alpha: 0
+        }, 4).wait(1).to({
+            regX: 10,
+            regY: 11.5,
+            rotation: 177.7212,
+            x: -30.15,
+            y: -212.7,
+            alpha: 1
+        }, 0).to({
+            regX: 9.6,
+            regY: 11.2,
+            rotation: 794.2369,
+            x: 57.4,
+            y: -157.9
+        }, 79).to({
+            regX: 9.5,
+            regY: 11,
+            rotation: 833.2592,
+            x: 63.05,
+            y: -154.55,
+            alpha: .5
+        }, 5).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_hanabira2, this.instance_2.setTransform(34.25, -23.7, .3749, .3749, 80.2969, 0, 0, 9.7, 11.7), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            regX: 9.9,
+            regY: 11.8,
+            rotation: 103.7037,
+            x: 39.55,
+            y: -21.1
+        }, 3).to({
+            regX: 10,
+            regY: 12.1,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 181.749,
+            x: 57.35,
+            y: -12.1,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10.2,
+            regY: 11.9,
+            rotation: 207.1886,
+            x: -99.9,
+            y: -91.95,
+            alpha: 1
+        }, 0).to({
+            regX: 9.8,
+            regY: 11.8,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 792.4913,
+            x: 32.35,
+            y: -24.6
+        }, 75).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_hanabira2b, this.instance_3.setTransform(-87.7, -117.4, .375, .375, -152.8114, 0, 0, 10.2, 12.3), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            regX: 10.1,
+            regY: 12.1,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 463.7037,
+            x: 41.1,
+            y: -48.85
+        }, 79).to({
+            regX: 10,
+            regY: 12.3,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 541.749,
+            x: 57.5,
+            y: -40.2,
+            alpha: 0
+        }, 10).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_hanabira3, this.instance_4.setTransform(21.45, -76.4, .3749, .3749, -36.771, 0, 0, 10.4, 11.2), this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            regX: 9.9,
+            regY: 11.3,
+            rotation: 103.7037,
+            x: 49.75,
+            y: -61.6
+        }, 18).to({
+            regX: 9.8,
+            regY: 11.6,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 181.749,
+            x: 65.65,
+            y: -53.6,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10,
+            regY: 11.3,
+            rotation: 207.1886,
+            x: -74.65,
+            y: -125.85,
+            alpha: 1
+        }, 0).to({
+            regX: 10.2,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 675.4254,
+            x: 19.85,
+            y: -77.15
+        }, 60).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_hanabira3b, this.instance_5.setTransform(79.6, -1.35, .3749, .3749, 103.7037, 0, 0, 10.1, 11.6), this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 181.749,
+            x: 98.75,
+            y: 5.75,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10.3,
+            regY: 11.7,
+            rotation: 207.1886,
+            x: -70.2,
+            y: -58.15,
+            alpha: 1
+        }, 0).to({
+            regY: 11.4,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 815.8939,
+            x: 77.75,
+            y: -2
+        }, 78).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_hanabira1b, this.instance_6.setTransform(10.75, -113.25, .3749, .3749, -164.4134, 0, 0, 14.9, 11.8), this.timeline.addTween(c.Tween.get(this.instance_6).to({
+            regX: 15.1,
+            regY: 11.6,
+            rotation: -256.2963,
+            x: 58.6,
+            y: -88.5
+        }, 33).to({
+            regX: 14.9,
+            regY: 11.8,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: -178.251,
+            x: 73.25,
+            y: -81.1,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 15.3,
+            rotation: -152.8114,
+            x: -55.9,
+            y: -147.6,
+            alpha: 1
+        }, 0).to({
+            regX: 15.2,
+            regY: 11.7,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 558.3701,
+            x: 9.25,
+            y: -113.95
+        }, 45).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_hanabira2, this.instance_7.setTransform(38.55, -187, .3749, .3749, -125.4238, 0, 0, 10.2, 12.2), this.timeline.addTween(c.Tween.get(this.instance_7).to({
+            regY: 11.9,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: -103.4849,
+            x: 92.15,
+            y: -162.15
+        }, 48).to({
+            regX: 10.1,
+            regY: 11.8,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: -25.4388,
+            x: 103.4,
+            y: -156.9,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 0,
+            x: 3.9,
+            y: -203,
+            alpha: 1
+        }, 0).to({
+            regX: 10.2,
+            regY: 12,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 594.1208,
+            x: 37.3,
+            y: -187.5
+        }, 30).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_hanabira2b, this.instance_8.setTransform(-32.15, -101.5, .3749, .3749, 80.6358, 0, 0, 10, 12.2), this.timeline.addTween(c.Tween.get(this.instance_8).to({
+            regX: 10.1,
+            regY: 12.3,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 256.5151,
+            x: 78.8,
+            y: -55.45
+        }, 68).to({
+            regX: 10.3,
+            regY: 12.2,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 334.5612,
+            x: 95.1,
+            y: -48.65,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10.2,
+            regY: 12,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 360,
+            x: -50.1,
+            y: -108.9,
+            alpha: 1
+        }, 0).to({
+            regX: 10,
+            regY: 12.1,
+            rotation: 798.0453,
+            x: -33.7,
+            y: -102.2
+        }, 10).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_hanabira3, this.instance_9.setTransform(30.4, -4.7, .3749, .3749, -11.6013, 0, 0, 10.1, 11.5), this.timeline.addTween(c.Tween.get(this.instance_9).to({
+            regX: 10,
+            regY: 11.6,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: -103.4849,
+            x: 96.6,
+            y: 17
+        }, 33).to({
+            regX: 10.1,
+            regY: 11.3,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: -25.4388,
+            x: 116.55,
+            y: 23.35,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 0,
+            x: -61.65,
+            y: -34.5,
+            alpha: 1
+        }, 0).to({
+            regX: 10.1,
+            regY: 11.4,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 711.184,
+            x: 28.35,
+            y: -5.3
+        }, 45).wait(1)), this.instance_10 = new a.gr_npc_3040611000_02_hanabira3b, this.instance_10.setTransform(-1.75, -204.65, .3749, .3749, 165.4859, 0, 0, 9.8, 11.8), this.timeline.addTween(c.Tween.get(this.instance_10).to({
+            regX: 10.2,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 256.5151,
+            x: 59.15,
+            y: -165.9
+        }, 57).to({
+            regX: 10.3,
+            regY: 11.5,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 334.5612,
+            x: 69.85,
+            y: -159.15,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 10.2,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 360,
+            x: -25.45,
+            y: -219.45,
+            alpha: 1
+        }, 0).to({
+            regX: 10,
+            regY: 11.6,
+            rotation: 883.8861,
+            x: -2.85,
+            y: -205.2
+        }, 21).wait(1)), this.instance_11 = new a.gr_npc_3040611000_02_hanabira1b, this.instance_11.setTransform(-51.15, -127.65, .3749, .3749, -72.023, 0, 0, 15.3, 11), this.timeline.addTween(c.Tween.get(this.instance_11).to({
+            regX: 15.2,
+            regY: 11.6,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: -103.4849,
+            x: 7.15,
+            y: -86.45
+        }, 41).to({
+            regX: 15.3,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: -25.4388,
+            x: 21.4,
+            y: -76.45,
+            alpha: 0
+        }, 10).wait(1).to({
+            regX: 15.2,
+            regY: 11.5,
+            scaleX: .375,
+            scaleY: .375,
+            rotation: 0,
+            x: -104.7,
+            y: -165.65,
+            alpha: 1
+        }, 0).to({
+            regY: 11.3,
+            scaleX: .3749,
+            scaleY: .3749,
+            rotation: 648.7447,
+            x: -52.45,
+            y: -128.5
+        }, 37).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-110.4, -224.3, 232.4, 253.60000000000002), (a.mc_npc_3040611000_02_win_efA = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_hanabira1, this.instance.setTransform(-58.4, -213.3, .75, .75, 0, 0, 0, 15, 11.6), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regX: 15.1,
+            regY: 11.5,
+            rotation: 658.9806,
+            x: 91.1,
+            y: -55.6
+        }, 49).to({
+            regX: 15,
+            regY: 11.6,
+            rotation: 720,
+            x: 121.6,
+            y: -23.3,
+            alpha: 0
+        }, 10).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_hanabira1b, this.instance_1.setTransform(42.6, -32.2, .5, .5, -77.1412, 0, 0, 15.2, 11.5), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            rotation: -63.1597,
+            x: 45.25,
+            y: -29.6
+        }, 1).to({
+            regX: 15.1,
+            rotation: 0,
+            x: 71.6,
+            y: -3.35,
+            alpha: 0
+        }, 10).to({
+            _off: !0
+        }, 1).wait(2).to({
+            _off: !1,
+            x: -78.4,
+            y: -153.35,
+            alpha: 1
+        }, 0).to({
+            rotation: 628.8878,
+            x: 39.85,
+            y: -34.75
+        }, 45).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_hanabira2, this.instance_2.setTransform(.2, -55.9, .3499, .3499, 123.4628, 0, 0, 10.1, 11.8), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            regY: 12.1,
+            scaleX: .35,
+            scaleY: .35,
+            rotation: 213.0568,
+            x: 58.95,
+            y: -15.45
+        }, 18).to({
+            regX: 10.2,
+            regY: 11.8,
+            rotation: 360,
+            x: 91.6,
+            y: 7,
+            alpha: 0
+        }, 10).to({
+            _off: !0
+        }, 1).wait(10).to({
+            _off: !1,
+            x: -68.4,
+            y: -103,
+            alpha: 1
+        }, 0).to({
+            regX: 10.1,
+            regY: 12,
+            scaleX: .3499,
+            scaleY: .3499,
+            rotation: 1198.4872,
+            x: -3.1,
+            y: -58.1
+        }, 20).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_hanabira3b, this.instance_3.setTransform(17.55, -184.4, .7499, .7499, 160.2366, 0, 0, 10, 11.6), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            regX: 10.1,
+            scaleX: .75,
+            scaleY: .75,
+            rotation: 276.8219,
+            x: 88.25,
+            y: -109.55
+        }, 28).to({
+            rotation: 350.2947,
+            x: 113.5,
+            y: -82.85,
+            alpha: 0
+        }, 10).to({
+            _off: !0
+        }, 1).wait(10).to({
+            _off: !1,
+            regX: 10,
+            regY: 11.5,
+            x: -10.35,
+            y: -213.85,
+            alpha: 1
+        }, 0).to({
+            regY: 11.6,
+            scaleX: .7499,
+            scaleY: .7499,
+            rotation: 876.0718,
+            x: 15,
+            y: -187.05
+        }, 10).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-85.9, -223.6, 220.3, 234.9), (a.mc_npc_3040611000_02_winhat_front = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_win_hat, this.instance.setTransform(-4, -152, 1, 1, 0, 0, 0, 54, 35), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.mc_npc_3040611000_02_winhat_front, new c.Rectangle(-58, -187, 80, 60), null), (a.mc_npc_3040611000_02_win_Rhand = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_0 = function() {
+            this.mc_winhat_front.gotoAndPlay(0)
+        }, this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(240)), this.instance = new a.gr_npc_3040611000_02_win_RhandBA, this.instance.setTransform(-32, -105, 1, 1, 0, 0, 0, 13, 18), this.timeline.addTween(c.Tween.get(this.instance).wait(24).to({
+            rotation: -5.5138,
+            x: -32.75,
+            y: -105.2
+        }, 12, c.Ease.quadInOut).to({
+            rotation: 0,
+            x: -32,
+            y: -105
+        }, 18, c.Ease.quadInOut).to({
+            rotation: -5.5138,
+            x: -32.75,
+            y: -105.2
+        }, 12, c.Ease.quadInOut).to({
+            rotation: 0,
+            x: -32,
+            y: -105
+        }, 18, c.Ease.quadInOut).wait(65).to({
+            rotation: -5.5138,
+            x: -32.75,
+            y: -105.2
+        }, 12, c.Ease.quadInOut).to({
+            rotation: 0,
+            x: -32,
+            y: -105
+        }, 18, c.Ease.quadInOut).wait(61)), this.instance_1 = new a.gr_npc_3040611000_02_win_drink, this.instance_1.setTransform(-37, -111, 1, 1, 0, 0, 0, 22, 43), this.timeline.addTween(c.Tween.get(this.instance_1).wait(24).to({
+            regX: 21.9,
+            rotation: -5.5138,
+            x: -38.4,
+            y: -110.7
+        }, 12, c.Ease.quadInOut).to({
+            regX: 22,
+            rotation: 0,
+            x: -37,
+            y: -111
+        }, 18, c.Ease.quadInOut).to({
+            regX: 21.9,
+            rotation: -5.5138,
+            x: -38.4,
+            y: -110.7
+        }, 12, c.Ease.quadInOut).to({
+            regX: 22,
+            rotation: 0,
+            x: -37,
+            y: -111
+        }, 18, c.Ease.quadInOut).wait(65).to({
+            regX: 21.9,
+            rotation: -5.5138,
+            x: -38.4,
+            y: -110.7
+        }, 12, c.Ease.quadInOut).to({
+            regX: 22,
+            rotation: 0,
+            x: -37,
+            y: -111
+        }, 18, c.Ease.quadInOut).wait(61)), this.instance_2 = new a.gr_npc_3040611000_02_win_RhandBB, this.instance_2.setTransform(-32, -105, 1, 1, 0, 0, 0, 18, 18), this.timeline.addTween(c.Tween.get(this.instance_2).wait(24).to({
+            rotation: -5.5138,
+            x: -32.8,
+            y: -105.25
+        }, 12, c.Ease.quadInOut).to({
+            rotation: 0,
+            x: -32,
+            y: -105
+        }, 18, c.Ease.quadInOut).to({
+            rotation: -5.5138,
+            x: -32.8,
+            y: -105.25
+        }, 12, c.Ease.quadInOut).to({
+            rotation: 0,
+            x: -32,
+            y: -105
+        }, 18, c.Ease.quadInOut).wait(65).to({
+            rotation: -5.5138,
+            x: -32.8,
+            y: -105.25
+        }, 12, c.Ease.quadInOut).to({
+            rotation: 0,
+            x: -32,
+            y: -105
+        }, 18, c.Ease.quadInOut).wait(61)), this.mc_winhat_front = new a.mc_npc_3040611000_02_winhat_front, this.mc_winhat_front.name = "mc_winhat_front", this.mc_winhat_front.setTransform(-18, -157, 1, 1, 0, 0, 0, -18, -157), this.timeline.addTween(c.Tween.get(this.mc_winhat_front).wait(14).to({
+            regY: -157.1,
+            rotation: -4.1994,
+            x: -20.5,
+            y: -155.55
+        }, 17, c.Ease.quadInOut).wait(43).to({
+            regY: -157,
+            rotation: 0,
+            x: -18,
+            y: -157
+        }, 20, c.Ease.quadInOut).wait(47).to({
+            regY: -157.1,
+            rotation: -4.1994,
+            x: -20.5,
+            y: -155.55
+        }, 17, c.Ease.quadInOut).wait(12).to({
+            regY: -157,
+            rotation: 0,
+            x: -18,
+            y: -157
+        }, 20, c.Ease.quadInOut).wait(50)), this.instance_3 = new a.gr_npc_3040611000_02_win_head_a, this.instance_3.setTransform(2, -122, 1, 1, 0, 0, 0, 34, 50), this.timeline.addTween(c.Tween.get(this.instance_3).wait(14).to({
+            rotation: -4.1994,
+            y: -121.95
+        }, 17, c.Ease.quadInOut).wait(43).to({
+            rotation: 0,
+            y: -122
+        }, 20, c.Ease.quadInOut).wait(47).to({
+            rotation: -4.1994,
+            y: -121.95
+        }, 17, c.Ease.quadInOut).wait(12).to({
+            rotation: 0,
+            y: -122
+        }, 20, c.Ease.quadInOut).wait(50)), this.instance_4 = new a.gr_npc_3040611000_02_win_Rarm, this.instance_4.setTransform(-7, -116, 1, 1, 0, 0, 0, 41, 2), this.timeline.addTween(c.Tween.get(this.instance_4).wait(24).to({
+            regY: 1.9,
+            scaleY: .9999,
+            skewX: 2.2609,
+            skewY: .9985,
+            x: -6.95,
+            y: -116.05
+        }, 11, c.Ease.quadInOut).to({
+            regY: 2,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -7,
+            y: -116
+        }, 19, c.Ease.quadInOut).to({
+            regY: 1.9,
+            scaleY: .9999,
+            skewX: 2.2609,
+            skewY: .9985,
+            x: -6.95,
+            y: -116.05
+        }, 11, c.Ease.quadInOut).to({
+            regY: 2,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -7,
+            y: -116
+        }, 19, c.Ease.quadInOut).wait(65).to({
+            regY: 1.9,
+            scaleY: .9999,
+            skewX: 2.2609,
+            skewY: .9985,
+            x: -6.95,
+            y: -116.05
+        }, 11, c.Ease.quadInOut).to({
+            regY: 2,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -7,
+            y: -116
+        }, 19, c.Ease.quadInOut).wait(61))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-64.4, -188.2, 97.4, 130.39999999999998), (a.mc_npc_3040611000_02_win_hatB = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_win_hatB, this.instance.setTransform(1, -157, 1, 1, 0, 0, 0, 7, 39), this.timeline.addTween(c.Tween.get(this.instance).wait(14).to({
+            rotation: -4.1994,
+            x: -1.5,
+            y: -156.75
+        }, 17, c.Ease.quadInOut).wait(43).to({
+            rotation: 0,
+            x: 1,
+            y: -157
+        }, 20, c.Ease.quadInOut).wait(47).to({
+            rotation: -4.1994,
+            x: -1.5,
+            y: -156.75
+        }, 17, c.Ease.quadInOut).wait(12).to({
+            rotation: 0,
+            x: 1,
+            y: -157
+        }, 20, c.Ease.quadInOut).wait(50))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-11.3, -198.9, 57.400000000000006, 51.70000000000002), (a.mc_npc_3040611000_02_win_frontcloth = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_win_BackClothA, this.instance.setTransform(50, -47, 1, 1, 0, 0, 0, 26, 46), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regX: 25.9,
+            scaleX: .9998,
+            scaleY: .9994,
+            skewX: -9.5298,
+            skewY: -2.5506,
+            x: 56.45,
+            y: -48.65
+        }, 16, c.Ease.quadInOut).to({
+            regX: 26,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 50,
+            y: -47
+        }, 23, c.Ease.quadInOut).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(23, -95.2, 67.2, 94.2), (a.mc_npc_3040611000_02_win_backhair = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_win_backhairA, this.instance.setTransform(-2, -159, 1, 1, 0, 0, 0, 21, 11), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regX: 20.9,
+            rotation: -2.4513,
+            x: -2.3,
+            y: -158.85
+        }, 21, c.Ease.quadInOut).to({
+            regX: 21,
+            rotation: 0,
+            x: -2,
+            y: -159
+        }, 18, c.Ease.quadInOut).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_win_backhairC, this.instance_1.setTransform(18, -105, 1, 1, 0, 0, 0, 11, 9), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regX: 11.1,
+            rotation: -10.6683,
+            x: 20.1,
+            y: -105.75
+        }, 22, c.Ease.quadInOut).to({
+            regX: 11,
+            rotation: 0,
+            x: 18,
+            y: -105
+        }, 17, c.Ease.quadInOut).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_win_backhairB, this.instance_2.setTransform(-7, -136, 1, 1, 0, 0, 0, 16, 4), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            regX: 15.8,
+            regY: 3.6,
+            scaleX: .9998,
+            scaleY: 1.0143,
+            skewX: -9.0707,
+            skewY: -13.7557,
+            x: -6.3,
+            y: -135.85
+        }, 22, c.Ease.quadInOut).to({
+            regX: 16,
+            regY: 4,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -7,
+            y: -136
+        }, 17, c.Ease.quadInOut).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-23.7, -171.4, 126.7, 106), (a.mc_npc_3040611000_02_win_backcloth = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_win_BackClothB, this.instance.setTransform(-17, -97, 1, 1, 0, 0, 0, 52, 4), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regY: 3.8,
+            scaleX: .9938,
+            scaleY: .9456,
+            skewX: -9.6082,
+            skewY: -2.7246,
+            x: -18.4,
+            y: -94.8
+        }, 16, c.Ease.quadInOut).to({
+            regY: 4,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -17,
+            y: -97
+        }, 23, c.Ease.quadInOut).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_win_BackClothC, this.instance_1.setTransform(5, -94, 1, 1, 0, 0, 0, 34, 7), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regX: 33.9,
+            regY: 6.9,
+            scaleX: .9938,
+            scaleY: .9456,
+            skewX: -9.6082,
+            skewY: -2.7246,
+            x: 3.9,
+            y: -93
+        }, 16, c.Ease.quadInOut).to({
+            regX: 34,
+            regY: 7,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 5,
+            y: -94
+        }, 23, c.Ease.quadInOut).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-70.7, -102.1, 137.4, 93.3), (a.mc_npc_3040611000_02_stbwait_yure = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance.setTransform(23, -88, 1, 1, 0, 0, 180, 46, 12), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regX: 45.8,
+            regY: 11.8,
+            scaleX: .9999,
+            scaleY: .9831,
+            skewX: -6.0012,
+            skewY: 179.4457,
+            x: 23.05,
+            y: -87.95
+        }, 19, c.Ease.quadInOut).to({
+            regX: 46,
+            regY: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 1.7541,
+            skewY: 181.7541,
+            y: -88
+        }, 23, c.Ease.quadInOut).to({
+            regX: 45.9,
+            scaleY: .9716,
+            skewX: -5.9994,
+            skewY: 180,
+            x: 23
+        }, 21, c.Ease.get(.5)).to({
+            regY: 11.9,
+            scaleY: .998,
+            skewX: -1.1687,
+            skewY: 183.2269,
+            x: 22.95,
+            y: -88.15
+        }, 16, c.Ease.quadInOut).wait(1).to({
+            regX: 58,
+            regY: 50,
+            scaleY: .9964,
+            skewX: -1.5268,
+            skewY: 183.0195,
+            x: 11.9,
+            y: -50.75
+        }, 0).wait(1).to({
+            scaleY: .9948,
+            skewX: -1.8908,
+            skewY: 182.8087,
+            x: 12.1,
+            y: -50.8
+        }, 0).wait(1).to({
+            scaleY: .9932,
+            skewX: -2.2598,
+            skewY: 182.595,
+            x: 12.35,
+            y: -50.85
+        }, 0).wait(1).to({
+            scaleY: .9915,
+            skewX: -2.6333,
+            skewY: 182.3787,
+            x: 12.65
+        }, 0).wait(1).to({
+            scaleY: .9898,
+            skewX: -3.0103,
+            skewY: 182.1603,
+            x: 12.9,
+            y: -50.9
+        }, 0).wait(1).to({
+            scaleY: .9881,
+            skewX: -3.39,
+            skewY: 181.9404,
+            x: 13.15
+        }, 0).wait(1).to({
+            scaleY: .9864,
+            skewX: -3.7716,
+            skewY: 181.7194,
+            x: 13.45,
+            y: -50.95
+        }, 0).wait(1).to({
+            scaleY: .9847,
+            skewX: -4.1542,
+            skewY: 181.4978,
+            x: 13.6
+        }, 0).wait(1).to({
+            scaleY: .9829,
+            skewX: -4.5369,
+            skewY: 181.2762,
+            x: 13.9,
+            y: -51
+        }, 0).wait(1).to({
+            scaleY: .9813,
+            skewX: -4.9189,
+            skewY: 181.055,
+            x: 14.15
+        }, 0).wait(1).to({
+            scaleY: .9795,
+            skewX: -5.2992,
+            skewY: 180.8347,
+            x: 14.4,
+            y: -51.1
+        }, 0).wait(1).to({
+            scaleY: .9779,
+            skewX: -5.6771,
+            skewY: 180.6158,
+            x: 14.65
+        }, 0).wait(1).to({
+            scaleY: .9762,
+            skewX: -6.0518,
+            skewY: 180.3988,
+            x: 14.9,
+            y: -51.15
+        }, 0).wait(1).to({
+            scaleY: .9745,
+            skewX: -6.4224,
+            skewY: 180.1842,
+            x: 15.15,
+            y: -51.25
+        }, 0).wait(1).to({
+            scaleY: .9729,
+            skewX: -6.7882,
+            skewY: 179.9723,
+            x: 15.4,
+            y: -51.2
+        }, 0).wait(1).to({
+            scaleY: .9712,
+            skewX: -7.1486,
+            skewY: 179.7636,
+            x: 15.65,
+            y: -51.25
+        }, 0).wait(1).to({
+            scaleY: .9697,
+            skewX: -7.5029,
+            skewY: 179.5584,
+            x: 15.85,
+            y: -51.35
+        }, 0).wait(1).to({
+            scaleY: .9681,
+            skewX: -7.8505,
+            skewY: 179.3571,
+            x: 16.05,
+            y: -51.4
+        }, 0).wait(1).to({
+            scaleY: .9666,
+            skewX: -8.191,
+            skewY: 179.1599,
+            x: 16.3
+        }, 0).wait(1).to({
+            scaleY: .9651,
+            skewX: -8.5239,
+            skewY: 178.9671,
+            x: 16.5,
+            y: -51.5
+        }, 0).wait(1).to({
+            scaleY: .9636,
+            skewX: -8.8487,
+            skewY: 178.779,
+            x: 16.7
+        }, 0).wait(1).to({
+            regX: 45.6,
+            regY: 11.7,
+            scaleY: .9622,
+            skewX: -9.1651,
+            skewY: 178.5958,
+            x: 23.2,
+            y: -88.1
+        }, 0).to({
+            regX: 46,
+            regY: 12,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 180,
+            x: 23,
+            y: -88
+        }, 18, c.Ease.quadInOut).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_1.setTransform(22.9, -151, 1, 1, 1.9999, 0, 0, 71.5, 15.5), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regY: 15.3,
+            scaleX: .9999,
+            scaleY: .9998,
+            rotation: 0,
+            skewX: -2.4911,
+            skewY: .0498,
+            x: 23.05,
+            y: -151.2
+        }, 29, c.Ease.quadInOut).to({
+            regY: 15.5,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: 1.9999,
+            skewX: 0,
+            skewY: 0,
+            x: 22.9,
+            y: -151
+        }, 30, c.Ease.quadInOut).to({
+            regX: 71.4,
+            regY: 15.3,
+            scaleX: .9999,
+            scaleY: .9708,
+            rotation: 0,
+            skewX: -6.2578,
+            skewY: -1.9914,
+            x: 23.15,
+            y: -151.25
+        }, 35, c.Ease.quadInOut).to({
+            regX: 71.5,
+            regY: 15.5,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: 1.9999,
+            skewX: 0,
+            skewY: 0,
+            x: 22.9,
+            y: -151
+        }, 25, c.Ease.quadInOut).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-52.6, -169, 135, 171.4), (a.mc_npc_3040611000_02_ability_yure = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_ability_BackCloth, this.instance.setTransform(-27, -71, 1, 1, 0, 0, 0, 66, 12), this.timeline.addTween(c.Tween.get(this.instance).to({
+            scaleY: .8046,
+            rotation: 7.7121
+        }, 10, c.Ease.quadInOut).to({
+            regX: 65.9,
+            scaleY: .9195,
+            rotation: 3.1754,
+            y: -71.05
+        }, 12, c.Ease.get(-1)).to({
+            regX: 65.8,
+            regY: 11.8,
+            scaleX: .9998,
+            scaleY: .7915,
+            rotation: 0,
+            skewX: 11.9988,
+            skewY: 2.0212,
+            x: -27.05,
+            y: -71.2
+        }, 10, c.Ease.quadInOut).to({
+            regX: 66,
+            regY: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -27,
+            y: -71
+        }, 14, c.Ease.get(-1)).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_1.setTransform(-14, -119, 1, 1, 12.7253, 0, 0, 67.9, 14.9), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regX: 67.8,
+            scaleY: .9599,
+            rotation: 0,
+            skewX: 14.1197,
+            skewY: 14.5456,
+            x: -14.1,
+            y: -119.05
+        }, 13, c.Ease.quadInOut).to({
+            regX: 67.9,
+            scaleY: 1,
+            rotation: 12.7253,
+            skewX: 0,
+            skewY: 0,
+            x: -14,
+            y: -119
+        }, 12, c.Ease.quadInOut).to({
+            scaleX: .9999,
+            scaleY: .9763,
+            rotation: 0,
+            skewX: 13.4987,
+            skewY: 15.5431,
+            x: -14.05,
+            y: -119.05
+        }, 11, c.Ease.quadInOut).to({
+            scaleX: 1,
+            scaleY: 1,
+            rotation: 12.7253,
+            skewX: 0,
+            skewY: 0,
+            x: -14,
+            y: -119
+        }, 10, c.Ease.quadInOut).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-107.2, -151.4, 148.3, 156.4), (a.mc_npc_3040611000_02_ability_Larm = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_ability_Larm, this.instance.setTransform(-8, -90, 1, 1, 0, 0, 0, 14, 4), this.timeline.addTween(c.Tween.get(this.instance).wait(100)), this.instance_1 = new a.gr_npc_3040611000_02_ability_LhandB, this.instance_1.setTransform(3, -49, 1, 1, 0, 0, 0, 5, 11), this.timeline.addTween(c.Tween.get(this.instance_1).wait(28).to({
+            rotation: -.7073,
+            x: 3.3,
+            y: -49.75
+        }, 0).wait(1).to({
+            rotation: 0,
+            x: 3,
+            y: -49.2
+        }, 0).wait(2).to({
+            rotation: -.7746,
+            x: 3.25,
+            y: -50.25
+        }, 0).wait(1).to({
+            rotation: 0,
+            x: 3,
+            y: -49.7
+        }, 0).wait(2).to({
+            rotation: -.7073,
+            x: 3.25,
+            y: -50.75
+        }, 0).wait(1).to({
+            rotation: 0,
+            x: 3,
+            y: -50.2
+        }, 0).wait(2).to({
+            rotation: -.3165,
+            x: 3.1,
+            y: -51.1
+        }, 0).wait(1).to({
+            rotation: 0,
+            x: 3,
+            y: -50.7
+        }, 0).to({
+            y: -49
+        }, 11, c.Ease.get(-1)).wait(51)), this.instance_2 = new a.gr_npc_3040611000_02_ability_LarmB, this.instance_2.setTransform(-19, -69, 1, 1, 0, 0, 0, 6, 11), this.timeline.addTween(c.Tween.get(this.instance_2).wait(28).to({
+            rotation: -.7073,
+            x: -18.95,
+            y: -69.45
+        }, 0).wait(1).to({
+            rotation: 0,
+            x: -19,
+            y: -69.2
+        }, 0).wait(2).to({
+            rotation: -.7746,
+            y: -70
+        }, 0).wait(1).to({
+            rotation: 0,
+            y: -69.7
+        }, 0).wait(2).to({
+            rotation: -.7073,
+            y: -70.45
+        }, 0).wait(1).to({
+            rotation: 0,
+            y: -70.2
+        }, 0).wait(2).to({
+            rotation: -.3165,
+            x: -19.05,
+            y: -71
+        }, 0).wait(1).to({
+            rotation: 0,
+            x: -19,
+            y: -70.7
+        }, 0).to({
+            y: -69
+        }, 11, c.Ease.get(-1)).wait(51))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-25.1, -94, 44.5, 58), (a.gr_npc_3040611000_02_trail02 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_trail02_in, this.instance.setTransform(122, 92, 1, 1, 0, 0, 0, 122, 92), this.instance.compositeOperation = "lighter", this.timeline.addTween(c.Tween.get(this.instance).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_trail02_in, this.instance_1.setTransform(122, 92, 1, 1, 0, 0, 0, 122, 92), this.timeline.addTween(c.Tween.get(this.instance_1).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_trail02, new c.Rectangle(0, 0, 244, 184), null), (a.gr_npc_3040611000_02_ef06 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_ef06_in, this.instance.setTransform(120, 132, 2, 2, 0, 0, 0, 60, 66), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef06, new c.Rectangle(0, 0, 240, 264), null), (a.gr_npc_3040611000_02_ef05 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_ef05_in, this.instance.setTransform(136, 172, 2, 2, 0, 0, 0, 68, 86), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef05, new c.Rectangle(0, 0, 272, 344), null), (a.gr_npc_3040611000_02_ef3A = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_ef3_b, this.instance.setTransform(11, 400, 1, 1, 0, 0, 0, 10, 136), this.timeline.addTween(c.Tween.get(this.instance).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_ef3_a, this.instance_1.setTransform(10, 128, 1, 1, 0, 0, 0, 10, 136), this.timeline.addTween(c.Tween.get(this.instance_1).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_ef3A, new c.Rectangle(0, -8, 21, 544), null), (a.gr_npc_3040611000_02_weapon_weapon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_weapon2_weapon, this.instance.setTransform(21, 81, 1, 1, 0, 0, 0, 28, 82), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_weapon_weapon, new c.Rectangle(-7, -1, 56, 164), null), (a.gr_npc_3040611000_02_wait_weapon = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_weapon_weapon, this.instance.setTransform(27.9, 18, 1, 1, 121.0009, 0, 0, 20.2, 126.8), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_weapon, new c.Rectangle(-17.9, -23.9, 169.4, 132.4), null), (a.gr_npc_3040611000_02_wait_head_b = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_wait_head_b_in, this.instance.setTransform(44, 71, 1, 1, 0, 0, 0, 128, 128), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_head_b, new c.Rectangle(-84, -57, 256, 256), null), (a.gr_npc_3040611000_02_wait_head_a = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_wait_head_a_in, this.instance.setTransform(44, 71, 1, 1, 0, 0, 0, 128, 128), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_wait_head_a, new c.Rectangle(-84, -57, 256, 256), null), (a.mc_npc_3040611000_02_win = function(b, d, e) {
+        this.initialize(b, d, e, {
+            win_loop: 1
+        }), this.frame_0 = function() {
+            this.mc_win_clothA.gotoAndPlay(0), this.mc_win_Rhand.gotoAndPlay(0), this.mc_win_backcloth.gotoAndPlay(0), this.mc_win_backhair.gotoAndPlay(0), this.mc_win_hatB.gotoAndPlay(0)
+        }, this.frame_49 = function() {
+            this.gotoAndPlay("win_loop")
+        }, this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(49).call(this.frame_49).wait(1)), this.instance = new a.mc_npc_3040611000_02_win_efA, this.timeline.addTween(c.Tween.get(this.instance).wait(50)), this.instance_1 = new a.gr_npc_3040611000_02_win_bodyribbon, this.instance_1.setTransform(24, -81, 1, 1, 0, 0, 0, 33, 5), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            scaleY: .9847,
+            y: -79.7
+        }, 24).to({
+            scaleY: 1,
+            y: -81
+        }, 25).wait(1)), this.mc_win_clothA = new a.mc_npc_3040611000_02_win_frontcloth, this.mc_win_clothA.name = "mc_win_clothA", this.mc_win_clothA.setTransform(-5, -55, 1, 1, 0, 0, 0, -5, -55), this.timeline.addTween(c.Tween.get(this.mc_win_clothA).to({
+            scaleY: .9847,
+            y: -54.1
+        }, 24).to({
+            scaleY: 1,
+            y: -55
+        }, 25).wait(1)), this.mc_win_Rhand = new a.mc_npc_3040611000_02_win_Rhand, this.mc_win_Rhand.name = "mc_win_Rhand", this.mc_win_Rhand.setTransform(-33, -106, 1, 1, 0, 0, 0, -33, -106), this.timeline.addTween(c.Tween.get(this.mc_win_Rhand).to({
+            rotation: -1.483,
+            x: -32.85,
+            y: -103.8
+        }, 25).to({
+            rotation: 0,
+            x: -33,
+            y: -106
+        }, 24).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_win_body, this.instance_2.setTransform(5, 1, 1, 1, 0, 0, 0, 25, 128), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            scaleY: .9847,
+            y: 1.05
+        }, 24).to({
+            scaleY: 1,
+            y: 1
+        }, 25).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_wait_weapon, this.instance_3.setTransform(-18.2, -59.4, 1, 1, -2.7069, 0, 0, 42.4, 26.4), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            scaleX: .9996,
+            scaleY: .9996,
+            rotation: 0,
+            skewX: -2.685,
+            skewY: -2.9112,
+            x: -18,
+            y: -58.4
+        }, 24).to({
+            scaleX: 1,
+            scaleY: 1,
+            rotation: -2.7069,
+            skewX: 0,
+            skewY: 0,
+            x: -18.2,
+            y: -59.4
+        }, 25).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_win_backbelt, this.instance_4.setTransform(-7, -63, 1, 1, 0, 0, 0, 9, 2), this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            scaleY: .9847,
+            y: -62
+        }, 24).to({
+            scaleY: 1,
+            y: -63
+        }, 25).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_win_Larm, this.instance_5.setTransform(10, -113, 1, 1, 0, 0, 0, 12, 54), this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            regX: 12.1,
+            scaleY: .9848,
+            rotation: 2.4707,
+            x: 10.1,
+            y: -111.2
+        }, 25).to({
+            regX: 12,
+            scaleY: 1,
+            rotation: 0,
+            x: 10,
+            y: -113
+        }, 24).wait(1)), this.mc_win_backcloth = new a.mc_npc_3040611000_02_win_backcloth, this.mc_win_backcloth.name = "mc_win_backcloth", this.mc_win_backcloth.setTransform(-5, -55, 1, 1, 0, 0, 0, -5, -55), this.timeline.addTween(c.Tween.get(this.mc_win_backcloth).to({
+            scaleY: .9847,
+            y: -54.1
+        }, 24).to({
+            scaleY: 1,
+            y: -55
+        }, 25).wait(1)), this.mc_win_backhair = new a.mc_npc_3040611000_02_win_backhair, this.mc_win_backhair.name = "mc_win_backhair", this.mc_win_backhair.setTransform(36, -118, 1, 1, 0, 0, 0, 36, -118), this.timeline.addTween(c.Tween.get(this.mc_win_backhair).to({
+            scaleY: .9847,
+            y: -116.15
+        }, 24).to({
+            scaleY: 1,
+            y: -118
+        }, 25).wait(1)), this.mc_win_hatB = new a.mc_npc_3040611000_02_win_hatB, this.mc_win_hatB.name = "mc_win_hatB", this.mc_win_hatB.setTransform(20, -172, 1, 1, 0, 0, 0, 20, -172), this.timeline.addTween(c.Tween.get(this.mc_win_hatB).to({
+            scaleY: .9847,
+            y: -169.3
+        }, 24).to({
+            scaleY: 1,
+            y: -172
+        }, 25).wait(1)), this.instance_6 = new a.mc_npc_3040611000_02_win_efB, this.timeline.addTween(c.Tween.get(this.instance_6).wait(50)), this.instance_7 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_7.setTransform(0, 0, .8, .1499), this.timeline.addTween(c.Tween.get(this.instance_7).wait(50))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-93, -222, 188, 241.6), (a.mc_npc_3040611000_02_triple = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_1 = function() {
+                require(["lib/sound"], function(a) {
+                    a.play("se/npc_3040080000_01_se_4_2.mp3")
+                })
+            }, this.frame_4 = function() {
+                require(["lib/sound"], function(a) {
+                    a.play("se/npc_3040080000_01_se_1.mp3")
+                }), require(["lib/sound"], function(a) {
+                    a.play("se/npc_3040080000_01_se_4.mp3")
+                })
+            }, this.frame_24 = function() {
+                this.stop()
+            }, this.timeline.addTween(c.Tween.get(this).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(20).call(this.frame_24).wait(1)), this.instance = new a.gr_npc_3040611000_02_setup_LhandB, this.instance.setTransform(36.2, -108.5, .9999, 1, 0, 3.6149, 3.7517, 12.2, 12.8), this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(14).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 8,
+                regY: 8,
+                scaleX: 1,
+                scaleY: .9999,
+                skewX: 1.8651,
+                skewY: 1.6728,
+                x: 34.35,
+                y: -114.5
+            }, 0).wait(1).to({
+                scaleX: 1.0001,
+                skewX: .6152,
+                skewY: .1879,
+                x: 35.8,
+                y: -115.2
+            }, 0).wait(1).to({
+                scaleX: 1.0002,
+                skewX: -.1347,
+                skewY: -.7031,
+                x: 36.65,
+                y: -115.65
+            }, 0).wait(1).to({
+                regX: 12.1,
+                regY: 13,
+                skewX: -.3847,
+                skewY: -1.0001,
+                x: 41.3,
+                y: -111
+            }, 0).to({
+                regX: 12,
+                scaleX: 1,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 40
+            }, 6, c.Ease.get(-1)).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_weapon,
+            this.instance_1.setTransform(32.55, -113.65, .9997, .9997, 0, -142.2478, 37.7515, 19.4, 125.5), this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(14).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 21,
+                regY: 81,
+                scaleX: .9991,
+                scaleY: .9991,
+                skewX: -143.8894,
+                skewY: 36.1096,
+                x: 9.7,
+                y: -77.75
+            }, 0).wait(1).to({
+                scaleX: .9987,
+                scaleY: .9987,
+                skewX: -145.062,
+                skewY: 34.9367,
+                x: 12,
+                y: -77.95
+            }, 0).wait(1).to({
+                scaleX: .9985,
+                scaleY: .9985,
+                skewX: -145.7655,
+                skewY: 34.2331,
+                x: 13.3,
+                y: -78.05
+            }, 0).wait(1).to({
+                regX: 19.6,
+                regY: 125.5,
+                scaleX: .9984,
+                scaleY: .9984,
+                skewX: -146,
+                skewY: 33.9985,
+                x: 37.2,
+                y: -115.9
+            }, 0).to({
+                regX: 19.8,
+                regY: 125.6,
+                scaleX: .9999,
+                scaleY: .9999,
+                skewX: -145.9991,
+                skewY: 33.9995,
+                x: 36.05
+            }, 6, c.Ease.get(-1)).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_2.setTransform(53.3, -92.45, 1, 1, 0, -9.9292, -9.7935, 18.2, 23.9), this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(14).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 18,
+                regY: 24,
+                skewX: -5.3159,
+                skewY: -5.5088,
+                x: 53.85,
+                y: -92.15
+            }, 0).wait(1).to({
+                scaleY: 1.0001,
+                skewX: -2.0207,
+                skewY: -2.4484,
+                x: 54.45,
+                y: -91.95
+            }, 0).wait(1).to({
+                skewX: -.0436,
+                skewY: -.6121,
+                x: 54.75,
+                y: -91.9
+            }, 0).wait(1).to({
+                regX: 18.1,
+                skewX: .6155,
+                skewY: 0,
+                x: 55.1,
+                y: -92
+            }, 0).to({
+                regX: 18,
+                scaleY: 1,
+                skewX: 0,
+                x: 54
+            }, 6, c.Ease.get(-1)).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_3.setTransform(16.45, -117.95, 1, 1.0002, 0, 0, 0, 52, 69), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                x: 20.35,
+                y: -118
+            }, 3, c.Ease.get(1)).to({
+                scaleY: 1,
+                x: 19
+            }, 7, c.Ease.get(-1)).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_4.setTransform(10.6, -113, 1, 1.0002, 0, 11.2373, 12.4655, 51, 3), this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                skewY: 0,
+                x: 14.25
+            }, 4, c.Ease.get(1)).to({
+                scaleY: 1,
+                skewX: 0,
+                x: 13
+            }, 6, c.Ease.get(-1)).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_5.setTransform(5.3, -76.95, 1, 1.0002, 0, 14.0006, 0, 1.1, 3), this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                x: 7.95,
+                y: -77
+            }, 4, c.Ease.get(1)).to({
+                regX: 1,
+                scaleY: 1,
+                skewX: 0,
+                x: 7
+            }, 6, c.Ease.get(-1)).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_setup_body, this.instance_6.setTransform(33.05, 5, 1, 1.0002, 0, -1.2282, 0, 35, 129), this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                x: 33
+            }, 3, c.Ease.get(1)).to({
+                scaleY: 1,
+                skewX: 0
+            }, 7, c.Ease.get(-1)).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_7.setTransform(20.6, -111, 1, 1.0002, 0, 19.7497, 20.9776, 4, 7), this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                skewY: 0,
+                x: 24.2
+            }, 4, c.Ease.get(1)).to({
+                scaleY: 1,
+                skewX: 0,
+                x: 23
+            }, 6, c.Ease.get(-1)).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_8.setTransform(21.1, -88.2, 1, 1.0002, 0, 15.7072, -170.2919, 45.9, 11.8), this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleX: .9998,
+                scaleY: .9994,
+                skewX: -7.949,
+                skewY: -183.507,
+                x: 24.1,
+                y: -88.15
+            }, 5, c.Ease.get(1)).to({
+                regX: 46,
+                regY: 12,
+                scaleX: 1,
+                scaleY: 1,
+                skewX: 0,
+                skewY: -180,
+                x: 23,
+                y: -88
+            }, 5, c.Ease.get(-1)).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_9.setTransform(19.6, -151.05, 1.0007, .9995, 0, 17.2496, 18.4764, 71.4, 15.5), this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(14).to({
+                _off: !1
+            }, 0).to({
+                regX: 71.5,
+                regY: 15.3,
+                scaleX: 1,
+                scaleY: .9999,
+                skewX: 1.6562,
+                skewY: 1.3159,
+                x: 24.05,
+                y: -151.25
+            }, 7, c.Ease.get(1)).to({
+                regY: 15.5,
+                scaleY: 1,
+                rotation: 1.9999,
+                skewX: 0,
+                skewY: 0,
+                x: 22.9,
+                y: -151
+            }, 3, c.Ease.quadInOut).wait(1)), this.instance_10 = new a.gr_npc_3040611000_02_aura02, this.instance_10.setTransform(-343.3, -56.2, .5753, .4181, 0, 169.9179, -19.2711, 5, 96.7), this.instance_10.alpha = 0, this.instance_10.compositeOperation = "lighter", this.instance_10._off = !0, this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regY: 96,
+                scaleX: 1.3041,
+                scaleY: .5222,
+                skewX: 152.1792,
+                skewY: -14.0213,
+                x: -473.6,
+                y: -54.25,
+                alpha: 1
+            }, 2).to({
+                regX: 5.1,
+                scaleX: 2.0745,
+                scaleY: .6077,
+                skewX: 139.4655,
+                skewY: -8.7609,
+                x: -479.6,
+                alpha: 0
+            }, 5).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_11 = new a.gr_npc_3040611000_02_aura02, this.instance_11.setTransform(-343.25, -56.15, .557, .446, 0, -2.0803, 4.9192, 4.9, 95), this.instance_11.alpha = 0, this.instance_11.compositeOperation = "lighter", this.instance_11._off = !0, this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 5,
+                regY: 95.5,
+                scaleX: 1.3182,
+                scaleY: .5209,
+                skewX: 9.2063,
+                skewY: 9.4398,
+                x: -473.6,
+                y: -54.15,
+                alpha: 1
+            }, 2).to({
+                scaleX: 2.1181,
+                scaleY: .5317,
+                skewX: 14.7159,
+                skewY: 5.8583,
+                x: -479.75,
+                alpha: 0
+            }, 5).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_12 = new a.gr_npc_3040611000_02_trail01, this.instance_12.setTransform(-342.05, -62.05, .4119, .5014, 0, 97.0588, -95.9535, 19.3, 223.1), this.instance_12.alpha = 0, this.instance_12.compositeOperation = "lighter", this.instance_12._off = !0, this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 18.8,
+                regY: 222.9,
+                scaleX: .4861,
+                scaleY: 1.1969,
+                skewX: 93.4257,
+                skewY: -102.19,
+                x: -470.7,
+                y: -61.1,
+                alpha: 1
+            }, 2).to({
+                scaleX: .5034,
+                scaleY: 1.9373,
+                skewX: 92.1156,
+                skewY: -109.2917,
+                x: -475.1,
+                alpha: 0
+            }, 5).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_13 = new a.gr_npc_3040611000_02_trail01, this.instance_13.setTransform(-342, -61.9, .4012, .5013, 0, 82.1109, 81.7599, 18.3, 223), this.instance_13.alpha = 0, this.instance_13.compositeOperation = "lighter", this.instance_13._off = !0, this.timeline.addTween(c.Tween.get(this.instance_13).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 18.7,
+                regY: 222.9,
+                scaleX: .4807,
+                scaleY: 1.1949,
+                skewX: 86.1684,
+                skewY: 73.2964,
+                x: -470.6,
+                y: -60.95,
+                alpha: 1
+            }, 2).to({
+                regY: 222.8,
+                scaleX: .512,
+                scaleY: 1.9336,
+                skewX: 87.6333,
+                skewY: 64.0696,
+                x: -474.7,
+                alpha: 0
+            }, 5).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_14 = new a.gr_npc_3040611000_02_line01b, this.instance_14.setTransform(-94.95, -63.15, .6017, .357, 0, 0, 0, 119.9, 131.3), this.instance_14.compositeOperation = "lighter", this.instance_14._off = !0, this.timeline.addTween(c.Tween.get(this.instance_14).wait(4).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 120,
+                regY: 132,
+                x: -85.7,
+                y: -62.9,
+                alpha: .9796
+            }, 0).wait(1).to({
+                x: -76.55,
+                alpha: .9184
+            }, 0).wait(1).to({
+                x: -67.4,
+                alpha: .8163
+            }, 0).wait(1).to({
+                x: -58.25,
+                alpha: .6735
+            }, 0).wait(1).to({
+                x: -49.1,
+                alpha: .4898
+            }, 0).wait(1).to({
+                x: -39.95,
+                alpha: .2653
+            }, 0).wait(1).to({
+                regX: 119.9,
+                regY: 131.3,
+                x: -30.85,
+                y: -63.15,
+                alpha: 0
+            }, 0).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_15 = new a.gr_npc_3040611000_02_line01b, this.instance_15.setTransform(-116.25, -63.05, .6963, .2737, 0, 0, 0, 119.9, 131.7), this.instance_15.compositeOperation = "lighter", this.instance_15._off = !0, this.timeline.addTween(c.Tween.get(this.instance_15).wait(4).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 120,
+                regY: 132,
+                x: -100.95,
+                y: -62.95,
+                alpha: .9796
+            }, 0).wait(1).to({
+                x: -85.75,
+                alpha: .9184
+            }, 0).wait(1).to({
+                x: -70.5,
+                alpha: .8163
+            }, 0).wait(1).to({
+                x: -55.3,
+                alpha: .6735
+            }, 0).wait(1).to({
+                x: -40.05,
+                alpha: .4898
+            }, 0).wait(1).to({
+                x: -24.85,
+                alpha: .2653
+            }, 0).wait(1).to({
+                regX: 119.9,
+                regY: 131.7,
+                x: -9.7,
+                y: -63.05,
+                alpha: 0
+            }, 0).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_16 = new a.gr_npc_3040611000_02_yari01, this.instance_16.setTransform(-325.95, -63, .7132, .773, 0, 0, 0, 44.8, 60.8), this.instance_16.alpha = .5, this.instance_16.compositeOperation = "lighter", this.instance_16._off = !0, this.timeline.addTween(c.Tween.get(this.instance_16).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 44.7,
+                scaleX: 1.7999,
+                scaleY: .7409,
+                x: -408.85,
+                y: -62.9,
+                alpha: .8008
+            }, 2).to({
+                regY: 60.9,
+                scaleX: 2.1104,
+                scaleY: .4608,
+                x: -438.7,
+                alpha: 0
+            }, 6).to({
+                _off: !0
+            }, 1).wait(12)), this.instance_17 = new a.gr_npc_3040611000_02_attack05_Larm, this.instance_17.setTransform(-138, -70, .9799, 1, 0, 0, 0, 66, 5), this.instance_17._off = !0, this.timeline.addTween(c.Tween.get(this.instance_17).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 65.9,
+                regY: 4.9,
+                scaleX: 1,
+                x: -144.1,
+                y: -70.1
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_18 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_18.setTransform(-199.8, -64, .9998, 1, 0, -89.9983, 89.9983, 20.7, 119.6), this.instance_18._off = !0, this.timeline.addTween(c.Tween.get(this.instance_18).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regY: 119.5,
+                scaleY: .9998,
+                skewX: -89.9974,
+                skewY: 89.9965,
+                x: -207.2,
+                y: -64.05
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_19 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_19.setTransform(-142.05, -72, 1, 1, 3.0133, 0, 0, 46.7, 63.5), this.instance_19._off = !0, this.timeline.addTween(c.Tween.get(this.instance_19).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 46.6,
+                regY: 63.4,
+                rotation: 5.9998,
+                x: -148.3,
+                y: -72.1
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_20 = new a.gr_npc_3040611000_02_attack05_backhairA, this.instance_20.setTransform(-134, -82.05, 1, 1, 7.9984, 0, 0, 13.4, 17.4), this.instance_20._off = !0, this.timeline.addTween(c.Tween.get(this.instance_20).wait(4).to({
+                _off: !1
+            }, 0).to({
+                rotation: 0,
+                x: -139.6,
+                y: -81.6
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_21 = new a.gr_npc_3040611000_02_attack05_bodyribbon, this.instance_21.setTransform(-131, -41, 1, 1, 0, 0, 0, 3, 4), this.instance_21._off = !0, this.timeline.addTween(c.Tween.get(this.instance_21).wait(4).to({
+                _off: !1
+            }, 0).to({
+                x: -137
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_22 = new a.gr_npc_3040611000_02_attack05_BackClothA01, this.instance_22.setTransform(-146, -58, 1, 1, 6.1967, 0, 0, 8, 8), this.instance_22._off = !0, this.timeline.addTween(c.Tween.get(this.instance_22).wait(4).to({
+                _off: !1
+            }, 0).to({
+                rotation: 0,
+                x: -152
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_23 = new a.gr_npc_3040611000_02_attack05_body, this.instance_23.setTransform(-46, -2, 1, 1, 0, 0, 0, 112, 81), this.instance_23._off = !0, this.timeline.addTween(c.Tween.get(this.instance_23).wait(4).to({
+                _off: !1
+            }, 0).to({
+                x: -52
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_24 = new a.gr_npc_3040611000_02_attack05_BackClothA02, this.instance_24.setTransform(-119, -61, 1, 1, 0, 0, 0, 16, 6), this.instance_24._off = !0, this.timeline.addTween(c.Tween.get(this.instance_24).wait(4).to({
+                _off: !1
+            }, 0).to({
+                x: -125
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_25 = new a.gr_npc_3040611000_02_attack05_BackClothB, this.instance_25.setTransform(-106.95, -66.95, 1, 1, 18.4421, 0, 0, 12, 47), this.instance_25._off = !0, this.timeline.addTween(c.Tween.get(this.instance_25).wait(4).to({
+                _off: !1
+            }, 0).to({
+                rotation: 0,
+                x: -113,
+                y: -67
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_26 = new a.gr_npc_3040611000_02_attack05_Rarm, this.instance_26.setTransform(-119, -76, 1, 1, 0, 0, 0, 20, 10), this.instance_26._off = !0, this.timeline.addTween(c.Tween.get(this.instance_26).wait(4).to({
+                _off: !1
+            }, 0).to({
+                x: -125
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_27 = new a.gr_npc_3040611000_02_attack01_LarmB, this.instance_27.setTransform(-122.05, -62.65, 1, 1, 0, -135.0495, 44.9505, 8.7, -.3), this.instance_27._off = !0, this.timeline.addTween(c.Tween.get(this.instance_27).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regY: -.4,
+                x: -128.15,
+                y: -62.55
+            }, 6).to({
+                _off: !0
+            }, 1).wait(14)), this.instance_28 = new a.gr_npc_3040611000_02_attack04_blur, this.instance_28.setTransform(-102, -76, 1, 1, 0, 0, 0, 150, 78), this.instance_28._off = !0, this.timeline.addTween(c.Tween.get(this.instance_28).wait(13).to({
+                _off: !1
+            }, 0).wait(1).to({
+                scaleX: .8333,
+                x: -81.95,
+                alpha: .8008
+            }, 0).to({
+                _off: !0
+            }, 1).wait(10)), this.instance_29 = new a.gr_npc_3040611000_02_attack06_bodyribbonA, this.instance_29.setTransform(-154, -34.25, 1, .9823, 0, -1.5889, 0, 14, 18), this.instance_29._off = !0, this.timeline.addTween(c.Tween.get(this.instance_29).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: -153,
+                y: -35
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_30 = new a.gr_npc_3040611000_02_attack06_Larm, this.instance_30.setTransform(-169.5, -72.05, 1, .9823, 0, -20.2858, -18.697, 17.9, 9.9), this.instance_30._off = !0, this.timeline.addTween(c.Tween.get(this.instance_30).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 18,
+                scaleY: 1,
+                rotation: -34.1702,
+                skewX: 0,
+                skewY: 0,
+                x: -164.05,
+                y: -70.95
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_31 = new a.gr_npc_3040611000_02_attack06_LarmB, this.instance_31.setTransform(-183.85, -50.5, 1, .9823, 0, -20.2858, -18.697, 32, 22), this.instance_31._off = !0, this.timeline.addTween(c.Tween.get(this.instance_31).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 31.9,
+                regY: 21.9,
+                scaleY: 1,
+                rotation: -34.1702,
+                skewX: 0,
+                skewY: 0,
+                x: -172.5,
+                y: -45.9
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_32 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_32.setTransform(-173.05, -79.4, 1, 1, -8.229, 0, 0, 44, 66.8), this.instance_32._off = !0, this.timeline.addTween(c.Tween.get(this.instance_32).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regY: 67,
+                rotation: 0,
+                x: -169,
+                y: -83
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_33 = new a.gr_npc_3040611000_02_attack06_BackClothA, this.instance_33.setTransform(-169.05, -68.1, 1, .9823, 0, -8.5564, -6.9676, 8.9, 5.5), this.instance_33._off = !0, this.timeline.addTween(c.Tween.get(this.instance_33).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 9,
+                regY: 5.6,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -167,
+                y: -69.4
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_34 = new a.gr_npc_3040611000_02_attack06_Belt, this.instance_34.setTransform(-175.15, -38.2, 1, .9823, 0, -1.5889, 0, 10, 8), this.instance_34._off = !0, this.timeline.addTween(c.Tween.get(this.instance_34).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: -174,
+                y: -39
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_35 = new a.gr_npc_3040611000_02_attack06_bodyribbonB, this.instance_35.setTransform(-169.3, -44.05, 1, .9823, 0, -1.5889, 0, 4, 6), this.instance_35._off = !0, this.timeline.addTween(c.Tween.get(this.instance_35).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: -168,
+                y: -45
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_36 = new a.gr_npc_3040611000_02_attack06_Body, this.instance_36.setTransform(-154.65, -58.8, 1, .9823, 0, -1.5889, 0, 28.1, 32), this.instance_36._off = !0, this.timeline.addTween(c.Tween.get(this.instance_36).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 28,
+                scaleY: 1,
+                skewX: 0,
+                x: -153,
+                y: -60
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_37 = new a.gr_npc_3040611000_02_attack04_LlegB, this.instance_37.setTransform(-109.05, -7.25, .999, .9833, 0, -3.6204, -1.9642, 15.8, 12.1), this.instance_37._off = !0, this.timeline.addTween(c.Tween.get(this.instance_37).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 16,
+                scaleX: 1,
+                scaleY: 1,
+                rotation: -1.999,
+                skewX: 0,
+                skewY: 0,
+                x: -108.6,
+                y: -7.45
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_38 = new a.gr_npc_3040611000_02_attack04_LlegA, this.instance_38.setTransform(-131.25, -24.9, .999, .9833, 0, -3.6204, -1.9642, 15.9, 18.1), this.instance_38._off = !0, this.timeline.addTween(c.Tween.get(this.instance_38).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 16,
+                scaleX: 1,
+                scaleY: 1,
+                rotation: -1.999,
+                skewX: 0,
+                skewY: 0,
+                x: -130.35,
+                y: -25.45
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_39 = new a.gr_npc_3040611000_02_attack06_RlegB, this.instance_39.setTransform(-180.5, -16.6, 1, .9823, 0, -1.5889, 0, 12, 18), this.instance_39._off = !0, this.timeline.addTween(c.Tween.get(this.instance_39).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: -180,
+                y: -17
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_40 = new a.gr_npc_3040611000_02_attack06_RlegA, this.instance_40.setTransform(-174.1, -34.25, 1, .9823, 0, -1.5889, 0, 19.9, 10), this.instance_40._off = !0, this.timeline.addTween(c.Tween.get(this.instance_40).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 20,
+                scaleY: 1,
+                skewX: 0,
+                x: -173,
+                y: -35
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_41 = new a.gr_npc_3040611000_02_attack06_RhandB, this.instance_41.setTransform(-203.8, -62.7, 1, .9823, 0, -1.5889, 0, 8, 8), this.instance_41._off = !0, this.timeline.addTween(c.Tween.get(this.instance_41).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: -202,
+                y: -64
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_42 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_42.setTransform(-216.95, -51.25, .9746, 1.0072, 0, -83.4029, 96.4246, 19.8, 120), this.instance_42._off = !0, this.timeline.addTween(c.Tween.get(this.instance_42).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleX: .9998,
+                scaleY: .9998,
+                skewX: -98.1702,
+                skewY: 81.8272,
+                x: -204.4,
+                y: -38.15
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_43 = new a.gr_npc_3040611000_02_attack06_RarmB, this.instance_43.setTransform(-186.5, -49, 1, .9823, 0, -1.5889, 0, 19.9, 18), this.instance_43._off = !0, this.timeline.addTween(c.Tween.get(this.instance_43).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 20,
+                scaleY: 1,
+                skewX: 0,
+                x: -185,
+                y: -50
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_44 = new a.gr_npc_3040611000_02_attack06_Rarm, this.instance_44.setTransform(-178.9, -65.65, 1, .9823, 0, -1.5889, 0, 12, 16), this.instance_44._off = !0, this.timeline.addTween(c.Tween.get(this.instance_44).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: -177,
+                y: -67
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_45 = new a.gr_npc_3040611000_02_attack06_BackClothB, this.instance_45.setTransform(-166.95, -64.95, 1, .9823, 0, -12.0818, -10.4929, 6.9, 8.7), this.instance_45._off = !0, this.timeline.addTween(c.Tween.get(this.instance_45).wait(11).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -165.1,
+                y: -66.3
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_46 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_46.setTransform(-188.9, -105.75, .9781, 1.0005, 0, -57.1587, 124.2146, 68.7, 11.2), this.instance_46._off = !0, this.timeline.addTween(c.Tween.get(this.instance_46).wait(11).to({
+                _off: !1
+            }, 0).to({
+                regX: 68.6,
+                scaleX: .9982,
+                scaleY: .9982,
+                skewX: -38.0254,
+                skewY: 141.9732,
+                x: -180.05,
+                y: -112
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_47 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_47.setTransform(-17.85, -118.4, .2754, .7901, 0, 26.0534, 5.9977, 11.8, 116.5), this.instance_47.alpha = .3008, this.instance_47.compositeOperation = "lighter", this.instance_47._off = !0, this.timeline.addTween(c.Tween.get(this.instance_47).wait(2).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 11.2,
+                regY: 116.3,
+                scaleX: .2398,
+                scaleY: .8996,
+                skewX: -46.6234,
+                skewY: -93.0015,
+                x: -56.7,
+                y: -101.9
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_48 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_48.setTransform(-39.45, -76.8, .38, .9461, 0, -147.4331, 176, 11.6, 116.4), this.instance_48.alpha = .3008, this.instance_48.compositeOperation = "lighter", this.instance_48._off = !0, this.timeline.addTween(c.Tween.get(this.instance_48).wait(2).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 8.3,
+                regY: 116.2,
+                scaleX: .2252,
+                scaleY: .7607,
+                skewX: -231.6389,
+                skewY: 95.0022,
+                x: -8.55,
+                y: -68.15
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_49 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_49.setTransform(-54.45, -88.45, .6383, .9477, 0, -105.8255, 82.9999, 10.4, 117), this.instance_49.alpha = .75, this.instance_49.compositeOperation = "lighter", this.instance_49._off = !0, this.timeline.addTween(c.Tween.get(this.instance_49).wait(1).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 10.5,
+                regY: 116.7,
+                scaleX: .6693,
+                scaleY: .9602,
+                skewX: -37.9033,
+                skewY: -39.6766,
+                x: -50.75,
+                y: -105.65
+            }, 0).wait(1).to({
+                regX: 10.4,
+                regY: 116.6,
+                scaleX: .6692,
+                scaleY: .9813,
+                skewX: 39.8498,
+                skewY: 39.0013,
+                x: -29.3,
+                y: -101.7
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_50 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_50.setTransform(-14.05, -80.45, .6256, .9551, 0, 73.4664, -96.9995, 10.6, 116.6), this.instance_50.alpha = .75, this.instance_50.compositeOperation = "lighter", this.instance_50._off = !0, this.timeline.addTween(c.Tween.get(this.instance_50).wait(1).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 10.2,
+                regY: 116.7,
+                scaleX: .6387,
+                scaleY: .9741,
+                skewX: 142.3819,
+                skewY: -220.9992,
+                x: -24.05,
+                y: -79.8
+            }, 0).wait(1).to({
+                regX: 10.5,
+                regY: 116.8,
+                scaleY: .9261,
+                skewX: 222.8608,
+                skewY: -148.0004,
+                x: -48.15,
+                y: -72.95
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_51 = new a.gr_npc_3040611000_02_attack04_LhandB, this.instance_51.setTransform(-35.1, -94.2, .9999, 1.0007, 0, 57.1859, 54.9581, 7.9, 8.1), this.instance_51.alpha = .5, this.instance_51._off = !0, this.timeline.addTween(c.Tween.get(this.instance_51).wait(2).to({
+                _off: !1
+            }, 0).wait(1).to({
+                skewX: 137.1442,
+                skewY: 134.9172,
+                x: -34.1,
+                y: -88.65
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_52 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_52.setTransform(-36.75, -96.75, .9978, 1.0025, 0, -39.0303, 143.1799, 19.4, 120.8), this.instance_52.alpha = .5, this.instance_52._off = !0, this.timeline.addTween(c.Tween.get(this.instance_52).wait(2).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regY: 120.7,
+                skewX: 40.9283,
+                skewY: 223.1385,
+                x: -31.85,
+                y: -90.75
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_53 = new a.gr_npc_3040611000_02_attack04_LhandB, this.instance_53.setTransform(-32.1, -80.45, 1, 1.0007, 0, 170.9545, 168.7269, 7.9, 8), this.instance_53.alpha = .5, this.instance_53._off = !0, this.timeline.addTween(c.Tween.get(this.instance_53).wait(1).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 8,
+                scaleX: .9999,
+                skewX: 237.5019,
+                skewY: 235.2744,
+                x: -38.75,
+                y: -88.9
+            }, 0).wait(1).to({
+                regY: 7.9,
+                skewX: 317.4601,
+                skewY: 315.2325,
+                x: -39.95,
+                y: -91.4
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_54 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_54.setTransform(-29.2, -81, .9979, 1.0025, 0, 74.7386, -103.0504, 19.4, 120.9), this.instance_54.alpha = .5, this.instance_54._off = !0, this.timeline.addTween(c.Tween.get(this.instance_54).wait(1).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regY: 120.8,
+                scaleX: .9978,
+                skewX: 141.2858,
+                skewY: -36.5033,
+                x: -37.1,
+                y: -86.4
+            }, 0).wait(1).to({
+                skewX: 221.2436,
+                skewY: 43.4547,
+                x: -42.1,
+                y: -89.2
+            }, 0).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_55 = new a.gr_npc_3040611000_02_attack04_RarmB, this.instance_55.setTransform(-38.5, -66.25, 1, 1.0007, 0, 6.9607, 4.7344, 2.3, 30.9), this.instance_55._off = !0, this.timeline.addTween(c.Tween.get(this.instance_55).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regX: 2.5,
+                regY: 31,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -45.5,
+                y: -66
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_56 = new a.gr_npc_3040611000_02_attack04_LhandB, this.instance_56.setTransform(-34.25, -87.2, 1, 1.0007, 0, -8.7298, -10.9567, 7.9, 8), this.instance_56._off = !0, this.timeline.addTween(c.Tween.get(this.instance_56).wait(1).to({
+                _off: !1
+            }, 0).to({
+                _off: !0
+            }, 1).wait(23)), this.instance_57 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_57.setTransform(-37.2, -86.65, .9979, 1.0025, 0, -104.9449, 77.266, 19.4, 120.9), this.instance_57._off = !0, this.timeline.addTween(c.Tween.get(this.instance_57).wait(1).to({
+                _off: !1
+            }, 0).to({
+                _off: !0
+            }, 1).wait(23)), this.instance_58 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_58.setTransform(-48.4, -90.45, 1, 1, 1.7033, 0, 0, 43.9, 67), this.instance_58._off = !0, this.timeline.addTween(c.Tween.get(this.instance_58).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regX: 44,
+                rotation: 0,
+                x: -58,
+                y: -88
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_59 = new a.gr_npc_3040611000_02_attack04_Rarm, this.instance_59.setTransform(-56.9, -86.7, 1.0949, 1.0007, 0, -.0419, -2.2684, 5.6, 1), this.instance_59._off = !0, this.timeline.addTween(c.Tween.get(this.instance_59).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regX: 5.8,
+                scaleX: 1,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -66.2,
+                y: -84
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_60 = new a.gr_npc_3040611000_02_attack04_LarmB, this.instance_60.setTransform(-17.3, -73.7, 1, 1.0007, 0, -13.0662, -15.2918, 21.2, 18.9), this.instance_60._off = !0, this.timeline.addTween(c.Tween.get(this.instance_60).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regY: 19,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -25.8,
+                y: -72
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_61 = new a.gr_npc_3040611000_02_attack04_Larm, this.instance_61.setTransform(-36.9, -89.1, 1, 1.0008, 0, 3.9308, 1.7042, 4.5, 5), this.instance_61._off = !0, this.timeline.addTween(c.Tween.get(this.instance_61).wait(1).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -46.5,
+                y: -87
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_62 = new a.gr_npc_3040611000_02_wait_bodyribbon, this.instance_62.setTransform(-50.9, -54.5, 1, 1.0008, 0, 3.9308, 1.7042, .9, 13), this.instance_62._off = !0, this.timeline.addTween(c.Tween.get(this.instance_62).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regX: 1,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -58,
+                y: -52
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_63 = new a.gr_npc_3040611000_02_attack04_belt, this.instance_63.setTransform(-50.35, -39.55, 1, 1.0008, 0, 3.9308, 1.7042, 16.5, 8.9), this.instance_63._off = !0, this.timeline.addTween(c.Tween.get(this.instance_63).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regY: 9,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -56.5,
+                y: -37
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_64 = new a.gr_npc_3040611000_02_attack04_body, this.instance_64.setTransform(-34.15, -46.05, 1, 1.0008, 0, 3.9308, 1.7042, 29.2, 53), this.instance_64._off = !0, this.timeline.addTween(c.Tween.get(this.instance_64).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regX: 29.3,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -40.7,
+                y: -44
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_65 = new a.gr_npc_3040611000_02_attack04_LlegB, this.instance_65.setTransform(12, -2, 1, 1.0201, 0, 11.3871, 0, 26.9, 20), this.instance_65._off = !0, this.timeline.addTween(c.Tween.get(this.instance_65).wait(1).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                x: 11.9
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_66 = new a.gr_npc_3040611000_02_attack04_LlegA, this.instance_66.setTransform(-6.1, -17.1, 1, 1.0008, 0, 6.7037, 4.4773, 26.3, 28.9), this.instance_66._off = !0, this.timeline.addTween(c.Tween.get(this.instance_66).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regY: 29,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -9.7,
+                y: -17
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_67 = new a.gr_npc_3040611000_02_attack04_RlegA, this.instance_67.setTransform(-87.1, -1, 1, 1.0087, 0, 7.5163, 0, 3.9, 36), this.instance_67._off = !0, this.timeline.addTween(c.Tween.get(this.instance_67).wait(1).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_68 = new a.gr_npc_3040611000_02_attack04_RlegB, this.instance_68.setTransform(-70.1, -32.1, 1, 1.0007, 0, -5.2402, -7.4681, 4.7, 17.9), this.instance_68._off = !0, this.timeline.addTween(c.Tween.get(this.instance_68).wait(1).to({
+                _off: !1
+            }, 0).to({
+                regY: 18,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -74.3,
+                y: -32
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_69 = new a.gr_npc_3040611000_02_attack04_BackClothA, this.instance_69.setTransform(-26.05, -78.8, 1, 1.0008, 0, 3.9308, 1.7042, 3, 4), this.instance_69._off = !0, this.timeline.addTween(c.Tween.get(this.instance_69).wait(1).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -35,
+                y: -77
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_70 = new a.gr_npc_3040611000_02_attack04_BackClothB, this.instance_70.setTransform(-48.8, -87.45, 1, 1.0008, 0, 3.9308, 1.7042, 21.7, 5), this.instance_70._off = !0, this.timeline.addTween(c.Tween.get(this.instance_70).wait(1).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -58.3,
+                y: -85
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_71 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_71.setTransform(-59.5, -117.85, 1.0178, .979, 0, -42.1585, 137.7962, 68.7, 12), this.instance_71._off = !0, this.timeline.addTween(c.Tween.get(this.instance_71).wait(1).to({
+                _off: !1
+            }, 0).to({
+                scaleX: .9982,
+                scaleY: .9982,
+                skewX: -44.9994,
+                skewY: 134.9994,
+                x: -71.05,
+                y: -115.05
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_72 = new a.gr_npc_3040611000_02_attack03_RarmB, this.instance_72.setTransform(-17.05, -63.15, 1, 1.0001, 0, -5.339, -4.2801, 6.5, 6), this.timeline.addTween(c.Tween.get(this.instance_72).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_73 = new a.gr_npc_3040611000_02_attack03_Rarm, this.instance_73.setTransform(0, -88.1, 1, 1.0002, 0, -15.5357, -14.4767, 31.6, 3), this.timeline.addTween(c.Tween.get(this.instance_73).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_74 = new a.gr_npc_3040611000_02_attack03_head_a, this.instance_74.setTransform(14.95, -85, 1, 1.0002, 0, 0, 0, 49.5, 65), this.timeline.addTween(c.Tween.get(this.instance_74).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_75 = new a.gr_npc_3040611000_02_attack03_bodyribbon, this.instance_75.setTransform(-22.1, -58, 1, 1.0002, 0, -1.0595, 0, 4, 5), this.timeline.addTween(c.Tween.get(this.instance_75).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_76 = new a.gr_npc_3040611000_02_attack03_BackClothA, this.instance_76.setTransform(-13.45, -76, 1, 1.0002, 0, -1.0595, 0, 84, 3), this.timeline.addTween(c.Tween.get(this.instance_76).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_77 = new a.gr_npc_3040611000_02_attack03_body, this.instance_77.setTransform(18.95, -1, 1, 1.0002, 0, -1.0595, 0, 80, 96), this.timeline.addTween(c.Tween.get(this.instance_77).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_78 = new a.gr_npc_3040611000_02_attack03_Larm, this.instance_78.setTransform(15.45, -94.1, 1, 1.0002, 0, 1.4328, 2.4924, 5.2, 44), this.timeline.addTween(c.Tween.get(this.instance_78).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_79 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_79.setTransform(56.2, -126.45, 1.0016, .9968, 0, 85.4416, 84.4152, 20.7, 125.5), this.timeline.addTween(c.Tween.get(this.instance_79).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_80 = new a.gr_npc_3040611000_02_attack03_BackClothB, this.instance_80.setTransform(23.25, -94, 1, 1.0002, 0, -1.0595, 0, 85, 5), this.timeline.addTween(c.Tween.get(this.instance_80).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_81 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_81.setTransform(29.25, -107.2, 1.0091, .9909, 0, 49.5568, 49.3833, 67.8, 12.2), this.timeline.addTween(c.Tween.get(this.instance_81).to({
+                _off: !0
+            }, 1).wait(24)), this.instance_82 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_82.setTransform(-19.95, 0, 1, .1499, 0, 0, 0, -.1, 0), this.timeline.addTween(c.Tween.get(this.instance_82).wait(1).to({
+                scaleX: 1.2,
+                x: -35.9
+            }, 0).wait(3).to({
+                x: -88.9
+            }, 0).to({
+                x: -94.9
+            }, 6).wait(1).to({
+                x: -129.9
+            }, 0).wait(3).to({
+                regX: 0,
+                scaleX: .8,
+                x: 21.95
+            }, 0).wait(11))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-556.4, -232.3, 741.0999999999999, 332.20000000000005), (a.mc_npc_3040611000_02_stbwait = function(b, d, e) {
+        this.initialize(b, d, e, {
+            stbwait_loop: 40
+        }), this.frame_0 = function() {
+            this.stbwait_yure.gotoAndPlay(0)
+        }, this.frame_78 = function() {
+            this.gotoAndPlay("stbwait_loop")
+        }, this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(78).call(this.frame_78).wait(1)), this.instance = new a.gr_npc_3040611000_02_setup_LhandB, this.instance.setTransform(40, -111, 1, 1, 0, 0, 0, 12, 13), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regX: 12.2,
+            regY: 12.8,
+            scaleY: .984,
+            rotation: 1.7692,
+            x: 40.5,
+            y: -109.5
+        }, 21, c.Ease.quadInOut).to({
+            regX: 12,
+            regY: 13,
+            scaleY: 1,
+            rotation: 0,
+            x: 40,
+            y: -111
+        }, 18, c.Ease.quadInOut).to({
+            regX: 12.2,
+            regY: 12.8,
+            scaleY: .984,
+            rotation: 1.7692,
+            x: 40.5,
+            y: -109.5
+        }, 21, c.Ease.quadInOut).to({
+            regX: 12,
+            regY: 13,
+            scaleY: 1,
+            rotation: 0,
+            x: 40,
+            y: -111
+        }, 18, c.Ease.quadInOut).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_1.setTransform(36.05, -115.9, .9999, .9999, 0, -145.9991, 33.9995, 19.8, 125.6), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regX: 19.4,
+            regY: 125.9,
+            scaleX: .9984,
+            scaleY: .9984,
+            skewX: -143.8727,
+            skewY: 35.3488,
+            x: 36.65,
+            y: -114.6
+        }, 21, c.Ease.quadInOut).to({
+            regX: 19.8,
+            regY: 125.6,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: 33.9995,
+            x: 36.05,
+            y: -115.9
+        }, 18, c.Ease.quadInOut).to({
+            regX: 19.4,
+            regY: 125.9,
+            scaleX: .9984,
+            scaleY: .9984,
+            skewX: -143.8727,
+            skewY: 35.3488,
+            x: 36.65,
+            y: -114.6
+        }, 21, c.Ease.quadInOut).to({
+            regX: 19.8,
+            regY: 125.6,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: 33.9995,
+            x: 36.05,
+            y: -115.9
+        }, 18, c.Ease.quadInOut).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_2.setTransform(54, -92, 1, 1, 0, 0, 0, 18, 24), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            regX: 18.1,
+            regY: 23.9,
+            scaleY: .984,
+            rotation: .9489,
+            x: 54.05,
+            y: -90.5
+        }, 21, c.Ease.quadInOut).to({
+            regX: 18,
+            regY: 24,
+            scaleY: 1,
+            rotation: 0,
+            x: 54,
+            y: -92
+        }, 18, c.Ease.quadInOut).to({
+            regX: 18.1,
+            regY: 23.9,
+            scaleY: .984,
+            rotation: .9489,
+            x: 54.05,
+            y: -90.5
+        }, 21, c.Ease.quadInOut).to({
+            regX: 18,
+            regY: 24,
+            scaleY: 1,
+            rotation: 0,
+            x: 54,
+            y: -92
+        }, 18, c.Ease.quadInOut).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_3.setTransform(19, -118, 1, 1, 0, 0, 0, 52, 69), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            y: -116
+        }, 20, c.Ease.quadInOut).to({
+            y: -118
+        }, 19, c.Ease.quadInOut).to({
+            y: -116
+        }, 20, c.Ease.quadInOut).to({
+            y: -118
+        }, 19, c.Ease.quadInOut).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_4.setTransform(13, -113, 1, 1, 0, 0, 0, 51, 3), this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            scaleY: .984,
+            rotation: -2.7224,
+            x: 13.05,
+            y: -111.1
+        }, 21, c.Ease.quadInOut).to({
+            scaleY: 1,
+            rotation: 0,
+            x: 13,
+            y: -113
+        }, 18, c.Ease.quadInOut).to({
+            scaleY: .984,
+            rotation: -2.7224,
+            x: 13.05,
+            y: -111.1
+        }, 21, c.Ease.quadInOut).to({
+            scaleY: 1,
+            rotation: 0,
+            x: 13,
+            y: -113
+        }, 18, c.Ease.quadInOut).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_5.setTransform(7, -77, 1, 1, 0, 0, 0, 1, 3), this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            scaleY: .984,
+            y: -75.7
+        }, 20, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -77
+        }, 19, c.Ease.quadInOut).to({
+            scaleY: .984,
+            y: -75.7
+        }, 20, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -77
+        }, 19, c.Ease.quadInOut).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_setup_body, this.instance_6.setTransform(33, 5, 1, 1, 0, 0, 0, 35, 129), this.timeline.addTween(c.Tween.get(this.instance_6).to({
+            regY: 128.9,
+            scaleY: .984,
+            y: 4.9
+        }, 20, c.Ease.quadInOut).to({
+            regY: 129,
+            scaleY: 1,
+            y: 5
+        }, 19, c.Ease.quadInOut).to({
+            regY: 128.9,
+            scaleY: .984,
+            y: 4.9
+        }, 20, c.Ease.quadInOut).to({
+            regY: 129,
+            scaleY: 1,
+            y: 5
+        }, 19, c.Ease.quadInOut).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_7.setTransform(23, -111, 1, 1, 0, 0, 0, 4, 7), this.timeline.addTween(c.Tween.get(this.instance_7).to({
+            scaleY: .984,
+            y: -109.15
+        }, 20, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -111
+        }, 19, c.Ease.quadInOut).to({
+            scaleY: .984,
+            y: -109.15
+        }, 20, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -111
+        }, 19, c.Ease.quadInOut).wait(1)), this.stbwait_yure = new a.mc_npc_3040611000_02_stbwait_yure, this.stbwait_yure.name = "stbwait_yure", this.stbwait_yure.setTransform(8.2, -84.5, 1, 1, 0, 0, 0, 8.2, -84.5), this.timeline.addTween(c.Tween.get(this.stbwait_yure).to({
+            scaleY: .984,
+            y: -83.1
+        }, 20, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -84.5
+        }, 19, c.Ease.quadInOut).to({
+            scaleY: .984,
+            y: -83.1
+        }, 20, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -84.5
+        }, 19, c.Ease.quadInOut).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_8.setTransform(21.95, 0, .8, .1499), this.timeline.addTween(c.Tween.get(this.instance_8).wait(79))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-59.6, -187, 142.3, 196.4), (a.mc_npc_3040611000_02_mortal_A = function(b, d, e) {
+        null == e && (e = !1), this.initialize(b, d, e, {}), this.frame_4 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/npc_3040611000_se_1.mp3")
+            })
+        }, this.frame_19 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/npc_3040611000_se_1_2.mp3")
+            })
+        }, this.frame_26 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/npc_3040611000_se_1_3.mp3")
+            })
+        }, this.frame_183 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(15).call(this.frame_19).wait(7).call(this.frame_26).wait(157).call(this.frame_183).wait(1)), this.instance = new a.gr_npc_3040611000_02_bg_yellow, this.instance.setTransform(118, -243, 1, 1, 0, 0, 0, 982.5, 849.5), this.instance.alpha = .2891, this.instance.compositeOperation = "lighter", this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(19).to({
+            _off: !1
+        }, 0).to({
+            alpha: 0
+        }, 6).to({
+            _off: !0
+        }, 1).wait(158)), this.instance_1 = new a.gr_npc_3040611000_02_ef04, this.instance_1.setTransform(18.95, -34.05, .7199, .7199, 0, 0, 0, 120, 150.7), this.instance_1.alpha = 0, this.instance_1.compositeOperation = "lighter", this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(9).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 2.1627,
+            scaleY: 2.1627,
+            x: 19,
+            y: -34.1,
+            alpha: 1
+        }, 10, c.Ease.get(-1)).to({
+            scaleX: 3.5299,
+            scaleY: 3.5299,
+            x: 19.15,
+            y: -34.05,
+            alpha: 0
+        }, 10).to({
+            _off: !0
+        }, 1).wait(154)), this.instance_2 = new a.gr_npc_3040611000_02_ef03, this.instance_2.setTransform(21, -36, 1, 1, 0, 0, 0, 212, 4), this.instance_2.compositeOperation = "lighter", this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(12).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 2.6719
+        }, 7).to({
+            scaleX: 3.5079,
+            x: 20.9,
+            alpha: 0
+        }, 10).to({
+            _off: !0
+        }, 1).wait(154)), this.instance_3 = new a.gr_npc_3040611000_02_ef01, this.instance_3.setTransform(21, -37, 6.0002, 6, 0, 0, 0, 70, 70), this.instance_3.alpha = 0, this.instance_3.compositeOperation = "lighter", this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(10).to({
+            _off: !1
+        }, 0).to({
+            scaleX: .7857,
+            scaleY: .7857,
+            alpha: 1
+        }, 9, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(164)), this.instance_4 = new a.gr_npc_3040611000_02_ef01, this.instance_4.setTransform(21, -37, 9.3696, 9.3696, 0, 0, 0, 70, 70), this.instance_4.alpha = 0, this.instance_4.compositeOperation = "lighter", this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(6).to({
+            _off: !1
+        }, 0).to({
+            scaleX: .7857,
+            scaleY: .7857,
+            alpha: 1
+        }, 9, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(168)), this.instance_5 = new a.gr_npc_3040611000_02_ef01, this.instance_5.setTransform(21, -37.05, 5.9998, 6.0001, 0, 0, 0, 70, 70), this.instance_5.alpha = 0, this.instance_5.compositeOperation = "lighter", this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(1).to({
+            _off: !1
+        }, 0).to({
+            scaleX: .7857,
+            scaleY: .7857,
+            y: -37,
+            alpha: 1
+        }, 11, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(171)), this.instance_6 = new a.gr_npc_3040611000_02_ef02, this.instance_6.setTransform(20, -65, .5555, .6417, 0, 0, 0, 27, 120), this.instance_6.alpha = 0, this.instance_6.compositeOperation = "lighter", this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(5).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 1,
+            scaleY: 3.3,
+            y: -43,
+            alpha: .6914
+        }, 8).to({
+            scaleX: .7778,
+            scaleY: 3.8747,
+            alpha: 0
+        }, 16).to({
+            _off: !0
+        }, 1).wait(154)), this.instance_7 = new a.gr_npc_3040611000_02_ef06, this.instance_7.setTransform(-70.75, -95.35, .5845, .4843, 0, 0, 0, 120, 131.9), this.instance_7.compositeOperation = "lighter", this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(26).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 2.0701,
+            x: -81.65,
+            y: -98.05,
+            alpha: 0
+        }, 7).to({
+            _off: !0
+        }, 1).wait(150)), this.instance_8 = new a.gr_npc_3040611000_02_ef06, this.instance_8.setTransform(10.25, -108.85, .5845, .9004, 0, 0, 0, 120, 132), this.instance_8.compositeOperation = "lighter", this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(26).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 2.5353,
+            x: -151.85,
+            alpha: 0
+        }, 7, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(150)), this.instance_9 = new a.gr_npc_3040611000_02_ef05, this.instance_9.setTransform(-22.5, -70.7, .4271, .3646, 0, 178.6211, -8.1182, 0, 166), this.instance_9.alpha = 0, this.instance_9.compositeOperation = "lighter", this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(24).to({
+            _off: !1
+        }, 0).to({
+            regX: .1,
+            scaleX: .8381,
+            scaleY: .3914,
+            skewX: 177.7364,
+            skewY: -5.7542,
+            x: -168.45,
+            y: -82.05,
+            alpha: 1
+        }, 2, c.Ease.get(-1)).to({
+            regX: -.1,
+            scaleX: 2.9937,
+            scaleY: .4568,
+            skewX: 175.4746,
+            skewY: 0,
+            x: -524.7,
+            y: -109.75,
+            alpha: 0
+        }, 7, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(150)), this.instance_10 = new a.gr_npc_3040611000_02_ef05, this.instance_10.setTransform(10.8, -46.85, .4029, .4283, 0, -14.5932, -12.763, -.2, 166.1), this.instance_10.alpha = 0, this.instance_10.compositeOperation = "lighter", this.instance_10._off = !0, this.timeline.addTween(c.Tween.get(this.instance_10).wait(24).to({
+            _off: !1
+        }, 0).to({
+            regX: -.1,
+            scaleX: .8208,
+            scaleY: .4929,
+            skewX: -22.0504,
+            skewY: -9.0175,
+            x: -105.4,
+            y: -51.25,
+            alpha: 1
+        }, 2, c.Ease.get(-1)).to({
+            regX: 0,
+            regY: 166,
+            scaleX: 1.8411,
+            scaleY: .6525,
+            skewX: -40.4211,
+            skewY: 0,
+            x: -388.7,
+            y: -62.05,
+            alpha: 0
+        }, 7, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(150)), this.instance_11 = new a.gr_npc_3040611000_02_ef05, this.instance_11.setTransform(17.5, -105.45, .5327, .3963, 0, 0, -8.5876, 0, 166), this.instance_11.alpha = 0, this.instance_11.compositeOperation = "lighter", this.instance_11._off = !0, this.timeline.addTween(c.Tween.get(this.instance_11).wait(24).to({
+            _off: !1
+        }, 0).to({
+            regY: 166.1,
+            scaleX: .803,
+            scaleY: .4255,
+            skewY: -6.0252,
+            x: -98.05,
+            y: -118.45,
+            alpha: 1
+        }, 2, c.Ease.get(-1)).to({
+            scaleX: 1.5999,
+            scaleY: .4968,
+            skewY: 0,
+            x: -379.75,
+            y: -150.25,
+            alpha: 0
+        }, 7, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(150)), this.instance_12 = new a.gr_npc_3040611000_02_bg_black, this.instance_12.setTransform(-246, -474, 1, 1, 0, 0, 0, 618.5, 618.5), this.instance_12.alpha = 0, this.instance_12._off = !0, this.timeline.addTween(c.Tween.get(this.instance_12).wait(14).to({
+            _off: !1
+        }, 0).to({
+            alpha: 1
+        }, 11).wait(7).to({
+            alpha: 0
+        }, 3).to({
+            _off: !0
+        }, 1).wait(148)), this.instance_13 = new a.gr_npc_3040611000_02_ability_head_a, this.instance_13.setTransform(25, -90, 1, 1, 0, 0, 0, 60, 71), this.timeline.addTween(c.Tween.get(this.instance_13).to({
+            regY: 70.9,
+            y: -87.15
+        }, 23, c.Ease.quadInOut).to({
+            regY: 71,
+            y: -88.45
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_14 = new a.gr_npc_3040611000_02_ability_RhandB, this.instance_14.setTransform(-5, -47, 1, 1, 0, 0, 0, 8, 8), this.timeline.addTween(c.Tween.get(this.instance_14).to({
+            scaleY: .9692,
+            y: -45.45
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -46.15
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_15 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_15.setTransform(-4.95, -47, .9984, .9983, 109.9993, 0, 0, 20.4, 132.2), this.timeline.addTween(c.Tween.get(this.instance_15).to({
+            regX: 20.2,
+            regY: 132.1,
+            scaleX: .9989,
+            scaleY: .9989,
+            rotation: 110.0017,
+            y: -45.5
+        }, 23, c.Ease.quadInOut).to({
+            regX: 20.3,
+            regY: 132.2,
+            scaleX: .9986,
+            scaleY: .9986,
+            rotation: 110.0005,
+            x: -5.05,
+            y: -46.25
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_16 = new a.gr_npc_3040611000_02_ability_RarmB, this.instance_16.setTransform(-11, -72, 1, 1, 0, 0, 0, 29, 3), this.timeline.addTween(c.Tween.get(this.instance_16).to({
+            scaleY: .9692,
+            y: -69.65
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -70.75
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_17 = new a.gr_npc_3040611000_02_ability_Rarm, this.instance_17.setTransform(10, -88, 1, 1, 0, 0, 0, 29, 5), this.timeline.addTween(c.Tween.get(this.instance_17).to({
+            scaleY: .9692,
+            y: -85.15
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -86.45
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_18 = new a.gr_npc_3040611000_02_ability_bodyribbon, this.instance_18.setTransform(25, -62, 1, 1, 0, 0, 0, 37, 3), this.timeline.addTween(c.Tween.get(this.instance_18).to({
+            scaleY: .9692,
+            y: -60
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -60.9
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_19 = new a.gr_npc_3040611000_02_ability_body, this.instance_19.setTransform(-26, 2, 1, 1, 0, 0, 0, 6, 102), this.timeline.addTween(c.Tween.get(this.instance_19).to({
+            scaleY: .9692,
+            y: 2.05
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_20 = new a.gr_npc_3040611000_02_ability_Larm, this.instance_20.setTransform(32, -90, 1, 1, 0, 0, 0, 14, 4), this.timeline.addTween(c.Tween.get(this.instance_20).to({
+            scaleY: .9692,
+            y: -87.1
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -88.45
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_21 = new a.gr_npc_3040611000_02_ability_LhandB, this.instance_21.setTransform(43, -49, 1, 1, 0, 0, 0, 5, 11), this.timeline.addTween(c.Tween.get(this.instance_21).to({
+            scaleY: .9692,
+            y: -47.4
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -48.1
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_22 = new a.gr_npc_3040611000_02_ability_LarmB, this.instance_22.setTransform(21, -69, 1, 1, 0, 0, 0, 6, 11), this.timeline.addTween(c.Tween.get(this.instance_22).to({
+            scaleY: .9692,
+            y: -66.75
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -67.8
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_23 = new a.gr_npc_3040611000_02_ability_BackCloth, this.instance_23.setTransform(13, -71, 1, 1, 0, 0, 0, 66, 12), this.timeline.addTween(c.Tween.get(this.instance_23).to({
+            scaleY: .9692,
+            y: -68.65
+        }, 23, c.Ease.quadInOut).to({
+            scaleY: .983,
+            y: -69.75
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_24 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_24.setTransform(26, -119, 1, 1, 12.7253, 0, 0, 67.9, 14.9), this.timeline.addTween(c.Tween.get(this.instance_24).to({
+            regY: 14.8,
+            scaleX: .9985,
+            scaleY: .9708,
+            rotation: 0,
+            skewX: 13.1153,
+            skewY: 12.3461,
+            x: 26.05,
+            y: -115.3
+        }, 23, c.Ease.quadInOut).to({
+            regX: 67.8,
+            scaleX: .9992,
+            scaleY: .9838,
+            skewX: 12.9381,
+            skewY: 12.5157,
+            x: 25.95,
+            y: -117.05
+        }, 5, c.Ease.get(-.5)).to({
+            _off: !0
+        }, 1).wait(155)), this.instance_25 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_25.setTransform(44.1, -111.7, 1, 1.0003, 0, 5.1723, 3.7051, 12.1, 13), this.instance_25._off = !0, this.timeline.addTween(c.Tween.get(this.instance_25).wait(173).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0002,
+            skewX: -2.289,
+            skewY: -1.4497,
+            x: 38,
+            y: -110.7
+        }, 5).to({
+            regX: 12,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 40,
+            y: -111
+        }, 5).wait(1)), this.instance_26 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_26.setTransform(40.5, -116.9, .988, 1.012, 0, -141.2976, 38.169, 19.7, 125.6), this.instance_26._off = !0, this.timeline.addTween(c.Tween.get(this.instance_26).wait(173).to({
+            _off: !1
+        }, 0).to({
+            regY: 125.5,
+            scaleX: 1.0067,
+            scaleY: .9932,
+            skewX: -148.0346,
+            skewY: 32.29,
+            x: 33.65,
+            y: -115.5
+        }, 5).to({
+            regX: 19.8,
+            regY: 125.6,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: 33.9995,
+            x: 36.05,
+            y: -115.9
+        }, 5).wait(1)), this.instance_27 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_27.setTransform(56.4, -92, 1, 1.0003, 0, 5.1723, 3.7051, 18.1, 23.9), this.instance_27._off = !0, this.timeline.addTween(c.Tween.get(this.instance_27).wait(173).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0002,
+            skewX: -2.289,
+            skewY: -1.4497,
+            x: 52.65,
+            y: -92.15
+        }, 5).to({
+            regX: 18,
+            regY: 24,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 54,
+            y: -92
+        }, 5).wait(1)), this.instance_28 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_28.setTransform(22.15, -118, 1, 1.0004, 0, 0, 0, 52, 69), this.instance_28._off = !0, this.timeline.addTween(c.Tween.get(this.instance_28).wait(173).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0002,
+            x: 17.3
+        }, 4).to({
+            scaleY: 1,
+            x: 19
+        }, 6).wait(1)), this.instance_29 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_29.setTransform(16.1, -113, 1, 1.0003, 0, -.2648, -1.7331, 51, 3), this.instance_29._off = !0, this.timeline.addTween(c.Tween.get(this.instance_29).wait(173).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0002,
+            skewX: 3.1133,
+            skewY: 3.9539,
+            x: 11.4,
+            y: -113.05
+        }, 5).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 13,
+            y: -113
+        }, 5).wait(1)), this.instance_30 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_30.setTransform(9.05, -76.95, 1, 1.0003, 0, -8.0001, 0, 1, 3), this.instance_30._off = !0, this.timeline.addTween(c.Tween.get(this.instance_30).wait(173).to({
+            _off: !1
+        }, 0).to({
+            regX: 1.1,
+            scaleY: 1.0002,
+            skewX: 5.9967,
+            x: 5.9,
+            y: -77
+        }, 5).to({
+            regX: 1,
+            scaleY: 1,
+            skewX: 0,
+            x: 7
+        }, 5).wait(1)), this.instance_31 = new a.gr_npc_3040611000_02_setup_body, this.instance_31.setTransform(32.95, 5, 1, 1.0004, 0, 1.4676, 0, 35, 129), this.instance_31._off = !0, this.timeline.addTween(c.Tween.get(this.instance_31).wait(173).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0002,
+            skewX: -.84,
+            x: 33.15,
+            y: 5.05
+        }, 4).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 33,
+            y: 5
+        }, 6).wait(1)), this.instance_32 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_32.setTransform(25.9, -111, 1, 1.0004, 0, 1.4676, 0, 4, 7), this.instance_32._off = !0, this.timeline.addTween(c.Tween.get(this.instance_32).wait(173).to({
+            _off: !1
+        }, 0).to({
+            regX: 4.1,
+            scaleY: 1.0002,
+            skewX: -.84,
+            x: 21.4,
+            y: -111.05
+        }, 4).to({
+            regX: 4,
+            scaleY: 1,
+            skewX: 0,
+            x: 23,
+            y: -111
+        }, 6).wait(1)), this.instance_33 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_33.setTransform(25.4, -88.15, .9998, .9999, 0, -2.3134, 176.195, 45.9, 11.8), this.instance_33._off = !0, this.timeline.addTween(c.Tween.get(this.instance_33).wait(173).to({
+            _off: !1
+        }, 0).to({
+            regX: 45.8,
+            regY: 11.9,
+            scaleX: .9999,
+            scaleY: .9713,
+            skewX: 2.9998,
+            skewY: 182.001,
+            x: 21.8,
+            y: -88.1
+        }, 5).to({
+            regX: 46,
+            regY: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 180,
+            x: 23,
+            y: -88
+        }, 5).wait(1)), this.instance_34 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_34.setTransform(26.95, -151.1, .9991, 1.0012, 0, -.227, -1.6891, 71.5, 15.4), this.instance_34._off = !0, this.timeline.addTween(c.Tween.get(this.instance_34).wait(173).to({
+            _off: !1
+        }, 0).to({
+            regX: 71.4,
+            regY: 15.5,
+            scaleX: 1.0005,
+            scaleY: .9997,
+            skewX: 4.1447,
+            skewY: 4.9846,
+            x: 20.7,
+            y: -151
+        }, 5).to({
+            regX: 71.5,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: 1.9999,
+            skewX: 0,
+            skewY: 0,
+            x: 22.9
+        }, 5).wait(1)), this.instance_35 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_35.setTransform(14, 0, 1, .15), this.timeline.addTween(c.Tween.get(this.instance_35).to({
+            _off: !0
+        }, 29).wait(144).to({
+            _off: !1,
+            scaleX: .8,
+            scaleY: .1499,
+            x: 21.95
+        }, 0).wait(11)), this.instance_36 = new a.gr_npc_3040611000_02_bg_black, this.instance_36.setTransform(-246, -474, 1, 1, 0, 0, 0, 618.5, 618.5), this.instance_36.alpha = 0, this.instance_36._off = !0, this.timeline.addTween(c.Tween.get(this.instance_36).wait(1).to({
+            _off: !1
+        }, 0).to({
+            alpha: .5
+        }, 22).wait(1).to({
+            alpha: .8008
+        }, 0).to({
+            alpha: .5
+        }, 11).to({
+            _off: !0
+        }, 1).wait(148))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-864.5, -1092.5, 2021.1, 1973), (a.mc_npc_3040611000_02_hide = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_1 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(1).call(this.frame_1).wait(1)), this.instance = new a.gr_npc_3040611000_02_setup_LhandB, this.instance.setTransform(40, -111, 1, 1, 0, 0, 0, 12, 13), this.instance.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_1.setTransform(36.05, -115.9, .9999, .9999, 0, -145.9991, 33.9995, 19.8, 125.6), this.instance_1.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_1).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_2.setTransform(54, -92, 1, 1, 0, 0, 0, 18, 24), this.instance_2.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_2).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_3.setTransform(19, -118, 1, 1, 0, 0, 0, 52, 69), this.instance_3.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_3).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_4.setTransform(13, -113, 1, 1, 0, 0, 0, 51, 3), this.instance_4.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_4).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_5.setTransform(7, -77, 1, 1, 0, 0, 0, 1, 3), this.instance_5.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_5).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_setup_body, this.instance_6.setTransform(33, 5, 1, 1, 0, 0, 0, 35, 129), this.instance_6.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_6).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_7.setTransform(23, -111, 1, 1, 0, 0, 0, 4, 7), this.instance_7.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_7).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_8.setTransform(23, -88, 1, 1, 0, 0, 180, 46, 12), this.instance_8.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_8).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_9.setTransform(22.9, -151, 1, 1, 1.9999, 0, 0, 71.5, 15.5), this.instance_9.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_9).wait(1).to({
+            alpha: 0
+        }, 0).wait(1)), this.instance_10 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_10.setTransform(21.95, 0, .8, .1499), this.instance_10.alpha = .0117, this.timeline.addTween(c.Tween.get(this.instance_10).to({
+            alpha: 0
+        }, 1).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-56.9, -187, 138.1, 196.4), (a.mc_npc_3040611000_02_down = function(b, d, e) {
+        this.initialize(b, d, e, {
+            down_loop: 1
+        }), this.frame_30 = function() {
+            this.gotoAndPlay("down_loop")
+        }, this.timeline.addTween(c.Tween.get(this).wait(30).call(this.frame_30).wait(1)), this.npc_3040611000_02_down_ase = new a.mc_npc_3040611000_02_down_ase, this.npc_3040611000_02_down_ase.name = "npc_3040611000_02_down_ase", this.npc_3040611000_02_down_ase.setTransform(43, -101, 1, 1, 0, 0, 0, 12, 10), this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_down_ase).wait(31)), this.instance = new a.gr_npc_3040611000_02_down_head_a, this.instance.setTransform(-10, -57, 1, 1, 0, 0, 0, 63, 67), this.timeline.addTween(c.Tween.get(this.instance).to({
+            x: -9.95,
+            y: -55.15
+        }, 15, c.Ease.quadInOut).to({
+            x: -10,
+            y: -57
+        }, 15, c.Ease.quadInOut).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_down_LarmB, this.instance_1.setTransform(29, -58, 1, 1, 0, 0, 0, 14, 6), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regX: 14.1,
+            scaleY: .9701,
+            rotation: -1.4836,
+            x: 29.1,
+            y: -56.2
+        }, 16, c.Ease.quadInOut).to({
+            regX: 14,
+            scaleY: 1,
+            rotation: 0,
+            x: 29,
+            y: -58
+        }, 14, c.Ease.quadInOut).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_2.setTransform(18.05, -44.05, .9999, .9998, 0, -105, 75.0005, 20.2, 122), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            regX: 20.1,
+            regY: 121.9,
+            scaleX: .9991,
+            scaleY: .9992,
+            skewX: -106.012,
+            skewY: 73.205,
+            x: 18.4,
+            y: -42.35
+        }, 16, c.Ease.quadInOut).to({
+            regX: 20.2,
+            regY: 122,
+            scaleX: .9999,
+            scaleY: .9998,
+            skewX: -105,
+            skewY: 75.0005,
+            x: 18.05,
+            y: -44.05
+        }, 14, c.Ease.quadInOut).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_down_Larm, this.instance_3.setTransform(3, -61, 1, 1, 0, 0, 0, 3, 10), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            scaleY: .9701,
+            y: -60.05
+        }, 16, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -61
+        }, 14, c.Ease.quadInOut).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_down_body, this.instance_4.setTransform(10, 1, 1, 1, 0, 0, 0, 31, 69), this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            scaleY: .9701,
+            y: 1.1
+        }, 15, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: 1
+        }, 15, c.Ease.quadInOut).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_down_Rarm, this.instance_5.setTransform(-13, -54, 1, 1, 0, 0, 0, 34, 4), this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            scaleY: .9701,
+            y: -53.25
+        }, 16, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -54
+        }, 14, c.Ease.quadInOut).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_down_BackCloth, this.instance_6.setTransform(4, -2, 1, 1, 0, 0, 0, 69, 56), this.timeline.addTween(c.Tween.get(this.instance_6).to({
+            scaleX: 1.0281,
+            scaleY: .9701,
+            x: 4.05,
+            y: -1.85
+        }, 16, c.Ease.quadInOut).to({
+            scaleX: 1,
+            scaleY: 1,
+            x: 4,
+            y: -2
+        }, 14, c.Ease.quadInOut).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_7.setTransform(-31.9, -85.95, .9982, .9982, 0, -34.9991, 145.0015, 70.7, 6.8), this.timeline.addTween(c.Tween.get(this.instance_7).to({
+            regY: 6.7,
+            scaleX: .9884,
+            scaleY: .9989,
+            skewX: -36.7705,
+            skewY: 144.8654,
+            x: -32.05,
+            y: -83.35
+        }, 16, c.Ease.quadInOut).to({
+            regY: 6.8,
+            scaleX: .9982,
+            scaleY: .9982,
+            skewX: -34.9991,
+            skewY: 145.0015,
+            x: -31.9,
+            y: -85.95
+        }, 14, c.Ease.quadInOut).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_8.setTransform(8, 0, 1.25, .1499), this.timeline.addTween(c.Tween.get(this.instance_8).wait(31))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-107.7, -132, 207.8, 165.6), (a.mc_npc_3040611000_02_double = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_4 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/npc_3040080000_01_se_1.mp3")
+            }), require(["lib/sound"], function(a) {
+                a.play("se/npc_3040080000_01_se_3.mp3")
+            })
+        }, this.frame_24 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(20).call(this.frame_24).wait(1)), this.instance = new a.gr_npc_3040611000_02_weapon_ef, this.instance.setTransform(26.15, -75.35, .4474, .4804, 150.7481, 0, 0, 9.9, 117), this.instance.compositeOperation = "lighter", this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(4).to({
+            _off: !1
+        }, 0).to({
+            alpha: .5
+        }, 1).to({
+            _off: !0
+        }, 1).wait(19)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_1.setTransform(74.95, -128.3, .9998, 1.0462, 0, 92.5488, 129.0005, 10, 117.2), this.instance_1.compositeOperation = "lighter", this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 9.8,
+            regY: 117.1,
+            scaleX: .5699,
+            scaleY: 1.046,
+            skewX: 90.2884,
+            skewY: 111.9997,
+            y: -136.3,
+            alpha: .3008
+        }, 2).to({
+            _off: !0
+        }, 1).wait(18)), this.instance_2 = new a.gr_npc_3040611000_02_trail02, this.instance_2.setTransform(185.15, -117.35, .8731, 1.6929, 0, -116.9997, 30.0009, 209.5, 180.1), this.instance_2.compositeOperation = "lighter", this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 209.3,
+            regY: 180.2,
+            scaleY: 1.6928,
+            skewX: -122.9993,
+            skewY: 24.0013,
+            x: 180.25,
+            y: -136.45,
+            alpha: 0
+        }, 4).to({
+            _off: !0
+        }, 1).wait(16)), this.instance_3 = new a.gr_npc_3040611000_02_attack03_RarmB, this.instance_3.setTransform(-22.75, -68, 1, 1.0002, 0, -12.0714, -10.9627, 6.5, 6), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 6.6,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -21.4
+        }, 7, c.Ease.get(1)).to({
+            regX: 6.5,
+            scaleY: 1.0002,
+            skewX: -12.0714,
+            skewY: -10.9627,
+            x: -22.75
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_4 = new a.gr_npc_3040611000_02_attack03_Rarm, this.instance_4.setTransform(0, -88, 1, 1.0002, 0, -1.1102, 0, 31.7, 3), this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 1.7
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0002,
+            skewX: -1.1102,
+            x: 0
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_5 = new a.gr_npc_3040611000_02_attack03_head_a, this.instance_5.setTransform(14.9, -85, 1, 1.0002, 0, 0, 0, 49.5, 65), this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            x: 16.5
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0002,
+            x: 14.9
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_6 = new a.gr_npc_3040611000_02_attack03_bodyribbon, this.instance_6.setTransform(-22.1, -58, 1, 1.0002, 0, -1.1102, 0, 4, 5), this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            x: -21
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0002,
+            skewX: -1.1102,
+            x: -22.1
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_7 = new a.gr_npc_3040611000_02_attack03_BackClothA, this.instance_7.setTransform(-13.5, -76, 1, 1.0001, 0, -5.0243, -10.996, 83.9, 2.9), this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 84,
+            regY: 3,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -12
+        }, 7, c.Ease.get(1)).to({
+            regX: 83.9,
+            regY: 2.9,
+            scaleY: 1.0001,
+            skewX: -5.0243,
+            skewY: -10.996,
+            x: -13.5
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_8 = new a.gr_npc_3040611000_02_attack03_body, this.instance_8.setTransform(19, -1, 1, 1.0002, 0, -1.1102, 0, 80, 96), this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0002,
+            skewX: -1.1102
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_9 = new a.gr_npc_3040611000_02_attack03_Larm, this.instance_9.setTransform(16.7, -94.7, 1, 1.0002, 0, 5.8492, 6.9589, 5, 44), this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 17,
+            y: -94
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0002,
+            skewX: 5.8492,
+            skewY: 6.9589,
+            x: 16.7,
+            y: -94.7
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_10 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_10.setTransform(59.95, -123.75, 1.0017, .9967, 0, 92.6297, 91.5555, 20.7, 125.5), this.instance_10._off = !0, this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 20.8,
+            regY: 125.6,
+            scaleX: .9992,
+            scaleY: .9991,
+            rotation: 82.9644,
+            skewX: 0,
+            skewY: 0,
+            x: 57,
+            y: -128
+        }, 7, c.Ease.get(1)).to({
+            regX: 20.7,
+            regY: 125.5,
+            scaleX: 1.0017,
+            scaleY: .9967,
+            rotation: 0,
+            skewX: 92.6297,
+            skewY: 91.5555,
+            x: 59.95,
+            y: -123.75
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_11 = new a.gr_npc_3040611000_02_attack03_BackClothB, this.instance_11.setTransform(23.25, -94, 1, 1.0001, 0, -1.0272, -7.0001, 85, 5), this.instance_11._off = !0, this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 25
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0001,
+            skewX: -1.0272,
+            skewY: -7.0001,
+            x: 23.25
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_12 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_12.setTransform(25.2, -109.2, 1.0095, .9904, 0, 36.3415, 36.1604, 67.8, 12.2), this.instance_12._off = !0, this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleX: .9999,
+            scaleY: .9999,
+            rotation: 49.9992,
+            skewX: 0,
+            skewY: 0,
+            x: 31.25,
+            y: -107.2
+        }, 7, c.Ease.get(1)).to({
+            scaleX: 1.0095,
+            scaleY: .9904,
+            rotation: 0,
+            skewX: 36.3415,
+            skewY: 36.1604,
+            x: 25.2,
+            y: -109.2
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_13 = new a.gr_npc_3040611000_02_attack08_head_aD, this.instance_13.setTransform(-48.05, -85, .5, .5, -60.4449, 0, 0, 48.2, 146.6), this.instance_13._off = !0, this.timeline.addTween(c.Tween.get(this.instance_13).wait(3).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_14 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_14.setTransform(-52.95, -81.4, 1, 1, 0, 0, 0, 43, 64.6), this.timeline.addTween(c.Tween.get(this.instance_14).wait(1).to({
+            regX: 48,
+            regY: 40,
+            x: -48.1,
+            y: -105.85
+        }, 0).wait(1).to({
+            regX: 42.9,
+            regY: 64.6,
+            x: -53.25,
+            y: -81.2
+        }, 0).to({
+            _off: !0
+        }, 1).wait(22)), this.instance_15 = new a.gr_npc_3040611000_02_attack02_backhairA, this.instance_15.setTransform(-57.15, -103.6, 1, .9883, 0, -1.373, 0, 6.4, 8.1), this.timeline.addTween(c.Tween.get(this.instance_15).wait(1).to({
+            regX: 68,
+            regY: 36,
+            scaleY: .9873,
+            skewX: 3.1569,
+            skewY: 4.6593,
+            x: 2.55,
+            y: -70.9
+        }, 0).wait(1).to({
+            regX: 6.4,
+            regY: 8.1,
+            scaleY: .9869,
+            skewX: 4.6668,
+            skewY: 6.2125,
+            x: -57.4,
+            y: -103.4
+        }, 0).to({
+            _off: !0
+        }, 1).wait(22)), this.instance_16 = new a.gr_npc_3040611000_02_attack02_Larm, this.instance_16.setTransform(-50.45, -78.05, 1, .9883, 0, 21.2774, 22.6521, 16.1, 2.6), this.timeline.addTween(c.Tween.get(this.instance_16).wait(1).to({
+            regX: 14,
+            regY: 16,
+            scaleY: .9872,
+            skewX: 23.2733,
+            skewY: 24.7766,
+            x: -57.75,
+            y: -66.7
+        }, 0).wait(1).to({
+            regX: 16,
+            regY: 2.6,
+            scaleY: .9869,
+            skewX: 23.9386,
+            skewY: 25.4847,
+            x: -50.75,
+            y: -77.8
+        }, 0).wait(1).to({
+            regX: 15.8,
+            scaleX: 1.0373,
+            scaleY: .8966,
+            skewX: 13.5831,
+            skewY: 17.5005,
+            x: -45.45,
+            y: -78.2
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_17 = new a.gr_npc_3040611000_02_attack02_bodyribbon, this.instance_17.setTransform(-49.5, -47.55, 1, .9883, 0, -1.373, 0, .7, 1.9), this.timeline.addTween(c.Tween.get(this.instance_17).wait(1).to({
+            regX: 16,
+            regY: 20,
+            scaleY: .9873,
+            skewX: 1.1553,
+            x: -34.6,
+            y: -29.5
+        }, 0).wait(1).to({
+            regX: .6,
+            regY: 1.9,
+            scaleY: .9869,
+            skewX: 1.9981,
+            x: -49.65,
+            y: -47.35
+        }, 0).wait(1).to({
+            scaleY: 1.005,
+            skewX: 4.971,
+            x: -43.95,
+            y: -48.05
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_18 = new a.gr_npc_3040611000_02_attack02_BackClothA, this.instance_18.setTransform(-48.75, -54.2, 1, .9883, 0, -1.373, 0, 1.6, 10.1), this.timeline.addTween(c.Tween.get(this.instance_18).wait(1).to({
+            regX: 58,
+            regY: 30,
+            scaleY: .9872,
+            skewX: 8.0527,
+            skewY: 9.5561,
+            x: 4,
+            y: -25.25
+        }, 0).wait(1).to({
+            regX: 1.5,
+            regY: 10.1,
+            scaleY: .9869,
+            skewX: 11.1946,
+            skewY: 12.7414,
+            x: -49,
+            y: -54.05
+        }, 0).wait(1).to({
+            regX: 1.4,
+            scaleY: 1.005,
+            skewX: 14.4228,
+            skewY: 9.4525,
+            x: -43,
+            y: -57.1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_19 = new a.gr_npc_3040611000_02_attack02_body, this.instance_19.setTransform(-77.1, 2, 1, .9883, 0, -1.373, 0, .9, 93.9), this.timeline.addTween(c.Tween.get(this.instance_19).wait(1).to({
+            regX: 54,
+            regY: 50,
+            scaleY: .9873,
+            skewX: -1.5028,
+            x: -25.1,
+            y: -41.4
+        }, 0).wait(1).to({
+            regX: .8,
+            regY: 93.9,
+            scaleY: .9869,
+            skewX: -1.5461,
+            x: -77.15,
+            y: 1.95
+        }, 0).wait(1).to({
+            scaleY: 1.005,
+            skewX: 4.971
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_20 = new a.gr_npc_3040611000_02_attack02_LarmB, this.instance_20.setTransform(-68.4, -60.55, 1, .9883, 0, 47.0472, 48.4227, 18.6, 4.1), this.timeline.addTween(c.Tween.get(this.instance_20).wait(1).to({
+            regX: 24,
+            regY: 24,
+            scaleY: .9872,
+            skewX: 51.4592,
+            skewY: 52.9621,
+            x: -81.4,
+            y: -44.45
+        }, 0).wait(1).to({
+            regX: 18.4,
+            regY: 4.2,
+            scaleY: .9868,
+            skewX: 52.9299,
+            skewY: 54.4752,
+            x: -69.65,
+            y: -61.2
+        }, 0).wait(1).to({
+            scaleX: 1.0373,
+            scaleY: .9477,
+            skewX: 39.7328,
+            skewY: 38.0342,
+            x: -56.7,
+            y: -60.7
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_21 = new a.gr_npc_3040611000_02_attack02_RarmB, this.instance_21.setTransform(-49.7, -52.4, 1, .9883, 0, -1.373, 0, 17.6, 4), this.timeline.addTween(c.Tween.get(this.instance_21).wait(1).to({
+            regX: 22,
+            regY: 22,
+            scaleY: .9873,
+            skewX: -1.5028,
+            x: -44.95,
+            y: -34.5
+        }, 0).wait(1).to({
+            regX: 17.6,
+            regY: 4,
+            scaleY: .9869,
+            skewX: -1.5461,
+            x: -49.8,
+            y: -52.2
+        }, 0).wait(1).to({
+            regX: 17.5,
+            scaleY: 1.005,
+            skewX: 4.971,
+            x: -43.65,
+            y: -52.95
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_22 = new a.gr_npc_3040611000_02_attack02_Rarm, this.instance_22.setTransform(-43.8, -75.6, 1, .9883, 0, -1.373, 0, 17, 4.4), this.timeline.addTween(c.Tween.get(this.instance_22).wait(1).to({
+            regX: 12,
+            regY: 18,
+            scaleY: .9873,
+            skewX: -1.5028,
+            x: -48.6,
+            y: -62.05
+        }, 0).wait(1).to({
+            regX: 17,
+            regY: 4.5,
+            scaleY: .9869,
+            skewX: -1.5461,
+            x: -44.05,
+            y: -75.4
+        }, 0).wait(1).to({
+            regX: 16.9,
+            scaleY: 1.005,
+            skewX: 4.971,
+            x: -35.2,
+            y: -76.5
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_23 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_23.setTransform(-95.3, -52.35, .9934, .6815, 0, -59.5605, 150.8585, 21.3, 122.4), this.timeline.addTween(c.Tween.get(this.instance_23).wait(1).to({
+            regX: 21,
+            regY: 81,
+            scaleX: .9929,
+            scaleY: .6517,
+            skewX: -55.39,
+            skewY: 157.8799,
+            x: -119.25,
+            y: -70
+        }, 0).wait(1).to({
+            regX: 21.4,
+            regY: 122.2,
+            scaleX: .9927,
+            scaleY: .6417,
+            skewX: -53.9999,
+            skewY: 160.2203,
+            x: -98.15,
+            y: -55.35
+        }, 0).wait(1).to({
+            regX: 21.3,
+            regY: 121.8,
+            scaleX: .9748,
+            scaleY: .6703,
+            skewX: -66.2378,
+            skewY: 150.3378,
+            x: -83.4,
+            y: -49.2
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_24 = new a.gr_npc_3040611000_02_attack02_BackClothB, this.instance_24.setTransform(-41.75, -54.2, 1, .9883, 0, -1.373, 0, 27.6, 10.1), this.timeline.addTween(c.Tween.get(this.instance_24).wait(1).to({
+            regX: 52,
+            regY: 36,
+            scaleY: .9872,
+            skewX: 3.7111,
+            skewY: 5.2138,
+            x: -19.2,
+            y: -26.35
+        }, 0).wait(1).to({
+            regX: 27.5,
+            regY: 10.1,
+            scaleY: .9869,
+            skewX: 5.4059,
+            skewY: 6.9517,
+            x: -42,
+            y: -54.1
+        }, 0).wait(1).to({
+            regX: 27.4,
+            scaleY: 1.005,
+            skewX: 14.4228,
+            skewY: 9.4525,
+            x: -36.1,
+            y: -55.95
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_25 = new a.gr_npc_3040611000_02_attack02_backhairA, this.instance_25.setTransform(-45.4, -105, .7371, 1.0047, 0, 4.8194, 1, 6.2, 8), this.instance_25._off = !0, this.timeline.addTween(c.Tween.get(this.instance_25).wait(3).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_26 = new a.gr_npc_3040611000_02_attack02_backhairB, this.instance_26.setTransform(-66.95, -100.65, 1, .9883, 0, -1.373, 0, 13.5, 11.1), this.timeline.addTween(c.Tween.get(this.instance_26).wait(1).to({
+            regX: 30,
+            regY: 32,
+            scaleY: .9873,
+            skewX: -1.5028,
+            x: -50.1,
+            y: -79.85
+        }, 0).wait(1).to({
+            regX: 13.4,
+            regY: 11.1,
+            scaleY: .9869,
+            skewX: -1.5461,
+            x: -67.3,
+            y: -100.45
+        }, 0).wait(1).to({
+            regX: 13.3,
+            scaleY: 1.005,
+            skewX: 4.971,
+            x: -55.6,
+            y: -101.95
+        }, 0).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_27 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_27.setTransform(36.2, -108.5, .9999, 1, 0, 3.6149, 3.7517, 12.2, 12.8), this.instance_27._off = !0, this.timeline.addTween(c.Tween.get(this.instance_27).wait(14).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 8,
+            regY: 8,
+            scaleX: 1,
+            scaleY: .9999,
+            skewX: 1.8651,
+            skewY: 1.6728,
+            x: 34.35,
+            y: -114.5
+        }, 0).wait(1).to({
+            scaleX: 1.0001,
+            skewX: .6152,
+            skewY: .1879,
+            x: 35.8,
+            y: -115.2
+        }, 0).wait(1).to({
+            scaleX: 1.0002,
+            skewX: -.1347,
+            skewY: -.7031,
+            x: 36.65,
+            y: -115.65
+        }, 0).wait(1).to({
+            regX: 12.1,
+            regY: 13,
+            skewX: -.3847,
+            skewY: -1.0001,
+            x: 41.3,
+            y: -111
+        }, 0).to({
+            regX: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 40
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_28 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_28.setTransform(32.55, -113.65, .9997, .9997, 0, -142.2478, 37.7515, 19.4, 125.5), this.instance_28._off = !0, this.timeline.addTween(c.Tween.get(this.instance_28).wait(14).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 21,
+            regY: 81,
+            scaleX: .9991,
+            scaleY: .9991,
+            skewX: -143.8894,
+            skewY: 36.1096,
+            x: 9.7,
+            y: -77.75
+        }, 0).wait(1).to({
+            scaleX: .9987,
+            scaleY: .9987,
+            skewX: -145.062,
+            skewY: 34.9367,
+            x: 12,
+            y: -77.95
+        }, 0).wait(1).to({
+            scaleX: .9985,
+            scaleY: .9985,
+            skewX: -145.7655,
+            skewY: 34.2331,
+            x: 13.3,
+            y: -78.05
+        }, 0).wait(1).to({
+            regX: 19.6,
+            regY: 125.5,
+            scaleX: .9984,
+            scaleY: .9984,
+            skewX: -146,
+            skewY: 33.9985,
+            x: 37.2,
+            y: -115.9
+        }, 0).to({
+            regX: 19.8,
+            regY: 125.6,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: 33.9995,
+            x: 36.05
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_29 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_29.setTransform(53.3, -92.45, 1, 1, 0, -9.9292, -9.7935, 18.2, 23.9), this.instance_29._off = !0, this.timeline.addTween(c.Tween.get(this.instance_29).wait(14).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 18,
+            regY: 24,
+            skewX: -5.3159,
+            skewY: -5.5088,
+            x: 53.85,
+            y: -92.15
+        }, 0).wait(1).to({
+            scaleY: 1.0001,
+            skewX: -2.0207,
+            skewY: -2.4484,
+            x: 54.45,
+            y: -91.95
+        }, 0).wait(1).to({
+            skewX: -.0436,
+            skewY: -.6121,
+            x: 54.75,
+            y: -91.9
+        }, 0).wait(1).to({
+            regX: 18.1,
+            skewX: .6155,
+            skewY: 0,
+            x: 55.1,
+            y: -92
+        }, 0).to({
+            regX: 18,
+            scaleY: 1,
+            skewX: 0,
+            x: 54
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_30 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_30.setTransform(16.45, -117.95, 1, 1.0002, 0, 0, 0, 52, 69), this.instance_30._off = !0, this.timeline.addTween(c.Tween.get(this.instance_30).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            x: 20.35,
+            y: -118
+        }, 3, c.Ease.get(1)).to({
+            scaleY: 1,
+            x: 19
+        }, 7, c.Ease.get(-1)).wait(1)), this.instance_31 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_31.setTransform(10.6, -113, 1, 1.0002, 0, 11.2373, 12.4655, 51, 3), this.instance_31._off = !0, this.timeline.addTween(c.Tween.get(this.instance_31).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            skewY: 0,
+            x: 14.25
+        }, 4, c.Ease.get(1)).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 13
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_32 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_32.setTransform(5.3, -76.95, 1, 1.0002, 0, 14.0006, 0, 1.1, 3), this.instance_32._off = !0, this.timeline.addTween(c.Tween.get(this.instance_32).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            x: 7.95,
+            y: -77
+        }, 4, c.Ease.get(1)).to({
+            regX: 1,
+            scaleY: 1,
+            skewX: 0,
+            x: 7
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_33 = new a.gr_npc_3040611000_02_setup_body, this.instance_33.setTransform(33.05, 5, 1, 1.0002, 0, -1.2282, 0, 35, 129), this.instance_33._off = !0, this.timeline.addTween(c.Tween.get(this.instance_33).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            x: 33
+        }, 3, c.Ease.get(1)).to({
+            scaleY: 1,
+            skewX: 0
+        }, 7, c.Ease.get(-1)).wait(1)), this.instance_34 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_34.setTransform(20.6, -111, 1, 1.0002, 0, 19.7497, 20.9776, 4, 7), this.instance_34._off = !0, this.timeline.addTween(c.Tween.get(this.instance_34).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            skewY: 0,
+            x: 24.2
+        }, 4, c.Ease.get(1)).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 23
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_35 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_35.setTransform(21.1, -88.2, 1, 1.0002, 0, 15.7072, -170.2919, 45.9, 11.8), this.instance_35._off = !0, this.timeline.addTween(c.Tween.get(this.instance_35).wait(14).to({
+            _off: !1
+        }, 0).to({
+            regX: 45.8,
+            scaleX: .9998,
+            scaleY: .9995,
+            skewX: -8.2653,
+            skewY: -183.8233,
+            x: 24.15,
+            y: -88.15
+        }, 5, c.Ease.get(1)).to({
+            regX: 46,
+            regY: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: -180,
+            x: 23,
+            y: -88
+        }, 5, c.Ease.get(-1)).wait(1)), this.instance_36 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_36.setTransform(19.6, -151.2, 1.0007, .9994, 0, 3.5301, 4.7564, 71.4, 15.4), this.instance_36._off = !0, this.timeline.addTween(c.Tween.get(this.instance_36).wait(14).to({
+            _off: !1
+        }, 0).to({
+            regY: 15.3,
+            scaleX: 1,
+            scaleY: .9999,
+            skewX: 1.7945,
+            skewY: 1.5241,
+            x: 23.3
+        }, 7, c.Ease.get(1)).wait(1).to({
+            regX: 50,
+            regY: 66,
+            skewX: 1.8564,
+            skewY: 1.6676,
+            x: .25,
+            y: -101.1
+        }, 0).wait(1).to({
+            scaleY: 1,
+            skewX: 1.9249,
+            skewY: 1.8262,
+            x: .05
+        }, 0).wait(1).to({
+            regX: 71.5,
+            regY: 15.5,
+            rotation: 1.9999,
+            skewX: 0,
+            skewY: 0,
+            x: 22.9,
+            y: -151
+        }, 0).wait(1)), this.instance_37 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_37.setTransform(-20, 0, 1.2999, .1499), this.timeline.addTween(c.Tween.get(this.instance_37).wait(4).to({
+            regX: -.1,
+            scaleX: 1,
+            x: -19.95
+        }, 0).wait(10).to({
+            regX: 0,
+            scaleX: .8,
+            x: 21.95
+        }, 0).wait(11))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-244.9, -214.3, 462.1, 256.3), (a.mc_npc_3040611000_02_chara_out = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_5 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(5).call(this.frame_5).wait(1)), this.instance = new a.gr_npc_3040611000_02_setup_LhandB, this.instance.setTransform(40, -111, 1, 1, 0, 0, 0, 12, 13), this.timeline.addTween(c.Tween.get(this.instance).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_1.setTransform(36.05, -115.9, .9999, .9999, 0, -145.9991, 33.9995, 19.8, 125.6), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_2.setTransform(54, -92, 1, 1, 0, 0, 0, 18, 24), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_3.setTransform(19, -118, 1, 1, 0, 0, 0, 52, 69), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_4.setTransform(13, -113, 1, 1, 0, 0, 0, 51, 3), this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_5.setTransform(7, -77, 1, 1, 0, 0, 0, 1, 3), this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_setup_body, this.instance_6.setTransform(33, 5, 1, 1, 0, 0, 0, 35, 129), this.timeline.addTween(c.Tween.get(this.instance_6).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_7.setTransform(23, -111, 1, 1, 0, 0, 0, 4, 7), this.timeline.addTween(c.Tween.get(this.instance_7).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_8.setTransform(23, -88, 1, 1, 0, 0, 180, 46, 12), this.timeline.addTween(c.Tween.get(this.instance_8).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_9.setTransform(22.9, -151, 1, 1, 1.9999, 0, 0, 71.5, 15.5), this.timeline.addTween(c.Tween.get(this.instance_9).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1)), this.instance_10 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_10.setTransform(21.95, 0, .8, .1499), this.timeline.addTween(c.Tween.get(this.instance_10).to({
+            alpha: .3008
+        }, 3).to({
+            alpha: 0
+        }, 2).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-56.9, -187, 138.1, 196.4), (a.mc_npc_3040611000_02_chara_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_4 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(1)), this.instance = new a.gr_npc_3040611000_02_setup_LhandB, this.instance.setTransform(40, -111, 1, 1, 0, 0, 0, 12, 13), this.instance.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_1.setTransform(36.05, -115.9, .9999, .9999, 0, -145.9991, 33.9995, 19.8, 125.6), this.instance_1.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_2.setTransform(54, -92, 1, 1, 0, 0, 0, 18, 24), this.instance_2.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_3.setTransform(19, -118, 1, 1, 0, 0, 0, 52, 69), this.instance_3.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_4.setTransform(13, -113, 1, 1, 0, 0, 0, 51, 3), this.instance_4.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_5.setTransform(7, -77, 1, 1, 0, 0, 0, 1, 3), this.instance_5.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_setup_body, this.instance_6.setTransform(33, 5, 1, 1, 0, 0, 0, 35, 129), this.instance_6.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_6).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_7.setTransform(23, -111, 1, 1, 0, 0, 0, 4, 7), this.instance_7.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_7).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_8.setTransform(23, -88, 1, 1, 0, 0, 180, 46, 12), this.instance_8.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_8).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_9.setTransform(22.9, -151, 1, 1, 1.9999, 0, 0, 71.5, 15.5), this.instance_9.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_9).to({
+            alpha: 1
+        }, 4).wait(1)), this.instance_10 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_10.setTransform(21.95, 0, .8, .1499), this.instance_10.alpha = 0, this.timeline.addTween(c.Tween.get(this.instance_10).to({
+            alpha: 1
+        }, 4).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-56.9, -187, 138.1, 196.4), (a.mc_npc_3040611000_02_attack = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_4 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/npc_3040080000_01_se_1.mp3")
+            }), require(["lib/sound"], function(a) {
+                a.play("se/npc_3040080000_01_se_2.mp3")
+            })
+        }, this.frame_24 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(20).call(this.frame_24).wait(1)), this.instance = new a.gr_npc_3040611000_02_weapon_ef, this.instance.setTransform(-84.95, -24.05, .9999, .9987, 0, -100.7623, -122.9994, 10.6, 117.2), this.instance.alpha = .5, this.instance.compositeOperation = "lighter", this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 11,
+            regY: 117,
+            scaleX: .4761,
+            scaleY: .963,
+            skewX: -100.7576,
+            skewY: -146.998,
+            x: -85.1,
+            y: -24.2,
+            alpha: .1484
+        }, 2, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(18)), this.instance_1 = new a.gr_npc_3040611000_02_trail02, this.instance_1.setTransform(-194.15, -3.25, 1.3473, 1.5838, 0, 8.0003, 168.9996, 210, 180.2), this.instance_1.alpha = .5, this.instance_1.compositeOperation = "lighter", this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(4).to({
+            _off: !1
+        }, 0).to({
+            y: 1.75,
+            alpha: 0
+        }, 5).to({
+            _off: !0
+        }, 1).wait(15)), this.instance_2 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_2.setTransform(-48.95, -84.05, 1, 1, 2.237, 0, 0, 42.9, 64.5), this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 43,
+            regY: 64.7,
+            rotation: 0,
+            x: -51,
+            y: -82.3
+        }, 7, c.Ease.get(1)).to({
+            regX: 42.8,
+            regY: 64.4,
+            scaleX: .9998,
+            scaleY: .9997,
+            rotation: 9e-4,
+            x: -45.1,
+            y: -85
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_3 = new a.gr_npc_3040611000_02_attack02_backhairA, this.instance_3.setTransform(-47.15, -109, 1, 1.0201, 0, 18.6531, 17.3107, 6.3, 8.1), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 6.4,
+            regY: 8.2,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -54.6,
+            y: -104.8
+        }, 7, c.Ease.get(1)).to({
+            regX: 6.2,
+            regY: 8,
+            scaleX: .9885,
+            scaleY: 1.0456,
+            skewX: 20.6687,
+            skewY: 17.7379,
+            x: -42.25,
+            y: -110.4
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_4 = new a.gr_npc_3040611000_02_attack02_Larm, this.instance_4.setTransform(-47, -81.2, 1, 1.0202, 0, 5.5301, 4.188, 16, 2.6), this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -49,
+            y: -79.4
+        }, 7, c.Ease.get(1)).to({
+            scaleX: .9992,
+            scaleY: 1.0094,
+            skewX: -13.722,
+            skewY: -14.6415,
+            x: -47.75,
+            y: -80.2
+        }, 1, c.Ease.get(-1)).to({
+            regX: 15.8,
+            regY: 2.4,
+            scaleX: .9968,
+            scaleY: 1.0377,
+            skewX: -25.4633,
+            skewY: -29.1462,
+            x: -43.8,
+            y: -82.4
+        }, 1).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_5 = new a.gr_npc_3040611000_02_attack02_LarmB, this.instance_5.setTransform(-49.25, -57.55, .9968, 1.0377, 0, -5.5932, -9.2763, 18.4, 3.9), this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(12).to({
+            _off: !1
+        }, 0).to({
+            regY: 4,
+            skewX: -10.9983,
+            skewY: -14.6798,
+            x: -40.05,
+            y: -57.25
+        }, 1, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_6 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_6.setTransform(-56.75, -27.2, .9999, .9999, 0, -113.5262, 66.4738, 20.9, 122.3), this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(12).to({
+            _off: !1
+        }, 0).to({
+            skewX: -118.9298,
+            skewY: 61.0702,
+            x: -44.7,
+            y: -26.45
+        }, 1, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_7 = new a.gr_npc_3040611000_02_attack02_bodyribbon, this.instance_7.setTransform(-46.95, -49.05, 1, 1.0202, 0, 10.999, 0, .8, 1.9), this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: .7,
+            scaleY: 1,
+            skewX: 0,
+            x: -48.3,
+            y: -48.1
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0414,
+            skewX: 13.2666,
+            x: -44.8,
+            y: -49.6
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_8 = new a.gr_npc_3040611000_02_attack02_BackClothA, this.instance_8.setTransform(-45.95, -56, 1, 1.0202, 0, 16.3309, 14.9892, 1.6, 10.1), this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -47.4,
+            y: -54.9
+        }, 7, c.Ease.get(1)).to({
+            regX: 1.5,
+            scaleX: .9898,
+            scaleY: 1.0445,
+            skewX: 18.4289,
+            skewY: 15.3365,
+            x: -43.45,
+            y: -56.7
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_9 = new a.gr_npc_3040611000_02_attack02_body, this.instance_9.setTransform(-77, 2, 1, 1.0202, 0, 1.3421, 0, 1, 94), this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: .9,
+            regY: 93.9,
+            scaleY: 1,
+            skewX: 0,
+            x: -77.1,
+            y: 1.9
+        }, 7, c.Ease.get(1)).to({
+            scaleY: 1.0346,
+            skewX: 3.8266,
+            y: 2
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_10 = new a.gr_npc_3040611000_02_attack02_LarmB, this.instance_10.setTransform(-59.75, -57.1, 1, 1.0202, 0, 5.5301, 4.188, 18.6, 4.1), this.instance_10._off = !0, this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -59.4,
+            y: -54.9
+        }, 7, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(13)), this.instance_11 = new a.gr_npc_3040611000_02_attack02_RarmB, this.instance_11.setTransform(-47.8, -54.35, 1, 1.0202, 0, 3.3433, 2.0016, 17.7, 4), this.instance_11._off = !0, this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -48.3,
+            y: -53
+        }, 7, c.Ease.get(1)).to({
+            regX: 17.6,
+            scaleX: .9984,
+            scaleY: 1.0361,
+            skewX: 5.7915,
+            skewY: 2.0284,
+            x: -45.4,
+            y: -55
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_12 = new a.gr_npc_3040611000_02_attack02_Rarm, this.instance_12.setTransform(-40, -78, 1, 1.0202, 0, 3.3433, 2.0016, 17.1, 4.5), this.instance_12._off = !0, this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 17,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -42,
+            y: -76.5
+        }, 7, c.Ease.get(1)).to({
+            scaleX: .9984,
+            scaleY: 1.0361,
+            skewX: 5.7915,
+            skewY: 2.0284,
+            x: -36.6,
+            y: -78.95
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_13 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_13.setTransform(-72.95, -29.75, .9993, .9992, 0, -101.9979, 78.0028, 21.1, 122.4), this.instance_13._off = !0, this.timeline.addTween(c.Tween.get(this.instance_13).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 21.2,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -104.0312,
+            skewY: 75.9669,
+            x: -72.1,
+            y: -28.1
+        }, 7, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(13)), this.instance_14 = new a.gr_npc_3040611000_02_attack02_BackClothB, this.instance_14.setTransform(-39, -56, 1, 1.0202, 0, 12.2942, 10.953, 27.6, 10.1), this.instance_14._off = !0, this.timeline.addTween(c.Tween.get(this.instance_14).wait(4).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -40.4,
+            y: -54.9
+        }, 7, c.Ease.get(1)).to({
+            regX: 27.5,
+            regY: 10,
+            scaleX: .9922,
+            scaleY: 1.0422,
+            skewX: 14.5223,
+            skewY: 11.176,
+            x: -36.5,
+            y: -56.75
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_15 = new a.gr_npc_3040611000_02_attack02_backhairB, this.instance_15.setTransform(-61.25, -104.5, 1, 1.0202, 0, 3.8963, 2.5537, 13.4, 11.1), this.instance_15._off = !0, this.timeline.addTween(c.Tween.get(this.instance_15).wait(4).to({
+            _off: !1
+        }, 0).to({
+            regX: 13.5,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -64.5,
+            y: -101.9
+        }, 7, c.Ease.get(1)).to({
+            regX: 13.3,
+            scaleX: .998,
+            scaleY: 1.0365,
+            skewX: 6.3354,
+            skewY: 2.5894,
+            x: -56.65,
+            y: -105.75
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(11)), this.instance_16 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_16.setTransform(95.35, -129.65, .343, .8184, 0, 29.5323, 19.5321, 11, 116.9), this.instance_16.alpha = .3008, this.instance_16.compositeOperation = "lighter", this.instance_16._off = !0, this.timeline.addTween(c.Tween.get(this.instance_16).wait(1).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(23)), this.instance_17 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_17.setTransform(32.35, -99.25, .343, .8184, 0, -142.9876, -152.987, 10.9, 117), this.instance_17.alpha = .3008, this.instance_17.compositeOperation = "lighter", this.instance_17._off = !0, this.timeline.addTween(c.Tween.get(this.instance_17).wait(1).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(23)), this.instance_18 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_18.setTransform(62, -93.3, .6694, .9647, 0, -160.2274, -161.9996, 10.4, 117.1), this.instance_18.alpha = .75, this.instance_18.compositeOperation = "lighter", this.timeline.addTween(c.Tween.get(this.instance_18).wait(1).to({
+            regX: 10.3,
+            regY: 117,
+            scaleX: .6693,
+            skewX: -199.4255,
+            skewY: -201.196,
+            x: 66.2,
+            y: -96.8
+        }, 0).to({
+            _off: !0
+        }, 1).wait(23)), this.instance_19 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_19.setTransform(72.05, -124.1, .6388, .9569, 0, 18.7874, 15.0009, 10.6, 117), this.instance_19.alpha = .75, this.instance_19.compositeOperation = "lighter", this.timeline.addTween(c.Tween.get(this.instance_19).wait(1).to({
+            regX: 10.7,
+            scaleY: .9568,
+            skewX: -20.4096,
+            skewY: -24.1969,
+            x: 54.55,
+            y: -127.1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(23)), this.instance_20 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_20.setTransform(68.1, -107.25, 1.0012, .9781, 0, -32.7941, -33.8518, 12.2, 12.7), this.instance_20.alpha = .5, this.timeline.addTween(c.Tween.get(this.instance_20).to({
+            regX: 12.1,
+            regY: 12.6,
+            scaleX: 1.0009,
+            scaleY: .9829,
+            skewX: -68.5165,
+            skewY: -69.3393,
+            x: 61.2,
+            y: -109.35
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(23)), this.instance_21 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_21.setTransform(63, -110.45, .9983, .9983, 0, -160.7059, 19.2929, 19.6, 125.7), this.instance_21.alpha = .5, this.timeline.addTween(c.Tween.get(this.instance_21).to({
+            regX: 19.5,
+            regY: 125.5,
+            scaleX: .9986,
+            scaleY: .9986,
+            skewX: -199.5574,
+            skewY: -19.5599,
+            x: 57.75,
+            y: -110.75
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(23)), this.instance_22 = new a.gr_npc_3040611000_02_attack01_bodyribbon, this.instance_22.setTransform(53.95, -78.05, 1, .9796, 0, 3.1842, 1.9509, 28.4, 2.3), this.timeline.addTween(c.Tween.get(this.instance_22).to({
+            regY: 2.2,
+            scaleY: .9977,
+            skewX: .3531,
+            skewY: .2168,
+            x: 49.9,
+            y: -80.5
+        }, 2, c.Ease.get(-1)).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 49.4,
+            y: -80.8
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_23 = new a.gr_npc_3040611000_02_attack01_Larm, this.instance_23.setTransform(10.15, -104.25, 1, .9796, 0, 40.6603, 39.4272, 1.1, 29.2), this.timeline.addTween(c.Tween.get(this.instance_23).to({
+            scaleY: .9977,
+            skewX: 2.6017,
+            skewY: 2.4663,
+            x: 5.7,
+            y: -105.65
+        }, 2, c.Ease.get(-1)).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 5.1,
+            y: -105.8
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_24 = new a.gr_npc_3040611000_02_attack01_LarmB, this.instance_24.setTransform(46.15, -101.75, 1, .9796, 0, 40.6603, 39.4272, 6.9, 17.8), this.timeline.addTween(c.Tween.get(this.instance_24).to({
+            scaleY: .9977,
+            skewX: 2.6017,
+            skewY: 2.4663,
+            x: 35.25,
+            y: -125.55
+        }, 2, c.Ease.get(-1)).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 33.9,
+            y: -127.2
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_25 = new a.gr_npc_3040611000_02_attack01_BackClothA, this.instance_25.setTransform(29.85, -106.1, 1, .9796, 0, 11.9007, 10.6673, 51.6, 4.6), this.timeline.addTween(c.Tween.get(this.instance_25).to({
+            regX: 51.7,
+            regY: 4.5,
+            scaleY: .9977,
+            skewX: .3531,
+            skewY: .2168,
+            x: 24.4,
+            y: -108.25
+        }, 2, c.Ease.get(-1)).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 23.7,
+            y: -108.5
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_26 = new a.gr_npc_3040611000_02_attack01_head_a, this.instance_26.setTransform(19.35, -116.7, .9999, 1, 0, 15.2272, 15.0292, 55.1, 71.8), this.timeline.addTween(c.Tween.get(this.instance_26).to({
+            regY: 71.7,
+            scaleX: 1,
+            rotation: .2229,
+            skewX: 0,
+            skewY: 0,
+            x: 13,
+            y: -119.05
+        }, 2, c.Ease.get(-1)).to({
+            regX: 55.2,
+            regY: 71.8,
+            rotation: 0,
+            x: 12.2,
+            y: -119.2
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_27 = new a.gr_npc_3040611000_02_attack01_body, this.instance_27.setTransform(28, 4, 1, .9796, 0, 3.1842, 1.9509, 24, 127), this.timeline.addTween(c.Tween.get(this.instance_27).to({
+            regX: 24.1,
+            scaleY: .9977,
+            skewX: .3531,
+            skewY: .2168,
+            x: 28.1,
+            y: 4.05
+        }, 2, c.Ease.get(-1)).to({
+            regX: 24,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 28,
+            y: 4
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_28 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_28.setTransform(67.1, -109.25, 1.0013, .9781, 0, 145.4735, 144.4148, 12.1, 12.7), this.timeline.addTween(c.Tween.get(this.instance_28).to({
+            scaleX: 1.0001,
+            scaleY: .9975,
+            skewX: 12.6164,
+            skewY: 12.4985,
+            x: 38.55,
+            y: -118.8
+        }, 2, c.Ease.get(-1)).to({
+            regX: 12.2,
+            regY: 12.8,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: -3.9917,
+            skewX: 0,
+            skewY: 0,
+            x: 35.05,
+            y: -120.1
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_29 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_29.setTransform(46.4, -96.7, 1.0013, .9781, 0, 97.4882, 96.4293, 18, 23.8), this.timeline.addTween(c.Tween.get(this.instance_29).to({
+            scaleX: 1.0001,
+            scaleY: .9976,
+            skewX: 7.2833,
+            skewY: 7.166,
+            x: 50.1,
+            y: -101.8
+        }, 2, c.Ease.get(-1)).to({
+            regX: 18.1,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: -3.9917,
+            skewX: 0,
+            skewY: 0,
+            x: 50.7,
+            y: -102.5
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_30 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_30.setTransform(27.75, -110.2, 1, .9796, 0, 10.4061, 9.1728, 4, 6.9), this.timeline.addTween(c.Tween.get(this.instance_30).to({
+            regX: 4.1,
+            regY: 6.8,
+            scaleY: .9977,
+            skewX: 1.1559,
+            skewY: 1.0195,
+            x: 21.8,
+            y: -112
+        }, 2, c.Ease.get(-1)).to({
+            regX: 4,
+            regY: 6.9,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 21,
+            y: -112.1
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_31 = new a.gr_npc_3040611000_02_attack01_BackClothB, this.instance_31.setTransform(35.05, -88.95, 1, .9995, 0, 13.4628, 1.9509, 33.8, 9.8), this.timeline.addTween(c.Tween.get(this.instance_31).to({
+            regX: 33.6,
+            scaleY: .9977,
+            skewX: .3531,
+            skewY: .2168,
+            x: 30.2,
+            y: -90.95
+        }, 2, c.Ease.get(-1)).to({
+            regY: 9.9,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 29.6,
+            y: -91.1
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_32 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_32.setTransform(14.55, -140.3, 1.0025, .9765, 0, 9.7997, 16.9999, 69.8, 12.7), this.timeline.addTween(c.Tween.get(this.instance_32).to({
+            regX: 69.9,
+            scaleX: 1.0003,
+            scaleY: .9974,
+            skewX: -7.6662,
+            skewY: -7.7609,
+            x: 1.9,
+            y: -140.95
+        }, 2, c.Ease.get(-1)).to({
+            regX: 69.8,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: -7.9993,
+            skewX: 0,
+            skewY: 0,
+            x: .85,
+            y: -141.1
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_33 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_33.setTransform(11.15, -132.4, .3805, .8734, 0, -76.5435, -101.5424, 11, 116.9), this.instance_33.alpha = .3008, this.instance_33.compositeOperation = "lighter", this.instance_33._off = !0, this.timeline.addTween(c.Tween.get(this.instance_33).wait(2).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(22)), this.instance_34 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_34.setTransform(26, -105.35, .6693, .9647, 0, -127.4657, -129.2381, 10.5, 117.1), this.instance_34.alpha = .75, this.instance_34.compositeOperation = "lighter", this.instance_34._off = !0, this.timeline.addTween(c.Tween.get(this.instance_34).wait(2).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(22)), this.instance_35 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_35.setTransform(72.2, -106.3, .9983, .9983, 0, 17.562, -162.4399, 19.6, 125.6), this.timeline.addTween(c.Tween.get(this.instance_35).to({
+            regX: 19.5,
+            scaleX: .9997,
+            scaleY: .9997,
+            skewX: -127.8234,
+            skewY: -307.8264,
+            x: 36.95,
+            y: -121.25
+        }, 2, c.Ease.get(-1)).to({
+            regX: 19.8,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: -326.0005,
+            x: 32.65,
+            y: -123.05
+        }, 1).to({
+            _off: !0
+        }, 1).wait(21)), this.instance_36 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_36.setTransform(36.2, -108.5, .9999, 1, 0, 3.6149, 3.7517, 12.2, 12.8), this.instance_36._off = !0, this.timeline.addTween(c.Tween.get(this.instance_36).wait(14).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 8,
+            regY: 8,
+            scaleX: 1,
+            scaleY: .9999,
+            skewX: 1.8651,
+            skewY: 1.6728,
+            x: 34.35,
+            y: -114.5
+        }, 0).wait(1).to({
+            scaleX: 1.0001,
+            skewX: .6152,
+            skewY: .1879,
+            x: 35.8,
+            y: -115.2
+        }, 0).wait(1).to({
+            scaleX: 1.0002,
+            skewX: -.1347,
+            skewY: -.7031,
+            x: 36.65,
+            y: -115.65
+        }, 0).wait(1).to({
+            regX: 12.1,
+            regY: 13,
+            skewX: -.3847,
+            skewY: -1.0001,
+            x: 41.3,
+            y: -111
+        }, 0).to({
+            regX: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 40
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_37 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_37.setTransform(32.55, -113.65, .9997, .9997, 0, -142.2478, 37.7515, 19.4, 125.5), this.instance_37._off = !0, this.timeline.addTween(c.Tween.get(this.instance_37).wait(14).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 21,
+            regY: 81,
+            scaleX: .9991,
+            scaleY: .9991,
+            skewX: -143.8894,
+            skewY: 36.1096,
+            x: 9.7,
+            y: -77.75
+        }, 0).wait(1).to({
+            scaleX: .9987,
+            scaleY: .9987,
+            skewX: -145.062,
+            skewY: 34.9367,
+            x: 12,
+            y: -77.95
+        }, 0).wait(1).to({
+            scaleX: .9985,
+            scaleY: .9985,
+            skewX: -145.7655,
+            skewY: 34.2331,
+            x: 13.3,
+            y: -78.05
+        }, 0).wait(1).to({
+            regX: 19.6,
+            regY: 125.5,
+            scaleX: .9984,
+            scaleY: .9984,
+            skewX: -146,
+            skewY: 33.9985,
+            x: 37.2,
+            y: -115.9
+        }, 0).to({
+            regX: 19.8,
+            regY: 125.6,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: 33.9995,
+            x: 36.05
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_38 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_38.setTransform(53.3, -92.45, 1, 1, 0, -9.9292, -9.7935, 18.2, 23.9), this.instance_38._off = !0, this.timeline.addTween(c.Tween.get(this.instance_38).wait(14).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 18,
+            regY: 24,
+            skewX: -5.3159,
+            skewY: -5.5088,
+            x: 53.85,
+            y: -92.15
+        }, 0).wait(1).to({
+            scaleY: 1.0001,
+            skewX: -2.0207,
+            skewY: -2.4484,
+            x: 54.45,
+            y: -91.95
+        }, 0).wait(1).to({
+            skewX: -.0436,
+            skewY: -.6121,
+            x: 54.75,
+            y: -91.9
+        }, 0).wait(1).to({
+            regX: 18.1,
+            skewX: .6155,
+            skewY: 0,
+            x: 55.1,
+            y: -92
+        }, 0).to({
+            regX: 18,
+            scaleY: 1,
+            skewX: 0,
+            x: 54
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_39 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_39.setTransform(16.45, -117.95, 1, 1.0002, 0, 0, 0, 52, 69), this.instance_39._off = !0, this.timeline.addTween(c.Tween.get(this.instance_39).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            x: 20.35,
+            y: -118
+        }, 3, c.Ease.get(1)).to({
+            scaleY: 1,
+            x: 19
+        }, 7, c.Ease.get(-1)).wait(1)), this.instance_40 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_40.setTransform(10.6, -113, 1, 1.0002, 0, 11.2373, 12.4655, 51, 3), this.instance_40._off = !0, this.timeline.addTween(c.Tween.get(this.instance_40).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            skewY: 0,
+            x: 14.25
+        }, 4, c.Ease.get(1)).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 13
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_41 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_41.setTransform(5.3, -76.95, 1, 1.0002, 0, 14.0006, 0, 1.1, 3), this.instance_41._off = !0, this.timeline.addTween(c.Tween.get(this.instance_41).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            x: 7.95,
+            y: -77
+        }, 4, c.Ease.get(1)).to({
+            regX: 1,
+            scaleY: 1,
+            skewX: 0,
+            x: 7
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_42 = new a.gr_npc_3040611000_02_setup_body, this.instance_42.setTransform(33.05, 5, 1, 1.0002, 0, -1.2282, 0, 35, 129), this.instance_42._off = !0, this.timeline.addTween(c.Tween.get(this.instance_42).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            x: 33
+        }, 3, c.Ease.get(1)).to({
+            scaleY: 1,
+            skewX: 0
+        }, 7, c.Ease.get(-1)).wait(1)), this.instance_43 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_43.setTransform(20.6, -111, 1, 1.0002, 0, 19.7497, 20.9776, 4, 7), this.instance_43._off = !0, this.timeline.addTween(c.Tween.get(this.instance_43).wait(14).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1.0001,
+            skewX: .6155,
+            skewY: 0,
+            x: 24.2
+        }, 4, c.Ease.get(1)).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 23
+        }, 6, c.Ease.get(-1)).wait(1)), this.instance_44 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_44.setTransform(21.1, -88.2, 1, 1.0002, 0, 15.7072, -170.2919, 45.9, 11.8), this.instance_44._off = !0, this.timeline.addTween(c.Tween.get(this.instance_44).wait(14).to({
+            _off: !1
+        }, 0).to({
+            regX: 45.7,
+            scaleX: .9998,
+            scaleY: .9996,
+            skewX: -6.0953,
+            skewY: -178.7433,
+            x: 23.8,
+            y: -88.05
+        }, 5, c.Ease.get(1)).to({
+            regX: 46,
+            regY: 12,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 0,
+            skewY: -180,
+            x: 23,
+            y: -88
+        }, 5, c.Ease.quadInOut).wait(1)), this.instance_45 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_45.setTransform(19.65, -151.1, 1.0007, .9994, 0, 10.7668, 11.9936, 71.4, 15.5), this.instance_45._off = !0, this.timeline.addTween(c.Tween.get(this.instance_45).wait(14).to({
+            _off: !1
+        }, 0).to({
+            regX: 71.5,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: .9557,
+            skewY: .6129,
+            x: 23.9,
+            y: -151.05
+        }, 6, c.Ease.get(1)).to({
+            rotation: 1.9999,
+            skewX: 0,
+            skewY: 0,
+            x: 22.9,
+            y: -151
+        }, 4, c.Ease.quadInOut).wait(1)), this.instance_46 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_46.setTransform(28.95, 0, .85, .1499), this.timeline.addTween(c.Tween.get(this.instance_46).wait(4).to({
+            scaleX: 1.2999,
+            x: -20
+        }, 0).wait(10).to({
+            scaleX: .8,
+            x: 21.95
+        }, 0).wait(11))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-248.6, -339.8, 419.9, 397.6), (a.mc_npc_3040611000_02_ab_motion = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_24 = function() {
+                this.stop()
+            }, this.timeline.addTween(c.Tween.get(this).wait(24).call(this.frame_24).wait(1)), this.instance = new a.mc_npc_3040611000_02_stbwait, this.instance.setTransform(16.1, -88.8, 1, 1, 0, 0, 0, 16.1, -88.8), this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(24).to({
+                _off: !1
+            }, 0).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_1.setTransform(-48.95, -84.05, 1, 1, 2.237, 0, 0, 42.9, 64.5), this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 43,
+                regY: 64.7,
+                rotation: 0,
+                x: -51,
+                y: -82.3
+            }, 7, c.Ease.get(1)).to({
+                regX: 42.8,
+                regY: 64.4,
+                scaleX: .9998,
+                scaleY: .9997,
+                rotation: 9e-4,
+                x: -45.1,
+                y: -85
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_2 = new a.gr_npc_3040611000_02_attack02_backhairA, this.instance_2.setTransform(-47.15, -109, 1, 1.0201, 0, 18.6531, 17.3107, 6.3, 8.1), this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 6.4,
+                regY: 8.2,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -54.6,
+                y: -104.8
+            }, 7, c.Ease.get(1)).to({
+                regX: 6.2,
+                regY: 8,
+                scaleX: .9885,
+                scaleY: 1.0456,
+                skewX: 20.6687,
+                skewY: 17.7379,
+                x: -42.25,
+                y: -110.4
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_3 = new a.gr_npc_3040611000_02_attack02_Larm, this.instance_3.setTransform(-47, -81.2, 1, 1.0202, 0, 5.5301, 4.188, 16, 2.6), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(4).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -49,
+                y: -79.4
+            }, 7, c.Ease.get(1)).to({
+                scaleX: .9992,
+                scaleY: 1.0094,
+                skewX: -13.722,
+                skewY: -14.6415,
+                x: -47.75,
+                y: -80.2
+            }, 1, c.Ease.get(-1)).to({
+                regX: 15.8,
+                regY: 2.4,
+                scaleX: .9968,
+                scaleY: 1.0377,
+                skewX: -25.4633,
+                skewY: -29.1462,
+                x: -43.8,
+                y: -82.4
+            }, 1).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_4 = new a.gr_npc_3040611000_02_attack02_LarmB, this.instance_4.setTransform(-49.25, -57.55, .9968, 1.0377, 0, -5.5932, -9.2763, 18.4, 3.9), this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(12).to({
+                _off: !1
+            }, 0).to({
+                regY: 4,
+                skewX: -10.9983,
+                skewY: -14.6798,
+                x: -40.05,
+                y: -57.25
+            }, 1, c.Ease.get(1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_5 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_5.setTransform(-56.75, -27.2, .9999, .9999, 0, -113.5262, 66.4738, 20.9, 122.3), this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(12).to({
+                _off: !1
+            }, 0).to({
+                skewX: -118.9298,
+                skewY: 61.0702,
+                x: -44.7,
+                y: -26.45
+            }, 1, c.Ease.get(1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_6 = new a.gr_npc_3040611000_02_attack02_bodyribbon,
+            this.instance_6.setTransform(-46.95, -49.05, 1, 1.0202, 0, 10.999, 0, .8, 1.9), this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: .7,
+                scaleY: 1,
+                skewX: 0,
+                x: -48.3,
+                y: -48.1
+            }, 7, c.Ease.get(1)).to({
+                scaleY: 1.0414,
+                skewX: 13.2666,
+                x: -44.8,
+                y: -49.6
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_7 = new a.gr_npc_3040611000_02_attack02_BackClothA, this.instance_7.setTransform(-45.95, -56, 1, 1.0202, 0, 16.3309, 14.9892, 1.6, 10.1), this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(4).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -47.4,
+                y: -54.9
+            }, 7, c.Ease.get(1)).to({
+                regX: 1.5,
+                scaleX: .9898,
+                scaleY: 1.0445,
+                skewX: 18.4289,
+                skewY: 15.3365,
+                x: -43.45,
+                y: -56.7
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_8 = new a.gr_npc_3040611000_02_attack02_body, this.instance_8.setTransform(-77, 2, 1, 1.0202, 0, 1.3421, 0, 1, 94), this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: .9,
+                regY: 93.9,
+                scaleY: 1,
+                skewX: 0,
+                x: -77.1,
+                y: 1.9
+            }, 7, c.Ease.get(1)).to({
+                scaleY: 1.0346,
+                skewX: 3.8266,
+                y: 2
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_9 = new a.gr_npc_3040611000_02_attack02_LarmB, this.instance_9.setTransform(-59.75, -57.1, 1, 1.0202, 0, 5.5301, 4.188, 18.6, 4.1), this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(4).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -59.4,
+                y: -54.9
+            }, 7, c.Ease.get(1)).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_10 = new a.gr_npc_3040611000_02_attack02_RarmB, this.instance_10.setTransform(-47.8, -54.35, 1, 1.0202, 0, 3.3433, 2.0016, 17.7, 4), this.instance_10._off = !0, this.timeline.addTween(c.Tween.get(this.instance_10).wait(4).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -48.3,
+                y: -53
+            }, 7, c.Ease.get(1)).to({
+                regX: 17.6,
+                scaleX: .9984,
+                scaleY: 1.0361,
+                skewX: 5.7915,
+                skewY: 2.0284,
+                x: -45.4,
+                y: -55
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_11 = new a.gr_npc_3040611000_02_attack02_Rarm, this.instance_11.setTransform(-40, -78, 1, 1.0202, 0, 3.3433, 2.0016, 17.1, 4.5), this.instance_11._off = !0, this.timeline.addTween(c.Tween.get(this.instance_11).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 17,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -42,
+                y: -76.5
+            }, 7, c.Ease.get(1)).to({
+                scaleX: .9984,
+                scaleY: 1.0361,
+                skewX: 5.7915,
+                skewY: 2.0284,
+                x: -36.6,
+                y: -78.95
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_12 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_12.setTransform(-72.95, -29.75, .9993, .9992, 0, -101.9979, 78.0028, 21.1, 122.4), this.instance_12._off = !0, this.timeline.addTween(c.Tween.get(this.instance_12).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 21.2,
+                scaleX: .9999,
+                scaleY: .9999,
+                skewX: -104.0312,
+                skewY: 75.9669,
+                x: -72.1,
+                y: -28.1
+            }, 7, c.Ease.get(1)).to({
+                _off: !0
+            }, 1).wait(13)), this.instance_13 = new a.gr_npc_3040611000_02_attack02_BackClothB, this.instance_13.setTransform(-39, -56, 1, 1.0202, 0, 12.2942, 10.953, 27.6, 10.1), this.instance_13._off = !0, this.timeline.addTween(c.Tween.get(this.instance_13).wait(4).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -40.4,
+                y: -54.9
+            }, 7, c.Ease.get(1)).to({
+                regX: 27.5,
+                regY: 10,
+                scaleX: .9922,
+                scaleY: 1.0422,
+                skewX: 14.5223,
+                skewY: 11.176,
+                x: -36.5,
+                y: -56.75
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_14 = new a.gr_npc_3040611000_02_attack02_backhairB, this.instance_14.setTransform(-61.25, -104.5, 1, 1.0202, 0, 3.8963, 2.5537, 13.4, 11.1), this.instance_14._off = !0, this.timeline.addTween(c.Tween.get(this.instance_14).wait(4).to({
+                _off: !1
+            }, 0).to({
+                regX: 13.5,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: -64.5,
+                y: -101.9
+            }, 7, c.Ease.get(1)).to({
+                regX: 13.3,
+                scaleX: .998,
+                scaleY: 1.0365,
+                skewX: 6.3354,
+                skewY: 2.5894,
+                x: -56.65,
+                y: -105.75
+            }, 2, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(11)), this.instance_15 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_15.setTransform(68.1, -107.25, 1.0012, .9781, 0, -32.7941, -33.8518, 12.2, 12.7), this.instance_15.alpha = .5, this.timeline.addTween(c.Tween.get(this.instance_15).to({
+                regX: 12.1,
+                regY: 12.6,
+                scaleX: 1.0009,
+                scaleY: .9829,
+                skewX: -68.5165,
+                skewY: -69.3393,
+                x: 61.2,
+                y: -109.35
+            }, 1, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(23)), this.instance_16 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_16.setTransform(63, -110.45, .9983, .9983, 0, -160.7059, 19.2929, 19.6, 125.7), this.instance_16.alpha = .5, this.timeline.addTween(c.Tween.get(this.instance_16).to({
+                regX: 19.5,
+                regY: 125.5,
+                scaleX: .9986,
+                scaleY: .9986,
+                skewX: -199.5574,
+                skewY: -19.5599,
+                x: 57.75,
+                y: -110.75
+            }, 1, c.Ease.get(-1)).to({
+                _off: !0
+            }, 1).wait(23)), this.instance_17 = new a.gr_npc_3040611000_02_attack01_bodyribbon, this.instance_17.setTransform(53.95, -78.05, 1, .9796, 0, 3.1842, 1.9509, 28.4, 2.3), this.timeline.addTween(c.Tween.get(this.instance_17).to({
+                regY: 2.2,
+                scaleY: .9977,
+                skewX: .3531,
+                skewY: .2168,
+                x: 49.9,
+                y: -80.5
+            }, 2, c.Ease.get(-1)).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 49.4,
+                y: -80.8
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_18 = new a.gr_npc_3040611000_02_attack01_Larm, this.instance_18.setTransform(10.15, -104.25, 1, .9796, 0, 40.6603, 39.4272, 1.1, 29.2), this.timeline.addTween(c.Tween.get(this.instance_18).to({
+                scaleY: .9977,
+                skewX: 2.6017,
+                skewY: 2.4663,
+                x: 5.7,
+                y: -105.65
+            }, 2, c.Ease.get(-1)).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 5.1,
+                y: -105.8
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_19 = new a.gr_npc_3040611000_02_attack01_LarmB, this.instance_19.setTransform(46.15, -101.75, 1, .9796, 0, 40.6603, 39.4272, 6.9, 17.8), this.timeline.addTween(c.Tween.get(this.instance_19).to({
+                scaleY: .9977,
+                skewX: 2.6017,
+                skewY: 2.4663,
+                x: 35.25,
+                y: -125.55
+            }, 2, c.Ease.get(-1)).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 33.9,
+                y: -127.2
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_20 = new a.gr_npc_3040611000_02_attack01_BackClothA, this.instance_20.setTransform(29.85, -106.1, 1, .9796, 0, 11.9007, 10.6673, 51.6, 4.6), this.timeline.addTween(c.Tween.get(this.instance_20).to({
+                regX: 51.7,
+                regY: 4.5,
+                scaleY: .9977,
+                skewX: .3531,
+                skewY: .2168,
+                x: 24.4,
+                y: -108.25
+            }, 2, c.Ease.get(-1)).to({
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 23.7,
+                y: -108.5
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_21 = new a.gr_npc_3040611000_02_attack01_head_a, this.instance_21.setTransform(19.35, -116.7, .9999, 1, 0, 15.2272, 15.0292, 55.1, 71.8), this.timeline.addTween(c.Tween.get(this.instance_21).to({
+                regY: 71.7,
+                scaleX: 1,
+                rotation: .2229,
+                skewX: 0,
+                skewY: 0,
+                x: 13,
+                y: -119.05
+            }, 2, c.Ease.get(-1)).to({
+                regX: 55.2,
+                regY: 71.8,
+                rotation: 0,
+                x: 12.2,
+                y: -119.2
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_22 = new a.gr_npc_3040611000_02_attack01_body, this.instance_22.setTransform(28, 4, 1, .9796, 0, 3.1842, 1.9509, 24, 127), this.timeline.addTween(c.Tween.get(this.instance_22).to({
+                regX: 24.1,
+                scaleY: .9977,
+                skewX: .3531,
+                skewY: .2168,
+                x: 28.1,
+                y: 4.05
+            }, 2, c.Ease.get(-1)).to({
+                regX: 24,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 28,
+                y: 4
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_23 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_23.setTransform(67.1, -109.25, 1.0013, .9781, 0, 145.4735, 144.4148, 12.1, 12.7), this.timeline.addTween(c.Tween.get(this.instance_23).to({
+                scaleX: 1.0001,
+                scaleY: .9975,
+                skewX: 12.6164,
+                skewY: 12.4985,
+                x: 38.55,
+                y: -118.8
+            }, 2, c.Ease.get(-1)).to({
+                regX: 12.2,
+                regY: 12.8,
+                scaleX: 1,
+                scaleY: 1,
+                rotation: -3.9917,
+                skewX: 0,
+                skewY: 0,
+                x: 35.05,
+                y: -120.1
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_24 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_24.setTransform(46.4, -96.7, 1.0013, .9781, 0, 97.4882, 96.4293, 18, 23.8), this.timeline.addTween(c.Tween.get(this.instance_24).to({
+                scaleX: 1.0001,
+                scaleY: .9976,
+                skewX: 7.2833,
+                skewY: 7.166,
+                x: 50.1,
+                y: -101.8
+            }, 2, c.Ease.get(-1)).to({
+                regX: 18.1,
+                scaleX: 1,
+                scaleY: 1,
+                rotation: -3.9917,
+                skewX: 0,
+                skewY: 0,
+                x: 50.7,
+                y: -102.5
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_25 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_25.setTransform(27.75, -110.2, 1, .9796, 0, 10.4061, 9.1728, 4, 6.9), this.timeline.addTween(c.Tween.get(this.instance_25).to({
+                regX: 4.1,
+                regY: 6.8,
+                scaleY: .9977,
+                skewX: 1.1559,
+                skewY: 1.0195,
+                x: 21.8,
+                y: -112
+            }, 2, c.Ease.get(-1)).to({
+                regX: 4,
+                regY: 6.9,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 21,
+                y: -112.1
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_26 = new a.gr_npc_3040611000_02_attack01_BackClothB, this.instance_26.setTransform(35.05, -88.95, 1, .9995, 0, 13.4628, 1.9509, 33.8, 9.8), this.timeline.addTween(c.Tween.get(this.instance_26).to({
+                regX: 33.6,
+                scaleY: .9977,
+                skewX: .3531,
+                skewY: .2168,
+                x: 30.2,
+                y: -90.95
+            }, 2, c.Ease.get(-1)).to({
+                regY: 9.9,
+                scaleY: 1,
+                skewX: 0,
+                skewY: 0,
+                x: 29.6,
+                y: -91.1
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_27 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_27.setTransform(14.55, -140.3, 1.0025, .9765, 0, 9.7997, 16.9999, 69.8, 12.7), this.timeline.addTween(c.Tween.get(this.instance_27).to({
+                regX: 69.9,
+                scaleX: 1.0003,
+                scaleY: .9974,
+                skewX: -7.6662,
+                skewY: -7.7609,
+                x: 1.9,
+                y: -140.95
+            }, 2, c.Ease.get(-1)).to({
+                regX: 69.8,
+                scaleX: 1,
+                scaleY: 1,
+                rotation: -7.9993,
+                skewX: 0,
+                skewY: 0,
+                x: .85,
+                y: -141.1
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_28 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_28.setTransform(72.2, -106.3, .9983, .9983, 0, 17.562, -162.4399, 19.6, 125.6), this.timeline.addTween(c.Tween.get(this.instance_28).to({
+                regX: 19.5,
+                scaleX: .9997,
+                scaleY: .9997,
+                skewX: -127.8234,
+                skewY: -307.8264,
+                x: 36.95,
+                y: -121.25
+            }, 2, c.Ease.get(-1)).to({
+                regX: 19.8,
+                scaleX: .9999,
+                scaleY: .9999,
+                skewX: -145.9991,
+                skewY: -326.0005,
+                x: 32.65,
+                y: -123.05
+            }, 1).to({
+                _off: !0
+            }, 1).wait(21)), this.instance_29 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_29.setTransform(36.2, -108.5, .9999, 1, 0, 3.6149, 3.7517, 12.2, 12.8), this.instance_29._off = !0, this.timeline.addTween(c.Tween.get(this.instance_29).wait(14).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 8,
+                regY: 8,
+                scaleX: 1,
+                scaleY: .9999,
+                skewX: 1.8651,
+                skewY: 1.6728,
+                x: 34.35,
+                y: -114.5
+            }, 0).wait(1).to({
+                scaleX: 1.0001,
+                skewX: .6152,
+                skewY: .1879,
+                x: 35.8,
+                y: -115.2
+            }, 0).wait(1).to({
+                scaleX: 1.0002,
+                skewX: -.1347,
+                skewY: -.7031,
+                x: 36.65,
+                y: -115.65
+            }, 0).wait(1).to({
+                regX: 12.1,
+                regY: 13,
+                skewX: -.3847,
+                skewY: -1.0001,
+                x: 41.3,
+                y: -111
+            }, 0).wait(1).to({
+                regX: 8,
+                regY: 8,
+                skewX: -.3741,
+                skewY: -.9723,
+                x: 37.1,
+                y: -115.95
+            }, 0).wait(1).to({
+                scaleX: 1.0001,
+                skewX: -.3421,
+                skewY: -.889,
+                x: 37,
+                y: -115.9
+            }, 0).wait(1).to({
+                skewX: -.2887,
+                skewY: -.7502,
+                x: 36.85,
+                y: -115.95
+            }, 0).wait(1).to({
+                skewX: -.214,
+                skewY: -.5559,
+                x: 36.6
+            }, 0).wait(1).to({
+                regX: 12.1,
+                regY: 12.9,
+                scaleX: 1,
+                scaleY: 1,
+                skewX: -.118,
+                skewY: -.306,
+                x: 40.45,
+                y: -111.05
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_30 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_30.setTransform(32.55, -113.65, .9997, .9997, 0, -142.2478, 37.7515, 19.4, 125.5), this.instance_30._off = !0, this.timeline.addTween(c.Tween.get(this.instance_30).wait(14).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 21,
+                regY: 81,
+                scaleX: .9991,
+                scaleY: .9991,
+                skewX: -143.8894,
+                skewY: 36.1096,
+                x: 9.7,
+                y: -77.75
+            }, 0).wait(1).to({
+                scaleX: .9987,
+                scaleY: .9987,
+                skewX: -145.062,
+                skewY: 34.9367,
+                x: 12,
+                y: -77.95
+            }, 0).wait(1).to({
+                scaleX: .9985,
+                scaleY: .9985,
+                skewX: -145.7655,
+                skewY: 34.2331,
+                x: 13.3,
+                y: -78.05
+            }, 0).wait(1).to({
+                regX: 19.6,
+                regY: 125.5,
+                scaleX: .9984,
+                scaleY: .9984,
+                skewX: -146,
+                skewY: 33.9985,
+                x: 37.2,
+                y: -115.9
+            }, 0).wait(1).to({
+                regX: 21,
+                regY: 81,
+                scaleX: .9985,
+                scaleY: .9985,
+                x: 13.6,
+                y: -78.25
+            }, 0).wait(1).to({
+                scaleX: .9986,
+                scaleY: .9986,
+                x: 13.5,
+                y: -78.2
+            }, 0).wait(1).to({
+                scaleX: .9988,
+                scaleY: .9988,
+                skewY: 33.9986,
+                x: 13.3
+            }, 0).wait(1).to({
+                scaleX: .999,
+                scaleY: .999,
+                skewX: -145.9999,
+                x: 13.05,
+                y: -78.25
+            }, 0).wait(1).to({
+                regX: 19.6,
+                regY: 125.5,
+                scaleX: .9994,
+                scaleY: .9994,
+                skewY: 33.9987,
+                x: 36.45,
+                y: -115.95
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_31 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_31.setTransform(53.3, -92.45, 1, 1, 0, -9.9292, -9.7935, 18.2, 23.9), this.instance_31._off = !0, this.timeline.addTween(c.Tween.get(this.instance_31).wait(14).to({
+                _off: !1
+            }, 0).wait(1).to({
+                regX: 18,
+                regY: 24,
+                skewX: -5.3159,
+                skewY: -5.5088,
+                x: 53.85,
+                y: -92.15
+            }, 0).wait(1).to({
+                scaleY: 1.0001,
+                skewX: -2.0207,
+                skewY: -2.4484,
+                x: 54.45,
+                y: -91.95
+            }, 0).wait(1).to({
+                skewX: -.0436,
+                skewY: -.6121,
+                x: 54.75,
+                y: -91.9
+            }, 0).wait(1).to({
+                regX: 18.1,
+                skewX: .6155,
+                skewY: 0,
+                x: 55.1,
+                y: -92
+            }, 0).wait(1).to({
+                regX: 18,
+                skewX: .5984,
+                x: 54.95
+            }, 0).wait(1).to({
+                skewX: .5472,
+                x: 54.85
+            }, 0).wait(1).to({
+                skewX: .4619,
+                x: 54.7
+            }, 0).wait(1).to({
+                skewX: .3424,
+                x: 54.5
+            }, 0).wait(1).to({
+                regX: 18.1,
+                scaleY: 1,
+                skewX: .1888,
+                x: 54.3,
+                y: -92.05
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_32 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_32.setTransform(16.45, -117.95, 1, 1.0002, 0, 0, 0, 52, 69), this.instance_32._off = !0, this.timeline.addTween(c.Tween.get(this.instance_32).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                x: 20.35,
+                y: -118
+            }, 3, c.Ease.get(1)).wait(1).to({
+                regY: 40,
+                y: -147
+            }, 0).wait(1).to({
+                x: 20.25
+            }, 0).wait(1).to({
+                scaleY: 1,
+                x: 20.15
+            }, 0).wait(1).to({
+                x: 19.95
+            }, 0).wait(1).to({
+                x: 19.7
+            }, 0).wait(1).to({
+                regY: 69,
+                x: 19.4,
+                y: -117.95
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_33 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_33.setTransform(10.6, -113, 1, 1.0002, 0, 11.2373, 12.4655, 51, 3), this.instance_33._off = !0, this.timeline.addTween(c.Tween.get(this.instance_33).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                skewY: 0,
+                x: 14.25
+            }, 4, c.Ease.get(1)).wait(1).to({
+                regX: 26,
+                regY: 38,
+                skewX: .5984,
+                x: -11.1,
+                y: -78
+            }, 0).wait(1).to({
+                skewX: .5472,
+                x: -11.15
+            }, 0).wait(1).to({
+                skewX: .4619,
+                x: -11.3
+            }, 0).wait(1).to({
+                skewX: .3424,
+                x: -11.5
+            }, 0).wait(1).to({
+                regX: 51,
+                regY: 3,
+                scaleY: 1,
+                skewX: .1888,
+                x: 13.45,
+                y: -113.05
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_34 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_34.setTransform(5.3, -76.95, 1, 1.0002, 0, 14.0006, 0, 1.1, 3), this.instance_34._off = !0, this.timeline.addTween(c.Tween.get(this.instance_34).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                x: 7.95,
+                y: -77
+            }, 4, c.Ease.get(1)).wait(1).to({
+                regX: 18,
+                regY: 20,
+                skewX: .5984,
+                x: 24.65,
+                y: -60
+            }, 0).wait(1).to({
+                skewX: .5472,
+                x: 24.6
+            }, 0).wait(1).to({
+                skewX: .4619,
+                x: 24.5
+            }, 0).wait(1).to({
+                skewX: .3424,
+                x: 24.4
+            }, 0).wait(1).to({
+                regX: 1.1,
+                regY: 3,
+                scaleY: 1,
+                skewX: .1888,
+                x: 7.4,
+                y: -77.05
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_35 = new a.gr_npc_3040611000_02_setup_body, this.instance_35.setTransform(33.05, 5, 1, 1.0002, 0, -1.2282, 0, 35, 129), this.instance_35._off = !0, this.timeline.addTween(c.Tween.get(this.instance_35).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                x: 33
+            }, 3, c.Ease.get(1)).wait(1).to({
+                regX: 24,
+                regY: 66,
+                skewX: .6029,
+                x: 22.7,
+                y: -58
+            }, 0).wait(1).to({
+                skewX: .5652,
+                x: 22.65,
+                y: -57.95
+            }, 0).wait(1).to({
+                skewX: .5025,
+                x: 22.6
+            }, 0).wait(1).to({
+                skewX: .4146,
+                x: 22.5
+            }, 0).wait(1).to({
+                skewX: .3016,
+                x: 22.4
+            }, 0).wait(1).to({
+                regX: 35,
+                regY: 129,
+                scaleY: 1,
+                skewX: .1635,
+                x: 33.1,
+                y: 5.05
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_36 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_36.setTransform(20.6, -111, 1, 1.0002, 0, 19.7497, 20.9776, 4, 7), this.instance_36._off = !0, this.timeline.addTween(c.Tween.get(this.instance_36).wait(14).to({
+                _off: !1
+            }, 0).to({
+                scaleY: 1.0001,
+                skewX: .6155,
+                skewY: 0,
+                x: 24.2
+            }, 4, c.Ease.get(1)).wait(1).to({
+                regX: 18,
+                regY: 12,
+                skewX: .5984,
+                x: 38.1,
+                y: -106
+            }, 0).wait(1).to({
+                skewX: .5472,
+                x: 38
+            }, 0).wait(1).to({
+                skewX: .4619,
+                x: 37.85
+            }, 0).wait(1).to({
+                skewX: .3424,
+                x: 37.6
+            }, 0).wait(1).to({
+                regX: 4,
+                regY: 7,
+                scaleY: 1,
+                skewX: .1888,
+                x: 23.4,
+                y: -111.05
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_37 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_37.setTransform(21.1, -88.2, 1, 1.0002, 0, 15.7072, -170.2919, 45.9, 11.8), this.instance_37._off = !0, this.timeline.addTween(c.Tween.get(this.instance_37).wait(14).to({
+                _off: !1
+            }, 0).to({
+                regX: 45.7,
+                scaleX: .9998,
+                scaleY: .9996,
+                skewX: -6.0953,
+                skewY: -178.7433,
+                x: 23.8,
+                y: -88.05
+            }, 5, c.Ease.get(1)).wait(1).to({
+                regX: 58,
+                regY: 50,
+                scaleY: .9997,
+                skewX: -5.5917,
+                skewY: -178.8469,
+                x: 15.1,
+                y: -50.25
+            }, 0).wait(1).to({
+                scaleY: .9998,
+                skewX: -4.0433,
+                skewY: -179.1657,
+                x: 13.9,
+                y: -50.1
+            }, 0).wait(1).to({
+                scaleX: .9999,
+                scaleY: .9999,
+                skewX: -1.9111,
+                skewY: -179.6047,
+                x: 12.25,
+                y: -49.9
+            }, 0).wait(1).to({
+                regX: 45.7,
+                regY: 11.8,
+                skewX: -.4879,
+                skewY: -179.8977,
+                x: 23.15,
+                y: -88
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_38 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_38.setTransform(19.65, -151.1, 1.0007, .9994, 0, 10.7668, 11.9936, 71.4, 15.5), this.instance_38._off = !0, this.timeline.addTween(c.Tween.get(this.instance_38).wait(14).to({
+                _off: !1
+            }, 0).to({
+                regX: 71.5,
+                scaleX: 1,
+                scaleY: 1,
+                skewX: .9557,
+                skewY: .6129,
+                x: 23.9,
+                y: -151.05
+            }, 6, c.Ease.get(1)).wait(1).to({
+                regX: 50,
+                regY: 66,
+                skewX: 1.0897,
+                skewY: .791,
+                x: 1.35,
+                y: -100.8
+            }, 0).wait(1).to({
+                skewX: 1.4902,
+                skewY: 1.3233,
+                x: .65,
+                y: -101.05
+            }, 0).wait(1).to({
+                regX: 71.5,
+                regY: 15.5,
+                rotation: 1.8678,
+                skewX: 0,
+                skewY: 0,
+                x: 23.05,
+                y: -151
+            }, 0).to({
+                _off: !0
+            }, 1).wait(1)), this.instance_39 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_39.setTransform(28.95, 0, .85, .1499), this.timeline.addTween(c.Tween.get(this.instance_39).wait(4).to({
+                scaleX: 1.2999,
+                x: -20
+            }, 0).wait(10).to({
+                scaleX: .8,
+                x: 21.95
+            }, 0).to({
+                _off: !0
+            }, 10).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-199.4, -238.3, 335.1, 296.1), (a.mc_npc_3040611000_02_shortattack_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_2 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/npc_3040080000_01_se_1.mp3")
+            }), require(["lib/sound"], function(a) {
+                a.play("se/npc_3040080000_01_se_2_2.mp3")
+            })
+        }, this.frame_10 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(2).call(this.frame_2).wait(8).call(this.frame_10).wait(1)), this.instance = new a.gr_npc_3040611000_02_weapon_ef, this.instance.setTransform(-84.95, -24.05, .9999, .9987, 0, -100.7623, -122.9994, 10.6, 117.2), this.instance.alpha = .5, this.instance.compositeOperation = "lighter", this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: 11,
+            regY: 117,
+            scaleX: .4761,
+            scaleY: .963,
+            skewX: -100.7576,
+            skewY: -146.998,
+            x: -85.1,
+            y: -24.2
+        }, 2, c.Ease.get(1)).to({
+            _off: !0
+        }, 1).wait(6)), this.instance_1 = new a.gr_npc_3040611000_02_trail02, this.instance_1.setTransform(-194.15, -4.25, 1.3473, 1.5838, 0, 8.0003, 168.9996, 210, 180.2), this.instance_1.alpha = .5, this.instance_1.compositeOperation = "lighter", this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(2).to({
+            _off: !1
+        }, 0).to({
+            y: -.25,
+            alpha: 0
+        }, 5).to({
+            _off: !0
+        }, 1).wait(3)), this.instance_2 = new a.gr_npc_3040611000_02_attack02_head_a, this.instance_2.setTransform(-48.95, -84.05, 1, 1, 2.237, 0, 0, 42.9, 64.5), this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: 43,
+            regY: 64.7,
+            rotation: 0,
+            x: -51,
+            y: -82.3
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_attack02_backhairA, this.instance_3.setTransform(-47.15, -109, 1, 1.0201, 0, 18.6531, 17.3107, 6.3, 8.1), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: 6.4,
+            regY: 8.2,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -54.6,
+            y: -104.8
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_attack02_Larm, this.instance_4.setTransform(-47, -81.2, 1, 1.0202, 0, 5.5301, 4.188, 16, 2.6), this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(2).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -49,
+            y: -79.4
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_attack02_bodyribbon, this.instance_5.setTransform(-46.95, -49.05, 1, 1.0202, 0, 10.999, 0, .8, 1.9), this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: .7,
+            scaleY: 1,
+            skewX: 0,
+            x: -48.3,
+            y: -48.1
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_attack02_BackClothA, this.instance_6.setTransform(-45.95, -56, 1, 1.0202, 0, 16.3309, 14.9892, 1.6, 10.1), this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(2).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -47.4,
+            y: -54.9
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_attack02_body, this.instance_7.setTransform(-77, 2, 1, 1.0202, 0, 1.3421, 0, 1, 94), this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: .9,
+            regY: 93.9,
+            scaleY: 1,
+            skewX: 0,
+            x: -77.1,
+            y: 1.9
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_attack02_LarmB, this.instance_8.setTransform(-59.75, -57.1, 1, 1.0202, 0, 5.5301, 4.188, 18.6, 4.1), this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(2).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -59.4,
+            y: -54.9
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_attack02_RarmB, this.instance_9.setTransform(-47.8, -54.35, 1, 1.0202, 0, 3.3433, 2.0016, 17.7, 4), this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(2).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -48.3,
+            y: -53
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_10 = new a.gr_npc_3040611000_02_attack02_Rarm, this.instance_10.setTransform(-40, -78, 1, 1.0202, 0, 3.3433, 2.0016, 17.1, 4.5), this.instance_10._off = !0, this.timeline.addTween(c.Tween.get(this.instance_10).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: 17,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -42,
+            y: -76.5
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_11 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_11.setTransform(-72.95, -29.75, .9993, .9992, 0, -101.9979, 78.0028, 21.1, 122.4), this.instance_11._off = !0, this.timeline.addTween(c.Tween.get(this.instance_11).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: 21.2,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -104.0312,
+            skewY: 75.9669,
+            x: -72.1,
+            y: -28.1
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_12 = new a.gr_npc_3040611000_02_attack02_BackClothB, this.instance_12.setTransform(-39, -56, 1, 1.0202, 0, 12.2942, 10.953, 27.6, 10.1), this.instance_12._off = !0, this.timeline.addTween(c.Tween.get(this.instance_12).wait(2).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -40.4,
+            y: -54.9
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_13 = new a.gr_npc_3040611000_02_attack02_backhairB, this.instance_13.setTransform(-61.25, -104.5, 1, 1.0202, 0, 3.8963, 2.5537, 13.4, 11.1), this.instance_13._off = !0, this.timeline.addTween(c.Tween.get(this.instance_13).wait(2).to({
+            _off: !1
+        }, 0).to({
+            regX: 13.5,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: -64.5,
+            y: -101.9
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_14 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_14.setTransform(95.35, -129.65, .343, .8184, 0, 29.5323, 19.5321, 11, 116.9), this.instance_14.alpha = .3008, this.instance_14.compositeOperation = "lighter", this.instance_14._off = !0, this.timeline.addTween(c.Tween.get(this.instance_14).wait(1).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_15 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_15.setTransform(32.35, -99.25, .343, .8184, 0, -142.9876, -152.987, 10.9, 117), this.instance_15.alpha = .3008, this.instance_15.compositeOperation = "lighter", this.instance_15._off = !0, this.timeline.addTween(c.Tween.get(this.instance_15).wait(1).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_16 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_16.setTransform(62, -93.3, .6694, .9647, 0, -160.2274, -161.9996, 10.4, 117.1), this.instance_16.alpha = .75, this.instance_16.compositeOperation = "lighter", this.timeline.addTween(c.Tween.get(this.instance_16).wait(1).to({
+            regX: 10.3,
+            regY: 117,
+            scaleX: .6693,
+            skewX: -199.4255,
+            skewY: -201.196,
+            x: 66.2,
+            y: -96.8
+        }, 0).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_17 = new a.gr_npc_3040611000_02_weapon_ef, this.instance_17.setTransform(72.05, -124.1, .6388, .9569, 0, 18.7874, 15.0009, 10.6, 117), this.instance_17.alpha = .75, this.instance_17.compositeOperation = "lighter", this.timeline.addTween(c.Tween.get(this.instance_17).wait(1).to({
+            regX: 10.7,
+            scaleY: .9568,
+            skewX: -20.4096,
+            skewY: -24.1969,
+            x: 54.55,
+            y: -127.1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_18 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_18.setTransform(68.1, -107.25, 1.0012, .9781, 0, -32.7941, -33.8518, 12.2, 12.7), this.instance_18.alpha = .5, this.timeline.addTween(c.Tween.get(this.instance_18).to({
+            regX: 12.1,
+            regY: 12.6,
+            scaleX: 1.0009,
+            scaleY: .9829,
+            skewX: -68.5165,
+            skewY: -69.3393,
+            x: 61.2,
+            y: -109.35
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_19 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_19.setTransform(63, -110.45, .9983, .9983, 0, -160.7059, 19.2929, 19.6, 125.7), this.instance_19.alpha = .5, this.timeline.addTween(c.Tween.get(this.instance_19).to({
+            regX: 19.5,
+            regY: 125.5,
+            scaleX: .9986,
+            scaleY: .9986,
+            skewX: -199.5574,
+            skewY: -19.5599,
+            x: 57.75,
+            y: -110.75
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_20 = new a.gr_npc_3040611000_02_attack01_bodyribbon, this.instance_20.setTransform(53.95, -78.05, 1, .9796, 0, 3.1842, 1.9509, 28.4, 2.3), this.timeline.addTween(c.Tween.get(this.instance_20).to({
+            scaleY: .9841,
+            skewX: 2.4758,
+            skewY: 1.5179,
+            x: 53,
+            y: -78.6
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_21 = new a.gr_npc_3040611000_02_attack01_Larm, this.instance_21.setTransform(10.15, -104.25, 1, .9796, 0, 40.6603, 39.4272, 1.1, 29.2), this.timeline.addTween(c.Tween.get(this.instance_21).to({
+            scaleX: .9999,
+            scaleY: .9841,
+            skewX: 31.1446,
+            skewY: 30.1867,
+            x: 9.05,
+            y: -104.65
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_22 = new a.gr_npc_3040611000_02_attack01_LarmB, this.instance_22.setTransform(46.15, -101.75, 1, .9796, 0, 40.6603, 39.4272, 6.9, 17.8), this.timeline.addTween(c.Tween.get(this.instance_22).to({
+            regY: 17.7,
+            scaleX: .9999,
+            scaleY: .9841,
+            skewX: 31.1446,
+            skewY: 30.1867,
+            x: 43.45,
+            y: -107.85
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_23 = new a.gr_npc_3040611000_02_attack01_BackClothA, this.instance_23.setTransform(29.85, -106.1, 1, .9796, 0, 11.9007, 10.6673, 51.6, 4.6), this.timeline.addTween(c.Tween.get(this.instance_23).to({
+            regY: 4.5,
+            scaleX: .9999,
+            scaleY: .9841,
+            skewX: 9.0134,
+            skewY: 8.0553,
+            x: 28.6,
+            y: -106.7
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_24 = new a.gr_npc_3040611000_02_attack01_head_a, this.instance_24.setTransform(19.35, -116.7, .9999, 1, 0, 15.2272, 15.0292, 55.1, 71.8), this.timeline.addTween(c.Tween.get(this.instance_24).to({
+            scaleY: .9999,
+            skewX: 11.4745,
+            skewY: 11.3218,
+            x: 17.75,
+            y: -117.35
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_25 = new a.gr_npc_3040611000_02_attack01_body, this.instance_25.setTransform(28, 4, 1, .9796, 0, 3.1842, 1.9509, 24, 127), this.timeline.addTween(c.Tween.get(this.instance_25).to({
+            regX: 24.1,
+            scaleY: .9841,
+            skewX: 2.4758,
+            skewY: 1.5179,
+            x: 28.1,
+            y: 4.05
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_26 = new a.gr_npc_3040611000_02_setup_LhandB, this.instance_26.setTransform(67.1, -109.25, 1.0013, .9781, 0, 145.4735, 144.4148, 12.1, 12.7), this.timeline.addTween(c.Tween.get(this.instance_26).to({
+            scaleX: 1.0009,
+            scaleY: .9829,
+            skewX: 112.2586,
+            skewY: 111.4352,
+            x: 59.85,
+            y: -111.7
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_27 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_27.setTransform(46.4, -96.7, 1.0013, .9781, 0, 97.4882, 96.4293, 18, 23.8), this.timeline.addTween(c.Tween.get(this.instance_27).to({
+            scaleX: 1.001,
+            scaleY: .983,
+            skewX: 74.9393,
+            skewY: 74.115,
+            x: 47.35,
+            y: -97.95
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_28 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_28.setTransform(27.75, -110.2, 1, .9796, 0, 10.4061, 9.1728, 4, 6.9), this.timeline.addTween(c.Tween.get(this.instance_28).to({
+            regX: 4.1,
+            regY: 6.8,
+            scaleX: .9999,
+            scaleY: .9841,
+            skewX: 8.0934,
+            skewY: 7.1346,
+            x: 26.35,
+            y: -110.75
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_29 = new a.gr_npc_3040611000_02_attack01_BackClothB, this.instance_29.setTransform(35.05, -88.95, 1, .9995, 0, 13.4628, 1.9509, 33.8, 9.8), this.timeline.addTween(c.Tween.get(this.instance_29).to({
+            scaleY: .999,
+            skewX: 10.1866,
+            skewY: 1.5179,
+            x: 33.85,
+            y: -89.5
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_30 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_30.setTransform(14.55, -140.3, 1.0025, .9765, 0, 9.7997, 16.9999, 69.8, 12.7), this.timeline.addTween(c.Tween.get(this.instance_30).to({
+            scaleX: 1.0019,
+            scaleY: .9816,
+            skewX: 5.4337,
+            skewY: 10.8078,
+            x: 11.4,
+            y: -140.45
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_31 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_31.setTransform(72.2, -106.3, .9983, .9983, 0, 17.562, -162.4399, 19.6, 125.6), this.timeline.addTween(c.Tween.get(this.instance_31).to({
+            regX: 19.5,
+            scaleX: .9986,
+            scaleY: .9986,
+            skewX: -18.7832,
+            skewY: -198.7857,
+            x: 63.45,
+            y: -110.15
+        }, 1, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(9)), this.instance_32 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_32.setTransform(28.95, 0, .85, .1499), this.timeline.addTween(c.Tween.get(this.instance_32).wait(2).to({
+            scaleX: 1.2999,
+            x: -20
+        }, 0).wait(9))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-248.6, -340.8, 419.9, 372.2), (a.mc_npc_3040611000_02_head = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_3 = function() {
+            1 != Math.floor(20 * Math.random()) && this.gotoAndPlay(0)
+        }, this.frame_7 = function() {
+            this.gotoAndPlay(0)
+        }, this.timeline.addTween(c.Tween.get(this).wait(3).call(this.frame_3).wait(4).call(this.frame_7).wait(1)), this.instance = new a.gr_npc_3040611000_02_wait_head_b, this.instance.setTransform(126, 134, 1, 1, 0, 0, 0, 43, 74), this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(5).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 1).wait(2)), this.instance_1 = new a.gr_npc_3040611000_02_wait_head_a, this.instance_1.setTransform(126, 134, 1, 1, 0, 0, 0, 43, 74), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            _off: !0
+        }, 5).wait(1).to({
+            _off: !1
+        }, 0).wait(2))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-1, 3, 256, 256), (a.mc_npc_3040611000_02_damage_in = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_damage_head_a, this.instance.setTransform(9, -5, 1, 1, 0, 0, 0, 56, 42), this.timeline.addTween(c.Tween.get(this.instance).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_damage_LarmB, this.instance_1.setTransform(51, 51, 1, 1, 0, 0, 0, 24, 16), this.timeline.addTween(c.Tween.get(this.instance_1).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_2.setTransform(28.4, 27.95, .9998, .9999, 0, -74.9996, 105.0008, -.1, 112.2), this.timeline.addTween(c.Tween.get(this.instance_2).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_damage_bodyribbon, this.instance_3.setTransform(12, 71, 1, 1, 0, 0, 0, 26, 24), this.timeline.addTween(c.Tween.get(this.instance_3).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_damage_Larm, this.instance_4.setTransform(35, 36, 1, 1, 0, 0, 0, 16, 12), this.timeline.addTween(c.Tween.get(this.instance_4).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_damage_body, this.instance_5.setTransform(-3, 72, 1, 1, 0, 0, 0, 36, 56), this.timeline.addTween(c.Tween.get(this.instance_5).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_damage_Rarm, this.instance_6.setTransform(-19, 52, 1, 1, 0, 0, 0, 28, 26), this.timeline.addTween(c.Tween.get(this.instance_6).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_damage_BackCloth, this.instance_7.setTransform(8, 77, 1, 1, 0, 0, 0, 68, 46), this.timeline.addTween(c.Tween.get(this.instance_7).wait(1)), this.instance_8 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_8.setTransform(10, -4.05, 1, 1, 0, -10.9708, 169.0292, 72.3, 10.4), this.timeline.addTween(c.Tween.get(this.instance_8).wait(1))
+    }).prototype = d(a.mc_npc_3040611000_02_damage_in, new c.Rectangle(-93.6, -47, 197.7, 175), null), (a.gr_npc_3040611000_02_gr_effect_ability = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_ef3A, this.instance.setTransform(3.25, 94, .5, .5, 0, 0, 0, 10.5, 264), this.timeline.addTween(c.Tween.get(this.instance).wait(1))
+    }).prototype = d(a.gr_npc_3040611000_02_gr_effect_ability, new c.Rectangle(-2, -42, 10.5, 272), null), (a.mc_npc_3040611000_02_effect_ability = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.instance = new a.gr_npc_3040611000_02_gr_effect_ability, this.instance.setTransform(3, 75, .5, .5, 0, 0, 0, 3, 70), this.timeline.addTween(c.Tween.get(this.instance).to({
+            y: -58.75,
+            alpha: 0
+        }, 4).wait(3))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(.5, -114.7, 5.3, 269.7), (a.mc_npc_3040611000_02_wait = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_5 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(5).call(this.frame_5).wait(1)), this.head1 = new a.mc_npc_3040611000_02_head, this.head1.name = "head1", this.head1.setTransform(1, -121, 1, 1, -9e-4, 0, 0, 126, 133), this.timeline.addTween(c.Tween.get(this.head1).wait(6)), this.instance = new a.gr_npc_3040611000_02_wait_Larm, this.instance.setTransform(8, -116, 1, 1, 0, 0, 0, 1, 2), this.timeline.addTween(c.Tween.get(this.instance).wait(6)), this.instance_1 = new a.gr_npc_3040611000_02_wait_bodyribbon, this.instance_1.setTransform(-22, -76, 1, 1, 0, 0, 0, 1, 13), this.timeline.addTween(c.Tween.get(this.instance_1).wait(6)), this.instance_2 = new a.gr_npc_3040611000_02_wait_body, this.instance_2.setTransform(-17, 2, 1, 1, 0, 0, 0, 11, 129), this.timeline.addTween(c.Tween.get(this.instance_2).wait(6)), this.instance_3 = new a.gr_npc_3040611000_02_wait_weapon, this.instance_3.setTransform(-37, -66, 1, 1, 0, 0, 0, 35, 21), this.timeline.addTween(c.Tween.get(this.instance_3).wait(6)), this.instance_4 = new a.gr_npc_3040611000_02_wait_Rarm, this.instance_4.setTransform(-7, -112, 1, 1, 0, 0, 0, 42, 4), this.timeline.addTween(c.Tween.get(this.instance_4).wait(6)), this.instance_5 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_5.setTransform(-2, -92, 1, 1, 0, 0, 0, 45, 10), this.timeline.addTween(c.Tween.get(this.instance_5).wait(6)), this.instance_6 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_6.setTransform(3, -159, 1, 1, 0, 0, 0, 71, 11), this.timeline.addTween(c.Tween.get(this.instance_6).wait(6)), this.instance_7 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_7.setTransform(0, 0, .7, .1499), this.timeline.addTween(c.Tween.get(this.instance_7).wait(6))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-125.9, -250.9, 256, 272.5), (a.mc_npc_3040611000_02_short_attack = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_0 = function() {
+            this.mc_shortattack_in.gotoAndPlay(0)
+        }, this.frame_5 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(5).call(this.frame_5).wait(1)), this.mc_shortattack_in = new a.mc_npc_3040611000_02_shortattack_in, this.mc_shortattack_in.name = "mc_shortattack_in", this.mc_shortattack_in.setTransform(66, -109, 1, 1, 0, 0, 0, 66, -109), this.timeline.addTween(c.Tween.get(this.mc_shortattack_in).wait(6))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-72.2, -235.6, 235.5, 254.2), (a.mc_npc_3040611000_02_setup = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_3 = function() {
+            require(["lib/sound"], function(a) {
+                a.play("se/set_sw_se_1.mp3")
+            })
+        }, this.frame_14 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(3).call(this.frame_3).wait(11).call(this.frame_14).wait(1)), this.instance = new a.gr_npc_3040611000_02_setup_LhandB, this.instance.setTransform(31.9, -108.35, .9999, 1.0001, 0, -2.4783, -3.4566, 12.3, 12.8), this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(3).to({
+            _off: !1
+        }, 0).to({
+            regX: 12.2,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 2.0384,
+            skewY: 1.958,
+            x: 41.1,
+            y: -111.7
+        }, 3, c.Ease.get(1)).to({
+            regX: 12,
+            regY: 13,
+            skewX: 0,
+            skewY: 0,
+            x: 40,
+            y: -111
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_1.setTransform(27.75, -113.05, .9919, 1.0078, 0, -148.7924, 30.8489, 19.6, 125.6), this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(3).to({
+            _off: !1
+        }, 0).to({
+            regY: 125.5,
+            scaleX: .9992,
+            scaleY: 1.0005,
+            skewX: -143.9865,
+            skewY: 35.983,
+            x: 37.35,
+            y: -116.7
+        }, 3, c.Ease.get(1)).to({
+            regX: 19.8,
+            regY: 125.6,
+            scaleX: .9999,
+            scaleY: .9999,
+            skewX: -145.9991,
+            skewY: 33.9995,
+            x: 36.05,
+            y: -115.9
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_setup_LarmB, this.instance_2.setTransform(54.4, -100.6, .9999, 1.0001, 0, -34.1692, -35.1488, 18.2, 24), this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(3).to({
+            _off: !1
+        }, 0).to({
+            regY: 23.9,
+            scaleX: 1,
+            scaleY: 1,
+            skewX: 2.0384,
+            skewY: 1.958,
+            x: 54.5,
+            y: -92.25
+        }, 3, c.Ease.get(1)).to({
+            regX: 18,
+            regY: 24,
+            skewX: 0,
+            skewY: 0,
+            x: 54,
+            y: -92
+        }, 8, c.Ease.get(1)).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_setup_head_a, this.instance_3.setTransform(21.1, -118, 1, 1.0001, 0, 0, 0, 52, 69), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(3).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            x: 19
+        }, 7, c.Ease.get(1)).wait(5)), this.instance_4 = new a.gr_npc_3040611000_02_setup_Rarm, this.instance_4.setTransform(15.05, -113, 1, 1.0002, 0, 6.6954, 5.7167, 51, 3), this.instance_4._off = !0, this.timeline.addTween(c.Tween.get(this.instance_4).wait(3).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 13
+        }, 7, c.Ease.get(1)).wait(5)), this.instance_5 = new a.gr_npc_3040611000_02_setup_bodyribbon, this.instance_5.setTransform(8.4, -76.95, 1, 1.0002, 0, 5.9996, 0, 1.1, 3), this.instance_5._off = !0, this.timeline.addTween(c.Tween.get(this.instance_5).wait(3).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: -4.0005,
+            x: 7.05,
+            y: -77
+        }, 7, c.Ease.get(1)).to({
+            regX: 1,
+            skewX: 0,
+            x: 7
+        }, 4).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_setup_body, this.instance_6.setTransform(32.95, 5, 1, 1.0002, 0, .9791, 0, 35, 129), this.instance_6._off = !0, this.timeline.addTween(c.Tween.get(this.instance_6).wait(3).to({
+            _off: !1
+        }, 0).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 33
+        }, 7, c.Ease.get(1)).wait(5)), this.instance_7 = new a.gr_npc_3040611000_02_setup_Larm, this.instance_7.setTransform(26, -113.45, 1, 1.0001, 0, 12.9642, 11.9862, 4.1, 6.9), this.instance_7._off = !0, this.timeline.addTween(c.Tween.get(this.instance_7).wait(3).to({
+            _off: !1
+        }, 0).wait(1).to({
+            regX: 18,
+            regY: 12,
+            scaleY: 1,
+            skewX: 10.6374,
+            skewY: 9.9191,
+            x: 38.05,
+            y: -105.4
+        }, 0).wait(1).to({
+            skewX: 8.6685,
+            skewY: 8.17,
+            x: 37.6,
+            y: -105.3
+        }, 0).wait(1).to({
+            regX: 4.2,
+            regY: 6.8,
+            skewX: 7.0576,
+            skewY: 6.739,
+            x: 24.15,
+            y: -111.9
+        }, 0).wait(1).to({
+            regX: 18,
+            regY: 12,
+            skewX: 3.9699,
+            skewY: 3.7907,
+            x: 37.05,
+            y: -105.4
+        }, 0).wait(1).to({
+            skewX: 1.7644,
+            skewY: 1.6847,
+            x: 36.95,
+            y: -105.55
+        }, 0).wait(1).to({
+            rotation: .4411,
+            skewX: 0,
+            skewY: 0,
+            x: 36.85,
+            y: -105.7
+        }, 0).wait(1).to({
+            regX: 4,
+            regY: 7,
+            rotation: 0,
+            x: 23,
+            y: -111
+        }, 0).wait(5)), this.instance_8 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_8.setTransform(24.5, -87.95, .9995, 1.0001, 0, 13.9998, -172.1983, 46, 12), this.instance_8._off = !0, this.timeline.addTween(c.Tween.get(this.instance_8).wait(3).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 1,
+            scaleY: 1,
+            skewX: -3.2277,
+            skewY: -183.2277,
+            x: 23
+        }, 7, c.Ease.get(1)).to({
+            skewX: 0,
+            skewY: -180,
+            y: -88
+        }, 4).wait(1)), this.instance_9 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_9.setTransform(25.55, -151.05, .9994, 1.0007, 0, 11.6819, 10.706, 71.5, 15.5), this.instance_9._off = !0, this.timeline.addTween(c.Tween.get(this.instance_9).wait(3).to({
+            _off: !1
+        }, 0).to({
+            scaleX: 1,
+            scaleY: 1,
+            rotation: -1.1961,
+            skewX: 0,
+            skewY: 0,
+            x: 23
+        }, 7, c.Ease.get(1)).to({
+            rotation: 1.9999,
+            x: 22.9,
+            y: -151
+        }, 4).wait(1)), this.head1 = new a.mc_npc_3040611000_02_head, this.head1.name = "head1", this.head1.setTransform(1, -121, 1, 1, -9e-4, 0, 0, 126, 133), this.timeline.addTween(c.Tween.get(this.head1).to({
+            regX: 125.9,
+            regY: 132.9,
+            scaleY: 1.0003,
+            rotation: -3.1961,
+            x: 4.15
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_10 = new a.gr_npc_3040611000_02_wait_Larm, this.instance_10.setTransform(8, -116, 1, 1, 0, 0, 0, 1, 2), this.timeline.addTween(c.Tween.get(this.instance_10).to({
+            regX: 1.1,
+            scaleY: 1.0003,
+            skewX: 14.6379,
+            skewY: 13.177,
+            x: 10.95
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_11 = new a.gr_npc_3040611000_02_wait_bodyribbon, this.instance_11.setTransform(-22, -76, 1, 1, 0, 0, 0, 1, 13), this.timeline.addTween(c.Tween.get(this.instance_11).to({
+            scaleY: 1.0004,
+            skewX: 1.4606,
+            x: -20.05
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_12 = new a.gr_npc_3040611000_02_wait_body, this.instance_12.setTransform(-17, 2, 1, 1, 0, 0, 0, 11, 129), this.timeline.addTween(c.Tween.get(this.instance_12).to({
+            scaleY: 1.0004,
+            skewX: 1.4606,
+            x: -17.05
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_13 = new a.gr_npc_3040611000_02_wait_weapon, this.instance_13.setTransform(-37, -66, 1, 1, 0, 0, 0, 35, 21), this.timeline.addTween(c.Tween.get(this.instance_13).to({
+            scaleY: 1.0004,
+            x: -35.25
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_14 = new a.gr_npc_3040611000_02_wait_Rarm, this.instance_14.setTransform(-7, -112, 1, 1, 0, 0, 0, 42, 4), this.timeline.addTween(c.Tween.get(this.instance_14).to({
+            regX: 41.9,
+            scaleY: 1.0003,
+            skewX: 6.1559,
+            skewY: 4.6957,
+            x: -4.15,
+            y: -111.95
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_15 = new a.gr_npc_3040611000_02_wait_BackCloth, this.instance_15.setTransform(-2, -92, 1, 1, 0, 0, 0, 45, 10), this.timeline.addTween(c.Tween.get(this.instance_15).to({
+            regX: 44.9,
+            scaleY: 1.0004,
+            skewX: 5.9993,
+            x: .35,
+            y: -91.95
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_16 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_16.setTransform(3, -159, 1, 1, 0, 0, 0, 71, 11), this.timeline.addTween(c.Tween.get(this.instance_16).to({
+            regY: 10.9,
+            scaleY: 1.0003,
+            skewX: .7569,
+            skewY: -.7029,
+            x: 5.1,
+            y: -159.15
+        }, 2, c.Ease.get(-1)).to({
+            _off: !0
+        }, 1).wait(12)), this.instance_17 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_17.setTransform(0, 0, .7, .1499), this.timeline.addTween(c.Tween.get(this.instance_17).wait(3).to({
+            scaleX: .8,
+            x: 21.95
+        }, 0).wait(12))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-129.7, -257.9, 269.9, 279.5), (a.mc_npc_3040611000_02_dead = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_12 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(12).call(this.frame_12).wait(1)), this.instance = new a.mc_npc_3040611000_02_damage_in, this.instance.setTransform(22.9, -83.5, 1, 1, 0, 0, 0, 6.9, 40.5), this.timeline.addTween(c.Tween.get(this.instance).to({
+            alpha: 0
+        }, 12).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_1.setTransform(14, 0, 1, .15), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            alpha: 0
+        }, 12).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-77.6, -171, 197.7, 180.5), (a.mc_npc_3040611000_02_damage = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_14 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(14).call(this.frame_14).wait(1)), this.instance = new a.mc_npc_3040611000_02_damage_in, this.instance.setTransform(26.9, -82.5, 1, 1, 0, 0, 0, 6.9, 40.5), this.timeline.addTween(c.Tween.get(this.instance).wait(1).to({
+            x: 22.9,
+            y: -83.5
+        }, 0).wait(1).to({
+            x: 26.9,
+            y: -82.5
+        }, 0).wait(1).to({
+            x: 22.9,
+            y: -83.5
+        }, 0).wait(12)), this.instance_1 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_1.setTransform(18, 1, 1, .15), this.timeline.addTween(c.Tween.get(this.instance_1).wait(1).to({
+            x: 14,
+            y: 0
+        }, 0).wait(1).to({
+            x: 18,
+            y: 1
+        }, 0).wait(1).to({
+            x: 14,
+            y: 0
+        }, 0).wait(12))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-77.6, -171, 201.7, 181.5), (a.mc_npc_3040611000_02_effect_ability2 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_14 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(14).call(this.frame_14).wait(1)), this.instance = new a.mc_npc_3040611000_02_effect_ability, this.instance.setTransform(-27.3, -45.65, .904, .6684, 0, 0, 0, 3, 70), this.instance._off = !0, this.timeline.addTween(c.Tween.get(this.instance).wait(11).to({
+            _off: !1
+        }, 0).wait(4)), this.instance_1 = new a.mc_npc_3040611000_02_effect_ability, this.instance_1.setTransform(-45.9, -106, .904, .6866, 0, 0, 0, 3, 70), this.instance_1._off = !0, this.timeline.addTween(c.Tween.get(this.instance_1).wait(9).to({
+            _off: !1
+        }, 0).wait(6)), this.instance_2 = new a.mc_npc_3040611000_02_effect_ability, this.instance_2.setTransform(31.55, -76, 1.1323, .9076, 0, 0, 0, 3, 70), this.instance_2._off = !0, this.timeline.addTween(c.Tween.get(this.instance_2).wait(10).to({
+            _off: !1
+        }, 0).wait(5)), this.instance_3 = new a.mc_npc_3040611000_02_effect_ability, this.instance_3.setTransform(-35.3, -95.65, .904, .6684, 0, 0, 0, 3, 70), this.instance_3._off = !0, this.timeline.addTween(c.Tween.get(this.instance_3).wait(12).to({
+            _off: !1
+        }, 0).wait(3))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-48.1, -140.9, 82.7, 152.20000000000002), (a.mc_npc_3040611000_02_effect_ability1 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.frame_14 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(14).call(this.frame_14).wait(1)), this.effect_ability1 = new a.mc_npc_3040611000_02_effect_ability, this.effect_ability1.name = "effect_ability1", this.effect_ability1.setTransform(-9.25, -97.6, 1, .6633, 0, 0, 0, 3, 70), this.effect_ability1._off = !0, this.timeline.addTween(c.Tween.get(this.effect_ability1).wait(11).to({
+            _off: !1
+        }, 0).wait(4)), this.effect_ability2 = new a.mc_npc_3040611000_02_effect_ability, this.effect_ability2.name = "effect_ability2", this.effect_ability2.setTransform(54.75, -77.65, 1, .6335, 0, 0, 0, 3, 70), this.effect_ability2._off = !0, this.timeline.addTween(c.Tween.get(this.effect_ability2).wait(8).to({
+            _off: !1
+        }, 0).wait(7)), this.effect_ability3 = new a.mc_npc_3040611000_02_effect_ability, this.effect_ability3.name = "effect_ability3", this.effect_ability3.setTransform(8.15, -54.5, 1.1332, .8426, 0, 0, 0, 3, 70), this.effect_ability3._off = !0, this.timeline.addTween(c.Tween.get(this.effect_ability3).wait(13).to({
+            _off: !1
+        }, 0).wait(2)), this.effect_ability4 = new a.mc_npc_3040611000_02_effect_ability, this.effect_ability4.name = "effect_ability4", this.effect_ability4.setTransform(-66.6, -106.75, .904, .7565), this.effect_ability4._off = !0, this.timeline.addTween(c.Tween.get(this.effect_ability4).wait(6).to({
+            _off: !1
+        }, 0).wait(9))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-66.1, -131.4, 123.6, 148.6), (a.mc_npc_3040611000_02_ability = function(b, d, e) {
+        this.initialize(b, d, e, {
+            ability_loop: 8
+        }), this.frame_0 = function() {
+            this.effect_ability1.gotoAndPlay(0), this.effect_ability2.gotoAndPlay(0)
+        }, this.frame_7 = function() {
+            this.mc_ability_Larm.gotoAndPlay(0), this.mc_ability_yure.gotoAndPlay(0)
+        }, this.frame_56 = function() {
+            this.gotoAndPlay("ability_loop")
+        }, this.timeline.addTween(c.Tween.get(this).call(this.frame_0).wait(7).call(this.frame_7).wait(49).call(this.frame_56).wait(1)), this.effect_ability1 = new a.mc_npc_3040611000_02_effect_ability1, this.effect_ability1.name = "effect_ability1", this.effect_ability1.setTransform(40, 20), this.timeline.addTween(c.Tween.get(this.effect_ability1).wait(57)), this.instance = new a.gr_npc_3040611000_02_ability_head_a, this.instance.setTransform(29.35, -91.1, 1, 1.0001, 0, 0, 0, 59.9, 70.9), this.timeline.addTween(c.Tween.get(this.instance).to({
+            regY: 71,
+            x: 23.4,
+            y: -90
+        }, 3, c.Ease.get(-1)).to({
+            regX: 60,
+            scaleY: 1,
+            x: 25
+        }, 4, c.Ease.get(.5)).to({
+            y: -87.7
+        }, 24, c.Ease.quadInOut).to({
+            y: -90
+        }, 25, c.Ease.quadInOut).wait(1)), this.instance_1 = new a.gr_npc_3040611000_02_ability_RhandB, this.instance_1.setTransform(22.15, -47.9, 1, 1.0127, 0, -41.1172, -42.9285, 8, 7.9), this.timeline.addTween(c.Tween.get(this.instance_1).to({
+            regY: 8,
+            scaleY: 1,
+            rotation: 2.4924,
+            skewX: 0,
+            skewY: 0,
+            x: -6.1,
+            y: -46.75
+        }, 3, c.Ease.get(-1)).to({
+            rotation: 0,
+            x: -5,
+            y: -47
+        }, 4, c.Ease.get(.5)).to({
+            scaleY: .9755,
+            rotation: 2.4924,
+            x: -6.1,
+            y: -44.5
+        }, 25, c.Ease.quadInOut).to({
+            scaleY: 1,
+            rotation: 0,
+            x: -5,
+            y: -47
+        }, 24, c.Ease.quadInOut).wait(1)), this.instance_2 = new a.gr_npc_3040611000_02_weapon_weapon, this.instance_2.setTransform(22.1, -48.05, 1.0197, .9895, 0, 67.5163, 68.4356, 20.2, 132.1), this.timeline.addTween(c.Tween.get(this.instance_2).to({
+            regX: 20.3,
+            regY: 132.2,
+            scaleX: .9984,
+            scaleY: .9983,
+            rotation: 112.4919,
+            skewX: 0,
+            skewY: 0,
+            x: -6.1,
+            y: -46.8
+        }, 3, c.Ease.get(-1)).to({
+            regX: 20.4,
+            rotation: 109.9993,
+            x: -4.95,
+            y: -47
+        }, 4, c.Ease.get(.5)).to({
+            regX: 20.1,
+            scaleX: .9989,
+            scaleY: .9989,
+            rotation: 112.4925,
+            x: -6.1,
+            y: -44.6
+        }, 25, c.Ease.quadInOut).to({
+            regX: 20.4,
+            scaleX: .9984,
+            scaleY: .9983,
+            rotation: 109.9993,
+            x: -4.95,
+            y: -47
+        }, 24, c.Ease.quadInOut).wait(1)), this.instance_3 = new a.gr_npc_3040611000_02_ability_RarmB, this.instance_3.setTransform(1.15, -62.95, 1, 1.0127, 0, -41.1172, -42.9285, 29, 2.9), this.timeline.addTween(c.Tween.get(this.instance_3).to({
+            regY: 3,
+            scaleY: 1,
+            rotation: 2.4924,
+            skewX: 0,
+            skewY: 0,
+            x: -11.05,
+            y: -72
+        }, 3, c.Ease.get(-1)).to({
+            rotation: 0,
+            x: -11
+        }, 4, c.Ease.get(.5)).to({
+            regX: 28.9,
+            scaleY: .9755,
+            rotation: 2.4924,
+            x: -11.15,
+            y: -69.2
+        }, 25, c.Ease.quadInOut).to({
+            regX: 29,
+            scaleY: 1,
+            rotation: 0,
+            x: -11,
+            y: -72
+        }, 24, c.Ease.quadInOut).wait(1)), this.instance_4 = new a.gr_npc_3040611000_02_ability_Rarm, this.instance_4.setTransform(10.95, -88.35, 1, 1.0128, 0, -30.1326, -31.942, 29, 4.9), this.timeline.addTween(c.Tween.get(this.instance_4).to({
+            regY: 5,
+            scaleY: 1,
+            skewX: 0,
+            skewY: 0,
+            x: 10,
+            y: -88
+        }, 3, c.Ease.get(-1)).wait(4).to({
+            scaleY: .9754,
+            y: -84.75
+        }, 25, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -88
+        }, 24, c.Ease.quadInOut).wait(1)), this.instance_5 = new a.gr_npc_3040611000_02_ability_bodyribbon, this.instance_5.setTransform(27.95, -62.7, 1, 1.0134, 0, 2.6642, 0, 36.9, 3), this.timeline.addTween(c.Tween.get(this.instance_5).to({
+            regX: 37,
+            scaleY: 1.0001,
+            skewX: -.5796,
+            x: 24.35,
+            y: -62
+        }, 3, c.Ease.get(-1)).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 25
+        }, 4, c.Ease.get(.5)).to({
+            scaleY: .9754,
+            y: -60.4
+        }, 24, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -62
+        }, 25, c.Ease.quadInOut).wait(1)), this.instance_6 = new a.gr_npc_3040611000_02_ability_body, this.instance_6.setTransform(-26.05, 2.05, 1, 1.0134, 0, 2.6642, 0, 5.9, 102), this.timeline.addTween(c.Tween.get(this.instance_6).to({
+            scaleY: 1.0001,
+            skewX: -.9511,
+            x: -26.1,
+            y: 2
+        }, 3, c.Ease.get(-1)).to({
+            regX: 6,
+            scaleY: 1,
+            skewX: 0,
+            x: -26
+        }, 4, c.Ease.get(.5)).to({
+            scaleY: .9754,
+            y: 2.05
+        }, 24, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: 2
+        }, 25, c.Ease.quadInOut).wait(1)), this.mc_ability_Larm = new a.mc_npc_3040611000_02_ability_Larm, this.mc_ability_Larm.name = "mc_ability_Larm", this.mc_ability_Larm.setTransform(30, -86, 1, 1, 0, 0, 0, -10, -86), this.mc_ability_Larm._off = !0, this.timeline.addTween(c.Tween.get(this.mc_ability_Larm).wait(7).to({
+            _off: !1
+        }, 0).to({
+            scaleY: .9754,
+            y: -83.85
+        }, 25, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -86
+        }, 24, c.Ease.quadInOut).wait(1)), this.mc_ability_yure = new a.mc_npc_3040611000_02_ability_yure, this.mc_ability_yure.name = "mc_ability_yure", this.mc_ability_yure.setTransform(22, -116, 1, 1, 0, 0, 0, -18, -116), this.mc_ability_yure._off = !0, this.timeline.addTween(c.Tween.get(this.mc_ability_yure).wait(7).to({
+            _off: !1
+        }, 0).to({
+            scaleY: .9754,
+            y: -113.1
+        }, 24, c.Ease.quadInOut).to({
+            scaleY: 1,
+            y: -116
+        }, 25, c.Ease.quadInOut).wait(1)), this.instance_7 = new a.gr_npc_3040611000_02_ability_Larm, this.instance_7.setTransform(34.95, -88.1, 1, 1.0128, 0, 1.8096, 0, 14, 4), this.timeline.addTween(c.Tween.get(this.instance_7).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 32,
+            y: -92
+        }, 3, c.Ease.get(-1)).wait(1).to({
+            regX: 12,
+            regY: 14,
+            x: 30,
+            y: -81.35
+        }, 0).wait(1).to({
+            y: -80.85
+        }, 0).wait(1).to({
+            regX: 14,
+            regY: 4,
+            x: 32,
+            y: -90.45
+        }, 0).to({
+            _off: !0
+        }, 1).wait(50)), this.instance_8 = new a.gr_npc_3040611000_02_ability_LhandB, this.instance_8.setTransform(44.65, -46.55, 1, 1.0128, 0, 1.8096, 0, 5, 11), this.timeline.addTween(c.Tween.get(this.instance_8).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 43,
+            y: -51
+        }, 3, c.Ease.get(-1)).wait(1).to({
+            regX: 10,
+            regY: 12,
+            x: 48,
+            y: -49.35
+        }, 0).wait(1).to({
+            y: -48.85
+        }, 0).wait(1).to({
+            regX: 5,
+            regY: 11,
+            x: 43,
+            y: -49.45
+        }, 0).to({
+            _off: !0
+        }, 1).wait(50)), this.instance_9 = new a.gr_npc_3040611000_02_ability_LarmB, this.instance_9.setTransform(23.3, -66.8, 1, 1.0128, 0, 1.8096, 0, 6, 11), this.timeline.addTween(c.Tween.get(this.instance_9).to({
+            scaleY: 1,
+            skewX: 0,
+            x: 21,
+            y: -71
+        }, 3, c.Ease.get(-1)).wait(1).to({
+            regX: 22,
+            regY: 20,
+            x: 37,
+            y: -61.35
+        }, 0).wait(1).to({
+            y: -60.85
+        }, 0).wait(1).to({
+            regX: 6,
+            regY: 11,
+            x: 21,
+            y: -69.45
+        }, 0).to({
+            _off: !0
+        }, 1).wait(50)), this.instance_10 = new a.gr_npc_3040611000_02_ability_BackCloth, this.instance_10.setTransform(15.4, -71.85, 1, 1.0127, 0, -11.999, 0, 66, 12), this.timeline.addTween(c.Tween.get(this.instance_10).to({
+            scaleY: 1,
+            skewX: 7.0001,
+            x: 13.05,
+            y: -71
+        }, 4, c.Ease.get(-1)).wait(1).to({
+            regY: 44,
+            skewX: 3.8895,
+            x: 10.85,
+            y: -39.05
+        }, 0).wait(1).to({
+            regY: 12,
+            skewX: 1.5565,
+            x: 13,
+            y: -70.95
+        }, 0).to({
+            _off: !0
+        }, 1).wait(50)), this.instance_11 = new a.gr_npc_3040611000_02_wait_backhair, this.instance_11.setTransform(29.8, -120.5, .9933, 1.0189, 0, 3.0003, 6.5094, 67.8, 14.8), this.timeline.addTween(c.Tween.get(this.instance_11).to({
+            regX: 67.9,
+            regY: 14.9,
+            scaleX: 1,
+            scaleY: 1,
+            rotation: 14.9396,
+            skewX: 0,
+            skewY: 0,
+            x: 25.95,
+            y: -119
+        }, 4, c.Ease.get(-1)).wait(1).to({
+            regX: 50,
+            regY: 66,
+            rotation: 13.9556,
+            x: -3.7,
+            y: -73.7
+        }, 0).wait(1).to({
+            regX: 67.8,
+            regY: 14.9,
+            scaleX: .9999,
+            scaleY: .9999,
+            rotation: 13.2177,
+            x: 26,
+            y: -119
+        }, 0).to({
+            _off: !0
+        }, 1).wait(50)), this.effect_ability2 = new a.mc_npc_3040611000_02_effect_ability2, this.effect_ability2.name = "effect_ability2", this.effect_ability2.setTransform(40, 0), this.timeline.addTween(c.Tween.get(this.effect_ability2).wait(57)), this.instance_12 = new a.gr_npc_3040611000_02_shadow("synched", 0), this.instance_12.setTransform(14, 0, 1, .15), this.timeline.addTween(c.Tween.get(this.instance_12).wait(57))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-69.8, -162, 224.39999999999998, 195), (a.mc_npc_3040611000_02 = function(b, d, e) {
+        this.initialize(b, d, e, {
+            wait: 5,
+            setup: 10,
+            stbwait: 15,
+            attack: 20,
+            ability: 25,
+            win: 30,
+            damage: 35,
+            dead: 40,
+            chara_out: 45,
+            chara_in: 50,
+            mortal_A: 55,
+            hide: 60,
+            "double": 65,
+            triple: 70,
+            short_attack: 75,
+            down: 80,
+            ab_motion: 85
+        }), this.frame_4 = function() {
+            this.stop()
+        }, this.frame_5 = function() {
+            this.npc_3040611000_02_wait.gotoAndPlay(0)
+        }, this.frame_9 = function() {
+            this.stop()
+        }, this.frame_10 = function() {
+            this.npc_3040611000_02_setup.gotoAndPlay(0)
+        }, this.frame_14 = function() {
+            this.stop()
+        }, this.frame_15 = function() {
+            this.npc_3040611000_02_stbwait.gotoAndPlay(0)
+        }, this.frame_19 = function() {
+            this.stop()
+        }, this.frame_20 = function() {
+            this.npc_3040611000_02_attack.gotoAndPlay(0)
+        }, this.frame_24 = function() {
+            this.stop()
+        }, this.frame_25 = function() {
+            this.npc_3040611000_02_ability.gotoAndPlay(0)
+        }, this.frame_29 = function() {
+            this.stop()
+        }, this.frame_30 = function() {
+            this.npc_3040611000_02_win.gotoAndPlay(0)
+        }, this.frame_34 = function() {
+            this.stop()
+        }, this.frame_35 = function() {
+            this.npc_3040611000_02_damage.gotoAndPlay(0)
+        }, this.frame_39 = function() {
+            this.stop()
+        }, this.frame_40 = function() {
+            this.npc_3040611000_02_dead.gotoAndPlay(0)
+        }, this.frame_44 = function() {
+            this.stop()
+        }, this.frame_45 = function() {
+            this.npc_3040611000_02_chara_out.gotoAndPlay(0)
+        }, this.frame_49 = function() {
+            this.stop()
+        }, this.frame_50 = function() {
+            this.npc_3040611000_02_chara_in.gotoAndPlay(0)
+        }, this.frame_54 = function() {
+            this.stop()
+        }, this.frame_55 = function() {
+            this.npc_3040611000_02_mortal_A.gotoAndPlay(0)
+        }, this.frame_59 = function() {
+            this.stop()
+        }, this.frame_60 = function() {
+            this.npc_3040611000_02_hide.gotoAndPlay(0)
+        }, this.frame_64 = function() {
+            this.stop()
+        }, this.frame_65 = function() {
+            this.npc_3040611000_02_double.gotoAndPlay(0)
+        }, this.frame_69 = function() {
+            this.stop()
+        }, this.frame_70 = function() {
+            this.npc_3040611000_02_triple.gotoAndPlay(0)
+        }, this.frame_74 = function() {
+            this.stop()
+        }, this.frame_75 = function() {
+            this.npc_3040611000_02_short_attack.gotoAndPlay(0)
+        }, this.frame_79 = function() {
+            this.stop()
+        }, this.frame_80 = function() {
+            this.npc_3040611000_02_down.gotoAndPlay(0)
+        }, this.frame_84 = function() {
+            this.stop()
+        }, this.frame_85 = function() {
+            this.npc_3040611000_02_ab_motion.gotoAndPlay(0)
+        }, this.frame_89 = function() {
+            this.stop()
+        }, this.timeline.addTween(c.Tween.get(this).wait(4).call(this.frame_4).wait(1).call(this.frame_5).wait(4).call(this.frame_9).wait(1).call(this.frame_10).wait(4).call(this.frame_14).wait(1).call(this.frame_15).wait(4).call(this.frame_19).wait(1).call(this.frame_20).wait(4).call(this.frame_24).wait(1).call(this.frame_25).wait(4).call(this.frame_29).wait(1).call(this.frame_30).wait(4).call(this.frame_34).wait(1).call(this.frame_35).wait(4).call(this.frame_39).wait(1).call(this.frame_40).wait(4).call(this.frame_44).wait(1).call(this.frame_45).wait(4).call(this.frame_49).wait(1).call(this.frame_50).wait(4).call(this.frame_54).wait(1).call(this.frame_55).wait(4).call(this.frame_59).wait(1).call(this.frame_60).wait(4).call(this.frame_64).wait(1).call(this.frame_65).wait(4).call(this.frame_69).wait(1).call(this.frame_70).wait(4).call(this.frame_74).wait(1).call(this.frame_75).wait(4).call(this.frame_79).wait(1).call(this.frame_80).wait(4).call(this.frame_84).wait(1).call(this.frame_85).wait(4).call(this.frame_89).wait(1)), this.npc_3040611000_02_ab_motion = new a.mc_npc_3040611000_02_ab_motion, this.npc_3040611000_02_ab_motion.name = "npc_3040611000_02_ab_motion", this.npc_3040611000_02_ab_motion._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_ab_motion).wait(85).to({
+            _off: !1
+        }, 0).wait(5)), this.npc_3040611000_02_down = new a.mc_npc_3040611000_02_down, this.npc_3040611000_02_down.name = "npc_3040611000_02_down", this.npc_3040611000_02_down._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_down).wait(80).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(5)), this.npc_3040611000_02_short_attack = new a.mc_npc_3040611000_02_short_attack, this.npc_3040611000_02_short_attack.name = "npc_3040611000_02_short_attack", this.npc_3040611000_02_short_attack._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_short_attack).wait(75).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(10)), this.npc_3040611000_02_triple = new a.mc_npc_3040611000_02_triple, this.npc_3040611000_02_triple.name = "npc_3040611000_02_triple", this.npc_3040611000_02_triple._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_triple).wait(70).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(15)), this.npc_3040611000_02_double = new a.mc_npc_3040611000_02_double, this.npc_3040611000_02_double.name = "npc_3040611000_02_double", this.npc_3040611000_02_double._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_double).wait(65).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(20)), this.npc_3040611000_02_hide = new a.mc_npc_3040611000_02_hide, this.npc_3040611000_02_hide.name = "npc_3040611000_02_hide", this.npc_3040611000_02_hide._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_hide).wait(60).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(25)), this.npc_3040611000_02_mortal_A = new a.mc_npc_3040611000_02_mortal_A, this.npc_3040611000_02_mortal_A.name = "npc_3040611000_02_mortal_A", this.npc_3040611000_02_mortal_A._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_mortal_A).wait(55).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(30)), this.npc_3040611000_02_chara_in = new a.mc_npc_3040611000_02_chara_in, this.npc_3040611000_02_chara_in.name = "npc_3040611000_02_chara_in", this.npc_3040611000_02_chara_in._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_chara_in).wait(50).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(35)), this.npc_3040611000_02_chara_out = new a.mc_npc_3040611000_02_chara_out, this.npc_3040611000_02_chara_out.name = "npc_3040611000_02_chara_out", this.npc_3040611000_02_chara_out._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_chara_out).wait(45).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(40)), this.npc_3040611000_02_dead = new a.mc_npc_3040611000_02_dead, this.npc_3040611000_02_dead.name = "npc_3040611000_02_dead", this.npc_3040611000_02_dead._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_dead).wait(40).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(45)), this.npc_3040611000_02_damage = new a.mc_npc_3040611000_02_damage, this.npc_3040611000_02_damage.name = "npc_3040611000_02_damage", this.npc_3040611000_02_damage._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_damage).wait(35).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(50)), this.npc_3040611000_02_win = new a.mc_npc_3040611000_02_win, this.npc_3040611000_02_win.name = "npc_3040611000_02_win", this.npc_3040611000_02_win._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_win).wait(30).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(55)), this.npc_3040611000_02_ability = new a.mc_npc_3040611000_02_ability, this.npc_3040611000_02_ability.name = "npc_3040611000_02_ability", this.npc_3040611000_02_ability._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_ability).wait(25).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(60)), this.npc_3040611000_02_attack = new a.mc_npc_3040611000_02_attack, this.npc_3040611000_02_attack.name = "npc_3040611000_02_attack", this.npc_3040611000_02_attack._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_attack).wait(20).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(65)), this.npc_3040611000_02_stbwait = new a.mc_npc_3040611000_02_stbwait, this.npc_3040611000_02_stbwait.name = "npc_3040611000_02_stbwait", this.npc_3040611000_02_stbwait._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_stbwait).wait(15).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(70)), this.npc_3040611000_02_setup = new a.mc_npc_3040611000_02_setup, this.npc_3040611000_02_setup.name = "npc_3040611000_02_setup", this.npc_3040611000_02_setup._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_setup).wait(10).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(75)), this.npc_3040611000_02_wait = new a.mc_npc_3040611000_02_wait, this.npc_3040611000_02_wait.name = "npc_3040611000_02_wait", this.npc_3040611000_02_wait._off = !0, this.timeline.addTween(c.Tween.get(this.npc_3040611000_02_wait).wait(5).to({
+            _off: !1
+        }, 0).to({
+            _off: !0
+        }, 5).wait(80))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(-191.8, -250.9, 376.5, 284.1), (a.npc_3040611000_02 = function(b, d, e) {
+        this.initialize(b, d, e, {}), this.npc_3040611000_02 = new a.mc_npc_3040611000_02, this.npc_3040611000_02.name = "npc_3040611000_02", this.timeline.addTween(c.Tween.get(this.npc_3040611000_02).wait(1))
+    }).prototype = d = new c.MovieClip, d.nominalBounds = new c.Rectangle(0, 0, 0, 0)
+}(lib = lib || {}, images = images || {}, createjs = createjs || {});
+var lib, images, createjs;
